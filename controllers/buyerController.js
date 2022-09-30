@@ -1,7 +1,7 @@
 const express = require('express');
 const uuid = require("uuid");
 const mongoose = require('mongoose');
-const {Farmer, validate} = require('../models/FarmerModel/index');
+const {Buyer, validateBuyer} = require('../models/BuyerModel/index');
 const {UserAccount,validateUser}= require('../models/UserModel/index')
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
@@ -12,11 +12,11 @@ const generateOutput= require('../utils/outputFactory')
 
 
 //methods for farmer registration process
-async function  farmerRegister(req,res) {
+async function  buyerRegister(req,res) {
   
-    req.body.userRole='FARMER'
+    req.body.userRole='BUYER'
     //validating the user details
-    const { error1 } = validate(req.body);
+    const { error1 } = validateBuyer(req.body);
     const { error2 } = validateUser(req.body);
     if (error1 || error2){
         const output = generateOutput(400,'validate error',error1?.details[0].message || error2?.details[0].message )
@@ -24,7 +24,7 @@ async function  farmerRegister(req,res) {
     } 
   try {
     //check whether already existed
-    let user = await Farmer.findOne({ nic: req.body.nic });
+    let user = await Buyer.findOne({ nic: req.body.nic });
 
     if (user) {
       //send user already registed message
@@ -43,13 +43,13 @@ async function  farmerRegister(req,res) {
             user.password = await bcrypt.hash(req.body.password, salt);
             await user.save();
         
-            const  farmer = new Farmer(_.pick(req.body, ['firstName', 'lastName','address','phone','district','gsdName','gsdCode','nic',]));
-            farmer._id=user._id
-            await farmer.save();
+            const  buyer = new Buyer(_.pick(req.body, ['firstName', 'lastName','address','phone','district','nic',]));
+            buyer._id=user._id;
+            await buyer.save();
             // Commit the changes
             await (await session).commitTransaction();
             const token = user.generateAuthToken();
-           return  res.send(generateOutput(201,'Farmer registered successfully',{'_id':user._id,'firstName':farmer.firstName,'lastName':farmer.lastName,'email':user.email,'token':token}) );
+           return  res.send(generateOutput(201,'Buyer registered successfully',{'_id':user._id,'firstName':buyer.firstName,'lastName':buyer.lastName,'email':user.email,'token':token}) );
            
            
       }catch(error){
@@ -75,4 +75,4 @@ async function  farmerRegister(req,res) {
     
  
     
-module.exports ={farmerRegister};
+module.exports ={buyerRegister};

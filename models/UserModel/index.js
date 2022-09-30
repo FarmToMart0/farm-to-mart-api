@@ -2,10 +2,8 @@
 const jwt = require('jsonwebtoken');
 const Joi = require('joi');
 const mongoose = require('mongoose');
-
+//Schema defines for User accounts
 const userSchema = new mongoose.Schema({
-
-  
   email: {
     type: String,
     required: true,
@@ -25,10 +23,9 @@ const userSchema = new mongoose.Schema({
     
   }
 });
-
+//methos for genaration token
 userSchema.methods.generateAuthToken =()=> { 
   const token = jwt.sign({ id: this.userId, userRole: this.userRole }, 'jwtPrivateKey',{
-
     expiresIn: '1d' 
 
 });
@@ -36,7 +33,7 @@ userSchema.methods.generateAuthToken =()=> {
 }
 
 const UserAccount = mongoose.model('UserAccount', userSchema);
-
+//validate the user account
 function validateUser(user) {
   const schema = {
    

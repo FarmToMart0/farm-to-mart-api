@@ -1,16 +1,27 @@
 const express = require('express');
 const Joi = require('joi');
 const mongoose = require('mongoose');
+const bodyParser = require("body-parser");
+const cors = require("cors");
 const app = express();
 //databse connection
 require('./configs/db')();
 
 //routers list
-const farmer =require('./routers/farmer');
+const farmerRouter =require('./routers/farmerRouter');
+const authRouter = require('./routers/authRouter')
+const buyerRouter =require('./routers/buyerRouter')
 
 
+app.use(cors({ origin: "*" }));
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 app.use(express.json());
-app.use('/api/farmer',farmer)
+
+
+app.use('/api/farmer',farmerRouter)
+app.use('/api/signin',authRouter)
+app.use('/api/buyer',buyerRouter)
 
 
 const port = process.env.PORT || 9000;
