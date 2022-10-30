@@ -1,0 +1,9 @@
+2022-10-30 09:56:55:5655 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 09:58:46:5846 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 09:58:48:5848 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 09:59:15:5915 [35mhttp[39m: [35m::1 POST /api/signin 200 78 - 274.656 ms[39m
+[35m[39m
+2022-10-30 10:00:33:033 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 10:00:34:034 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 10:00:37:037 [35mhttp[39m: [35m::1 POST /api/signin 200 78 - 263.769 ms[39m
+[35m[39m

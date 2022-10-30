@@ -28,7 +28,7 @@ let userDetails=null;
     userDetails = await Buyer.findById(user._id);
   }
 //check the password
-console.log(userDetails);
+
   const validPassword = await bcrypt.compare(req.body.password, user.password);
   if (!validPassword) return res.status(200).send(generateOutput(400,'not exist',"Invalid Username or Password"));
 if (userDetails) {
