@@ -7,3 +7,726 @@
 2022-10-30 10:00:34:034 [32minfo[39m: [32mConnected to MongoDB...[39m
 2022-10-30 10:00:37:037 [35mhttp[39m: [35m::1 POST /api/signin 200 78 - 263.769 ms[39m
 [35m[39m
+2022-10-30 10:08:51:851 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 10:08:52:852 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:07:06:76 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:07:07:77 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:09:09:99 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:09:11:911 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:19:16:1916 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:19:18:1918 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:19:55:1955 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:19:56:1956 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:20:33:2033 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:20:35:2035 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:21:27:2127 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:21:28:2128 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:21:42:2142 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:21:43:2143 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:22:16:2216 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:22:17:2217 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:25:43:2543 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:25:45:2545 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:26:11:2611 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:26:12:2612 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:27:34:2734 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:27:36:2736 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:30:51:3051 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:30:52:3052 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:35:05:355 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:35:06:356 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:36:10:3610 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:36:11:3611 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:36:24:3624 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:36:26:3626 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:41:59:4159 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:42:00:420 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:43:22:4322 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:43:23:4323 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:43:31:4331 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:43:32:4332 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:49:45:4945 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:49:46:4946 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 12:52:05:525 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 12:52:07:527 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 13:03:41:341 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 13:03:42:342 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 13:06:02:62 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 13:06:05:65 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 13:06:13:613 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 13:06:14:614 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 13:06:15:615 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 13:06:23:623 [35mhttp[39m: [35m::1 POST /api/product/add 200 74 - 134.664 ms[39m
+[35m[39m
+2022-10-30 20:10:34:1034 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 20:10:36:1036 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 20:34:06:346 [31merror[39m: [31mProduct validation failed: images.0: Cast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667142241/Farm2Mart/ngdwru656gpiiranhp9x.jpg',\n" +[39m
+[31m  "    title: 'img',\n" +[39m
+[31m  '    rows: 2,\n' +[39m
+[31m  '    cols: 2\n' +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError", initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required.[39m
+2022-10-30 20:34:06:346 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 30.905 ms[39m
+[35m[39m
+2022-10-30 20:34:13:3413 [31merror[39m: [31mProduct validation failed: images.0: Cast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667142241/Farm2Mart/ngdwru656gpiiranhp9x.jpg',\n" +[39m
+[31m  "    title: 'img',\n" +[39m
+[31m  '    rows: 2,\n' +[39m
+[31m  '    cols: 2\n' +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError"[39m
+2022-10-30 20:34:13:3413 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 4.042 ms[39m
+[35m[39m
+2022-10-30 20:36:09:369 [31merror[39m: [31mProduct validation failed: images.0: Cast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667142241/Farm2Mart/ngdwru656gpiiranhp9x.jpg',\n" +[39m
+[31m  "    title: 'img',\n" +[39m
+[31m  '    rows: 2,\n' +[39m
+[31m  '    cols: 2\n' +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError"[39m
+2022-10-30 20:36:09:369 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 3.355 ms[39m
+[35m[39m
+2022-10-30 20:36:48:3648 [31merror[39m: [31mProduct validation failed: images.0: Cast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667142241/Farm2Mart/ngdwru656gpiiranhp9x.jpg',\n" +[39m
+[31m  "    title: 'img',\n" +[39m
+[31m  '    rows: 2,\n' +[39m
+[31m  '    cols: 2\n' +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError"[39m
+2022-10-30 20:36:48:3648 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 2.991 ms[39m
+[35m[39m
+2022-10-30 20:37:20:3720 [31merror[39m: [31mProduct validation failed: images.0: Cast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667142241/Farm2Mart/ngdwru656gpiiranhp9x.jpg',\n" +[39m
+[31m  "    title: 'img',\n" +[39m
+[31m  '    rows: 2,\n' +[39m
+[31m  '    cols: 2\n' +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError"[39m
+2022-10-30 20:37:20:3720 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 9.245 ms[39m
+[35m[39m
+2022-10-30 20:39:00:390 [31merror[39m: [31mProduct validation failed: images.0: Cast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667142241/Farm2Mart/ngdwru656gpiiranhp9x.jpg',\n" +[39m
+[31m  "    title: 'img',\n" +[39m
+[31m  '    rows: 2,\n' +[39m
+[31m  '    cols: 2\n' +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError"[39m
+2022-10-30 20:39:00:390 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 3.510 ms[39m
+[35m[39m
+2022-10-30 20:41:56:4156 [31merror[39m: [31mProduct validation failed: images.0: Cast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667142241/Farm2Mart/ngdwru656gpiiranhp9x.jpg',\n" +[39m
+[31m  "    title: 'img',\n" +[39m
+[31m  '    rows: 2,\n' +[39m
+[31m  '    cols: 2\n' +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError"[39m
+2022-10-30 20:41:56:4156 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 5.539 ms[39m
+[35m[39m
+2022-10-30 20:41:57:4157 [31merror[39m: [31mProduct validation failed: images.0: Cast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667142241/Farm2Mart/ngdwru656gpiiranhp9x.jpg',\n" +[39m
+[31m  "    title: 'img',\n" +[39m
+[31m  '    rows: 2,\n' +[39m
+[31m  '    cols: 2\n' +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError"[39m
+2022-10-30 20:41:57:4157 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 2.078 ms[39m
+[35m[39m
+2022-10-30 20:42:00:420 [31merror[39m: [31mProduct validation failed: images.0: Cast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667142241/Farm2Mart/ngdwru656gpiiranhp9x.jpg',\n" +[39m
+[31m  "    title: 'img',\n" +[39m
+[31m  '    rows: 2,\n' +[39m
+[31m  '    cols: 2\n' +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError"[39m
+2022-10-30 20:42:00:420 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 6.029 ms[39m
+[35m[39m
+2022-10-30 20:42:08:428 [31merror[39m: [31mProduct validation failed: images.0: Cast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667142241/Farm2Mart/ngdwru656gpiiranhp9x.jpg',\n" +[39m
+[31m  "    title: 'img',\n" +[39m
+[31m  '    rows: 2,\n' +[39m
+[31m  '    cols: 2\n' +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError"[39m
+2022-10-30 20:42:08:428 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 3.059 ms[39m
+[35m[39m
+2022-10-30 20:43:06:436 [31merror[39m: [31mProduct validation failed: images.0: Cast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667142771/Farm2Mart/siyurwxfrl4kdqwxlmmo.pdf',\n" +[39m
+[31m  "    title: 'img',\n" +[39m
+[31m  '    rows: 2,\n' +[39m
+[31m  '    cols: 2\n' +[39m
+[31m  '  },\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667142780/Farm2Mart/zoxmwzxig7dbgovk8rct.jpg',\n" +[39m
+[31m  "    title: 'img',\n" +[39m
+[31m  '    rows: 2,\n' +[39m
+[31m  '    cols: 2\n' +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError", initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required.[39m
+2022-10-30 20:43:06:436 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 4.614 ms[39m
+[35m[39m
+2022-10-30 20:44:31:4431 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 20:44:33:4433 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 20:44:37:4437 [31merror[39m: [31mProduct validation failed: images.0: Cast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667142771/Farm2Mart/siyurwxfrl4kdqwxlmmo.pdf',\n" +[39m
+[31m  "    title: 'img',\n" +[39m
+[31m  '    rows: 2,\n' +[39m
+[31m  '    cols: 2\n' +[39m
+[31m  '  },\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667142780/Farm2Mart/zoxmwzxig7dbgovk8rct.jpg',\n" +[39m
+[31m  "    title: 'img',\n" +[39m
+[31m  '    rows: 2,\n' +[39m
+[31m  '    cols: 2\n' +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError"[39m
+2022-10-30 20:44:37:4437 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 28.122 ms[39m
+[35m[39m
+2022-10-30 20:45:10:4510 [31merror[39m: [31mProduct validation failed: images.0: Cast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667142771/Farm2Mart/siyurwxfrl4kdqwxlmmo.pdf',\n" +[39m
+[31m  "    title: 'img',\n" +[39m
+[31m  '    rows: 2,\n' +[39m
+[31m  '    cols: 2\n' +[39m
+[31m  '  },\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667142780/Farm2Mart/zoxmwzxig7dbgovk8rct.jpg',\n" +[39m
+[31m  "    title: 'img',\n" +[39m
+[31m  '    rows: 2,\n' +[39m
+[31m  '    cols: 2\n' +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError"[39m
+2022-10-30 20:45:10:4510 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 10.257 ms[39m
+[35m[39m
+2022-10-30 20:45:49:4549 [31merror[39m: [31mProduct validation failed: images.0: Cast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667142946/Farm2Mart/dl0qtbfu7tpgobab11xw.jpg',\n" +[39m
+[31m  "    title: 'img',\n" +[39m
+[31m  '    rows: 2,\n' +[39m
+[31m  '    cols: 2\n' +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError", initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required.[39m
+2022-10-30 20:45:49:4549 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 4.704 ms[39m
+[35m[39m
+2022-10-30 20:48:09:489 [31merror[39m: [31mProduct validation failed: images.0: Cast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667142946/Farm2Mart/dl0qtbfu7tpgobab11xw.jpg',\n" +[39m
+[31m  "    title: 'img',\n" +[39m
+[31m  '    rows: 2,\n' +[39m
+[31m  '    cols: 2\n' +[39m
+[31m  '  },\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667143085/Farm2Mart/frmriijehjcx275zlt5i.jpg',\n" +[39m
+[31m  "    title: 'img',\n" +[39m
+[31m  '    rows: 2,\n' +[39m
+[31m  '    cols: 2\n' +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError"[39m
+2022-10-30 20:48:09:489 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 16.981 ms[39m
+[35m[39m
+2022-10-30 20:50:35:5035 [31merror[39m: [31mProduct validation failed: images.0: Cast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667143214/Farm2Mart/py2rm06k9yjtbdsrusxy.jpg'\n" +[39m
+[31m  '  },\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667143225/Farm2Mart/v05xegfnhxxth6ltgbiz.pdf'\n" +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError", initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required.[39m
+2022-10-30 20:50:35:5035 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 18.128 ms[39m
+[35m[39m
+2022-10-30 20:54:01:541 [35mhttp[39m: [35m::1 POST /api/product/add 200 74 - 197.877 ms[39m
+[35m[39m
+2022-10-30 20:57:43:5743 [35mhttp[39m: [35m::1 POST /api/product/add 200 74 - 146.451 ms[39m
+[35m[39m
+2022-10-30 20:59:04:594 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-30 20:59:07:597 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-30 20:59:57:5957 [35mhttp[39m: [35m::1 POST /api/product/add 200 74 - 145.338 ms[39m
+[35m[39m
+2022-10-31 13:04:19:419 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 13:04:22:422 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-31 13:13:00:130 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required.[39m
+2022-10-31 13:13:00:130 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 25.683 ms[39m
+[35m[39m
+2022-10-31 13:16:14:1614 [35mhttp[39m: [35m::1 POST /api/product/add 200 74 - 436.191 ms[39m
+[35m[39m
+2022-10-31 13:22:18:2218 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required.[39m
+2022-10-31 13:22:18:2218 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 2.388 ms[39m
+[35m[39m
+2022-10-31 13:22:18:2218 [35mhttp[39m: [35m::1 POST /api/product/add 200 74 - 199.456 ms[39m
+[35m[39m
+2022-10-31 13:22:18:2218 [35mhttp[39m: [35m::1 POST /api/product/add 200 74 - 207.698 ms[39m
+[35m[39m
+2022-10-31 13:22:18:2218 [35mhttp[39m: [35m::1 POST /api/product/add 200 74 - 207.042 ms[39m
+[35m[39m
+2022-10-31 13:22:19:2219 [35mhttp[39m: [35m::1 POST /api/product/add 200 74 - 1117.521 ms[39m
+[35m[39m
+2022-10-31 13:22:19:2219 [35mhttp[39m: [35m::1 POST /api/product/add 200 74 - 1153.435 ms[39m
+[35m[39m
+2022-10-31 13:22:28:2228 [35mhttp[39m: [35m::1 POST /api/product/add 200 74 - 275.269 ms[39m
+[35m[39m
+2022-10-31 14:16:22:1622 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required.[39m
+2022-10-31 14:16:22:1622 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 3.967 ms[39m
+[35m[39m
+2022-10-31 14:16:42:1642 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 14:16:43:1643 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-31 14:16:44:1644 [35mhttp[39m: [35m::1 POST /api/product/add 200 74 - 170.034 ms[39m
+[35m[39m
+2022-10-31 14:20:52:2052 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 14:20:54:2054 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-31 14:55:39:5539 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 14:55:45:5545 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-31 17:36:31:3631 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 17:36:33:3633 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-31 17:55:17:5517 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 17:55:19:5519 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-31 22:09:52:952 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 22:09:54:954 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-31 22:16:55:1655 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 22:16:57:1657 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-31 22:17:06:176 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 22:17:07:177 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-31 22:19:24:1924 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 22:19:26:1926 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-31 22:19:40:1940 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 22:19:41:1941 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-31 22:21:45:2145 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 22:21:46:2146 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 22:21:47:2147 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-31 22:21:52:2152 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 22:22:00:220 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-31 22:23:49:2349 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 22:23:51:2351 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-31 22:25:12:2512 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 22:25:14:2514 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-31 22:26:01:261 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 22:26:03:263 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-31 22:26:48:2648 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 22:26:50:2650 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-31 22:40:38:4038 [31merror[39m: [31mGenre is not defined[39m
+2022-10-31 22:40:38:4038 [35mhttp[39m: [35m::1 GET /api/product/getproduct 200 90 - 2.735 ms[39m
+[35m[39m
+2022-10-31 22:43:39:4339 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 22:43:41:4341 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-31 22:43:42:4342 [35mhttp[39m: [35m::1 GET /api/product/getproduct 200 48 - 144.610 ms[39m
+[35m[39m
+2022-10-31 22:47:31:4731 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 22:47:33:4733 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-10-31 22:47:35:4735 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-10-31 22:47:39:4739 [35mhttp[39m: [35m::1 POST /api/product/add 200 74 - 269.494 ms[39m
+[35m[39m
+2022-10-31 22:47:48:4748 [35mhttp[39m: [35m::1 GET /api/product/getproduct 200 498 - 182.650 ms[39m
+[35m[39m
+2022-10-31 22:48:18:4818 [35mhttp[39m: [35m::1 POST /api/product/add 200 74 - 201.608 ms[39m
+[35m[39m
+2022-10-31 22:48:23:4823 [35mhttp[39m: [35m::1 GET /api/product/getproduct 200 945 - 201.779 ms[39m
+[35m[39m
+2022-10-31 23:06:03:63 [35mhttp[39m: [35m::1 GET /api/product/getproduct 200 945 - 174.629 ms[39m
+[35m[39m
+2022-10-31 23:06:40:640 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 245.791 ms[39m
+[35m[39m
+2022-10-31 23:10:10:1010 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 154.858 ms[39m
+[35m[39m
+2022-10-31 23:10:31:1031 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 270.891 ms[39m
+[35m[39m
+2022-10-31 23:10:36:1036 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 138.716 ms[39m
+[35m[39m
+2022-10-31 23:12:25:1225 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 204.715 ms[39m
+[35m[39m
+2022-10-31 23:12:25:1225 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 157.234 ms[39m
+[35m[39m
+2022-10-31 23:12:29:1229 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 205.392 ms[39m
+[35m[39m
+2022-10-31 23:12:29:1229 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 132.798 ms[39m
+[35m[39m
+2022-10-31 23:13:03:133 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 599.539 ms[39m
+[35m[39m
+2022-10-31 23:13:03:133 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 266.733 ms[39m
+[35m[39m
+2022-10-31 23:13:15:1315 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 265.244 ms[39m
+[35m[39m
+2022-10-31 23:13:15:1315 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 226.262 ms[39m
+[35m[39m
+2022-10-31 23:21:09:219 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 256.668 ms[39m
+[35m[39m
+2022-10-31 23:21:10:2110 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 212.755 ms[39m
+[35m[39m
+2022-10-31 23:21:18:2118 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 165.246 ms[39m
+[35m[39m
+2022-10-31 23:21:18:2118 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 192.335 ms[39m
+[35m[39m
+2022-10-31 23:24:47:2447 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 157.375 ms[39m
+[35m[39m
+2022-10-31 23:24:48:2448 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 310.934 ms[39m
+[35m[39m
+2022-10-31 23:25:52:2552 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 203.577 ms[39m
+[35m[39m
+2022-10-31 23:25:52:2552 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 248.539 ms[39m
+[35m[39m
+2022-10-31 23:26:26:2626 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 170.497 ms[39m
+[35m[39m
+2022-10-31 23:26:26:2626 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 211.587 ms[39m
+[35m[39m
+2022-10-31 23:26:58:2658 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 142.835 ms[39m
+[35m[39m
+2022-10-31 23:26:58:2658 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 231.424 ms[39m
+[35m[39m
+2022-10-31 23:28:41:2841 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 233.836 ms[39m
+[35m[39m
+2022-10-31 23:28:41:2841 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 135.289 ms[39m
+[35m[39m
+2022-10-31 23:29:31:2931 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 448.578 ms[39m
+[35m[39m
+2022-10-31 23:29:31:2931 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 512.180 ms[39m
+[35m[39m
+2022-10-31 23:38:57:3857 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 209.142 ms[39m
+[35m[39m
+2022-10-31 23:38:57:3857 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 145.782 ms[39m
+[35m[39m
+2022-10-31 23:39:03:393 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 200.603 ms[39m
+[35m[39m
+2022-10-31 23:39:03:393 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 203.775 ms[39m
+[35m[39m
+2022-10-31 23:39:32:3932 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 216.225 ms[39m
+[35m[39m
+2022-10-31 23:39:32:3932 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 156.835 ms[39m
+[35m[39m
+2022-10-31 23:39:59:3959 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 229.850 ms[39m
+[35m[39m
+2022-10-31 23:39:59:3959 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 153.493 ms[39m
+[35m[39m
+2022-10-31 23:40:30:4030 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 155.301 ms[39m
+[35m[39m
+2022-10-31 23:40:30:4030 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 132.261 ms[39m
+[35m[39m
+2022-10-31 23:40:33:4033 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 169.751 ms[39m
+[35m[39m
+2022-10-31 23:40:33:4033 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 188.326 ms[39m
+[35m[39m
+2022-10-31 23:40:58:4058 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 112.565 ms[39m
+[35m[39m
+2022-10-31 23:40:58:4058 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 138.675 ms[39m
+[35m[39m
+2022-10-31 23:41:19:4119 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 209.160 ms[39m
+[35m[39m
+2022-10-31 23:41:19:4119 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 132.028 ms[39m
+[35m[39m
+2022-10-31 23:41:21:4121 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 162.605 ms[39m
+[35m[39m
+2022-10-31 23:41:22:4122 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 188.866 ms[39m
+[35m[39m
+2022-10-31 23:42:10:4210 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 169.125 ms[39m
+[35m[39m
+2022-10-31 23:43:05:435 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 215.435 ms[39m
+[35m[39m
+2022-10-31 23:45:12:4512 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 137.916 ms[39m
+[35m[39m
+2022-10-31 23:45:18:4518 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 174.078 ms[39m
+[35m[39m
+2022-10-31 23:50:04:504 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 237.520 ms[39m
+[35m[39m
+2022-10-31 23:50:07:507 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 218.148 ms[39m
+[35m[39m
+2022-10-31 23:51:24:5124 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 230.296 ms[39m
+[35m[39m
+2022-10-31 23:52:26:5226 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 175.070 ms[39m
+[35m[39m
+2022-11-01 00:03:56:356 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 164.475 ms[39m
+[35m[39m
+2022-11-01 00:04:22:422 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 144.490 ms[39m
+[35m[39m
+2022-11-01 00:06:17:617 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 210.881 ms[39m
+[35m[39m
+2022-11-01 00:06:58:658 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 271.335 ms[39m
+[35m[39m
+2022-11-01 00:06:58:658 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 126.491 ms[39m
+[35m[39m
+2022-11-01 00:07:03:73 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 231.664 ms[39m
+[35m[39m
+2022-11-01 00:07:33:733 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 242.087 ms[39m
+[35m[39m
+2022-11-01 00:07:33:733 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 295.531 ms[39m
+[35m[39m
+2022-11-01 00:18:55:1855 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-01 00:18:57:1857 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-01 00:19:44:1944 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-01 00:19:45:1945 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-01 00:20:26:2026 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-01 00:20:28:2028 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-01 00:21:00:210 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-01 00:21:01:211 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-01 00:21:07:217 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-01 00:21:09:219 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-01 00:21:18:2118 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-01 00:21:19:2119 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-01 00:21:54:2154 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-01 00:21:56:2156 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-01 00:21:57:2157 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-01 00:21:59:2159 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-01 00:32:02:322 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 217.388 ms[39m
+[35m[39m
+2022-11-01 00:32:02:322 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 124.907 ms[39m
+[35m[39m
+2022-11-01 00:40:01:401 [31merror[39m: [31mCould not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/[39m
+2022-11-01 00:40:01:401 [35mhttp[39m: [35m::1 GET /api/product/getproduct 200 90 - 30017.529 ms[39m
+[35m[39m
+2022-11-01 00:40:21:4021 [31merror[39m: [31mCould not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/[39m
+2022-11-01 00:40:21:4021 [35mhttp[39m: [35m::1 GET /api/product/getproduct 200 90 - 30007.074 ms[39m
+[35m[39m
+2022-11-01 00:40:26:4026 [31merror[39m: [31mCould not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/[39m
+2022-11-01 00:40:26:4026 [35mhttp[39m: [35m::1 GET /api/product/getproduct 200 90 - 30013.615 ms[39m
+[35m[39m
+2022-11-01 00:40:26:4026 [31merror[39m: [31mCould not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/[39m
+2022-11-01 00:40:26:4026 [35mhttp[39m: [35m::1 GET /api/product/getproduct 200 90 - 30015.167 ms[39m
+[35m[39m
+2022-11-01 00:41:02:412 [35mhttp[39m: [35m::1 GET /api/product/getproduct 200 945 - 963.640 ms[39m
+[35m[39m
+2022-11-01 00:41:02:412 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 119.355 ms[39m
+[35m[39m
+2022-11-01 00:42:26:4226 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 239.230 ms[39m
+[35m[39m
+2022-11-01 00:42:26:4226 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 145.253 ms[39m
+[35m[39m
+2022-11-01 00:43:42:4342 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 169.699 ms[39m
+[35m[39m
+2022-11-01 00:43:42:4342 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 200.850 ms[39m
+[35m[39m
+2022-11-01 00:44:10:4410 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 213.407 ms[39m
+[35m[39m
+2022-11-01 00:44:10:4410 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 164.674 ms[39m
+[35m[39m
+2022-11-01 00:44:17:4417 [35mhttp[39m: [35m::1 GET /api/product/63600333cf2131e599d04fea 404 175 - 1.151 ms[39m
+[35m[39m
+2022-11-01 00:44:17:4417 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 227.055 ms[39m
+[35m[39m
+2022-11-01 00:45:25:4525 [35mhttp[39m: [35m::1 GET /api/product/63600333cf2131e599d04fea 404 175 - 0.506 ms[39m
+[35m[39m
+2022-11-01 00:45:51:4551 [35mhttp[39m: [35m::1 GET /api/product/63600333cf2131e599d04fea 404 175 - 0.216 ms[39m
+[35m[39m
+2022-11-01 00:46:19:4619 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-01 00:46:21:4621 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-01 00:46:26:4626 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 148.605 ms[39m
+[35m[39m
+2022-11-01 00:46:26:4626 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 148.975 ms[39m
+[35m[39m
+2022-11-01 00:46:34:4634 [35mhttp[39m: [35m::1 GET /api/product/63600333cf2131e599d04fea 200 68 - 215.591 ms[39m
+[35m[39m
+2022-11-01 00:46:35:4635 [35mhttp[39m: [35m::1 GET /api/product/getproduct 200 494 - 172.621 ms[39m
+[35m[39m
+2022-11-01 00:46:40:4640 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 187.454 ms[39m
+[35m[39m
+2022-11-01 00:46:41:4641 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 202.528 ms[39m
+[35m[39m
+2022-11-01 00:54:16:5416 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 298.906 ms[39m
+[35m[39m
+2022-11-01 00:54:16:5416 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 202.422 ms[39m
+[35m[39m
+2022-11-01 00:54:18:5418 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 132.066 ms[39m
+[35m[39m
+2022-11-01 00:54:18:5418 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 180.289 ms[39m
+[35m[39m
+2022-11-01 00:54:24:5424 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 124.955 ms[39m
+[35m[39m
+2022-11-01 00:54:24:5424 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 201.219 ms[39m
+[35m[39m
+2022-11-01 00:54:28:5428 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 195.425 ms[39m
+[35m[39m
+2022-11-01 00:54:28:5428 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 183.180 ms[39m
+[35m[39m
+2022-11-01 00:54:31:5431 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 614.112 ms[39m
+[35m[39m
+2022-11-01 00:54:32:5432 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 124.490 ms[39m
+[35m[39m
+2022-11-01 00:57:06:576 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 175.606 ms[39m
+[35m[39m
+2022-11-01 00:57:06:576 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 170.867 ms[39m
+[35m[39m
+2022-11-01 00:57:09:579 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 198.856 ms[39m
+[35m[39m
+2022-11-01 00:57:09:579 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 156.130 ms[39m
+[35m[39m
+2022-11-01 00:57:23:5723 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 160.939 ms[39m
+[35m[39m
+2022-11-01 00:57:23:5723 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 130.683 ms[39m
+[35m[39m
+2022-11-01 00:57:39:5739 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 269.652 ms[39m
+[35m[39m
+2022-11-01 00:57:39:5739 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 134.053 ms[39m
+[35m[39m
+2022-11-01 01:11:49:1149 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 200.085 ms[39m
+[35m[39m
+2022-11-01 01:11:49:1149 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 202.922 ms[39m
+[35m[39m
+2022-11-01 01:18:04:184 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 317.161 ms[39m
+[35m[39m
+2022-11-01 01:18:05:185 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 190.024 ms[39m
+[35m[39m
+2022-11-01 01:18:07:187 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 151.786 ms[39m
+[35m[39m
+2022-11-01 01:18:08:188 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 157.422 ms[39m
+[35m[39m
+2022-11-01 01:24:16:2416 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 165.862 ms[39m
+[35m[39m
+2022-11-01 01:24:16:2416 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 264.185 ms[39m
+[35m[39m
+2022-11-01 01:27:15:2715 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 204.206 ms[39m
+[35m[39m
+2022-11-01 01:27:15:2715 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 139.520 ms[39m
+[35m[39m
+2022-11-01 01:27:50:2750 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 241.791 ms[39m
+[35m[39m
+2022-11-01 01:27:50:2750 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 206.542 ms[39m
+[35m[39m
+2022-11-01 01:44:15:4415 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 185.742 ms[39m
+[35m[39m
+2022-11-01 01:44:15:4415 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 178.434 ms[39m
+[35m[39m
+2022-11-01 01:50:11:5011 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 180.617 ms[39m
+[35m[39m
+2022-11-01 01:50:11:5011 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 263.148 ms[39m
+[35m[39m
+2022-11-01 01:50:19:5019 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 208.418 ms[39m
+[35m[39m
+2022-11-01 01:50:19:5019 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 138.521 ms[39m
+[35m[39m
+2022-11-01 01:51:25:5125 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 241.384 ms[39m
+[35m[39m
+2022-11-01 01:51:25:5125 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 154.384 ms[39m
+[35m[39m
+2022-11-01 01:51:30:5130 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 259.369 ms[39m
+[35m[39m
+2022-11-01 01:51:31:5131 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 203.371 ms[39m
+[35m[39m
+2022-11-01 01:51:52:5152 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 290.269 ms[39m
+[35m[39m
+2022-11-01 01:51:53:5153 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 221.768 ms[39m
+[35m[39m
+2022-11-01 01:52:42:5242 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 223.985 ms[39m
+[35m[39m
+2022-11-01 01:52:43:5243 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 187.331 ms[39m
+[35m[39m
+2022-11-01 01:52:46:5246 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 150.750 ms[39m
+[35m[39m
+2022-11-01 01:52:46:5246 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 197.494 ms[39m
+[35m[39m
+2022-11-01 01:53:17:5317 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 206.074 ms[39m
+[35m[39m
+2022-11-01 01:53:17:5317 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 158.734 ms[39m
+[35m[39m
+2022-11-01 01:53:58:5358 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 299.457 ms[39m
+[35m[39m
+2022-11-01 01:53:58:5358 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 183.247 ms[39m
+[35m[39m
+2022-11-01 01:55:29:5529 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 132.983 ms[39m
+[35m[39m
+2022-11-01 01:55:30:5530 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 245.682 ms[39m
+[35m[39m
+2022-11-01 01:55:46:5546 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 172.113 ms[39m
+[35m[39m
+2022-11-01 01:55:46:5546 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 247.583 ms[39m
+[35m[39m
+2022-11-01 01:57:56:5756 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 201.172 ms[39m
+[35m[39m
+2022-11-01 01:57:57:5757 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 196.136 ms[39m
+[35m[39m
+2022-11-01 01:58:59:5859 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 206.547 ms[39m
+[35m[39m
+2022-11-01 01:58:59:5859 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 130.318 ms[39m
+[35m[39m
+2022-11-01 01:59:56:5956 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 185.124 ms[39m
+[35m[39m
+2022-11-01 01:59:57:5957 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 203.522 ms[39m
+[35m[39m
+2022-11-01 02:01:19:119 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 133.601 ms[39m
+[35m[39m
+2022-11-01 02:01:20:120 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 205.278 ms[39m
+[35m[39m
+2022-11-01 02:02:17:217 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 162.126 ms[39m
+[35m[39m
+2022-11-01 02:02:17:217 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 118.698 ms[39m
+[35m[39m
+2022-11-01 02:07:37:737 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 166.644 ms[39m
+[35m[39m
+2022-11-01 02:07:37:737 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 203.126 ms[39m
+[35m[39m
+2022-11-01 02:08:14:814 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 251.299 ms[39m
+[35m[39m
+2022-11-01 02:08:14:814 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 136.716 ms[39m
+[35m[39m
+2022-11-02 09:05:27:527 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-02 09:05:29:529 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-02 09:06:19:619 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 128.612 ms[39m
+[35m[39m
+2022-11-02 09:06:20:620 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 96.668 ms[39m
+[35m[39m
+2022-11-02 09:27:13:2713 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required., remainQuantity: Path `remainQuantity` is required., images.0: Path `images.0` is required.[39m
+2022-11-02 09:27:13:2713 [35mhttp[39m: [35m::1 POST /api/product/add 200 79 - 24.878 ms[39m
+[35m[39m
+2022-11-02 09:29:00:290 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 123.072 ms[39m
+[35m[39m
+2022-11-02 09:29:00:290 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 188.661 ms[39m
+[35m[39m
+2022-11-02 09:31:10:3110 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 302.031 ms[39m
+[35m[39m
+2022-11-02 09:31:10:3110 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 112.360 ms[39m
+[35m[39m
+2022-11-02 09:37:31:3731 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 166.186 ms[39m
+[35m[39m
+2022-11-02 09:37:32:3732 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 127.631 ms[39m
+[35m[39m
+2022-11-02 09:38:53:3853 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 120.277 ms[39m
+[35m[39m
+2022-11-02 09:38:54:3854 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 151.611 ms[39m
+[35m[39m
+2022-11-02 09:41:47:4147 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 187.363 ms[39m
+[35m[39m
+2022-11-02 09:41:47:4147 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 199.112 ms[39m
+[35m[39m
+2022-11-02 09:42:55:4255 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 169.593 ms[39m
+[35m[39m
+2022-11-02 09:42:55:4255 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 220.398 ms[39m
+[35m[39m
+2022-11-02 10:15:57:1557 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 100.755 ms[39m
+[35m[39m
+2022-11-02 10:15:58:1558 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 138.427 ms[39m
+[35m[39m
+2022-11-02 10:27:04:274 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 95.716 ms[39m
+[35m[39m
+2022-11-02 10:27:05:275 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 193.021 ms[39m
+[35m[39m
+2022-11-02 10:49:01:491 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 112.153 ms[39m
+[35m[39m
+2022-11-02 10:49:01:491 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 145.107 ms[39m
+[35m[39m
+2022-11-02 10:50:49:5049 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 189.303 ms[39m
+[35m[39m
+2022-11-02 10:50:49:5049 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 105.339 ms[39m
+[35m[39m
+2022-11-02 10:50:51:5051 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 92.047 ms[39m
+[35m[39m
+2022-11-02 10:50:51:5051 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 183.123 ms[39m
+[35m[39m
+2022-11-02 10:51:44:5144 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 153.614 ms[39m
+[35m[39m
+2022-11-02 10:51:45:5145 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 91.192 ms[39m
+[35m[39m
+2022-11-02 10:51:55:5155 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 102.312 ms[39m
+[35m[39m
+2022-11-02 10:51:56:5156 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 122.827 ms[39m
+[35m[39m
+2022-11-02 10:52:31:5231 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 168.284 ms[39m
+[35m[39m
+2022-11-02 10:52:32:5232 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 103.743 ms[39m
+[35m[39m
+2022-11-02 18:38:54:3854 [32minfo[39m: [32mServer is running on port 9000[39m

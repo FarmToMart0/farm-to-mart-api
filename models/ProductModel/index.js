@@ -18,6 +18,17 @@ const Product = mongoose.model('Product', new mongoose.Schema({
     required:true,
    
   },
+  remainQuantity:{
+    type:Number,
+    required:true,
+   
+  },
+  date: { type: Date, default: Date.now },
+  description:{
+    type:String,
+    required:true,
+   
+  },
   unitPrice: {
     type: Number,
     required: true,
@@ -28,47 +39,35 @@ const Product = mongoose.model('Product', new mongoose.Schema({
     required: true,
     
   },
-  deliveryOption:{
-    type: Array,
-    required: true,
-    
-  },
-  paymentOption:{
-    type: String,
-    required: true,
-    
-  },
+  deliveryOption:[{type:String,required:true}],
+  paymentOption:[{type:String,required:true}],
   biddingEnable:{
-    type: String,
+    type: Boolean,
     required: true,
-    minlength: 10,
-    maxlength: 13
+   
   },
-  images:{
-    type: String,
-    required: true,
-    minlength: 10,
-    maxlength: 13
-  },
+  
+  images:[{type:String,required:true}],
 
 }));
 
-function validateFarmer(farmer) {
+function validateProduct(product) {
   const schema = {
-   
-    firstName: Joi.string().min(5).max(50).required(),
-    address: Joi.string().min(5).max(150).required(),
-    lastName: Joi.string().min(5).max(50).required(),
-    phone: Joi.string().min(5).max(50).required(),
-    district:Joi.string().required(),
-    gsdName:Joi.string().required(),
-    gsdCode:Joi.string().required(),
-    nic:Joi.string().min(10).max(13).required(),
+    category: Joi.string().required(),
+    remainQuantity:Joi.string().required(),
+    productName: Joi.string().required(),
+    quantity: Joi.string().required(),
+    unitPrice: Joi.string().required(),
+    description: Joi.string().required(),
+    initialBid:Joi.string().required(),
+    deliveryOption:Joi.array().required,
+    paymentOption:Joi.array().required(),
+    biddingEnable:Joi.array().required(),
    
   };
 
-  return Joi.valid(farmer, schema);
+  return Joi.valid(product, schema);
 }
 
-exports.Farmer = Farmer; 
-exports.validate = validateFarmer;
+exports.Product = Product; 
+exports.validate = validateProduct;
