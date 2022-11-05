@@ -38,7 +38,7 @@ const Buyer = mongoose.model('Buyer', new mongoose.Schema({
 }));
 
 function validateBuyer(buyer) {
-  const schema = {
+  const schema =Joi.object( {
    
     firstName: Joi.string().min(5).max(50).required(),
     address: Joi.string().min(5).max(150).required(),
@@ -46,9 +46,9 @@ function validateBuyer(buyer) {
     phone: Joi.string().min(5).max(50).required(),
     nic:Joi.string().min(10).max(13).required(),
    
-  };
+  });
 
-  return Joi.valid(buyer, schema);
+  return schema.validate(buyer);
 }
 
 exports.Buyer = Buyer; 

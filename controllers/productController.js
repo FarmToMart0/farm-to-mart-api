@@ -1,0 +1,65 @@
+const express = require('express');
+const mongoose = require('mongoose');
+const {Product, validate} = require('../models/ProductModel/index');
+const _ = require('lodash');
+const logger = require("../utils/logger");
+const generateOutput= require('../utils/outputFactory')
+
+async function  addProduct(req,res) {
+    req.body.remainQuantity=req.body.quantity;
+    
+    const { error} = validate({'category':req.body.category,'remainQuantity':req.body.remainQuantity,'productName':req.body.productName,'quantity':req.body.quantity,'unitPrice':req.body.unitPrice,'description':req.body.description,'initialBid':req.body.initialBid,'deliveryOption':req.body.deliveryOption,'paymentOption':req.body.paymentOption,'biddingEnable':req.body.biddingEnable});
+    if (error ){
+       
+        const output = generateOutput(400,'validate error',error.details[0].message )
+        return res.status(200).send(output);
+    } 
+    try {
+        let product = new Product(req.body);
+        await product.save()
+        return res.send(generateOutput(201,'success','Product added successfully'));
+    } catch (error) {
+        logger.error(error);
+        return res.send(generateOutput(500,'error','Error occured while added product'));
+    }
+}
+async function getProduct(req,res) {
+    try {
+        let productList = await Product.find().sort({'remainQuantity':-1,'date':1})
+        res.status(200).send(generateOutput(201,'success',productList))
+    } catch (error) {
+        logger.error(error)
+        res.status(200).send(generateOutput(500,'error','error occured while getting products details'))
+    }
+}
+async function  deleteProduct(req,res){
+    try {
+        let product = await Product.findByIdAndRemove(req.params.id)
+        res.status(200).send(generateOutput(201,'success','successfully removed'))
+    } catch (error) {
+        logger.error(error)
+        res.status(200).send(generateOutput(500,'error','error occured while removing products details'))
+    }
+}
+
+async function updateProduct(req,res) {
+        req.body.remainQuantity=req.body.quantity;
+        const { error } = validate({'category':req.body.category,'remainQuantity':req.body.remainQuantity,'productName':req.body.productName,'quantity':req.body.quantity,'unitPrice':req.body.unitPrice,'description':req.body.description,'initialBid':req.body.initialBid,'deliveryOption':req.body.deliveryOption,'paymentOption':req.body.paymentOption,'biddingEnable':req.body.biddingEnable}); 
+        
+        if (error) return res.status(200).send(generateOutput(400,'validation error',error.details[0].message));
+        try {
+        
+      
+        const product = await Product.findByIdAndUpdate(req.body._id,
+          req.body);
+      
+        if (!product) return res.status(200).send(generateOutput(404,'not found','The product with the given ID was not found.'));
+        
+        res.status(200).send(generateOutput(201,'success fully updated',product));
+    } catch (error) {
+        logger.error(error)
+        return res.send(generateOutput(500,'error','Error occured while updating product') );
+    }
+    
+}
+module.exports ={addProduct,getProduct,deleteProduct,updateProduct};

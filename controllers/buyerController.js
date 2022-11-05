@@ -43,7 +43,7 @@ async function  buyerRegister(req,res) {
             user.password = await bcrypt.hash(req.body.password, salt);
             await user.save();
         
-            const  buyer = new Buyer(_.pick(req.body, ['firstName', 'lastName','address','phone','district','nic',]));
+            const  buyer = new Buyer(_.pick(req.body, ['firstName', 'lastName','address','phone','district','nic']));
             buyer._id=user._id;
             await buyer.save();
             // Commit the changes

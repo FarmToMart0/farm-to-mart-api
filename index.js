@@ -13,7 +13,7 @@ require('./configs/db')();
 const farmerRouter =require('./routers/farmerRouter');
 const authRouter = require('./routers/authRouter')
 const buyerRouter =require('./routers/buyerRouter')
-
+const productRouter =require('./routers/productRouter')
 
 app.use(cors({ origin: "*" }));
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -25,6 +25,7 @@ app.use(express.json());
 app.use('/api/farmer',farmerRouter)
 app.use('/api/signin',authRouter)
 app.use('/api/buyer',buyerRouter)
+app.use('/api/product',productRouter)
 
 
 const port = process.env.PORT || 9000;
