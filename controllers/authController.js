@@ -6,7 +6,7 @@ const {Farmer,validate}= require('../models/FarmerModel/index')
 const {Buyer,validateBuyer}= require('../models/BuyerModel/index')
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
-const _ = require('lodash');
+
 const generateOutput= require('../utils/outputFactory')
 
 
