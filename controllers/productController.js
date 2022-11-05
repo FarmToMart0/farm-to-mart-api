@@ -7,19 +7,20 @@ const generateOutput= require('../utils/outputFactory')
 
 async function  addProduct(req,res) {
     req.body.remainQuantity=req.body.quantity;
-    const { error1 } = validate(req.body);
-    if (error1 ){
-        const output = generateOutput(400,'validate error',error1?.details[0].message )
+    
+    const { error} = validate({'category':req.body.category,'remainQuantity':req.body.remainQuantity,'productName':req.body.productName,'quantity':req.body.quantity,'unitPrice':req.body.unitPrice,'description':req.body.description,'initialBid':req.body.initialBid,'deliveryOption':req.body.deliveryOption,'paymentOption':req.body.paymentOption,'biddingEnable':req.body.biddingEnable});
+    if (error ){
+       
+        const output = generateOutput(400,'validate error',error.details[0].message )
         return res.status(200).send(output);
     } 
     try {
-        
         let product = new Product(req.body);
         await product.save()
-        return res.send(generateOutput(201,'success','Product added successfully') );
+        return res.send(generateOutput(201,'success','Product added successfully'));
     } catch (error) {
         logger.error(error);
-        return res.send(generateOutput(500,'error','Error occured while added product') );
+        return res.send(generateOutput(500,'error','Error occured while added product'));
     }
 }
 async function getProduct(req,res) {
@@ -42,20 +43,22 @@ async function  deleteProduct(req,res){
 }
 
 async function updateProduct(req,res) {
-    
-        const { error } = validate(req.body); 
+        req.body.remainQuantity=req.body.quantity;
+        const { error } = validate({'category':req.body.category,'remainQuantity':req.body.remainQuantity,'productName':req.body.productName,'quantity':req.body.quantity,'unitPrice':req.body.unitPrice,'description':req.body.description,'initialBid':req.body.initialBid,'deliveryOption':req.body.deliveryOption,'paymentOption':req.body.paymentOption,'biddingEnable':req.body.biddingEnable}); 
+        
         if (error) return res.status(200).send(generateOutput(400,'validation error',error.details[0].message));
         try {
         
       
         const product = await Product.findByIdAndUpdate(req.body._id,
-          req.body, { new: true });
+          req.body);
       
         if (!product) return res.status(200).send(generateOutput(404,'not found','The product with the given ID was not found.'));
         
-        res.send.status(200).send(generateOutput(201,'success fully updated',product));
+        res.status(200).send(generateOutput(201,'success fully updated',product));
     } catch (error) {
         logger.error(error)
+        return res.send(generateOutput(500,'error','Error occured while updating product') );
     }
     
 }

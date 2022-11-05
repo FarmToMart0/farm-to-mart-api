@@ -159,3 +159,73 @@
 2022-11-01 00:40:26:4026 [31merror[39m: [31mCould not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/[39m
 2022-11-01 00:40:26:4026 [31merror[39m: [31mCould not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/[39m
 2022-11-02 09:27:13:2713 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required., remainQuantity: Path `remainQuantity` is required., images.0: Path `images.0` is required.[39m
+2022-11-02 18:59:19:5919 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 18:59:19:5919 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required., remainQuantity: Path `remainQuantity` is required., images.0: Path `images.0` is required.[39m
+2022-11-02 18:59:42:5942 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 18:59:42:5942 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required., remainQuantity: Path `remainQuantity` is required., images.0: Path `images.0` is required.[39m
+2022-11-02 19:06:54:654 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:06:54:654 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required., remainQuantity: Path `remainQuantity` is required., images.0: Path `images.0` is required.[39m
+2022-11-02 19:09:18:918 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required., remainQuantity: Path `remainQuantity` is required.[39m
+2022-11-02 19:40:22:4022 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required., remainQuantity: Path `remainQuantity` is required.[39m
+2022-11-02 19:47:22:4722 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required., remainQuantity: Path `remainQuantity` is required.[39m
+2022-11-02 19:50:10:5010 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:50:10:5010 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required., remainQuantity: Path `remainQuantity` is required., images.0: Path `images.0` is required.[39m
+2022-11-02 19:50:19:5019 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:50:19:5019 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:53:32:5332 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required., remainQuantity: Path `remainQuantity` is required.[39m
+2022-11-02 19:59:21:5921 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:59:21:5921 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required., remainQuantity: Path `remainQuantity` is required., images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:22:5922 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:22:5922 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:59:23:5923 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:23:5923 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:59:23:5923 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:23:5923 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:59:24:5924 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:24:5924 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:59:24:5924 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:24:5924 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:59:26:5926 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:26:5926 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:59:34:5934 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:59:34:5934 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:35:5935 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:35:5935 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:59:36:5936 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:36:5936 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:59:36:5936 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:36:5936 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:59:37:5937 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:37:5937 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:59:38:5938 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:59:38:5938 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:39:5939 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:39:5939 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:59:39:5939 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:39:5939 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:59:40:5940 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:40:5940 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:59:41:5941 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:41:5941 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:59:41:5941 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:41:5941 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:59:42:5942 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:42:5942 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 19:59:47:5947 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 19:59:47:5947 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 20:06:02:62 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 20:06:02:62 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required., remainQuantity: Path `remainQuantity` is required., images.0: Path `images.0` is required.[39m
+2022-11-02 20:06:19:619 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-02 20:06:19:619 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-02 20:07:57:757 [31merror[39m: [31mCast to ObjectId failed for value "update" (type string) at path "_id" for model "Product"[39m
+2022-11-03 10:28:33:2833 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required., remainQuantity: Path `remainQuantity` is required.[39m
+2022-11-03 10:28:43:2843 [31merror[39m: [31mProduct validation failed: description: Path `description` is required.[39m
+2022-11-03 10:31:12:3112 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required., remainQuantity: Path `remainQuantity` is required.[39m
+2022-11-03 10:45:48:4548 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required., remainQuantity: Path `remainQuantity` is required.[39m
+2022-11-03 10:46:52:4652 [31merror[39m: [31mProduct validation failed: description: Path `description` is required.[39m
+2022-11-03 10:47:10:4710 [31merror[39m: [31mProduct validation failed: category: Path `category` is required., description: Path `description` is required.[39m
+2022-11-03 11:03:42:342 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required., category: Path `category` is required., remainQuantity: Path `remainQuantity` is required.[39m
+2022-11-03 11:14:19:1419 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required., category: Path `category` is required., remainQuantity: Path `remainQuantity` is required.[39m
+2022-11-03 11:38:25:3825 [31merror[39m: [31mProduct validation failed: initialBid: Path `initialBid` is required., unitPrice: Path `unitPrice` is required., description: Path `description` is required., quantity: Path `quantity` is required., productName: Path `productName` is required., category: Path `category` is required., remainQuantity: Path `remainQuantity` is required.[39m
+2022-11-03 11:39:48:3948 [31merror[39m: [31mProduct validation failed: category: Path `category` is required., productName: Path `productName` is required., quantity: Path `quantity` is required., remainQuantity: Path `remainQuantity` is required., description: Path `description` is required., unitPrice: Path `unitPrice` is required., initialBid: Path `initialBid` is required.[39m
+2022-11-03 18:34:11:3411 [31merror[39m: [31mres.send.status is not a function[39m
