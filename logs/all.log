@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2022-11-06 10:36:23:3623 [32minfo[39m: [32mServer is running on port 9000[39m
 2022-11-06 10:36:25:3625 [32minfo[39m: [32mConnected to MongoDB...[39m
 2022-11-06 10:36:51:3651 [32minfo[39m: [32mServer is running on port 9000[39m
@@ -103,4 +104,319 @@
 2022-11-06 11:50:54:5054 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 404 180 - 0.241 ms[39m
 [35m[39m
 2022-11-06 11:52:04:524 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 404 180 - 0.211 ms[39m
+=======
+2022-11-05 19:45:36:4536 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-05 19:45:37:4537 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-05 19:53:43:5343 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 200 422 - 126.274 ms[39m
 [35m[39m
+2022-11-05 20:20:02:202 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 109.846 ms[39m
+[35m[39m
+2022-11-05 20:20:17:2017 [35mhttp[39m: [35m::1 PUT /api/farmer/updateharvest/63600359cf2131e599d04fed 200 434 - 127.164 ms[39m
+[35m[39m
+2022-11-05 20:20:21:2021 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 200 48 - 97.343 ms[39m
+[35m[39m
+2022-11-05 20:20:25:2025 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 97.394 ms[39m
+[35m[39m
+2022-11-05 20:21:30:2130 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-05 20:21:33:2133 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-05 20:22:04:224 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 103.678 ms[39m
+[35m[39m
+2022-11-05 20:22:04:224 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 99.570 ms[39m
+[35m[39m
+2022-11-05 20:22:10:2210 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 200 799 - 100.561 ms[39m
+[35m[39m
+2022-11-05 20:22:10:2210 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 104.826 ms[39m
+[35m[39m
+2022-11-05 20:29:51:2951 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 97.908 ms[39m
+[35m[39m
+2022-11-05 20:29:51:2951 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 100.576 ms[39m
+[35m[39m
+2022-11-05 20:29:52:2952 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 100.682 ms[39m
+[35m[39m
+2022-11-05 20:29:52:2952 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 106.275 ms[39m
+[35m[39m
+2022-11-05 20:29:59:2959 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 97.624 ms[39m
+[35m[39m
+2022-11-05 20:29:59:2959 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 99.100 ms[39m
+[35m[39m
+2022-11-05 20:58:14:5814 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 100.019 ms[39m
+[35m[39m
+2022-11-05 20:58:14:5814 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 105.346 ms[39m
+[35m[39m
+2022-11-05 21:00:56:056 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 97.349 ms[39m
+[35m[39m
+2022-11-05 21:00:56:056 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 97.910 ms[39m
+[35m[39m
+2022-11-05 21:05:17:517 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 96.120 ms[39m
+[35m[39m
+2022-11-05 21:05:17:517 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 97.416 ms[39m
+[35m[39m
+2022-11-05 21:10:00:100 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 96.429 ms[39m
+[35m[39m
+2022-11-05 21:10:00:100 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 98.009 ms[39m
+[35m[39m
+2022-11-05 21:11:17:1117 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 97.075 ms[39m
+[35m[39m
+2022-11-05 21:11:17:1117 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 99.185 ms[39m
+[35m[39m
+2022-11-05 21:12:15:1215 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 97.034 ms[39m
+[35m[39m
+2022-11-05 21:12:15:1215 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 97.314 ms[39m
+[35m[39m
+2022-11-06 07:01:08:18 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 1211.299 ms[39m
+[35m[39m
+2022-11-06 07:01:08:18 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 1211.271 ms[39m
+[35m[39m
+2022-11-06 07:01:11:111 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 97.616 ms[39m
+[35m[39m
+2022-11-06 07:01:11:111 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 98.379 ms[39m
+[35m[39m
+2022-11-06 07:07:21:721 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 97.742 ms[39m
+[35m[39m
+2022-11-06 07:07:21:721 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 97.355 ms[39m
+[35m[39m
+2022-11-06 07:16:31:1631 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 99.192 ms[39m
+[35m[39m
+2022-11-06 07:16:31:1631 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 102.364 ms[39m
+[35m[39m
+2022-11-06 07:16:42:1642 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 148.535 ms[39m
+[35m[39m
+2022-11-06 07:16:42:1642 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 151.364 ms[39m
+[35m[39m
+2022-11-06 07:18:03:183 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 180.980 ms[39m
+[35m[39m
+2022-11-06 07:18:03:183 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 183.610 ms[39m
+[35m[39m
+2022-11-06 07:18:18:1818 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 140.228 ms[39m
+[35m[39m
+2022-11-06 07:18:18:1818 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 140.525 ms[39m
+[35m[39m
+2022-11-06 07:21:24:2124 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 116.626 ms[39m
+[35m[39m
+2022-11-06 07:21:24:2124 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 116.382 ms[39m
+[35m[39m
+2022-11-06 07:22:42:2242 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 200.315 ms[39m
+[35m[39m
+2022-11-06 07:22:42:2242 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 202.977 ms[39m
+[35m[39m
+2022-11-06 07:24:14:2414 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 106.717 ms[39m
+[35m[39m
+2022-11-06 07:24:14:2414 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 110.522 ms[39m
+[35m[39m
+2022-11-06 07:24:46:2446 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 159.792 ms[39m
+[35m[39m
+2022-11-06 07:24:46:2446 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 164.392 ms[39m
+[35m[39m
+2022-11-06 07:25:03:253 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 150.475 ms[39m
+[35m[39m
+2022-11-06 07:25:03:253 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 153.926 ms[39m
+[35m[39m
+2022-11-06 07:27:21:2721 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 1223.902 ms[39m
+[35m[39m
+2022-11-06 07:27:21:2721 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 1337.790 ms[39m
+[35m[39m
+2022-11-06 07:27:29:2729 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 188.912 ms[39m
+[35m[39m
+2022-11-06 07:27:29:2729 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 194.826 ms[39m
+[35m[39m
+2022-11-06 07:27:54:2754 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 147.986 ms[39m
+[35m[39m
+2022-11-06 07:27:54:2754 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 151.537 ms[39m
+[35m[39m
+2022-11-06 07:29:51:2951 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 195.806 ms[39m
+[35m[39m
+2022-11-06 07:29:51:2951 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 197.228 ms[39m
+[35m[39m
+2022-11-06 07:43:01:431 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 122.022 ms[39m
+[35m[39m
+2022-11-06 07:43:01:431 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 124.431 ms[39m
+[35m[39m
+2022-11-06 07:46:04:464 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 179.635 ms[39m
+[35m[39m
+2022-11-06 07:46:04:464 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 179.779 ms[39m
+[35m[39m
+2022-11-06 07:49:17:4917 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 95.354 ms[39m
+[35m[39m
+2022-11-06 07:49:17:4917 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 102.544 ms[39m
+[35m[39m
+2022-11-06 07:50:01:501 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 173.575 ms[39m
+[35m[39m
+2022-11-06 07:50:01:501 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 175.619 ms[39m
+[35m[39m
+2022-11-06 07:50:55:5055 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 104.936 ms[39m
+[35m[39m
+2022-11-06 07:50:55:5055 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 108.572 ms[39m
+[35m[39m
+2022-11-06 07:53:02:532 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 99.579 ms[39m
+[35m[39m
+2022-11-06 07:53:02:532 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 104.411 ms[39m
+[35m[39m
+2022-11-06 07:55:29:5529 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 167.251 ms[39m
+[35m[39m
+2022-11-06 07:55:29:5529 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 169.362 ms[39m
+[35m[39m
+2022-11-06 07:55:47:5547 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 104.986 ms[39m
+[35m[39m
+2022-11-06 07:55:47:5547 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 106.456 ms[39m
+[35m[39m
+2022-11-06 08:01:27:127 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 112.520 ms[39m
+[35m[39m
+2022-11-06 08:01:27:127 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 113.009 ms[39m
+[35m[39m
+2022-11-06 08:06:41:641 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 189.276 ms[39m
+[35m[39m
+2022-11-06 08:06:41:641 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 190.419 ms[39m
+[35m[39m
+2022-11-06 08:12:18:1218 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 142.734 ms[39m
+[35m[39m
+2022-11-06 08:12:18:1218 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 144.767 ms[39m
+[35m[39m
+2022-11-06 08:16:53:1653 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 98.314 ms[39m
+[35m[39m
+2022-11-06 08:16:53:1653 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 100.777 ms[39m
+[35m[39m
+2022-11-06 08:19:21:1921 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 179.959 ms[39m
+[35m[39m
+2022-11-06 08:19:21:1921 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 184.360 ms[39m
+[35m[39m
+2022-11-06 08:19:38:1938 [35mhttp[39m: [35m::1 PUT /api/farmer/updateharvest/63600359cf2131e599d04fed 200 78 - 18.041 ms[39m
+[35m[39m
+2022-11-06 08:20:12:2012 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 159.475 ms[39m
+[35m[39m
+2022-11-06 08:20:12:2012 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 163.189 ms[39m
+[35m[39m
+2022-11-06 08:20:20:2020 [35mhttp[39m: [35m::1 PUT /api/farmer/updateharvest/63600359cf2131e599d04fed 200 78 - 1.461 ms[39m
+[35m[39m
+2022-11-06 08:23:57:2357 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 138.054 ms[39m
+[35m[39m
+2022-11-06 08:23:57:2357 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 138.725 ms[39m
+[35m[39m
+2022-11-06 08:24:04:244 [35mhttp[39m: [35m::1 PUT /api/farmer/updateharvest/63600359cf2131e599d04fed 200 436 - 116.819 ms[39m
+[35m[39m
+2022-11-06 08:24:37:2437 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 200 799 - 216.173 ms[39m
+[35m[39m
+2022-11-06 08:24:37:2437 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 219.656 ms[39m
+[35m[39m
+2022-11-06 08:24:49:2449 [35mhttp[39m: [35m::1 PUT /api/farmer/updateharvest/63600359cf2131e599d04fed 200 93 - 1.294 ms[39m
+[35m[39m
+2022-11-06 08:25:09:259 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 127.904 ms[39m
+[35m[39m
+2022-11-06 08:25:09:259 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 129.016 ms[39m
+[35m[39m
+2022-11-06 08:25:17:2517 [35mhttp[39m: [35m::1 PUT /api/farmer/updateharvest/63600359cf2131e599d04fed 200 436 - 189.033 ms[39m
+[35m[39m
+2022-11-06 08:25:36:2536 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 200 799 - 134.962 ms[39m
+[35m[39m
+2022-11-06 08:25:36:2536 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 137.780 ms[39m
+[35m[39m
+2022-11-06 08:25:48:2548 [35mhttp[39m: [35m::1 PUT /api/farmer/updateharvest/6364819c51a052744e85187e 200 434 - 179.346 ms[39m
+[35m[39m
+2022-11-06 08:26:03:263 [35mhttp[39m: [35m::1 PUT /api/farmer/updateharvest/6364819c51a052744e85187e 200 437 - 107.644 ms[39m
+[35m[39m
+2022-11-06 08:31:49:3149 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 200 422 - 190.939 ms[39m
+[35m[39m
+2022-11-06 08:31:49:3149 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 200 425 - 191.031 ms[39m
+[35m[39m
+2022-11-06 08:40:31:4031 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 151.904 ms[39m
+[35m[39m
+2022-11-06 08:40:31:4031 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 152.480 ms[39m
+[35m[39m
+2022-11-06 08:40:59:4059 [35mhttp[39m: [35m::1 PUT /api/farmer/updateharvest/63600359cf2131e599d04fed 200 434 - 128.921 ms[39m
+[35m[39m
+2022-11-06 08:40:59:4059 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 200 48 - 98.839 ms[39m
+[35m[39m
+2022-11-06 08:42:34:4234 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 200 803 - 106.259 ms[39m
+[35m[39m
+2022-11-06 08:42:34:4234 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 109.207 ms[39m
+[35m[39m
+2022-11-06 08:42:55:4255 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 203.317 ms[39m
+[35m[39m
+2022-11-06 08:42:55:4255 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 205.446 ms[39m
+[35m[39m
+2022-11-06 08:43:33:4333 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 200 425 - 112.530 ms[39m
+[35m[39m
+2022-11-06 08:43:33:4333 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 200 423 - 115.314 ms[39m
+[35m[39m
+2022-11-06 08:43:45:4345 [35mhttp[39m: [35m::1 PUT /api/farmer/updateharvest/63600359cf2131e599d04fed 200 435 - 130.851 ms[39m
+[35m[39m
+2022-11-06 08:43:46:4346 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 200 48 - 98.716 ms[39m
+[35m[39m
+2022-11-06 08:44:23:4423 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 134.018 ms[39m
+[35m[39m
+2022-11-06 08:44:23:4423 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 200 423 - 137.695 ms[39m
+[35m[39m
+2022-11-06 08:44:47:4447 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 257.901 ms[39m
+[35m[39m
+2022-11-06 08:44:47:4447 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 261.806 ms[39m
+[35m[39m
+2022-11-06 08:45:05:455 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 97.323 ms[39m
+[35m[39m
+2022-11-06 08:45:05:455 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 97.788 ms[39m
+[35m[39m
+2022-11-06 08:45:34:4534 [35mhttp[39m: [35m::1 PUT /api/farmer/updateharvest/63600359cf2131e599d04fed 200 435 - 104.791 ms[39m
+[35m[39m
+2022-11-06 08:45:34:4534 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 200 48 - 161.985 ms[39m
+[35m[39m
+2022-11-06 08:45:41:4541 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 167.030 ms[39m
+[35m[39m
+2022-11-06 08:45:41:4541 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 200 802 - 169.869 ms[39m
+[35m[39m
+2022-11-06 08:46:08:468 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 180.168 ms[39m
+[35m[39m
+2022-11-06 08:46:08:468 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 181.693 ms[39m
+[35m[39m
+2022-11-06 08:46:28:4628 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 136.233 ms[39m
+[35m[39m
+2022-11-06 08:46:28:4628 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 200 425 - 136.166 ms[39m
+[35m[39m
+2022-11-06 08:46:33:4633 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 115.860 ms[39m
+[35m[39m
+2022-11-06 08:46:33:4633 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 116.828 ms[39m
+[35m[39m
+2022-11-06 08:46:49:4649 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 100.361 ms[39m
+[35m[39m
+2022-11-06 08:46:49:4649 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 200 422 - 102.666 ms[39m
+[35m[39m
+2022-11-06 08:46:59:4659 [35mhttp[39m: [35m::1 PUT /api/farmer/updateharvest/63600359cf2131e599d04fed 200 434 - 175.919 ms[39m
+[35m[39m
+2022-11-06 08:46:59:4659 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 200 48 - 208.491 ms[39m
+[35m[39m
+2022-11-06 08:46:59:4659 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 200 802 - 196.768 ms[39m
+[35m[39m
+2022-11-06 08:48:03:483 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 142.284 ms[39m
+[35m[39m
+2022-11-06 08:48:03:483 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 142.941 ms[39m
+[35m[39m
+2022-11-06 08:48:49:4849 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 157.510 ms[39m
+[35m[39m
+2022-11-06 08:48:49:4849 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 157.804 ms[39m
+[35m[39m
+2022-11-06 08:49:17:4917 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 200 422 - 105.466 ms[39m
+[35m[39m
+2022-11-06 08:49:17:4917 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 200 425 - 105.147 ms[39m
+[35m[39m
+2022-11-06 08:49:32:4932 [35mhttp[39m: [35m::1 PUT /api/farmer/updateharvest/63600359cf2131e599d04fed 200 434 - 221.415 ms[39m
+[35m[39m
+2022-11-06 08:49:32:4932 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 200 48 - 145.448 ms[39m
+[35m[39m
+2022-11-06 08:49:32:4932 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 200 802 - 142.576 ms[39m
+[35m[39m
+2022-11-06 08:49:43:4943 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 115.800 ms[39m
+[35m[39m
+2022-11-06 08:49:43:4943 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 102.963 ms[39m
+[35m[39m
+2022-11-06 09:13:36:1336 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 149.412 ms[39m
+[35m[39m
+2022-11-06 09:13:36:1336 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 98.812 ms[39m
+[35m[39m
+2022-11-06 09:13:43:1343 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 135.633 ms[39m
+[35m[39m
+2022-11-06 09:13:43:1343 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 137.970 ms[39m
+[35m[39m
+2022-11-06 09:13:44:1344 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 108.451 ms[39m
+[35m[39m
+2022-11-06 09:13:45:1345 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 97.433 ms[39m
+>>>>>>> 09e5a1861bf2ecad4a3ead3e9bd8e9bc30164707
+[35m[39m
+2022-11-06 11:53:39:5339 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-06 11:53:41:5341 [32minfo[39m: [32mConnected to MongoDB...[39m
