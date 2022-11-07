@@ -1,16 +1,22 @@
 const Joi = require('joi');
 const mongoose = require('mongoose');
-
+//Schema defines for User orders
 const Order = mongoose.model('Order', new mongoose.Schema({
 
   category: {
     type: String,
     required: true   
   },
-buyerId:{
+buyer:{
     type: mongoose.Schema.Types.ObjectId,
     required:true,
     ref: "Buyer",
+    
+},
+farmer:{
+    type: mongoose.Schema.Types.ObjectId,
+    required:true,
+    ref: "Farmer",
     
 },
   product: {
@@ -31,10 +37,15 @@ buyerId:{
    
   },
 paymentStatus:{  
-     type:String,
+     type:String, //'paid or notpaid'
     required:true,
    
   },
+  orderStatus:{  
+    type:String, //'pending or delivered or rejected'
+   required:true,
+  
+ },
   unitPrice: {
     type: Number,
     required: true,
@@ -55,22 +66,27 @@ paymentStatus:{
     default:Date.now
   },
   
-  deliveryMethod:{type:String,required:true},
-  paymentMethod:{type:String,required:true},
+  deliveryMethod:{type:String,required:true}, //'online delivery or farm pickup'
+  paymentMethod:{type:String,required:true}, //'online or cash on delivery
 },
 {
     timestamps: true,
   }));
 
+
+  //validation function for create order
 function validateOrder(order) {
   const schema =  Joi.object({
     category: Joi.string().required(),
     amount:Joi.any().required(),
-    productName: Joi.string().required(),
+    buyer:Joi.object().required(),
+    farmer:Joi.object().required(),
+    product: Joi.object().required(),
     totalPrice: Joi.any().required(),
     unitPrice: Joi.any().required(),
     description: Joi.string().required(),
     paymentStatus:Joi.string().required(),
+    orderStatus:Joi.string().required(),
     deliveryMethod:Joi.string().required(),
     paymentMethod:Joi.string().required(),
     isFromBiding:Joi.boolean().required(), 
@@ -79,5 +95,5 @@ function validateOrder(order) {
   return schema.validate(order);
 }
 
-exports.Order = Order; 
+exports.Orders = Order; 
 exports.validateOrder = validateOrder;

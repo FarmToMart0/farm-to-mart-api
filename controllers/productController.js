@@ -4,7 +4,7 @@ const {Product, validate} = require('../models/ProductModel/index');
 const _ = require('lodash');
 const logger = require("../utils/logger");
 const generateOutput= require('../utils/outputFactory')
-
+//function for add product
 async function  addProduct(req,res) {
     req.body.remainQuantity=req.body.quantity;
     
@@ -23,6 +23,7 @@ async function  addProduct(req,res) {
         return res.send(generateOutput(500,'error','Error occured while added product'));
     }
 }
+//function for get the product 
 async function getProduct(req,res) {
     try {
         let productList = await Product.find().sort({'remainQuantity':-1,'date':1})
@@ -32,6 +33,8 @@ async function getProduct(req,res) {
         res.status(200).send(generateOutput(500,'error','error occured while getting products details'))
     }
 }
+
+//function for delete the product
 async function  deleteProduct(req,res){
     try {
         let product = await Product.findByIdAndRemove(req.params.id)
@@ -42,6 +45,8 @@ async function  deleteProduct(req,res){
     }
 }
 
+
+//function for update the product
 async function updateProduct(req,res) {
         req.body.remainQuantity=req.body.quantity;
         const { error } = validate({'category':req.body.category,'remainQuantity':req.body.remainQuantity,'productName':req.body.productName,'quantity':req.body.quantity,'unitPrice':req.body.unitPrice,'description':req.body.description,'initialBid':req.body.initialBid,'deliveryOption':req.body.deliveryOption,'paymentOption':req.body.paymentOption,'biddingEnable':req.body.biddingEnable}); 

@@ -1,6 +1,6 @@
 const Joi = require('joi');
 const mongoose = require('mongoose');
-
+//Schema defines for crop task
 const MyCrops = mongoose.model('MyCrops', new mongoose.Schema({
  farmerNic:{
   type:String,
@@ -63,7 +63,7 @@ required:true
 {
   timestamps: true,
 }));
-
+//validation function for create cropdetails
 function validateMyCrops(cropdetails) {
   const schema =  Joi.object({
     farmerNic:Joi.string().required(),
@@ -83,7 +83,7 @@ function validateMyCrops(cropdetails) {
   return schema.validate(cropdetails);
 }
 
-
+//validation function for update crop details
 function validateHarvest(harvestDetails) {
     const schema =  Joi.object({
        

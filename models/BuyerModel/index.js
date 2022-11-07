@@ -1,5 +1,6 @@
 const Joi = require('joi');
 const mongoose = require('mongoose');
+//Schema defines for buyer
 const Buyer = mongoose.model('Buyer', new mongoose.Schema({
 
   firstName: {
@@ -39,6 +40,8 @@ const Buyer = mongoose.model('Buyer', new mongoose.Schema({
   timestamps: true,
 }));
 
+
+//validation function for create buyer
 function validateBuyer(buyer) {
   const schema =Joi.object( {
    
