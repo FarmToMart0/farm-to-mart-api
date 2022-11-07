@@ -35,6 +35,8 @@ const Buyer = mongoose.model('Buyer', new mongoose.Schema({
     maxlength: 13
   },
 
+},{
+  timestamps: true,
 }));
 
 function validateBuyer(buyer) {

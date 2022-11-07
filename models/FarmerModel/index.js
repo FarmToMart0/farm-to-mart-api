@@ -50,6 +50,8 @@ const Farmer = mongoose.model('Farmer', new mongoose.Schema({
     maxlength: 13
   },
 
+},{
+  timestamps: true,
 }));
 
 function validateFarmer(farmer) {

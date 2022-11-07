@@ -7,10 +7,16 @@ const Order = mongoose.model('Order', new mongoose.Schema({
     type: String,
     required: true   
   },
-
-  productName: {
-    type: String,
+buyerId:{
+    type: mongoose.Schema.Types.ObjectId,
+    required:true,
+    ref: "Buyer",
+    
+},
+  product: {
+    type:mongoose.Schema.Types.ObjectId,
     required: true,
+    ref:"Product"
     
   },
 
@@ -44,10 +50,17 @@ paymentStatus:{
     type:Boolean,
     required:true
   },
+  orderedDate:{
+    type:Date,
+    default:Date.now
+  },
   
   deliveryMethod:{type:String,required:true},
   paymentMethod:{type:String,required:true},
-}));
+},
+{
+    timestamps: true,
+  }));
 
 function validateOrder(order) {
   const schema =  Joi.object({

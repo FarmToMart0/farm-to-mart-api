@@ -22,7 +22,11 @@ const userSchema = new mongoose.Schema({
     required:true,
     
   }
-});
+},
+{
+  timestamps: true,
+}
+);
 //methos for genaration token
 userSchema.methods.generateAuthToken =()=> { 
   const token = jwt.sign({ id: this.userId, userRole: this.userRole }, 'jwtPrivateKey',{

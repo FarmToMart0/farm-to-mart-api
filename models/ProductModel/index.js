@@ -49,6 +49,9 @@ const Product = mongoose.model('Product', new mongoose.Schema({
   
   images:[{type:String,required:true}],
 
+},
+{
+  timestamps: true,
 }));
 
 function validateProduct(product) {
