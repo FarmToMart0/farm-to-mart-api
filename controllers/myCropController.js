@@ -4,7 +4,7 @@ const {MyCrops,validateHarvest} = require('../models/MyCrops/index');
 const _ = require('lodash');
 const logger = require("../utils/logger");
 const generateOutput= require('../utils/outputFactory')
-
+//function for get the ongoing crop task for specific farmer
 async function getOnGoingMyCropsDetails(req,res) {
     try {
         let mycrops = await MyCrops.find({ $and: [ { 'farmerNic':req.params.nic}, { 'status':'ongoing' } ] }).sort({'startingDateOfGrowing':-1})
@@ -15,6 +15,7 @@ async function getOnGoingMyCropsDetails(req,res) {
     }
     
 }
+//function for get the completed crop task for specific farmer
 async function getCompletedMyCropsDetails(req,res) {
     try {
         let mycrops = await MyCrops.find({ $and: [ { 'farmerNic':req.params.nic}, { 'status':'completed' } ] }).sort({'startingDateOfGrowing':-1})
@@ -25,6 +26,7 @@ async function getCompletedMyCropsDetails(req,res) {
     }
     
 }
+//function for update the ongoing crop task harvest for specific farmer
 async  function updateHarvest(req,res) {
     console.log(req.body)
     
