@@ -644,6 +644,7 @@
 2022-11-07 14:14:56:1456 [32minfo[39m: [32mConnected to MongoDB...[39m
 2022-11-07 14:16:25:1625 [32minfo[39m: [32mServer is running on port 9000[39m
 2022-11-07 14:16:27:1627 [32minfo[39m: [32mConnected to MongoDB...[39m
+<<<<<<< HEAD
 2022-11-06 17:27:21:2721 [32minfo[39m: [32mServer is running on port 9000[39m
 2022-11-06 17:27:22:2722 [32minfo[39m: [32mConnected to MongoDB...[39m
 2022-11-06 17:38:19:3819 [32minfo[39m: [32mServer is running on port 9000[39m
@@ -1340,3 +1341,621 @@
 2022-11-08 06:28:47:2847 [32minfo[39m: [32morders successfully fetched[39m
 2022-11-08 06:28:47:2847 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 208.391 ms[39m
 [35m[39m
+=======
+2022-11-08 10:31:44:3144 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 10:31:46:3146 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 10:37:24:3724 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 10:42:28:4228 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 10:43:32:4332 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 10:46:35:4635 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 10:46:37:4637 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 10:53:57:5357 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 10:53:59:5359 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 11:00:45:045 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 11:00:47:047 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 11:00:59:059 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 11:01:00:10 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 11:03:19:319 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 103.635 ms[39m
+[35m[39m
+2022-11-08 11:03:19:319 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 111.599 ms[39m
+[35m[39m
+2022-11-08 11:03:21:321 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 105.237 ms[39m
+[35m[39m
+2022-11-08 11:03:21:321 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 103.445 ms[39m
+[35m[39m
+2022-11-08 11:03:22:322 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 11:03:22:322 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 2286 - 216.980 ms[39m
+[35m[39m
+2022-11-08 11:03:22:322 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 11:03:22:322 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 203.956 ms[39m
+[35m[39m
+2022-11-08 11:03:22:322 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 11:03:22:322 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 210.313 ms[39m
+[35m[39m
+2022-11-08 11:07:22:722 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 316.503 ms[39m
+[35m[39m
+2022-11-08 11:19:12:1912 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 47.278 ms[39m
+[35m[39m
+2022-11-08 16:15:35:1535 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 47.905 ms[39m
+[35m[39m
+2022-11-08 16:15:43:1543 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 46.447 ms[39m
+[35m[39m
+2022-11-08 16:15:56:1556 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 46.572 ms[39m
+[35m[39m
+2022-11-08 16:16:52:1652 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 55.378 ms[39m
+[35m[39m
+2022-11-08 16:17:05:175 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 55.698 ms[39m
+[35m[39m
+2022-11-08 16:17:18:1718 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 46.688 ms[39m
+[35m[39m
+2022-11-08 16:17:59:1759 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 45.690 ms[39m
+[35m[39m
+2022-11-08 16:18:07:187 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 45.785 ms[39m
+[35m[39m
+2022-11-08 16:18:40:1840 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 45.976 ms[39m
+[35m[39m
+2022-11-08 16:18:48:1848 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 46.140 ms[39m
+[35m[39m
+2022-11-08 16:18:58:1858 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 45.067 ms[39m
+[35m[39m
+2022-11-08 16:19:12:1912 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 73.899 ms[39m
+[35m[39m
+2022-11-08 16:19:29:1929 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 45.459 ms[39m
+[35m[39m
+2022-11-08 16:19:53:1953 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 47.170 ms[39m
+[35m[39m
+2022-11-08 16:22:03:223 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 45.487 ms[39m
+[35m[39m
+2022-11-08 16:27:00:270 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 101.015 ms[39m
+[35m[39m
+2022-11-08 16:27:45:2745 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 44746.272 ms[39m
+[35m[39m
+2022-11-08 16:27:45:2745 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 99.960 ms[39m
+[35m[39m
+2022-11-08 16:27:45:2745 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 100.444 ms[39m
+[35m[39m
+2022-11-08 16:27:45:2745 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 102.372 ms[39m
+[35m[39m
+2022-11-08 16:27:45:2745 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 99.483 ms[39m
+[35m[39m
+2022-11-08 16:27:45:2745 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 101.517 ms[39m
+[35m[39m
+2022-11-08 16:27:45:2745 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 106.099 ms[39m
+[35m[39m
+2022-11-08 16:27:46:2746 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:27:46:2746 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 1029.568 ms[39m
+[35m[39m
+2022-11-08 16:27:46:2746 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:27:46:2746 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 219.933 ms[39m
+[35m[39m
+2022-11-08 16:27:47:2747 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:27:47:2747 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 205.345 ms[39m
+[35m[39m
+2022-11-08 16:35:35:3535 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:35:35:3535 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 209.343 ms[39m
+[35m[39m
+2022-11-08 16:35:35:3535 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:35:35:3535 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 199.247 ms[39m
+[35m[39m
+2022-11-08 16:35:35:3535 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:35:35:3535 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 275.522 ms[39m
+[35m[39m
+2022-11-08 16:40:52:4052 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:40:52:4052 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 201.476 ms[39m
+[35m[39m
+2022-11-08 16:40:53:4053 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:40:53:4053 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 201.099 ms[39m
+[35m[39m
+2022-11-08 16:40:53:4053 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:40:53:4053 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 197.151 ms[39m
+[35m[39m
+2022-11-08 16:42:52:4252 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:42:52:4252 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 196.386 ms[39m
+[35m[39m
+2022-11-08 16:42:52:4252 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:42:52:4252 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 221.822 ms[39m
+[35m[39m
+2022-11-08 16:42:53:4253 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:42:53:4253 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 201.584 ms[39m
+[35m[39m
+2022-11-08 16:43:06:436 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:43:06:436 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 198.595 ms[39m
+[35m[39m
+2022-11-08 16:43:07:437 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:43:07:437 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 196.494 ms[39m
+[35m[39m
+2022-11-08 16:43:08:438 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:43:08:438 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 201.505 ms[39m
+[35m[39m
+2022-11-08 16:44:36:4436 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:44:36:4436 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 206.204 ms[39m
+[35m[39m
+2022-11-08 16:44:36:4436 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:44:36:4436 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 196.618 ms[39m
+[35m[39m
+2022-11-08 16:44:37:4437 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:44:37:4437 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 214.650 ms[39m
+[35m[39m
+2022-11-08 17:48:56:4856 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 900.974 ms[39m
+[35m[39m
+2022-11-08 17:48:56:4856 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 908.959 ms[39m
+[35m[39m
+2022-11-08 17:49:06:496 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 101.505 ms[39m
+[35m[39m
+2022-11-08 17:49:06:496 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 101.081 ms[39m
+[35m[39m
+2022-11-08 17:50:47:5047 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 17:50:47:5047 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 986.817 ms[39m
+[35m[39m
+2022-11-08 17:50:47:5047 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 17:50:47:5047 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 208.563 ms[39m
+[35m[39m
+2022-11-08 17:50:47:5047 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 17:50:47:5047 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 248.765 ms[39m
+[35m[39m
+2022-11-08 17:55:17:5517 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 17:55:17:5517 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 205.391 ms[39m
+[35m[39m
+2022-11-08 17:55:18:5518 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 17:55:18:5518 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 222.961 ms[39m
+[35m[39m
+2022-11-08 17:55:18:5518 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 17:55:18:5518 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 219.669 ms[39m
+[35m[39m
+2022-11-08 18:20:21:2021 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 18:20:22:2022 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 18:21:02:212 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 18:21:03:213 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 18:23:20:2320 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 18:23:21:2321 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 18:28:20:2820 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 18:28:21:2821 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 18:31:19:3119 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 18:31:20:3120 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 18:39:43:3943 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 18:39:44:3944 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 18:41:07:417 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 106.016 ms[39m
+[35m[39m
+2022-11-08 18:41:07:417 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 107.115 ms[39m
+[35m[39m
+2022-11-08 18:41:09:419 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 101.413 ms[39m
+[35m[39m
+2022-11-08 18:41:09:419 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 100.585 ms[39m
+[35m[39m
+2022-11-08 18:45:11:4511 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 18:45:11:4511 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 214.681 ms[39m
+[35m[39m
+2022-11-08 18:45:11:4511 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 18:45:11:4511 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 198.959 ms[39m
+[35m[39m
+2022-11-08 18:45:12:4512 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 18:45:12:4512 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 204.758 ms[39m
+[35m[39m
+2022-11-08 18:49:21:4921 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 18:49:21:4921 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 202.530 ms[39m
+[35m[39m
+2022-11-08 18:49:21:4921 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 18:49:21:4921 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 196.776 ms[39m
+[35m[39m
+2022-11-08 18:49:21:4921 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 18:49:21:4921 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 213.068 ms[39m
+[35m[39m
+2022-11-08 18:51:07:517 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 18:51:08:518 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 19:01:57:157 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:01:57:157 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 224.528 ms[39m
+[35m[39m
+2022-11-08 19:01:57:157 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:01:57:157 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 219.192 ms[39m
+[35m[39m
+2022-11-08 19:01:57:157 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:01:57:157 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 222.071 ms[39m
+[35m[39m
+2022-11-08 19:04:04:44 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:04:04:44 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 212.904 ms[39m
+[35m[39m
+2022-11-08 19:04:04:44 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:04:04:44 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 209.207 ms[39m
+[35m[39m
+2022-11-08 19:04:04:44 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:04:04:44 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 218.633 ms[39m
+[35m[39m
+2022-11-08 19:11:13:1113 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:11:13:1113 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 208.459 ms[39m
+[35m[39m
+2022-11-08 19:11:14:1114 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:11:14:1114 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 232.012 ms[39m
+[35m[39m
+2022-11-08 19:11:14:1114 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:11:14:1114 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 224.627 ms[39m
+[35m[39m
+2022-11-08 19:13:57:1357 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:13:57:1357 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 244.860 ms[39m
+[35m[39m
+2022-11-08 19:13:57:1357 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:13:57:1357 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 229.843 ms[39m
+[35m[39m
+2022-11-08 19:13:57:1357 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:13:57:1357 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 247.328 ms[39m
+[35m[39m
+2022-11-08 19:16:00:160 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:16:00:160 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 204.622 ms[39m
+[35m[39m
+2022-11-08 19:16:00:160 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:16:00:160 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 236.046 ms[39m
+[35m[39m
+2022-11-08 19:16:00:160 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:16:00:160 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 200.295 ms[39m
+[35m[39m
+2022-11-08 19:16:56:1656 [31merror[39m: [31mupdatedcrop is not defined[39m
+2022-11-08 19:16:56:1656 [35mhttp[39m: [35m::1 GET /api/order/markaspaid/6368a20925c55d34c3cebde7 200 97 - 117.335 ms[39m
+[35m[39m
+2022-11-08 19:21:38:2138 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:21:38:2138 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 2325 - 198.451 ms[39m
+[35m[39m
+2022-11-08 19:21:38:2138 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:21:38:2138 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 201.844 ms[39m
+[35m[39m
+2022-11-08 19:21:38:2138 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:21:38:2138 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 206.054 ms[39m
+[35m[39m
+2022-11-08 19:21:56:2156 [31merror[39m: [31mupdatedcrop is not defined[39m
+2022-11-08 19:21:56:2156 [35mhttp[39m: [35m::1 GET /api/order/markaspaid/6368a20925c55d34c3cebde7 304 - - 103.848 ms[39m
+[35m[39m
+2022-11-08 19:23:25:2325 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 19:23:27:2327 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 19:26:31:2631 [31merror[39m: [31mupdatedcrop is not defined[39m
+2022-11-08 19:26:31:2631 [35mhttp[39m: [35m::1 GET /api/order/markaspaid/63600359cf2131e599d04fed 200 97 - 131.029 ms[39m
+[35m[39m
+2022-11-08 19:26:33:2633 [31merror[39m: [31mupdatedcrop is not defined[39m
+2022-11-08 19:26:33:2633 [35mhttp[39m: [35m::1 GET /api/order/markaspaid/63600359cf2131e599d04fed 304 - - 110.277 ms[39m
+[35m[39m
+2022-11-08 19:27:46:2746 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 19:27:48:2748 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 19:27:51:2751 [35mhttp[39m: [35m::1 GET /api/order/markaspaid/6368a20925c55d34c3cebde7 200 513 - 118.382 ms[39m
+[35m[39m
+2022-11-08 19:27:52:2752 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:27:52:2752 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 2364 - 223.136 ms[39m
+[35m[39m
+2022-11-08 19:28:02:282 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:28:02:282 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 221.589 ms[39m
+[35m[39m
+2022-11-08 19:28:03:283 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:28:03:283 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 217.101 ms[39m
+[35m[39m
+2022-11-08 19:28:03:283 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:28:03:283 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 211.394 ms[39m
+[35m[39m
+2022-11-08 19:28:11:2811 [35mhttp[39m: [35m::1 GET /api/order/markaspaid/6368a20925c55d34c3cebde7 200 513 - 105.352 ms[39m
+[35m[39m
+2022-11-08 19:28:11:2811 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:28:11:2811 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 2364 - 202.838 ms[39m
+[35m[39m
+2022-11-08 19:28:33:2833 [35mhttp[39m: [35m::1 GET /api/order/markaspaid/6368a20925c55d34c3cebde7 200 513 - 113.090 ms[39m
+[35m[39m
+2022-11-08 19:28:33:2833 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:28:33:2833 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 2364 - 203.796 ms[39m
+[35m[39m
+2022-11-08 19:32:23:3223 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 19:32:24:3224 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 19:32:30:3230 [35mhttp[39m: [35m::1 GET /api/order/markaspaid/6368a20925c55d34c3cebde7 200 513 - 116.188 ms[39m
+[35m[39m
+2022-11-08 19:32:30:3230 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:32:30:3230 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 2361 - 207.748 ms[39m
+[35m[39m
+2022-11-08 19:34:49:3449 [35mhttp[39m: [35m::1 GET /api/order/undorejectedorder/6368a20925c55d34c3cebde7 200 510 - 106.510 ms[39m
+[35m[39m
+2022-11-08 19:34:49:3449 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:34:49:3449 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 2361 - 200.857 ms[39m
+[35m[39m
+2022-11-08 19:34:57:3457 [35mhttp[39m: [35m::1 GET /api/order/undorejectedorder/63600359cf2131e599d04fed 200 508 - 114.410 ms[39m
+[35m[39m
+2022-11-08 19:34:57:3457 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:34:57:3457 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 2361 - 219.828 ms[39m
+[35m[39m
+2022-11-08 19:36:12:3612 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:36:12:3612 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 200.785 ms[39m
+[35m[39m
+2022-11-08 19:36:12:3612 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:36:12:3612 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 199.784 ms[39m
+[35m[39m
+2022-11-08 19:36:12:3612 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:36:12:3612 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 198.310 ms[39m
+[35m[39m
+2022-11-08 19:36:23:3623 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:36:23:3623 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 210.747 ms[39m
+[35m[39m
+2022-11-08 19:36:23:3623 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:36:23:3623 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 200.024 ms[39m
+[35m[39m
+2022-11-08 19:36:23:3623 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:36:23:3623 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 197.786 ms[39m
+[35m[39m
+2022-11-08 19:37:19:3719 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:37:19:3719 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 197.827 ms[39m
+[35m[39m
+2022-11-08 19:37:19:3719 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:37:19:3719 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 201.897 ms[39m
+[35m[39m
+2022-11-08 19:37:19:3719 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:37:19:3719 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 197.189 ms[39m
+[35m[39m
+2022-11-08 19:37:34:3734 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:37:34:3734 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 200.272 ms[39m
+[35m[39m
+2022-11-08 19:37:34:3734 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:37:34:3734 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 203.984 ms[39m
+[35m[39m
+2022-11-08 19:37:34:3734 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:37:34:3734 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 218.316 ms[39m
+[35m[39m
+2022-11-08 19:37:37:3737 [35mhttp[39m: [35m::1 GET /api/order/undorejectedorder/6368a20925c55d34c3cebde7 200 510 - 122.969 ms[39m
+[35m[39m
+2022-11-08 19:37:37:3737 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:37:37:3737 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 2361 - 320.866 ms[39m
+[35m[39m
+2022-11-08 19:37:58:3758 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:37:58:3758 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 197.049 ms[39m
+[35m[39m
+2022-11-08 19:37:58:3758 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:37:58:3758 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 197.493 ms[39m
+[35m[39m
+2022-11-08 19:37:58:3758 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:37:58:3758 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 199.915 ms[39m
+[35m[39m
+2022-11-08 19:38:04:384 [35mhttp[39m: [35m::1 GET /api/order/undorejectedorder/63600359cf2131e599d04fed 200 508 - 104.589 ms[39m
+[35m[39m
+2022-11-08 19:38:04:384 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:38:04:384 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 2361 - 197.932 ms[39m
+[35m[39m
+2022-11-08 19:38:35:3835 [35mhttp[39m: [35m::1 GET /api/order/markaspaid/6368a20925c55d34c3cebde7 200 510 - 104.518 ms[39m
+[35m[39m
+2022-11-08 19:38:35:3835 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:38:35:3835 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 2361 - 203.428 ms[39m
+[35m[39m
+2022-11-08 19:38:43:3843 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:38:43:3843 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 199.647 ms[39m
+[35m[39m
+2022-11-08 19:38:43:3843 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:38:43:3843 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 210.796 ms[39m
+[35m[39m
+2022-11-08 19:38:44:3844 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:38:44:3844 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 204.674 ms[39m
+[35m[39m
+2022-11-08 19:41:34:4134 [35mhttp[39m: [35m::1 GET /api/order/undorejectedorder/63600359cf2131e599d04fed 200 508 - 121.295 ms[39m
+[35m[39m
+2022-11-08 19:41:34:4134 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:41:34:4134 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 2361 - 199.777 ms[39m
+[35m[39m
+2022-11-08 19:41:37:4137 [35mhttp[39m: [35m::1 GET /api/order/undorejectedorder/63600359cf2131e599d04fed 200 508 - 102.278 ms[39m
+[35m[39m
+2022-11-08 19:41:38:4138 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:41:38:4138 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 2361 - 202.406 ms[39m
+[35m[39m
+2022-11-08 19:41:50:4150 [35mhttp[39m: [35m::1 GET /api/order/markaspaid/63600359cf2131e599d04fed 200 508 - 106.444 ms[39m
+[35m[39m
+2022-11-08 19:41:50:4150 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:41:50:4150 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 2361 - 215.871 ms[39m
+[35m[39m
+2022-11-08 19:43:04:434 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:43:04:434 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 201.767 ms[39m
+[35m[39m
+2022-11-08 19:43:05:435 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:43:05:435 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 195.787 ms[39m
+[35m[39m
+2022-11-08 19:43:05:435 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:43:05:435 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 197.183 ms[39m
+[35m[39m
+2022-11-08 19:44:58:4458 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:44:58:4458 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 2361 - 197.412 ms[39m
+[35m[39m
+2022-11-08 19:47:27:4727 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 19:47:28:4728 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 19:47:30:4730 [35mhttp[39m: [35m::1 GET /api/order/undorejectedorder/6368a20925c55d34c3cebde7 200 510 - 117.256 ms[39m
+[35m[39m
+2022-11-08 19:47:30:4730 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:47:30:4730 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 2361 - 222.574 ms[39m
+[35m[39m
+2022-11-08 19:47:40:4740 [35mhttp[39m: [35m::1 GET /api/order/undorejectedorder/6368a20925c55d34c3cebde7 200 510 - 119.193 ms[39m
+[35m[39m
+2022-11-08 19:47:41:4741 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:47:41:4741 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 2361 - 207.459 ms[39m
+[35m[39m
+2022-11-08 19:48:44:4844 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:48:44:4844 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 203.291 ms[39m
+[35m[39m
+2022-11-08 19:48:44:4844 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:48:44:4844 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 206.209 ms[39m
+[35m[39m
+2022-11-08 19:48:45:4845 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:48:45:4845 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 204.523 ms[39m
+[35m[39m
+2022-11-08 19:48:48:4848 [35mhttp[39m: [35m::1 GET /api/order/markasrejected/63600359cf2131e599d04fed 200 509 - 113.054 ms[39m
+[35m[39m
+2022-11-08 19:48:49:4849 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:48:49:4849 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 1206 - 205.560 ms[39m
+[35m[39m
+2022-11-08 19:49:05:495 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:49:05:495 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 205.416 ms[39m
+[35m[39m
+2022-11-08 19:49:05:495 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:49:05:495 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 208.939 ms[39m
+[35m[39m
+2022-11-08 19:49:05:495 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:49:05:495 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 201.120 ms[39m
+[35m[39m
+2022-11-08 19:49:16:4916 [35mhttp[39m: [35m::1 GET /api/order/markasrejected/6368a20925c55d34c3cebde7 200 511 - 130.323 ms[39m
+[35m[39m
+2022-11-08 19:49:16:4916 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:49:16:4916 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 50 - 98.635 ms[39m
+[35m[39m
+2022-11-08 19:49:21:4921 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:49:21:4921 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 101.450 ms[39m
+[35m[39m
+2022-11-08 19:49:21:4921 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:49:21:4921 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 99.622 ms[39m
+[35m[39m
+2022-11-08 19:49:21:4921 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:49:21:4921 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 119.644 ms[39m
+[35m[39m
+2022-11-08 19:50:13:5013 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:50:13:5013 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 50 - 97.974 ms[39m
+[35m[39m
+2022-11-08 19:51:25:5125 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 19:51:27:5127 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 19:51:28:5128 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:51:28:5128 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 4606 - 290.277 ms[39m
+[35m[39m
+2022-11-08 19:51:38:5138 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:51:38:5138 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 4606 - 208.058 ms[39m
+[35m[39m
+2022-11-08 19:51:38:5138 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:51:38:5138 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 206.530 ms[39m
+[35m[39m
+2022-11-08 19:51:39:5139 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:51:39:5139 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 201.815 ms[39m
+[35m[39m
+2022-11-08 19:55:11:5511 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 99.524 ms[39m
+[35m[39m
+2022-11-08 19:55:11:5511 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 102.319 ms[39m
+[35m[39m
+2022-11-08 19:55:14:5514 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:55:14:5514 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 4379 - 199.971 ms[39m
+[35m[39m
+2022-11-08 19:55:14:5514 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:55:14:5514 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 202.083 ms[39m
+[35m[39m
+2022-11-08 19:55:14:5514 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:55:14:5514 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 198.261 ms[39m
+[35m[39m
+2022-11-08 19:55:24:5524 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:55:24:5524 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 199.856 ms[39m
+[35m[39m
+2022-11-08 19:55:24:5524 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:55:24:5524 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 202.362 ms[39m
+[35m[39m
+2022-11-08 19:55:24:5524 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:55:24:5524 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 204.393 ms[39m
+[35m[39m
+2022-11-08 19:55:35:5535 [35mhttp[39m: [35m::1 GET /api/order/undorejectedorder/6368fd1a25c55d34c3cebdf8 200 472 - 114.901 ms[39m
+[35m[39m
+2022-11-08 19:55:35:5535 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:55:35:5535 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 4415 - 199.755 ms[39m
+[35m[39m
+2022-11-08 19:57:59:5759 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 19:58:01:581 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 19:58:07:587 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:58:07:587 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 3522 - 223.406 ms[39m
+[35m[39m
+2022-11-08 19:58:07:587 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:58:07:587 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 203.962 ms[39m
+[35m[39m
+2022-11-08 19:58:07:587 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:58:07:587 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 209.854 ms[39m
+[35m[39m
+2022-11-08 19:58:21:5821 [35mhttp[39m: [35m::1 GET /api/order/markaspaid/6368fd1a25c55d34c3cebdf8 200 518 - 112.051 ms[39m
+[35m[39m
+2022-11-08 19:58:21:5821 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:58:21:5821 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 3522 - 199.673 ms[39m
+[35m[39m
+2022-11-08 19:59:06:596 [35mhttp[39m: [35m::1 GET /api/order/markaspaid/6368fd1a25c55d34c3cebdf8 200 518 - 106.652 ms[39m
+[35m[39m
+2022-11-08 19:59:06:596 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:59:06:596 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 3522 - 203.210 ms[39m
+[35m[39m
+2022-11-08 19:59:25:5925 [35mhttp[39m: [35m::1 GET /api/order/markaspaid/6368fd1a25c55d34c3cebdf8 200 518 - 102.572 ms[39m
+[35m[39m
+2022-11-08 19:59:25:5925 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 19:59:25:5925 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 3522 - 200.573 ms[39m
+[35m[39m
+2022-11-08 20:00:27:027 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:00:27:027 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 199.962 ms[39m
+[35m[39m
+2022-11-08 20:00:27:027 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:00:27:027 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 197.516 ms[39m
+[35m[39m
+2022-11-08 20:00:27:027 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:00:27:027 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 197.542 ms[39m
+[35m[39m
+2022-11-08 20:00:37:037 [35mhttp[39m: [35m::1 GET /api/order/undorejectedorder/6368a20925c55d34c3cebde7 200 513 - 103.025 ms[39m
+[35m[39m
+2022-11-08 20:00:37:037 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:00:37:037 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 3519 - 197.525 ms[39m
+[35m[39m
+2022-11-08 20:00:47:047 [35mhttp[39m: [35m::1 GET /api/order/markasdelivered/6368fd1a25c55d34c3cebdf8 200 518 - 114.095 ms[39m
+[35m[39m
+2022-11-08 20:00:47:047 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:00:47:047 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 3519 - 224.695 ms[39m
+[35m[39m
+2022-11-08 20:01:01:11 [35mhttp[39m: [35m::1 GET /api/order/markasdelivered/6368fd1a25c55d34c3cebdf8 200 518 - 104.873 ms[39m
+[35m[39m
+2022-11-08 20:01:01:11 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:01:01:11 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 3519 - 206.107 ms[39m
+[35m[39m
+2022-11-08 20:01:26:126 [35mhttp[39m: [35m::1 GET /api/order/markasdelivered/6368fd1a25c55d34c3cebdf8 200 518 - 215.348 ms[39m
+[35m[39m
+2022-11-08 20:01:26:126 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:01:26:126 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 3519 - 405.690 ms[39m
+[35m[39m
+2022-11-08 20:03:07:37 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:03:07:37 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 209.468 ms[39m
+[35m[39m
+2022-11-08 20:03:07:37 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:03:07:37 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 226.731 ms[39m
+[35m[39m
+2022-11-08 20:03:07:37 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:03:07:37 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 202.506 ms[39m
+[35m[39m
+2022-11-08 20:03:08:38 [35mhttp[39m: [35m::1 GET /api/order/markasdelivered/6368a20925c55d34c3cebde7 200 520 - 878.780 ms[39m
+[35m[39m
+2022-11-08 20:03:08:38 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:03:08:38 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 3519 - 204.562 ms[39m
+[35m[39m
+2022-11-08 20:03:14:314 [35mhttp[39m: [35m::1 GET /api/order/markasdelivered/6368fd1a25c55d34c3cebdf8 200 518 - 104.049 ms[39m
+[35m[39m
+2022-11-08 20:03:14:314 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:03:14:314 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 3519 - 258.264 ms[39m
+[35m[39m
+2022-11-08 20:04:21:421 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:04:21:421 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 196.214 ms[39m
+[35m[39m
+2022-11-08 20:04:21:421 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:04:21:421 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 196.049 ms[39m
+[35m[39m
+2022-11-08 20:04:21:421 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:04:21:421 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 197.810 ms[39m
+[35m[39m
+2022-11-08 20:04:22:422 [35mhttp[39m: [35m::1 GET /api/order/markasdelivered/6368fd1a25c55d34c3cebdf8 200 518 - 107.258 ms[39m
+[35m[39m
+2022-11-08 20:04:22:422 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:04:22:422 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 3519 - 205.361 ms[39m
+[35m[39m
+2022-11-08 20:04:25:425 [35mhttp[39m: [35m::1 GET /api/order/markasdelivered/6368fd1a25c55d34c3cebdf8 200 518 - 102.668 ms[39m
+[35m[39m
+2022-11-08 20:04:26:426 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:04:26:426 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 3519 - 202.506 ms[39m
+[35m[39m
+2022-11-08 20:04:44:444 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:04:44:444 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 195.335 ms[39m
+[35m[39m
+2022-11-08 20:04:44:444 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:04:44:444 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 196.266 ms[39m
+[35m[39m
+2022-11-08 20:04:44:444 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:04:44:444 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 196.191 ms[39m
+[35m[39m
+2022-11-08 20:05:13:513 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 20:05:14:514 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 20:05:16:516 [35mhttp[39m: [35m::1 GET /api/order/markasdelivered/6368a20925c55d34c3cebde7 200 520 - 155.044 ms[39m
+[35m[39m
+2022-11-08 20:05:16:516 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:05:16:516 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 3519 - 209.830 ms[39m
+[35m[39m
+2022-11-08 20:05:18:518 [35mhttp[39m: [35m::1 GET /api/order/markasdelivered/6368a20925c55d34c3cebde7 200 520 - 105.355 ms[39m
+[35m[39m
+2022-11-08 20:05:19:519 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 20:05:19:519 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 3519 - 218.921 ms[39m
+[35m[39m
+2022-11-08 20:05:50:550 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 20:05:51:551 [32minfo[39m: [32mConnected to MongoDB...[39m
+>>>>>>> 9a5541748dd2f52235412d2405af57f6f0f64e13
