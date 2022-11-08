@@ -5,10 +5,10 @@ const _ = require('lodash');
 const logger = require("../utils/logger");
 const generateOutput= require('../utils/outputFactory');
 //get pending orders that specific to some certain farmer
-async function getPlaceOrders(req,res) {
+async function getAllOrders(req,res) {
     try {
         
-        let orders = await Orders.find({ $and: [ { 'farmer':req.params.id}, { 'orderStatus':'place' } ] })
+        let orders = await Orders.find({ $in: [ req.params.id  ] })
             .sort({'orderedDate':-1})
             .populate("farmer")
             .populate("buyer")
@@ -55,4 +55,4 @@ async function getRejectedOrders(req,res) {
         res.status(200).send(generateOutput("500","error","error occured while fetching order details"))
     }
 }
-module.exports ={getPlaceOrders,getDeliveredOrders,getRejectedOrders}
+module.exports ={getAllOrders,getDeliveredOrders,getRejectedOrders}

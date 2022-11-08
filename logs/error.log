@@ -1,1 +1,29 @@
 2022-11-07 13:57:04:574 [31merror[39m: [31mObjectId is not defined[39m
+2022-11-07 19:33:58:3358 [31merror[39m: [31mCast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667829833/Farm2Mart/mzb2tpvgh4zsru1slcrv.jpg'\n" +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError"[39m
+2022-11-07 19:34:19:3419 [31merror[39m: [31mCast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667829833/Farm2Mart/mzb2tpvgh4zsru1slcrv.jpg'\n" +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError"[39m
+2022-11-07 19:34:21:3421 [31merror[39m: [31mCast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667829833/Farm2Mart/mzb2tpvgh4zsru1slcrv.jpg'\n" +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError"[39m
+2022-11-07 19:35:17:3517 [31merror[39m: [31mCast to [string] failed for value "[\n' +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667829911/Farm2Mart/eous5flgzvuxjytpeaho.png'\n" +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.0" because of "CastError"[39m
+2022-11-07 19:40:23:4023 [31merror[39m: [31mCast to [string] failed for value "[\n' +[39m
+[31m  "  'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667830172/Farm2Mart/hn8btoy2szylw1deqykf.jpg',\n" +[39m
+[31m  '  {\n' +[39m
+[31m  "    img: 'https://res.cloudinary.com/dnrpcuqvr/image/upload/v1667830218/Farm2Mart/kfb7cqhbijnenzis3m5z.jpg'\n" +[39m
+[31m  '  }\n' +[39m
+[31m  ']" (type string) at path "images.1" because of "CastError"[39m
+2022-11-07 19:49:11:4911 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
+2022-11-07 19:50:21:5021 [31merror[39m: [31mProduct validation failed: images.0: Path `images.0` is required.[39m
