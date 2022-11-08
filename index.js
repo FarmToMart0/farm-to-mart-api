@@ -7,8 +7,9 @@ const morganMiddleware = require("./midlewares/morganMiddleware");
 const logger = require("./utils/logger");
 const app = express();
 const { WebSocketServer } = require("ws") ;
-const server = new WebSocketServer({ port: 3000 });
-
+const server = new WebSocketServer({ port: 4000 });
+//databse connection
+require('./configs/db')();
 //databse connection
 // require('./configs/db')();
 
@@ -28,10 +29,7 @@ app.use(bodyParser.json());
 app.use(express.json());
 
 //end point starting for the farmer routes
-app.post('/',(req,res)=>{
-    console.log("Nuwan")
-    res.send("hii")
-})
+
 app.use('/api/farmer',farmerRouter)
 //end point starting for the auth routes
 app.use('/api/signin',authRouter)
