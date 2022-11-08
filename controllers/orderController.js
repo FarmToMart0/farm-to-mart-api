@@ -103,4 +103,4 @@ async function unDoRejectedOrder(req,res) {
         res.status(200).send(generateOutput("500","error","error occured while undo  rejected order"))
     }   
 }
-module.exports ={getPlaceOrders,getDeliveredOrders,getRejectedOrders,markAsPaid,markAsDelivered,markAsRejected,unDoRejectedOrder}
+module.exports ={getAllOrders,getDeliveredOrders,getRejectedOrders,markAsPaid,markAsDelivered,markAsRejected,unDoRejectedOrder}
