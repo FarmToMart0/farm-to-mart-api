@@ -28,7 +28,6 @@ async function getCompletedMyCropsDetails(req,res) {
 }
 //function for update the ongoing crop task harvest for specific farmer
 async  function updateHarvest(req,res) {
-    console.log(req.body)
     
     const { error } = validateHarvest(req.body); 
     if (error) return res.status(200).send(generateOutput(400,'validation error',error.details[0].message));

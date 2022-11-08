@@ -655,3 +655,158 @@
 2022-11-08 10:53:59:5359 [32minfo[39m: [32mConnected to MongoDB...[39m
 2022-11-08 11:00:45:045 [32minfo[39m: [32mServer is running on port 9000[39m
 2022-11-08 11:00:47:047 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 11:00:59:059 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 11:01:00:10 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 11:03:19:319 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 103.635 ms[39m
+[35m[39m
+2022-11-08 11:03:19:319 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 111.599 ms[39m
+[35m[39m
+2022-11-08 11:03:21:321 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 105.237 ms[39m
+[35m[39m
+2022-11-08 11:03:21:321 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 103.445 ms[39m
+[35m[39m
+2022-11-08 11:03:22:322 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 11:03:22:322 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 2286 - 216.980 ms[39m
+[35m[39m
+2022-11-08 11:03:22:322 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 11:03:22:322 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 203.956 ms[39m
+[35m[39m
+2022-11-08 11:03:22:322 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 11:03:22:322 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 210.313 ms[39m
+[35m[39m
+2022-11-08 11:07:22:722 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 316.503 ms[39m
+[35m[39m
+2022-11-08 11:19:12:1912 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 47.278 ms[39m
+[35m[39m
+2022-11-08 16:15:35:1535 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 47.905 ms[39m
+[35m[39m
+2022-11-08 16:15:43:1543 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 46.447 ms[39m
+[35m[39m
+2022-11-08 16:15:56:1556 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 46.572 ms[39m
+[35m[39m
+2022-11-08 16:16:52:1652 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 55.378 ms[39m
+[35m[39m
+2022-11-08 16:17:05:175 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 55.698 ms[39m
+[35m[39m
+2022-11-08 16:17:18:1718 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 46.688 ms[39m
+[35m[39m
+2022-11-08 16:17:59:1759 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 45.690 ms[39m
+[35m[39m
+2022-11-08 16:18:07:187 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 45.785 ms[39m
+[35m[39m
+2022-11-08 16:18:40:1840 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 45.976 ms[39m
+[35m[39m
+2022-11-08 16:18:48:1848 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 46.140 ms[39m
+[35m[39m
+2022-11-08 16:18:58:1858 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 45.067 ms[39m
+[35m[39m
+2022-11-08 16:19:12:1912 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 73.899 ms[39m
+[35m[39m
+2022-11-08 16:19:29:1929 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 45.459 ms[39m
+[35m[39m
+2022-11-08 16:19:53:1953 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 47.170 ms[39m
+[35m[39m
+2022-11-08 16:22:03:223 [35mhttp[39m: [35m::1 POST /api/bidding/setbid 200 18 - 45.487 ms[39m
+[35m[39m
+2022-11-08 16:27:00:270 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 101.015 ms[39m
+[35m[39m
+2022-11-08 16:27:45:2745 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 44746.272 ms[39m
+[35m[39m
+2022-11-08 16:27:45:2745 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 99.960 ms[39m
+[35m[39m
+2022-11-08 16:27:45:2745 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 100.444 ms[39m
+[35m[39m
+2022-11-08 16:27:45:2745 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 102.372 ms[39m
+[35m[39m
+2022-11-08 16:27:45:2745 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 99.483 ms[39m
+[35m[39m
+2022-11-08 16:27:45:2745 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 101.517 ms[39m
+[35m[39m
+2022-11-08 16:27:45:2745 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 106.099 ms[39m
+[35m[39m
+2022-11-08 16:27:46:2746 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:27:46:2746 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 1029.568 ms[39m
+[35m[39m
+2022-11-08 16:27:46:2746 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:27:46:2746 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 219.933 ms[39m
+[35m[39m
+2022-11-08 16:27:47:2747 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:27:47:2747 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 205.345 ms[39m
+[35m[39m
+2022-11-08 16:35:35:3535 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:35:35:3535 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 209.343 ms[39m
+[35m[39m
+2022-11-08 16:35:35:3535 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:35:35:3535 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 199.247 ms[39m
+[35m[39m
+2022-11-08 16:35:35:3535 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:35:35:3535 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 275.522 ms[39m
+[35m[39m
+2022-11-08 16:40:52:4052 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:40:52:4052 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 201.476 ms[39m
+[35m[39m
+2022-11-08 16:40:53:4053 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:40:53:4053 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 201.099 ms[39m
+[35m[39m
+2022-11-08 16:40:53:4053 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:40:53:4053 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 197.151 ms[39m
+[35m[39m
+2022-11-08 16:42:52:4252 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:42:52:4252 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 196.386 ms[39m
+[35m[39m
+2022-11-08 16:42:52:4252 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:42:52:4252 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 221.822 ms[39m
+[35m[39m
+2022-11-08 16:42:53:4253 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:42:53:4253 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 201.584 ms[39m
+[35m[39m
+2022-11-08 16:43:06:436 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:43:06:436 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 198.595 ms[39m
+[35m[39m
+2022-11-08 16:43:07:437 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:43:07:437 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 196.494 ms[39m
+[35m[39m
+2022-11-08 16:43:08:438 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:43:08:438 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 201.505 ms[39m
+[35m[39m
+2022-11-08 16:44:36:4436 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:44:36:4436 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 206.204 ms[39m
+[35m[39m
+2022-11-08 16:44:36:4436 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:44:36:4436 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 196.618 ms[39m
+[35m[39m
+2022-11-08 16:44:37:4437 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 16:44:37:4437 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 214.650 ms[39m
+[35m[39m
+2022-11-08 17:48:56:4856 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 900.974 ms[39m
+[35m[39m
+2022-11-08 17:48:56:4856 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 908.959 ms[39m
+[35m[39m
+2022-11-08 17:49:06:496 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 101.505 ms[39m
+[35m[39m
+2022-11-08 17:49:06:496 [35mhttp[39m: [35m::1 GET /api/product/getproduct 304 - - 101.081 ms[39m
+[35m[39m
+2022-11-08 17:50:47:5047 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 17:50:47:5047 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 986.817 ms[39m
+[35m[39m
+2022-11-08 17:50:47:5047 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 17:50:47:5047 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 208.563 ms[39m
+[35m[39m
+2022-11-08 17:50:47:5047 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 17:50:47:5047 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 248.765 ms[39m
+[35m[39m
+2022-11-08 17:55:17:5517 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 17:55:17:5517 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 205.391 ms[39m
+[35m[39m
+2022-11-08 17:55:18:5518 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 17:55:18:5518 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 222.961 ms[39m
+[35m[39m
+2022-11-08 17:55:18:5518 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-08 17:55:18:5518 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 219.669 ms[39m
+[35m[39m
+2022-11-08 18:20:21:2021 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 18:20:22:2022 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 18:21:02:212 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 18:21:03:213 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-08 18:23:20:2320 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-08 18:23:21:2321 [32minfo[39m: [32mConnected to MongoDB...[39m
