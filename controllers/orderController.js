@@ -8,7 +8,7 @@ const generateOutput= require('../utils/outputFactory');
 async function getPlaceOrders(req,res) {
     try {
         
-        let orders = await Orders.find({ $and: [ { 'farmer':req.params.id}, { 'orderStatus':'place' } ] })
+        let orders = await Orders.find( { 'farmer':req.params.id})
             .sort({'orderedDate':-1})
             .populate("farmer")
             .populate("buyer")
@@ -59,38 +59,48 @@ async function getRejectedOrders(req,res) {
 //function for update the payment details
 async function markAsPaid(req,res) {
     try {
-        let updatedorder = await Orders.findByIdAndUpdate(req.params.id,"paid")
-        if (!updatedcrop) return res.status(200).send(generateOutput(404,'not found','The order with the given ID was not found.'));
-        res.status(200).send(generateOutput(201,'order successfully updated',updatedorder));
+        let updatedorder = await Orders.findByIdAndUpdate(req.params.id,{paymentStatus:"paid"})
+        if (!updatedorder) return res.status(200).send(generateOutput(404,'not found','The order with the given ID was not found.'));
+        res.status(200).send(generateOutput(201,'payment status  successfully updated',updatedorder));
     } catch (error) {
         logger.error(error)
         res.status(200).send(generateOutput("500","error","error occured while updating order paymet details"))
-    }
-    
+    }   
 }
 //function for update the delivery status
 async function markAsDelivered(req,res) {
     try {
-        let updatedorder = await Orders.findByIdAndUpdate(req.params.id,"delivered")
-        if (!updatedcrop) return res.status(200).send(generateOutput(404,'not found','The order with the given ID was not found.'));
-        res.status(200).send(generateOutput(201,'order successfully updated',updatedorder));
+        let updatedorder = await Orders.findByIdAndUpdate(req.params.id,{orderStatus:"delivered"})
+       
+        if (!updatedorder) return res.status(200).send(generateOutput(404,'not found','The order with the given ID was not found.'));
+        res.status(200).send(generateOutput(201,'Delivery status successfully updated',updatedorder));
     } catch (error) {
         logger.error(error)
         res.status(200).send(generateOutput("500","error","error occured while updating order delivery status"))
-    }
-    
+    }  
 }
 //function for update the rejected status
 
 async function markAsRejected(req,res) {
     try {
-        let updatedorder = await Orders.findByIdAndUpdate(req.params.id,"rejected")
-        if (!updatedcrop) return res.status(200).send(generateOutput(404,'not found','The order with the given ID was not found.'));
-        res.status(200).send(generateOutput(201,'order successfully updated',updatedorder));
+        
+        let updatedorder = await Orders.findByIdAndUpdate(req.params.id,{orderStatus:"rejected"})
+        
+        if (!updatedorder) return res.status(200).send(generateOutput(404,'not found','The order with the given ID was not found.'));
+        res.status(200).send(generateOutput(201,'order successfully rejected',updatedorder));
     } catch (error) {
         logger.error(error)
         res.status(200).send(generateOutput("500","error","error occured while updating order rejected details"))
-    }
-    
+    }    
 }
-module.exports ={getPlaceOrders,getDeliveredOrders,getRejectedOrders,markAsPaid,markAsDelivered,markAsRejected}
+async function unDoRejectedOrder(req,res) {
+    try {
+        let updatedorder = await Orders.findByIdAndUpdate(req.params.id,{orderStatus:"place"})
+        if (!updatedorder) return res.status(200).send(generateOutput(404,'not found','The order with the given ID was not found.'));
+        res.status(200).send(generateOutput(201,'order successfully updated',updatedorder));
+    } catch (error) {
+        logger.error(error)
+        res.status(200).send(generateOutput("500","error","error occured while undo  rejected order"))
+    }   
+}
+module.exports ={getPlaceOrders,getDeliveredOrders,getRejectedOrders,markAsPaid,markAsDelivered,markAsRejected,unDoRejectedOrder}
