@@ -31,7 +31,7 @@ let userDetails=null;
   if (!validPassword) return res.status(200).send(generateOutput(400,'not exist',"Invalid Username or Password"));
 if (userDetails) {
     const token = user.generateAuthToken();
-    return res.status(200).send(generateOutput(201,'token',{'token':token,'userRole':user.userRole,'firstName':userDetails.firstName,'lastName':userDetails.lastName}));
+    return res.status(200).send(generateOutput(201,'token',{'token':token,'userRole':user?.userRole,'firstName':userDetails?.firstName,'lastName':userDetails?.lastName,address:userDetails?.address,district:userDetails?.district,gsdCode:userDetails?.gsdCode,gsdZone:userDetails?.gsdName,nic:userDetails?.nic,phone:userDetails?.phone,city:userDetails?.city}));
 }else{
    return  res.status(200).send(generateOutput(400,'details not availble','details not availble'));
 } 
