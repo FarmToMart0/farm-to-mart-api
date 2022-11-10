@@ -11,5 +11,8 @@ router.get('/getmycrops/:nic',myCropsController.getOnGoingMyCropsDetails)
 router.get('/getcompletedmycrops/:nic',myCropsController.getCompletedMyCropsDetails)
 ////router for the update crop task for certain farmer
 router.put('/updateharvest/:id',myCropsController.updateHarvest)
-  
+//router for gettting the harvest amount details
+router.get('/harvestdetails/:district/:crop',myCropsController.getHaverstedDetails);
+//router for getting top harveted crops in some district in some year
+router.get('/topharvestedcrops/:district/:year',myCropsController.getTopHarvestedCropDetails);
 module.exports = router; 

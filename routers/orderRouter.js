@@ -7,4 +7,5 @@ router.get('/markaspaid/:id',orderController.markAsPaid);
 router.get('/markasdelivered/:id',orderController.markAsDelivered);
 router.get('/markasrejected/:id',orderController.markAsRejected);
 router.get('/undorejectedorder/:id',orderController.unDoRejectedOrder);
+
 module.exports = router; 
