@@ -18,6 +18,12 @@ const Product = mongoose.model('Product', new mongoose.Schema({
     required:true,
    
   },
+  farmer:{
+    type: mongoose.Schema.Types.ObjectId,
+    required:true,
+    ref: "Farmer",
+    
+},
   remainQuantity:{
     type:Number,
     required:true,
@@ -61,6 +67,7 @@ function validateProduct(product) {
     productName: Joi.string().required(),
     quantity: Joi.any().required(),
     unitPrice: Joi.any().required(),
+    farmer:Joi.object().required(),
     description: Joi.string().required(),
     initialBid:Joi.any().required(),
     deliveryOption:Joi.array().items(Joi.string()).min(1).required(),

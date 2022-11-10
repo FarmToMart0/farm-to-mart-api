@@ -3,3 +3,6 @@
 2022-11-08 19:21:56:2156 [31merror[39m: [31mupdatedcrop is not defined[39m
 2022-11-08 19:26:31:2631 [31merror[39m: [31mupdatedcrop is not defined[39m
 2022-11-08 19:26:33:2633 [31merror[39m: [31mupdatedcrop is not defined[39m
+2022-11-10 18:47:38:4738 [31merror[39m: [31mISODate is not defined[39m
+2022-11-10 19:27:39:2739 [31merror[39m: [31munknown operator: $expr[39m
+2022-11-10 19:57:09:579 [31merror[39m: [31munknown operator: $glt[39m

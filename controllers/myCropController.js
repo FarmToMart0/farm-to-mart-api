@@ -3,7 +3,8 @@ const mongoose = require('mongoose');
 const {MyCrops,validateHarvest} = require('../models/MyCrops/index');
 const _ = require('lodash');
 const logger = require("../utils/logger");
-const generateOutput= require('../utils/outputFactory')
+const generateOutput= require('../utils/outputFactory');
+const { async } = require('@firebase/util');
 //function for get the ongoing crop task for specific farmer
 async function getOnGoingMyCropsDetails(req,res) {
     try {
@@ -48,7 +49,16 @@ async function getHaverstedDetails(req,res) {
     var cropType  = req.params.crop;
     try {
         var harvestDetails = await MyCrops.aggregate([
-            {$match: {district:{$eq:district}, cropType:{$eq:cropType}}},
+            {$match:{$and: [
+                {
+                    district:{$eq:district}
+                },
+                {
+                    cropType:{$eq:cropType}
+                }
+              ],
+              }},
+           
             {$group:{
                 _id: { year: { $year: "$harvestedDate" }},
                 totalHarvest: { $sum: "$harvestedAmount" },
@@ -86,4 +96,47 @@ async  function  getTopHarvestedCropDetails(req,res) {
         return res.status(200).send(generateOutput(500,"success","Error occured while getting harvetsted data"))
     }
 }
-module.exports ={getOnGoingMyCropsDetails,updateHarvest,getCompletedMyCropsDetails,getHaverstedDetails,getTopHarvestedCropDetails}
+
+async function getCropTypes(req,res) {
+    try {
+        var croptypes = await MyCrops.distinct('cropType')
+        return res.status(200).send(generateOutput(201,"success",croptypes))
+    } catch (error) {
+        logger.error(error)
+        return res.status(200).send(generateOutput(500,"success","Error occured while getting unique crops"))
+    }
+    
+}
+//function for getting the group by total yeilds based on categories
+async function getAverageCropCategoryDetails(req,res) {
+    var year = req.params.year;
+    var district = req.params.district;
+    try {
+        var averageCategoryDetaills = await MyCrops.aggregate([
+            { $addFields: {stringDate: { $dateToString: { format: "%Y-%m-%d", date: "$harvestedDate" } } } },
+            {$match:{$and: [
+                {
+                    district:{$eq:district}
+                },
+                {
+                    status:{$eq:"completed"}
+                },
+                {"stringDate":{$gte:"2022-01-01"} },
+                {"stringDate":{$lt:"2022-12-31"} }
+              ],
+              }},
+            {$group:{
+                _id:  "$category",
+                totalHarvest: { $sum: "$harvestedAmount" },
+                
+            }
+        }
+        
+        ])
+        return res.status(200).send(generateOutput(201,"success",averageCategoryDetaills))
+    } catch (error) {
+        logger.error(error)
+        return res.status(200).send(generateOutput(500,"success","Error occured while getting crop category average"))
+    }
+}
+module.exports ={getOnGoingMyCropsDetails,updateHarvest,getCompletedMyCropsDetails,getHaverstedDetails,getTopHarvestedCropDetails,getCropTypes,getAverageCropCategoryDetails}
