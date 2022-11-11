@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const app = express();
 const { WebSocketServer } = require("ws") ;
-const server = new WebSocketServer({ port: 3000 });
+
 
 //databse connection
 // require('./configs/db')();
