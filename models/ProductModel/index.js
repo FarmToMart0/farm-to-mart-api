@@ -1,6 +1,6 @@
 const Joi = require('joi');
 const mongoose = require('mongoose');
-
+//Schema defines for products
 const Product = mongoose.model('Product', new mongoose.Schema({
 
   category: {
@@ -18,6 +18,23 @@ const Product = mongoose.model('Product', new mongoose.Schema({
     required:true,
    
   },
+  farmer:{
+    type: mongoose.Schema.Types.ObjectId,
+    required:true,
+    ref: "Farmer",
+    
+},
+  remainQuantity:{
+    type:Number,
+    required:true,
+   
+  },
+  date: { type: Date, default: Date.now },
+  description:{
+    type:String,
+    required:true,
+   
+  },
   unitPrice: {
     type: Number,
     required: true,
@@ -28,47 +45,39 @@ const Product = mongoose.model('Product', new mongoose.Schema({
     required: true,
     
   },
-  deliveryOption:{
-    type: Array,
-    required: true,
-    
-  },
-  paymentOption:{
-    type: String,
-    required: true,
-    
-  },
+  deliveryOption:[{type:String,required:true}],
+  paymentOption:[{type:String,required:true}],
   biddingEnable:{
-    type: String,
+    type: Boolean,
     required: true,
-    minlength: 10,
-    maxlength: 13
+   
   },
-  images:{
-    type: String,
-    required: true,
-    minlength: 10,
-    maxlength: 13
-  },
+  
+  images:[{type:String,required:true}],
 
+},
+{
+  timestamps: true,
 }));
-
-function validateFarmer(farmer) {
-  const schema = {
+//validation function for create product
+function validateProduct(product) {
+  const schema =  Joi.object({
+    category: Joi.string().required(),
+    remainQuantity:Joi.any().required(),
+    productName: Joi.string().required(),
+    quantity: Joi.any().required(),
+    unitPrice: Joi.any().required(),
+    farmer:Joi.object().required(),
+    description: Joi.string().required(),
+    initialBid:Joi.any().required(),
+    deliveryOption:Joi.array().items(Joi.string()).min(1).required(),
+    paymentOption:Joi.array().items(Joi.string()).min(1).required(),
+    biddingEnable:Joi.boolean().required(),
    
-    firstName: Joi.string().min(5).max(50).required(),
-    address: Joi.string().min(5).max(150).required(),
-    lastName: Joi.string().min(5).max(50).required(),
-    phone: Joi.string().min(5).max(50).required(),
-    district:Joi.string().required(),
-    gsdName:Joi.string().required(),
-    gsdCode:Joi.string().required(),
-    nic:Joi.string().min(10).max(13).required(),
-   
-  };
-
-  return Joi.valid(farmer, schema);
+  });
+ 
+  return schema.validate(product);
 }
 
-exports.Farmer = Farmer; 
-exports.validate = validateFarmer;
+exports.Product = Product; 
+exports.validate = validateProduct;

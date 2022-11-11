@@ -1,5 +1,6 @@
 const Joi = require('joi');
 const mongoose = require('mongoose');
+//Schema defines for buyer
 const Buyer = mongoose.model('Buyer', new mongoose.Schema({
 
   firstName: {
@@ -35,10 +36,14 @@ const Buyer = mongoose.model('Buyer', new mongoose.Schema({
     maxlength: 13
   },
 
+},{
+  timestamps: true,
 }));
 
+
+//validation function for create buyer
 function validateBuyer(buyer) {
-  const schema = {
+  const schema =Joi.object( {
    
     firstName: Joi.string().min(5).max(50).required(),
     address: Joi.string().min(5).max(150).required(),
@@ -46,9 +51,9 @@ function validateBuyer(buyer) {
     phone: Joi.string().min(5).max(50).required(),
     nic:Joi.string().min(10).max(13).required(),
    
-  };
+  });
 
-  return Joi.valid(buyer, schema);
+  return schema.validate(buyer);
 }
 
 exports.Buyer = Buyer; 
