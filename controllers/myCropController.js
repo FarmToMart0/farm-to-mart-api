@@ -58,15 +58,17 @@ async function getHaverstedDetails(req,res) {
                 }
               ],
               }},
-           
+             
             {$group:{
                 _id: { year: { $year: "$harvestedDate" }},
                 totalHarvest: { $sum: "$harvestedAmount" },
                 totalExpected: { $sum: "$expectedAmount" },
                 totalLand:{ $sum: "$landArea" }
-            }
-        }
-        ])
+            },
+            
+        },
+        
+        ]).sort({'_id.year':-1})
         return res.status(200).send(generateOutput(201,"success",harvestDetails))
     } catch (error) {
         logger.error(error)
@@ -107,6 +109,17 @@ async function getCropTypes(req,res) {
     }
     
 }
+async function getDistrict(req,res) {
+    try {
+        var district = await MyCrops.distinct('district')
+        return res.status(200).send(generateOutput(201,"success",district))
+    } catch (error) {
+        logger.error(error)
+        return res.status(200).send(generateOutput(500,"success","Error occured while getting unique district"))
+    }
+    
+}
+
 //function for getting the group by total yeilds based on categories
 async function getAverageCropCategoryDetails(req,res) {
     var year = req.params.year;
@@ -139,4 +152,4 @@ async function getAverageCropCategoryDetails(req,res) {
         return res.status(200).send(generateOutput(500,"success","Error occured while getting crop category average"))
     }
 }
-module.exports ={getOnGoingMyCropsDetails,updateHarvest,getCompletedMyCropsDetails,getHaverstedDetails,getTopHarvestedCropDetails,getCropTypes,getAverageCropCategoryDetails}
+module.exports ={getOnGoingMyCropsDetails,updateHarvest,getCompletedMyCropsDetails,getHaverstedDetails,getTopHarvestedCropDetails,getCropTypes,getAverageCropCategoryDetails,getDistrict}

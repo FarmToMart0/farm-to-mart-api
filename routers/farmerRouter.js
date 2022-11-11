@@ -19,4 +19,7 @@ router.get('/topharvestedcrops/:district/:year',myCropsController.getTopHarveste
 router.get('/uniquecrops',myCropsController.getCropTypes);
 //router for getting crop category average
 router.get('/averagecropcategory/:district/:year',myCropsController.getAverageCropCategoryDetails);
+//router for getting unique district names
+router.get('/uniquedistrict',myCropsController.getDistrict);
+
 module.exports = router; 

@@ -6,3 +6,16 @@
 2022-11-10 18:47:38:4738 [31merror[39m: [31mISODate is not defined[39m
 2022-11-10 19:27:39:2739 [31merror[39m: [31munknown operator: $expr[39m
 2022-11-10 19:57:09:579 [31merror[39m: [31munknown operator: $glt[39m
+2022-11-10 23:12:29:1229 [31merror[39m: [31msort cannot be used with distinct[39m
+2022-11-10 23:12:46:1246 [31merror[39m: [31msort cannot be used with distinct[39m
+2022-11-11 09:11:19:1119 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-11 09:18:02:182 [31merror[39m: [31mMongoose 5.x disallows passing a spread of operators to `Model.aggregate()`. Instead of `Model.aggregate({ $match }, { $skip })`, do `Model.aggregate([{ $match }, { $skip }])`[39m
+2022-11-11 09:34:27:3427 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-11 09:35:16:3516 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-11 09:36:24:3624 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-11 09:37:00:370 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-11 09:37:01:371 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-11 09:37:30:3730 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-11 09:37:32:3732 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-11 09:39:35:3935 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-11 09:41:52:4152 [31merror[39m: [31mFieldPath field names may not start with '$'. Consider using $getField or $setField.[39m

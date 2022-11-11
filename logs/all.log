@@ -2315,3 +2315,312 @@
 [35m[39m
 2022-11-10 20:17:48:1748 [32minfo[39m: [32mServer is running on port 9000[39m
 2022-11-10 20:17:50:1750 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-10 23:12:23:1223 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-10 23:12:25:1225 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-10 23:12:29:1229 [31merror[39m: [31msort cannot be used with distinct[39m
+2022-11-10 23:12:29:1229 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 200 88 - 7.865 ms[39m
+[35m[39m
+2022-11-10 23:12:46:1246 [31merror[39m: [31msort cannot be used with distinct[39m
+2022-11-10 23:12:46:1246 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 1.781 ms[39m
+[35m[39m
+2022-11-10 23:13:11:1311 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-10 23:13:13:1313 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-10 23:13:20:1320 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 200 86 - 173.766 ms[39m
+[35m[39m
+2022-11-10 23:14:45:1445 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-10 23:14:48:1448 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-10 23:15:15:1515 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-10 23:15:17:1517 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-10 23:16:01:161 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 165.919 ms[39m
+[35m[39m
+2022-11-10 23:19:28:1928 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 138.136 ms[39m
+[35m[39m
+2022-11-10 23:19:28:1928 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueditrict 404 163 - 1.880 ms[39m
+[35m[39m
+2022-11-10 23:20:08:208 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 96.616 ms[39m
+[35m[39m
+2022-11-10 23:20:08:208 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 200 64 - 169.210 ms[39m
+[35m[39m
+2022-11-10 23:21:11:2111 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 102.197 ms[39m
+[35m[39m
+2022-11-10 23:21:11:2111 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 149.322 ms[39m
+[35m[39m
+2022-11-10 23:21:28:2128 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 102.493 ms[39m
+[35m[39m
+2022-11-10 23:21:28:2128 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 98.442 ms[39m
+[35m[39m
+2022-11-10 23:21:35:2135 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 122.828 ms[39m
+[35m[39m
+2022-11-10 23:21:36:2136 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 128.149 ms[39m
+[35m[39m
+2022-11-11 08:13:40:1340 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 940.592 ms[39m
+[35m[39m
+2022-11-11 08:13:40:1340 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 234.601 ms[39m
+[35m[39m
+2022-11-11 08:14:26:1426 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 112.892 ms[39m
+[35m[39m
+2022-11-11 08:14:26:1426 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 102.095 ms[39m
+[35m[39m
+2022-11-11 08:15:55:1555 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 131.578 ms[39m
+[35m[39m
+2022-11-11 08:15:55:1555 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 193.945 ms[39m
+[35m[39m
+2022-11-11 08:16:03:163 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 164.340 ms[39m
+[35m[39m
+2022-11-11 08:16:03:163 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 144.422 ms[39m
+[35m[39m
+2022-11-11 08:17:02:172 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 104.457 ms[39m
+[35m[39m
+2022-11-11 08:17:02:172 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 142.499 ms[39m
+[35m[39m
+2022-11-11 08:17:07:177 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 102.663 ms[39m
+[35m[39m
+2022-11-11 08:17:07:177 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 161.580 ms[39m
+[35m[39m
+2022-11-11 08:18:21:1821 [35mhttp[39m: [35m::1 POST /api/signin 200 393 - 444.785 ms[39m
+[35m[39m
+2022-11-11 08:18:34:1834 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 113.825 ms[39m
+[35m[39m
+2022-11-11 08:18:35:1835 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 173.477 ms[39m
+[35m[39m
+2022-11-11 08:19:02:192 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 134.943 ms[39m
+[35m[39m
+2022-11-11 08:19:02:192 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 101.808 ms[39m
+[35m[39m
+2022-11-11 08:19:26:1926 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 191.645 ms[39m
+[35m[39m
+2022-11-11 08:19:27:1927 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 106.650 ms[39m
+[35m[39m
+2022-11-11 08:19:46:1946 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 102.692 ms[39m
+[35m[39m
+2022-11-11 08:19:46:1946 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 94.448 ms[39m
+[35m[39m
+2022-11-11 08:20:07:207 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 96.941 ms[39m
+[35m[39m
+2022-11-11 08:20:07:207 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 124.405 ms[39m
+[35m[39m
+2022-11-11 08:21:23:2123 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 109.734 ms[39m
+[35m[39m
+2022-11-11 08:21:23:2123 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 175.927 ms[39m
+[35m[39m
+2022-11-11 08:21:29:2129 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 106.580 ms[39m
+[35m[39m
+2022-11-11 08:21:29:2129 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 183.698 ms[39m
+[35m[39m
+2022-11-11 08:21:40:2140 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 183.852 ms[39m
+[35m[39m
+2022-11-11 08:21:40:2140 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 196.893 ms[39m
+[35m[39m
+2022-11-11 08:22:51:2251 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 155.394 ms[39m
+[35m[39m
+2022-11-11 08:22:51:2251 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 124.153 ms[39m
+[35m[39m
+2022-11-11 08:23:18:2318 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 166.966 ms[39m
+[35m[39m
+2022-11-11 08:23:18:2318 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 96.314 ms[39m
+[35m[39m
+2022-11-11 08:23:23:2323 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 127.314 ms[39m
+[35m[39m
+2022-11-11 08:23:23:2323 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 96.106 ms[39m
+[35m[39m
+2022-11-11 08:24:15:2415 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 94.587 ms[39m
+[35m[39m
+2022-11-11 08:24:15:2415 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 114.178 ms[39m
+[35m[39m
+2022-11-11 08:24:18:2418 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 153.260 ms[39m
+[35m[39m
+2022-11-11 08:24:18:2418 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 185.733 ms[39m
+[35m[39m
+2022-11-11 08:25:08:258 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 182.558 ms[39m
+[35m[39m
+2022-11-11 08:25:08:258 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 208.761 ms[39m
+[35m[39m
+2022-11-11 08:26:40:2640 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 147.844 ms[39m
+[35m[39m
+2022-11-11 08:26:40:2640 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 146.330 ms[39m
+[35m[39m
+2022-11-11 08:26:44:2644 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 108.428 ms[39m
+[35m[39m
+2022-11-11 08:26:44:2644 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 195.897 ms[39m
+[35m[39m
+2022-11-11 08:27:45:2745 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 162.184 ms[39m
+[35m[39m
+2022-11-11 08:27:45:2745 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 100.601 ms[39m
+[35m[39m
+2022-11-11 08:27:50:2750 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 105.858 ms[39m
+[35m[39m
+2022-11-11 08:27:50:2750 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 186.952 ms[39m
+[35m[39m
+2022-11-11 08:27:54:2754 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 147.529 ms[39m
+[35m[39m
+2022-11-11 08:27:54:2754 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 97.164 ms[39m
+[35m[39m
+2022-11-11 08:29:10:2910 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 168.232 ms[39m
+[35m[39m
+2022-11-11 08:29:10:2910 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 150.091 ms[39m
+[35m[39m
+2022-11-11 08:29:16:2916 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 177.491 ms[39m
+[35m[39m
+2022-11-11 08:29:16:2916 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 186.037 ms[39m
+[35m[39m
+2022-11-11 08:29:41:2941 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 184.499 ms[39m
+[35m[39m
+2022-11-11 08:29:41:2941 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 190.545 ms[39m
+[35m[39m
+2022-11-11 08:29:46:2946 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 174.080 ms[39m
+[35m[39m
+2022-11-11 08:29:47:2947 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 99.553 ms[39m
+[35m[39m
+2022-11-11 08:29:50:2950 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 112.983 ms[39m
+[35m[39m
+2022-11-11 08:29:50:2950 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 94.729 ms[39m
+[35m[39m
+2022-11-11 08:32:46:3246 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 118.304 ms[39m
+[35m[39m
+2022-11-11 08:32:46:3246 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 100.808 ms[39m
+[35m[39m
+2022-11-11 08:32:49:3249 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 146.060 ms[39m
+[35m[39m
+2022-11-11 08:32:49:3249 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 100.287 ms[39m
+[35m[39m
+2022-11-11 08:33:07:337 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 141.449 ms[39m
+[35m[39m
+2022-11-11 08:33:07:337 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 113.377 ms[39m
+[35m[39m
+2022-11-11 08:33:12:3312 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 121.915 ms[39m
+[35m[39m
+2022-11-11 08:33:12:3312 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 173.229 ms[39m
+[35m[39m
+2022-11-11 08:35:38:3538 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 105.689 ms[39m
+[35m[39m
+2022-11-11 08:35:38:3538 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 187.562 ms[39m
+[35m[39m
+2022-11-11 08:37:10:3710 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 96.130 ms[39m
+[35m[39m
+2022-11-11 08:37:10:3710 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 110.070 ms[39m
+[35m[39m
+2022-11-11 08:38:20:3820 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 150.323 ms[39m
+[35m[39m
+2022-11-11 08:38:20:3820 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 199.582 ms[39m
+[35m[39m
+2022-11-11 08:38:37:3837 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 98.543 ms[39m
+[35m[39m
+2022-11-11 08:38:38:3838 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 190.093 ms[39m
+[35m[39m
+2022-11-11 08:40:10:4010 [35mhttp[39m: [35m::1 POST /api/signin 200 387 - 309.948 ms[39m
+[35m[39m
+2022-11-11 08:40:18:4018 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 117.105 ms[39m
+[35m[39m
+2022-11-11 08:40:19:4019 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 138.021 ms[39m
+[35m[39m
+2022-11-11 08:41:13:4113 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 122.001 ms[39m
+[35m[39m
+2022-11-11 08:41:13:4113 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 128.667 ms[39m
+[35m[39m
+2022-11-11 08:41:16:4116 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 127.141 ms[39m
+[35m[39m
+2022-11-11 08:41:16:4116 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 105.116 ms[39m
+[35m[39m
+2022-11-11 08:42:45:4245 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 180.727 ms[39m
+[35m[39m
+2022-11-11 08:42:45:4245 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 157.291 ms[39m
+[35m[39m
+2022-11-11 08:44:31:4431 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 99.934 ms[39m
+[35m[39m
+2022-11-11 08:44:31:4431 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 156.403 ms[39m
+[35m[39m
+2022-11-11 08:44:32:4432 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/Beans 200 125 - 979.082 ms[39m
+[35m[39m
+2022-11-11 08:47:24:4724 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/Beans 304 - - 95.439 ms[39m
+[35m[39m
+2022-11-11 08:47:24:4724 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 100.048 ms[39m
+[35m[39m
+2022-11-11 08:47:24:4724 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 198.202 ms[39m
+[35m[39m
+2022-11-11 08:47:57:4757 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/Beans 304 - - 181.040 ms[39m
+[35m[39m
+2022-11-11 08:47:57:4757 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 187.125 ms[39m
+[35m[39m
+2022-11-11 08:47:57:4757 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 200.509 ms[39m
+[35m[39m
+2022-11-11 08:47:58:4758 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 315 - 1101.475 ms[39m
+[35m[39m
+2022-11-11 09:11:08:118 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-11 09:11:10:1110 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-11 09:11:19:1119 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-11 09:11:19:1119 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears 200 88 - 337.674 ms[39m
+[35m[39m
+2022-11-11 09:12:16:1216 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-11 09:12:19:1219 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-11 09:17:59:1759 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-11 09:18:01:181 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-11 09:18:02:182 [31merror[39m: [31mMongoose 5.x disallows passing a spread of operators to `Model.aggregate()`. Instead of `Model.aggregate({ $match }, { $skip })`, do `Model.aggregate([{ $match }, { $skip }])`[39m
+2022-11-11 09:18:02:182 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears 200 88 - 7.646 ms[39m
+[35m[39m
+2022-11-11 09:28:01:281 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-11 09:28:04:284 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-11 09:28:10:2810 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/Beans 200 125 - 988.752 ms[39m
+[35m[39m
+2022-11-11 09:30:55:3055 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 200 277 - 1595.326 ms[39m
+[35m[39m
+2022-11-11 09:34:23:3423 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-11 09:34:25:3425 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-11 09:34:27:3427 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-11 09:34:27:3427 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 200 91 - 176.207 ms[39m
+[35m[39m
+2022-11-11 09:34:59:3459 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-11 09:35:01:351 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-11 09:35:12:3512 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-11 09:35:14:3514 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-11 09:35:16:3516 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-11 09:35:16:3516 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 200 91 - 206.040 ms[39m
+[35m[39m
+2022-11-11 09:36:22:3622 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-11 09:36:24:3624 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-11 09:36:24:3624 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-11 09:36:24:3624 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 200 91 - 211.246 ms[39m
+[35m[39m
+2022-11-11 09:36:57:3657 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-11 09:36:59:3659 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-11 09:37:00:370 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-11 09:37:00:370 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 200 91 - 158.748 ms[39m
+[35m[39m
+2022-11-11 09:37:01:371 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-11 09:37:01:371 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 200 91 - 157.148 ms[39m
+[35m[39m
+2022-11-11 09:37:26:3726 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-11 09:37:28:3728 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-11 09:37:30:3730 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-11 09:37:30:3730 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 200 91 - 169.885 ms[39m
+[35m[39m
+2022-11-11 09:37:32:3732 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-11 09:37:32:3732 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 200 91 - 169.233 ms[39m
+[35m[39m
+2022-11-11 09:39:35:3935 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-11 09:39:35:3935 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 200 91 - 172.254 ms[39m
+[35m[39m
+2022-11-11 09:40:24:4024 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 200 493 - 174.852 ms[39m
+[35m[39m
+2022-11-11 09:41:07:417 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-11 09:41:09:419 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-11 09:41:20:4120 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-11 09:41:21:4121 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-11 09:41:23:4123 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 200 493 - 166.010 ms[39m
+[35m[39m
+2022-11-11 09:41:49:4149 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-11 09:41:51:4151 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-11 09:41:52:4152 [31merror[39m: [31mFieldPath field names may not start with '$'. Consider using $getField or $setField.[39m
+2022-11-11 09:41:52:4152 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 200 91 - 158.990 ms[39m
+[35m[39m
+2022-11-11 09:42:19:4219 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-11 09:42:21:4221 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-11 09:42:22:4222 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 200 493 - 799.369 ms[39m
+[35m[39m
+2022-11-11 09:43:10:4310 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-11 09:43:11:4311 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-11 09:43:12:4312 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 200 493 - 669.040 ms[39m
+[35m[39m
+2022-11-11 09:43:55:4355 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-11 09:43:57:4357 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-11 09:43:59:4359 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 200 493 - 1791.026 ms[39m
+[35m[39m
