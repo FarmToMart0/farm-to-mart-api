@@ -22,7 +22,11 @@ const userSchema = new mongoose.Schema({
     required:true,
     
   }
-});
+},
+{
+  timestamps: true,
+}
+);
 //methos for genaration token
 userSchema.methods.generateAuthToken =()=> { 
   const token = jwt.sign({ id: this.userId, userRole: this.userRole }, 'jwtPrivateKey',{
@@ -36,13 +40,14 @@ const UserAccount = mongoose.model('UserAccount', userSchema);
 //validate the user account
 function validateUser(user) {
   const schema = Joi.object({
-   
     email: Joi.string().min(5).max(255).required().email(),
     password: Joi.string().min(5).max(255).required()
   });
 
   return schema.validate(user);
 }
+
+
 
 exports.UserAccount = UserAccount; 
 exports.validateUser = validateUser;

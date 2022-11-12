@@ -1,6 +1,6 @@
 const Joi = require('joi');
 const mongoose = require('mongoose');
-
+//Schema defines for products
 const Product = mongoose.model('Product', new mongoose.Schema({
 
   category: {
@@ -18,6 +18,12 @@ const Product = mongoose.model('Product', new mongoose.Schema({
     required:true,
    
   },
+  farmer:{
+    type: mongoose.Schema.Types.ObjectId,
+    required:true,
+    ref: "Farmer",
+    
+},
   remainQuantity:{
     type:Number,
     required:true,
@@ -49,8 +55,11 @@ const Product = mongoose.model('Product', new mongoose.Schema({
   
   images:[{type:String,required:true}],
 
+},
+{
+  timestamps: true,
 }));
-
+//validation function for create product
 function validateProduct(product) {
   const schema =  Joi.object({
     category: Joi.string().required(),
@@ -58,6 +67,7 @@ function validateProduct(product) {
     productName: Joi.string().required(),
     quantity: Joi.any().required(),
     unitPrice: Joi.any().required(),
+    farmer:Joi.object().required(),
     description: Joi.string().required(),
     initialBid:Joi.any().required(),
     deliveryOption:Joi.array().items(Joi.string()).min(1).required(),

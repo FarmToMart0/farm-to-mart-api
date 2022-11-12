@@ -1,6 +1,6 @@
 const Joi = require('joi');
 const mongoose = require('mongoose');
-
+//Schema defines for farmer
 const Farmer = mongoose.model('Farmer', new mongoose.Schema({
 
   firstName: {
@@ -50,8 +50,10 @@ const Farmer = mongoose.model('Farmer', new mongoose.Schema({
     maxlength: 13
   },
 
+},{
+  timestamps: true,
 }));
-
+//validation function for create farmer
 function validateFarmer(farmer) {
   const schema =Joi.object( {
     firstName: Joi.string().min(5).max(50).required(),
