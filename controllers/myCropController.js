@@ -140,7 +140,6 @@ async function getAverageCropCategoryDetails(req,res) {
         return res.status(200).send(generateOutput(500,"success","Error occured while getting crop category average"))
     }
 }
-module.exports ={getOnGoingMyCropsDetails,updateHarvest,getCompletedMyCropsDetails,getHaverstedDetails,getTopHarvestedCropDetails,getCropTypes,getAverageCropCategoryDetails}
 
 async function addCropDetails(req,res){
     console.log(req.body)
@@ -157,5 +156,5 @@ async function addCropDetails(req,res){
 
 
 }
-module.exports ={getOnGoingMyCropsDetails,updateHarvest,getCompletedMyCropsDetails,addCropDetails}
+module.exports ={getOnGoingMyCropsDetails,updateHarvest,getCompletedMyCropsDetails,getHaverstedDetails,getTopHarvestedCropDetails,getCropTypes,getAverageCropCategoryDetails,addCropDetails}
 

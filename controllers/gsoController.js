@@ -9,7 +9,7 @@ const _ = require('lodash');
 const generateOutput= require('../utils/outputFactory');
 const logger = require('../utils/logger');
 
-//methods for farmer registration process
+//methods for gso registration process
 async function  gsoRegister(req,res) {
     req.body.userRole = 'GSO'
 
@@ -62,9 +62,10 @@ async function  gsoRegister(req,res) {
     }
 }
 
+//function for get gso details process
 async function getGsoDetails(req,res){
     try{
-        let gso = await Gso.findOne({ "nic": req.body.nic });
+        let gso = await Gso.findOne({ "nic": req.params.nic });
         console.log(gso)
         res.status(200).send(generateOutput(200,'success',gso));
     } catch (error){
