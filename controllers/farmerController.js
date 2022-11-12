@@ -7,6 +7,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const _ = require('lodash');
 const generateOutput= require('../utils/outputFactory')
+const logger = require('../utils/logger');
 
 
 
@@ -69,10 +70,23 @@ async function  farmerRegister(req,res) {
 }
 
 
+//function for get farmer details
+async function getFarmerDetails(req,res){
+  try{
+      let farmer = await Farmer.findOne({ "nic": req.params.nic });
+      console.log(farmer)
+      res.status(200).send(generateOutput(200,'success',farmer));
+  } catch (error){
+      logger.error(error)
+      res.status(200).send(generateOutput(500,'error','Something went wrong'));
+  }
+}
+
+
 
 
   
     
  
     
-module.exports ={farmerRegister};
+module.exports ={farmerRegister, getFarmerDetails};

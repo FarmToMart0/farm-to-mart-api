@@ -74,6 +74,17 @@ async function getGsoDetails(req,res){
     }
 }
 
+//fuction for removing gso
+async function removeGso(req,res){
+    try {
+        let gso = await Gso.findByIdAndRemove(req.params.id)
+        let user = await UserAccount.findByIdAndRemove(req.params.id)
+        res.status(200).send(generateOutput(201,'success','successfully removed'))
+    } catch (error) {
+        logger.error(error)
+        res.status(200).send(generateOutput(500,'error','error occured while removing gso'))
+    }
+}
 
 
-module.exports = {gsoRegister, getGsoDetails}
+module.exports = {gsoRegister, getGsoDetails, removeGso}
