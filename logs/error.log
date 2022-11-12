@@ -19,3 +19,18 @@
 2022-11-11 09:37:32:3732 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
 2022-11-11 09:39:35:3935 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
 2022-11-11 09:41:52:4152 [31merror[39m: [31mFieldPath field names may not start with '$'. Consider using $getField or $setField.[39m
+2022-11-12 13:13:25:1325 [31merror[39m: [31mCast to Number failed for value "2022,2021,2020,2019,2018,2017" (type string) at path "harvestedDate.$year" for model "MyCrops"[39m
+2022-11-12 13:13:28:1328 [31merror[39m: [31mCast to Number failed for value "2022,2021,2020,2019,2018,2017" (type string) at path "harvestedDate.$year" for model "MyCrops"[39m
+2022-11-12 13:14:05:145 [31merror[39m: [31mCast to Number failed for value "2021,2018" (type string) at path "harvestedDate.$year" for model "MyCrops"[39m
+2022-11-12 13:17:48:1748 [31merror[39m: [31mCast to Number failed for value "2022,2021,2020,2019,2018,2017" (type string) at path "harvestedDate.$year" for model "MyCrops"[39m
+2022-11-12 13:20:24:2024 [31merror[39m: [31mCast to Number failed for value "2021,2018" (type string) at path "harvestedDate.$year" for model "MyCrops"[39m
+2022-11-12 13:20:37:2037 [31merror[39m: [31mCast to Number failed for value "2022,2021,2020,2019,2018,2017" (type string) at path "harvestedDate.$year" for model "MyCrops"[39m
+2022-11-12 13:24:37:2437 [31merror[39m: [31mCast to Number failed for value "2021,2018" (type string) at path "harvestedDate.$year" for model "MyCrops"[39m
+2022-11-12 13:26:08:268 [31merror[39m: [31mCast to Number failed for value "2022,2021,2020,2019,2018,2017" (type string) at path "harvestedDate.$year" for model "MyCrops"[39m
+2022-11-12 13:26:09:269 [31merror[39m: [31mCast to Number failed for value "2021,2018" (type string) at path "harvestedDate.$year" for model "MyCrops"[39m
+2022-11-12 13:28:59:2859 [31merror[39m: [31mCast to Number failed for value "2022,2021,2020,2019,2018,2017" (type string) at path "harvestedDate.$year" for model "MyCrops"[39m
+2022-11-12 13:29:01:291 [31merror[39m: [31mCast to Number failed for value "2022,2021,2020,2019,2018,2017" (type string) at path "harvestedDate.$year" for model "MyCrops"[39m
+2022-11-12 13:31:01:311 [31merror[39m: [31mCast to Number failed for value "2022,2021,2020,2019,2018,2017" (type string) at path "harvestedDate.$year" for model "MyCrops"[39m
+2022-11-12 13:32:38:3238 [31merror[39m: [31mCast to Number failed for value "2022,2021,2020,2019,2018,2017" (type string) at path "harvestedDate.$year" for model "MyCrops"[39m
+2022-11-12 13:35:57:3557 [31merror[39m: [31mCast to Number failed for value "2022,2021,2020,2019,2018,2017" (type string) at path "harvestedDate.$year" for model "MyCrops"[39m
+2022-11-12 13:40:54:4054 [31merror[39m: [31mCast to Number failed for value "2022,2021,2020,2019,2018,2017" (type string) at path "harvestedDate.$year" for model "MyCrops"[39m

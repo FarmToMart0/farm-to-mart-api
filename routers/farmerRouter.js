@@ -21,5 +21,7 @@ router.get('/uniquecrops',myCropsController.getCropTypes);
 router.get('/averagecropcategory/:district/:year',myCropsController.getAverageCropCategoryDetails);
 //router for getting unique district names
 router.get('/uniquedistrict',myCropsController.getDistrict);
+//router for getting unique years list
+router.get('/uniqueyears/:district',myCropsController.getYearsList);
 
 module.exports = router; 

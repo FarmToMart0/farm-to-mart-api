@@ -47,6 +47,7 @@ async  function updateHarvest(req,res) {
 async function getHaverstedDetails(req,res) {
     var district  = req.params.district;
     var cropType  = req.params.crop;
+    
     try {
         var harvestDetails = await MyCrops.aggregate([
             {$match:{$and: [
@@ -55,7 +56,7 @@ async function getHaverstedDetails(req,res) {
                 },
                 {
                     cropType:{$eq:cropType}
-                }
+                },{status:'completed'}
               ],
               }},
              
@@ -80,6 +81,7 @@ async function getHaverstedDetails(req,res) {
 async  function  getTopHarvestedCropDetails(req,res) {
     var year = req.params.year;
     var district = req.params.district;
+    
 
     try {
         var topHarvestedCrops = await MyCrops.find({ $and: [ 
@@ -120,6 +122,30 @@ async function getDistrict(req,res) {
     
 }
 
+async function getYearsList(req,res) {
+    var district = req.params.district;
+    try {
+        var harvestDetails = await MyCrops.aggregate([
+            {$match:{   
+                    district:{$eq:district} 
+              }},
+             
+            {$group:{
+                _id: { year: { $year: "$harvestedDate" }},
+               
+                totalLand:{ $sum: "$landArea" }
+            },
+            
+        },
+        
+        ]).sort({'_id.year':-1})
+        return res.status(200).send(generateOutput(201,"success",harvestDetails))
+    } catch (error) {
+        logger.error(error)
+        return res.status(200).send(generateOutput(500,"success","Error occured while getting harvetsted data"))
+    }
+    
+}
 //function for getting the group by total yeilds based on categories
 async function getAverageCropCategoryDetails(req,res) {
     var year = req.params.year;
@@ -134,8 +160,8 @@ async function getAverageCropCategoryDetails(req,res) {
                 {
                     status:{$eq:"completed"}
                 },
-                {"stringDate":{$gte:"2022-01-01"} },
-                {"stringDate":{$lt:"2022-12-31"} }
+                {stringDate:{$gte:`${year}-01-01`} },
+                {stringDate:{$lt:`${year}-12-31`} }
               ],
               }},
             {$group:{
@@ -152,4 +178,4 @@ async function getAverageCropCategoryDetails(req,res) {
         return res.status(200).send(generateOutput(500,"success","Error occured while getting crop category average"))
     }
 }
-module.exports ={getOnGoingMyCropsDetails,updateHarvest,getCompletedMyCropsDetails,getHaverstedDetails,getTopHarvestedCropDetails,getCropTypes,getAverageCropCategoryDetails,getDistrict}
+module.exports ={getOnGoingMyCropsDetails,updateHarvest,getCompletedMyCropsDetails,getHaverstedDetails,getTopHarvestedCropDetails,getCropTypes,getAverageCropCategoryDetails,getDistrict,getYearsList}
