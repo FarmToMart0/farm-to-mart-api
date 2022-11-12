@@ -14,6 +14,8 @@ const farmerRouter =require('./routers/farmerRouter');
 const authRouter = require('./routers/authRouter')
 const buyerRouter =require('./routers/buyerRouter')
 const productRouter =require('./routers/productRouter')
+const gsoRouter =require('./routers/gsoOfficerRouter')
+const mainOfficerRouter =require('./routers/mainOfficerRouter')
 
 app.use(cors({ origin: "*" }));
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -26,6 +28,8 @@ app.use('/api/farmer',farmerRouter)
 app.use('/api/signin',authRouter)
 app.use('/api/buyer',buyerRouter)
 app.use('/api/product',productRouter)
+app.use('/api/gso',gsoRouter)
+app.use('/api/main-officer',mainOfficerRouter)
 
 
 const port = process.env.PORT || 9000;
