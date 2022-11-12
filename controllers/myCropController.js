@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const {MyCrops,validateHarvest} = require('../models/MyCrops/index');
+const {MyCrops,validateHarvest, validate} = require('../models/MyCrops/index');
 const _ = require('lodash');
 const logger = require("../utils/logger");
 const generateOutput= require('../utils/outputFactory');
@@ -42,6 +42,7 @@ async  function updateHarvest(req,res) {
         return res.send(generateOutput(500,'error','Error occured while updating product') );
     }
 }
+
 
 //function for getting total harvested and expected yeilds group by years 
 async function getHaverstedDetails(req,res) {
@@ -178,4 +179,23 @@ async function getAverageCropCategoryDetails(req,res) {
         return res.status(200).send(generateOutput(500,"success","Error occured while getting crop category average"))
     }
 }
-module.exports ={getOnGoingMyCropsDetails,updateHarvest,getCompletedMyCropsDetails,getHaverstedDetails,getTopHarvestedCropDetails,getCropTypes,getAverageCropCategoryDetails,getDistrict,getYearsList}
+
+
+async function addCropDetails(req,res){
+    console.log(req.body)
+    const { error } = validate(req.body);
+    if (error) return res.status(200).send(generateOutput(400,'validation error',error.details[0].message));
+    try {
+        let mycrop = new MyCrops(_.pick(req.body, ['farmerNic','status','category', 'cropType', 'startingDateOfGrowing','expectingDateOfHarvest','harvestedDate','expectedAmount','harvestedAmount','landArea','location','district']));
+        await mycrop.save();
+        res.status(200).send(generateOutput(201,'success',mycrop));
+    } catch (error) {
+        logger.error(error)
+        return res.send(generateOutput(500,'error','Error occured while adding crop details') );
+    }
+
+
+}
+
+
+module.exports ={getOnGoingMyCropsDetails,updateHarvest,getCompletedMyCropsDetails,getHaverstedDetails,getTopHarvestedCropDetails,getCropTypes,getAverageCropCategoryDetails,getDistrict,getYearsList,addCropDetails}
