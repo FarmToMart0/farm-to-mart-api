@@ -141,8 +141,11 @@ async function getAverageCropCategoryDetails(req,res) {
     }
 }
 
+
+//fuction for add crop data
 async function addCropDetails(req,res){
     console.log(req.body)
+    req.body.status = 'ongoing'
     const { error } = validate(req.body);
     if (error) return res.status(200).send(generateOutput(400,'validation error',error.details[0].message));
     try {
