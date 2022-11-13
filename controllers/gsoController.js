@@ -12,6 +12,7 @@ const logger = require('../utils/logger');
 //methods for gso registration process
 async function  gsoRegister(req,res) {
     req.body.userRole = 'GSO'
+    console.log(req.body)
 
     const { error1 } = validate(req.body);
     const { error2 } = validateUser(req.body);
@@ -30,30 +31,39 @@ async function  gsoRegister(req,res) {
             if (user1) {
                 //send user already registed message
                 return res.status(200).send(generateOutput(400,'validate error','This email has already been taken'));
+            }else{
+                let user2 = await Gso.findOne({ gsoCode: req.body.gsoCode });
+
+                if (user2) {
+                    //send user already registed gso message
+                    console.log(user2)
+                    return res.status(200).send(generateOutput(400,'validate error','This GSO code has already registered'));
+                }
+                const session = mongoose.startSession();
+                (await session).startTransaction();
+                try {
+                    user = new UserAccount(_.pick(req.body, [ 'email', 'password','userRole']));
+                    const salt = await bcrypt.genSalt(10);
+                    user.password = await bcrypt.hash(req.body.password, salt);
+                    console.log(user)
+                    await user.save();
+
+                    const  gso = new Gso(_.pick(req.body, ['firstName', 'lastName','mobile','district','gsoName','gsoCode','nic',]));
+                    gso._id=user._id
+                    await gso.save();
+                    // Commit the changes
+                    await (await session).commitTransaction();
+                    return  res.send(generateOutput(201,'GSO registered successfully',{'_id':user._id,'firstName':gso.firstName,'lastName':gso.lastName,'email':user.email}) );
+                }
+                catch(error){
+                    console.log(error)
+                    // Rollback any changes made in the database
+                    await (await session).abortTransaction();
+                }
             }
 
             //transaction for user register
-            const session = mongoose.startSession();
-            (await session).startTransaction();
-            try {
-                user = new UserAccount(_.pick(req.body, [ 'email', 'password','userRole']));
-                const salt = await bcrypt.genSalt(10);
-                user.password = await bcrypt.hash(req.body.password, salt);
-                await user.save();
-
-                const  gso = new Gso(_.pick(req.body, ['firstName', 'lastName','mobile','district','gsoName','gsoCode','nic',]));
-                gso._id=user._id
-                await gso.save();
-                // Commit the changes
-                await (await session).commitTransaction();
-                const token = user.generateAuthToken();
-                return  res.send(generateOutput(201,'GSO registered successfully',{'_id':user._id,'firstName':gso.firstName,'lastName':gso.lastName,'email':user.email,'token':token}) );
-            }
-            catch(error){
-                console.log(error)
-                // Rollback any changes made in the database
-                await (await session).abortTransaction();
-            }
+            
         }
     }
     catch(error){
@@ -74,7 +84,7 @@ async function getGsoDetails(req,res){
     }
 }
 
-//fuction for removing gso
+//function for removing gso
 async function removeGso(req,res){
     try {
         let gso = await Gso.findByIdAndRemove(req.params.id)
