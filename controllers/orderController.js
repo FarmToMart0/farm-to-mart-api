@@ -4,6 +4,7 @@ const {Orders,validateOrder} =require('../models/OrderModel/index');
 const _ = require('lodash');
 const logger = require("../utils/logger");
 const generateOutput= require('../utils/outputFactory');
+const { Product } = require('../models/ProductModel');
 //get pending orders that specific to some certain farmer
 async function getAllOrders(req,res) {
     try {
@@ -103,4 +104,237 @@ async function unDoRejectedOrder(req,res) {
         res.status(200).send(generateOutput("500","error","error occured while undo  rejected order"))
     }   
 }
-module.exports ={getAllOrders,getDeliveredOrders,getRejectedOrders,markAsPaid,markAsDelivered,markAsRejected,unDoRejectedOrder}
+
+async function getTotalSales(req,res) {
+    var id = req.params.id;
+    var ObjectId = mongoose.Types.ObjectId;
+    console.log(id)
+    try {
+        var totalSales = await Orders.aggregate([
+            {$match:{$and: [
+                {
+                    farmer:{$eq:new ObjectId(id)}
+                },
+                {paymentStatus:{$eq:'paid'}}
+              ],
+              }
+            },
+             
+            {$group:{
+                _id: "$farmer" ,
+                totalSales: { $sum: "$totalPrice" },  
+            },  
+            },
+           ])
+        logger.info("total sales successfully fetched")
+        res.status(200).send(generateOutput("201","success",totalSales))   
+    } catch (error) {
+        logger.error(error)
+        res.status(200).send(generateOutput("500","error","error occured while getting total sales"))
+    }
+}
+
+
+
+async function getTotalSalesInLastMonth(req,res) {
+    var id = req.params.id;
+    var date = new Date();
+    var ObjectId = mongoose.Types.ObjectId;
+    console.log(id)
+    try {
+        var totalSales = await Orders.aggregate([
+            {$addFields: {
+                "month": {
+                  $month: {
+                    $toDate: "$orderedDate"
+                  }
+                }
+              }},
+            {$match:{$and: [
+                {
+                    month:{$gte:date.getMonth()}
+                },
+                {
+                    farmer:{$eq:new ObjectId(id)}
+                },
+                {paymentStatus:{$eq:'paid'}}
+              ],
+              }
+            },
+             
+            {$group:{
+                _id: "$farmer" ,
+                totalSales: { $sum: "$totalPrice" },  
+            },  
+            },
+           ])
+        logger.info("total sales successfully fetched")
+        res.status(200).send(generateOutput("201","success",totalSales))   
+    } catch (error) {
+        logger.error(error)
+        res.status(200).send(generateOutput("500","error","error occured while getting total sales since last month"))
+    }
+}
+async function getTotalOrders(req,res) {
+    var id = req.params.id;
+    var ObjectId = mongoose.Types.ObjectId;
+    console.log(id)
+    try {
+        var ordersCount = await Orders.aggregate([
+            
+            {$match:{
+                    farmer:{$eq:new ObjectId(id)}
+              }
+            },
+             
+            {$count:'farmer'
+            },
+           ])
+        logger.info("total orders count successfully fetched")
+        res.status(200).send(generateOutput("201","success",ordersCount))   
+    } catch (error) {
+        logger.error(error)
+        res.status(200).send(generateOutput("500","error","error occured while getting total orders count"))
+    }
+}
+
+async function getTotalOrdersCountInLastMonth(req,res) {
+    var id = req.params.id;
+    var date = new Date();
+    var ObjectId = mongoose.Types.ObjectId;
+    console.log(id)
+    try {
+        var totalOrdersCount = await Orders.aggregate([
+            {$addFields: {
+                "month": {
+                  $month: {
+                    $toDate: "$orderedDate"
+                  }
+                }
+              }},
+            {$match:{$and: [
+                {
+                    month:{$gte:date.getMonth()}
+                },
+                {
+                    farmer:{$eq:new ObjectId(id)}
+                },
+                
+              ],
+              }
+            },
+             
+            {$count:'farmer'
+            },
+           ])
+        logger.info("total sales successfully fetched")
+        res.status(200).send(generateOutput("201","success",totalOrdersCount))   
+    } catch (error) {
+        logger.error(error)
+        res.status(200).send(generateOutput("500","error","error occured while getting total sales since last month"))
+    }
+}
+async function getTotalPendingOrdersCount(req,res) {
+    var id = req.params.id;
+   
+    var ObjectId = mongoose.Types.ObjectId;
+   
+    try {
+        var totalOrdersCount = await Orders.aggregate([
+            
+            {$match:{$and: [
+                
+                {
+                    farmer:{$eq:new ObjectId(id)}
+                },
+                {
+                    orderStatus:{$eq:'place'}
+                },
+                
+              ],
+              }
+            },
+             
+            {$count:'farmer'
+            },
+           ])
+        logger.info("total sales successfully fetched")
+        res.status(200).send(generateOutput("201","success",totalOrdersCount))   
+    } catch (error) {
+        logger.error(error)
+        res.status(200).send(generateOutput("500","error","error occured while getting total sales since last month"))
+    }
+}
+async function getSalesOverview(req,res) {
+    var id = req.params.id;
+    var sixMonths = (1.577e+10)*2;
+    var date = new Date();
+    var sub =date-sixMonths;
+    console.log(sub);
+    var ObjectId = mongoose.Types.ObjectId;
+    try {
+        var sales = await Orders.aggregate([
+         
+            {$match:{$and: [
+                {
+                    farmer:{$eq:new ObjectId(id)}
+                },
+                {
+                    paymentStatus:{$eq:'paid'}
+                },
+                {
+                    orderedDate:{$gte:new Date(sub)}
+                },
+                
+              ],
+              }},
+              
+             
+            {$group:{
+                _id: {month:{ $month: "$orderedDate" }},
+                totalSales: { $sum: "$totalPrice" },
+                
+            },
+            
+        },
+        
+        ]).sort({'_id.month':1})
+        return res.status(200).send(generateOutput(201,"success",sales))
+    } catch (error) {
+        
+    }
+}
+async function getOrderOverview(req,res) {
+    var id = req.params.id;
+    var ObjectId = mongoose.Types.ObjectId;
+    try {
+        var ordersOverview = await Orders.aggregate([
+         
+            {$match:{
+                $and: [
+                    {
+                        farmer:{$eq:new ObjectId(id)}
+                    },
+                    {
+                        paymentStatus:{$eq:'paid'}
+                    },
+                    
+                    
+                  ],
+              }},
+             
+             
+              {$group : {_id:"$product", sales:{$sum:'$totalPrice'}}},
+              {$lookup: {from: "products", localField: "product", foreignField: "_id", as: "details"}}
+
+        
+        ])
+        return res.status(200).send(generateOutput(201,"success",ordersOverview))
+    } catch (error) {
+        logger.error(error);
+        return res.status(200).send(generateOutput(201,"error",error))
+    }
+}
+module.exports ={getAllOrders,getDeliveredOrders,getRejectedOrders,markAsPaid,
+    markAsDelivered,markAsRejected,unDoRejectedOrder,getTotalSales,getTotalSalesInLastMonth,getTotalOrders,getTotalOrdersCountInLastMonth,
+    getTotalPendingOrdersCount,getSalesOverview,getOrderOverview}

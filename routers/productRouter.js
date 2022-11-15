@@ -7,4 +7,5 @@ router.post('/add',productController.addProduct );
 router.get('/getproduct',productController.getProduct)
 router.get('/:id',productController.deleteProduct)
 router.put('/update',productController.updateProduct)
+router.get('/ongoingbiddingcount/:id',productController.getTotalOnGoingBids)
 module.exports = router; 
