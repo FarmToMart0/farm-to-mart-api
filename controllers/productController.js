@@ -5,6 +5,8 @@ const _ = require("lodash");
 const logger = require("../utils/logger");
 const generateOutput = require("../utils/outputFactory");
 const marketManageService = require("../services/marketProduct");
+const { ObjectId } = require('mongodb');
+const { x } = require("joi");
 //function for add product
 async function addProduct(req, res) {
 	req.body.remainQuantity = req.body.quantity;
@@ -66,16 +68,21 @@ async function getProduct(req, res) {
 
 // =====================Get all products for market
 async function marketProduct(req, res) {
-	
 	try {
 		let productList = await Product.find().sort({
 			remainQuantity: -1,
 			date: 1,
 		});
 
-        
-        
-		res.status(200).send(generateOutput(201, "success", marketManageService.arrangeMarket(productList)));
+		res
+			.status(200)
+			.send(
+				generateOutput(
+					201,
+					"success",
+					marketManageService.arrangeMarket(productList)
+				)
+			);
 	} catch (error) {
 		logger.error(error);
 		res
@@ -106,6 +113,29 @@ async function deleteProduct(req, res) {
 					500,
 					"error",
 					"error occured while removing products details"
+				)
+			);
+	}
+}
+
+// end point for getting selling item's images
+async function getImage(req, res) {
+	const id = req.params.id;
+    
+	try {
+		let output = await Product.findOne({ _id: id });
+        
+    let images = (output.images).map((el)=>{return {img:el}})
+		res.send({data:images});
+	} catch (err) {
+		logger.error(err);
+		res
+			.status(200)
+			.send(
+				generateOutput(
+					500,
+					"error",
+					"error occured while getting images from DB"
 				)
 			);
 	}
@@ -159,4 +189,5 @@ module.exports = {
 	deleteProduct,
 	updateProduct,
 	marketProduct,
+	getImage,
 };
