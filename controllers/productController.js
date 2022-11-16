@@ -65,30 +65,7 @@ async function getProduct(req, res) {
 }
 
 // =====================Get all products for market
-async function marketProduct(req, res) {
-	
-	try {
-		let productList = await Product.find().sort({
-			remainQuantity: -1,
-			date: 1,
-		});
 
-        
-        
-		res.status(200).send(generateOutput(201, "success", marketManageService.arrangeMarket(productList)));
-	} catch (error) {
-		logger.error(error);
-		res
-			.status(200)
-			.send(
-				generateOutput(
-					500,
-					"error",
-					"error occured while getting products details"
-				)
-			);
-	}
-}
 
 //function for delete the product
 async function deleteProduct(req, res) {
@@ -158,5 +135,5 @@ module.exports = {
 	getProduct,
 	deleteProduct,
 	updateProduct,
-	marketProduct,
+	
 };
