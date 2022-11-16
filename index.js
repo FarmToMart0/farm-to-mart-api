@@ -46,11 +46,8 @@ app.use('/api/product',productRouter)
 //end point starting for the order routes
 app.use('/api/order',orderRouter);
 
-
-
-
 app.use('/api/bidding',biddingRouter)
 
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 9000;
 app.listen(port, () => logger.info(`Server is running on port ${port}`));

@@ -2320,3 +2320,380 @@
 2022-11-12 01:01:37:137 [32minfo[39m: [32mConnected to MongoDB...[39m
 2022-11-15 14:35:03:353 [32minfo[39m: [32mServer is running on port 5000[39m
 2022-11-15 14:35:04:354 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 00:19:11:1911 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 00:19:13:1913 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 00:29:46:2946 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 00:29:48:2948 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 01:36:44:3644 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 01:37:59:3759 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 01:38:11:3811 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 01:39:40:3940 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 01:40:51:4051 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 01:41:07:417 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 01:41:39:4139 [31merror[39m: [31mCast to ObjectId failed for value "getallproducts" (type string) at path "_id" for model "Product"[39m
+2022-11-16 01:41:39:4139 [35mhttp[39m: [35m::1 GET /api/product/market/getallproducts 200 91 - 458.807 ms[39m
+[35m[39m
+2022-11-16 01:42:26:4226 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 01:43:00:430 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 01:43:01:431 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 01:43:06:436 [31merror[39m: [31mCast to ObjectId failed for value "getallproducts" (type string) at path "_id" for model "Product"[39m
+2022-11-16 01:43:06:436 [35mhttp[39m: [35m::1 GET /api/product/market/getallproducts 200 91 - 20.179 ms[39m
+[35m[39m
+2022-11-16 01:43:10:4310 [31merror[39m: [31mCast to ObjectId failed for value "getallproducts" (type string) at path "_id" for model "Product"[39m
+2022-11-16 01:43:10:4310 [35mhttp[39m: [35m::1 GET /api/product/market/getallproducts 200 91 - 5.050 ms[39m
+[35m[39m
+2022-11-16 08:03:18:318 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 08:03:20:320 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 08:55:24:5524 [35mhttp[39m: [35m::1 GET / 404 139 - 163.214 ms[39m
+[35m[39m
+2022-11-16 08:55:43:5543 [35mhttp[39m: [35m::1 POST / 200 3 - 5.897 ms[39m
+[35m[39m
+2022-11-16 08:56:22:5622 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 08:56:23:5623 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 08:56:51:5651 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 08:56:52:5652 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 08:57:09:579 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 08:57:11:5711 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 11:08:23:823 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 11:08:25:825 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 11:10:19:1019 [35mhttp[39m: [35m::1 GET //api/product//getproduct 404 163 - 12.177 ms[39m
+[35m[39m
+2022-11-16 11:10:30:1030 [35mhttp[39m: [35m::1 GET /api/product/getproduct 200 2144 - 161.333 ms[39m
+[35m[39m
+2022-11-16 11:20:22:2022 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 11:20:24:2024 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 17:56:55:5655 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 17:56:57:5657 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 17:57:54:5754 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 17:57:56:5756 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 17:58:07:587 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 17:58:09:589 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:00:25:025 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:00:27:027 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:00:28:028 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:01:02:12 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:01:04:14 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:08:13:813 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:08:14:814 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:08:35:835 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:08:37:837 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:08:59:859 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:09:00:90 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:09:07:97 [31merror[39m: [31mCast to ObjectId failed for value "market" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:09:07:97 [35mhttp[39m: [35m::1 GET /api/product/market 200 91 - 120.753 ms[39m
+[35m[39m
+2022-11-16 18:09:31:931 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:09:32:932 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:09:38:938 [31merror[39m: [31mCast to ObjectId failed for value "market" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:09:38:938 [35mhttp[39m: [35m::1 GET /api/product/market 200 91 - 19.424 ms[39m
+[35m[39m
+2022-11-16 18:10:31:1031 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:10:33:1033 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:12:23:1223 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:12:24:1224 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:12:26:1226 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:12:30:1230 [31merror[39m: [31mCast to ObjectId failed for value "market" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:12:30:1230 [35mhttp[39m: [35m::1 GET /api/product/market 200 91 - 18.802 ms[39m
+[35m[39m
+2022-11-16 18:13:17:1317 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:13:18:1318 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:13:20:1320 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:13:31:1331 [31merror[39m: [31mCast to ObjectId failed for value "allproducts" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:13:31:1331 [35mhttp[39m: [35m::1 GET /api/product/allproducts 200 91 - 18.328 ms[39m
+[35m[39m
+2022-11-16 18:13:43:1343 [35mhttp[39m: [35m::1 GET /api/product/getproduct 200 2711 - 173.278 ms[39m
+[35m[39m
+2022-11-16 18:15:14:1514 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:15:15:1515 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:15:16:1516 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:16:17:1617 [31merror[39m: [31mCast to ObjectId failed for value "allproducts" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:16:17:1617 [35mhttp[39m: [35m::1 GET /api/product/allproducts 200 91 - 19.777 ms[39m
+[35m[39m
+2022-11-16 18:17:30:1730 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:17:32:1732 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:17:39:1739 [31merror[39m: [31mCast to ObjectId failed for value "getallproductsformarket" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:17:39:1739 [35mhttp[39m: [35m::1 GET /api/product/getallproductsformarket 200 91 - 18.639 ms[39m
+[35m[39m
+2022-11-16 18:19:39:1939 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:19:40:1940 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:20:01:201 [31merror[39m: [31mCast to ObjectId failed for value "marketproduct" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:20:01:201 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 91 - 19.330 ms[39m
+[35m[39m
+2022-11-16 18:21:22:2122 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:21:22:2122 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:21:24:2124 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:23:58:2358 [35mhttp[39m: [35m::1 GET /api/product/getproduct 200 2699 - 174.417 ms[39m
+[35m[39m
+2022-11-16 18:24:08:248 [31merror[39m: [31mCast to ObjectId failed for value "marketproduct" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:24:08:248 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 91 - 3.776 ms[39m
+[35m[39m
+2022-11-16 18:25:10:2510 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:25:11:2511 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:26:52:2652 [31merror[39m: [31mCould not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/[39m
+2022-11-16 18:26:52:2652 [35mhttp[39m: [35m::1 GET /api/product/getproduct 200 90 - 35587.344 ms[39m
+[35m[39m
+2022-11-16 18:27:13:2713 [35mhttp[39m: [35m::1 GET /api/product/getproduct 200 2699 - 780.184 ms[39m
+[35m[39m
+2022-11-16 18:27:28:2728 [31merror[39m: [31mCast to ObjectId failed for value "marketproduct" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:27:28:2728 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 91 - 4.261 ms[39m
+[35m[39m
+2022-11-16 18:28:33:2833 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:28:35:2835 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:28:38:2838 [31merror[39m: [31mCast to ObjectId failed for value "marketproduct1" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:28:38:2838 [35mhttp[39m: [35m::1 GET /api/product/marketproduct1 200 91 - 18.297 ms[39m
+[35m[39m
+2022-11-16 18:29:10:2910 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:29:11:2911 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:29:41:2941 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:29:43:2943 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:30:04:304 [31merror[39m: [31mCast to ObjectId failed for value "marketproduct" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:30:04:304 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 91 - 17.432 ms[39m
+[35m[39m
+2022-11-16 18:30:17:3017 [31merror[39m: [31mCast to ObjectId failed for value "marketproduct" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:30:17:3017 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 91 - 4.427 ms[39m
+[35m[39m
+2022-11-16 18:31:37:3137 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:31:39:3139 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:31:47:3147 [31merror[39m: [31mCast to ObjectId failed for value "marketproduct" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:31:47:3147 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 91 - 20.670 ms[39m
+[35m[39m
+2022-11-16 18:32:15:3215 [31merror[39m: [31mCast to ObjectId failed for value "marketproduct1" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:32:15:3215 [35mhttp[39m: [35m::1 GET /api/product/marketproduct1 200 91 - 2.579 ms[39m
+[35m[39m
+2022-11-16 18:32:22:3222 [31merror[39m: [31mCast to ObjectId failed for value "marketproduct222" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:32:22:3222 [35mhttp[39m: [35m::1 GET /api/product/marketproduct222 200 91 - 2.520 ms[39m
+[35m[39m
+2022-11-16 18:33:04:334 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:33:05:335 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:33:08:338 [31merror[39m: [31mCast to ObjectId failed for value "marketproduct" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:33:08:338 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 91 - 17.480 ms[39m
+[35m[39m
+2022-11-16 18:33:22:3322 [35mhttp[39m: [35m::1 GET /api/product/getproduct 200 2699 - 143.890 ms[39m
+[35m[39m
+2022-11-16 18:34:12:3412 [31merror[39m: [31mCast to ObjectId failed for value "marketproduct" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:34:12:3412 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 91 - 7.775 ms[39m
+[35m[39m
+2022-11-16 18:34:43:3443 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:34:45:3445 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:34:56:3456 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:34:57:3457 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:35:30:3530 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:35:31:3531 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:35:34:3534 [31merror[39m: [31mCast to ObjectId failed for value "marketproduct" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:35:34:3534 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 91 - 18.601 ms[39m
+[35m[39m
+2022-11-16 18:35:36:3536 [31merror[39m: [31mCast to ObjectId failed for value "marketproduct" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:35:36:3536 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 91 - 2.499 ms[39m
+[35m[39m
+2022-11-16 18:35:42:3542 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:35:43:3543 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:37:56:3756 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:37:57:3757 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:38:13:3813 [31merror[39m: [31mCast to ObjectId failed for value "marketproduct" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:38:13:3813 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 91 - 17.810 ms[39m
+[35m[39m
+2022-11-16 18:38:16:3816 [31merror[39m: [31mCast to ObjectId failed for value "marketproduct" (type string) at path "_id" for model "Product"[39m
+2022-11-16 18:38:16:3816 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 91 - 5.020 ms[39m
+[35m[39m
+2022-11-16 18:38:39:3839 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:38:41:3841 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:38:43:3843 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 404 164 - 9.828 ms[39m
+[35m[39m
+2022-11-16 18:38:54:3854 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:38:56:3856 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:38:59:3859 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 13 - 14.177 ms[39m
+[35m[39m
+2022-11-16 18:39:05:395 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:39:07:397 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:39:09:399 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 13 - 12.020 ms[39m
+[35m[39m
+2022-11-16 18:41:37:4137 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 18:41:39:4139 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 18:41:41:4141 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 2889 - 160.135 ms[39m
+[35m[39m
+2022-11-16 19:20:05:205 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 19:20:06:206 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 19:20:07:207 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 19:20:51:2051 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 19:20:52:2052 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 19:20:54:2054 [31merror[39m: [31mproduct.forEach is not a function[39m
+2022-11-16 19:20:54:2054 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 90 - 18.671 ms[39m
+[35m[39m
+2022-11-16 19:21:24:2124 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 19:21:25:2125 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 19:21:29:2129 [31merror[39m: [31mproduct.forEach is not a function[39m
+2022-11-16 19:21:29:2129 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 90 - 71.350 ms[39m
+[35m[39m
+2022-11-16 19:25:48:2548 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 19:25:49:2549 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 19:25:51:2551 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 19:25:55:2555 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 2887 - 196.035 ms[39m
+[35m[39m
+2022-11-16 19:29:01:291 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 19:29:03:293 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 19:33:08:338 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 2887 - 198.167 ms[39m
+[35m[39m
+2022-11-16 19:33:42:3342 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 19:33:43:3343 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 19:33:45:3345 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 2887 - 214.775 ms[39m
+[35m[39m
+2022-11-16 19:34:11:3411 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 19:34:13:3413 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 19:34:16:3416 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 2887 - 192.944 ms[39m
+[35m[39m
+2022-11-16 19:35:04:354 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 19:35:05:355 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 19:35:06:356 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 19:35:10:3510 [31merror[39m: [31mAssignment to constant variable.[39m
+2022-11-16 19:35:10:3510 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 90 - 178.633 ms[39m
+[35m[39m
+2022-11-16 19:35:51:3551 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 19:35:52:3552 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 19:35:53:3553 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 19:35:54:3554 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 2887 - 445.244 ms[39m
+[35m[39m
+2022-11-16 19:36:31:3631 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 19:36:33:3633 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 19:36:42:3642 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 19:36:48:3648 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 19:36:49:3649 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 2887 - 5322.559 ms[39m
+[35m[39m
+2022-11-16 19:39:17:3917 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 19:39:18:3918 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 19:39:26:3926 [32minfo[39m: [32mServer is running on port 5000[39m
+2022-11-16 19:39:28:3928 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 19:39:31:3931 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 1590 - 185.309 ms[39m
+[35m[39m
+2022-11-16 20:06:33:633 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-16 20:06:35:635 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 20:06:55:655 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 1590 - 169.960 ms[39m
+[35m[39m
+2022-11-16 20:07:02:72 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 1590 - 183.527 ms[39m
+[35m[39m
+2022-11-16 20:11:02:112 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 129.308 ms[39m
+[35m[39m
+2022-11-16 20:11:03:113 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 130.849 ms[39m
+[35m[39m
+2022-11-16 20:11:08:118 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 144.807 ms[39m
+[35m[39m
+2022-11-16 20:12:53:1253 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 129.286 ms[39m
+[35m[39m
+2022-11-16 20:12:53:1253 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 128.414 ms[39m
+[35m[39m
+2022-11-16 20:12:57:1257 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 143.569 ms[39m
+[35m[39m
+2022-11-16 20:16:15:1615 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 140.848 ms[39m
+[35m[39m
+2022-11-16 20:16:16:1616 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 142.802 ms[39m
+[35m[39m
+2022-11-16 20:16:19:1619 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 148.876 ms[39m
+[35m[39m
+2022-11-16 20:28:11:2811 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 148.047 ms[39m
+[35m[39m
+2022-11-16 20:28:15:2815 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 134.028 ms[39m
+[35m[39m
+2022-11-16 20:32:22:3222 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 1590 - 153.882 ms[39m
+[35m[39m
+2022-11-16 20:38:21:3821 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 132.330 ms[39m
+[35m[39m
+2022-11-16 20:38:48:3848 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 145.660 ms[39m
+[35m[39m
+2022-11-16 20:46:55:4655 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 135.281 ms[39m
+[35m[39m
+2022-11-16 20:46:58:4658 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 140.414 ms[39m
+[35m[39m
+2022-11-16 20:47:48:4748 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 142.972 ms[39m
+[35m[39m
+2022-11-16 20:47:52:4752 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 140.347 ms[39m
+[35m[39m
+2022-11-16 20:48:18:4818 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 135.945 ms[39m
+[35m[39m
+2022-11-16 21:29:54:2954 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 149.310 ms[39m
+[35m[39m
+2022-11-16 21:29:54:2954 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 129.589 ms[39m
+[35m[39m
+2022-11-16 21:30:25:3025 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 140.571 ms[39m
+[35m[39m
+2022-11-16 21:30:57:3057 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 131.803 ms[39m
+[35m[39m
+2022-11-16 21:34:15:3415 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 129.467 ms[39m
+[35m[39m
+2022-11-16 21:38:29:3829 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 141.237 ms[39m
+[35m[39m
+2022-11-16 21:38:35:3835 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 132.387 ms[39m
+[35m[39m
+2022-11-16 21:40:35:4035 [31merror[39m: [31mCould not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/[39m
+2022-11-16 21:40:35:4035 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 90 - 30007.932 ms[39m
+[35m[39m
+2022-11-16 21:41:41:4141 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 926.074 ms[39m
+[35m[39m
+2022-11-16 21:42:32:4232 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 1590 - 154.386 ms[39m
+[35m[39m
+2022-11-16 21:43:02:432 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 223.860 ms[39m
+[35m[39m
+2022-11-16 21:43:06:436 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 1590 - 141.359 ms[39m
+[35m[39m
+2022-11-16 21:43:34:4334 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 188.707 ms[39m
+[35m[39m
+2022-11-16 21:43:36:4336 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 1590 - 156.090 ms[39m
+[35m[39m
+2022-11-16 21:44:51:4451 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 179.599 ms[39m
+[35m[39m
+2022-11-16 21:45:09:459 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 308.351 ms[39m
+[35m[39m
+2022-11-16 21:45:13:4513 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 168.947 ms[39m
+[35m[39m
+2022-11-16 21:45:39:4539 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 174.182 ms[39m
+[35m[39m
+2022-11-16 21:45:43:4543 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 153.018 ms[39m
+[35m[39m
+2022-11-16 21:46:09:469 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 191.191 ms[39m
+[35m[39m
+2022-11-16 21:47:23:4723 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 143.965 ms[39m
+[35m[39m
+2022-11-16 21:47:29:4729 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 185.523 ms[39m
+[35m[39m
+2022-11-16 21:48:36:4836 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 155.849 ms[39m
+[35m[39m
+2022-11-16 21:48:54:4854 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 142.245 ms[39m
+[35m[39m
+2022-11-16 21:52:44:5244 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 173.820 ms[39m
+[35m[39m
+2022-11-16 22:06:28:628 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 153.009 ms[39m
+[35m[39m
+2022-11-16 22:06:32:632 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 146.763 ms[39m
+[35m[39m
+2022-11-16 22:06:34:634 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 219.056 ms[39m
+[35m[39m
+2022-11-16 22:26:40:2640 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 1890 - 147.792 ms[39m
+[35m[39m
+2022-11-16 22:27:57:2757 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 174.791 ms[39m
+[35m[39m
+2022-11-16 22:27:59:2759 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 229.752 ms[39m
+[35m[39m
+2022-11-16 22:28:38:2838 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-16 22:28:40:2840 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 22:28:40:2840 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 1890 - 2134.422 ms[39m
+[35m[39m
+2022-11-16 22:30:05:305 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-16 22:30:07:307 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 22:30:07:307 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 1686 - 502.105 ms[39m
+[35m[39m
+2022-11-16 22:30:15:3015 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-16 22:30:16:3016 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 22:30:37:3037 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-16 22:30:38:3038 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 22:30:39:3039 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 1890 - 356.719 ms[39m
+[35m[39m
+2022-11-16 22:30:45:3045 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-16 22:30:47:3047 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 22:30:56:3056 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 1890 - 169.288 ms[39m
+[35m[39m
+2022-11-16 22:33:49:3349 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-16 22:33:51:3351 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-16 22:33:55:3355 [31merror[39m: [31melement.date.slice is not a function[39m
+2022-11-16 22:33:55:3355 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 200 90 - 154.542 ms[39m
+[35m[39m
+2022-11-16 22:34:04:344 [31merror[39m: [31melement.date.slice is not a function[39m
+2022-11-16 22:34:04:344 [35mhttp[39m: [35m::1 GET /api/product/marketproduct 304 - - 293.241 ms[39m
+[35m[39m

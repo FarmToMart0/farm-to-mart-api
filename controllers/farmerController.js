@@ -22,7 +22,7 @@ async function  farmerRegister(req,res) {
         const output = generateOutput(400,'validate error',error1?.details[0].message || error2?.details[0].message )
         return res.status(200).send(output);
     } 
-  try {
+   try {
     //check whether already existed
     let user = await Farmer.findOne({ nic: req.body.nic });
 
