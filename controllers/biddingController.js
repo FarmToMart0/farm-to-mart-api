@@ -1,5 +1,5 @@
 const  firebaseapp =  require('../configs/firebase');
-const {ref,set,get,update,remove,child} = require("firebase/database");
+const {ref,set,get,update,remove,child,push} = require("firebase/database");
 
 const _ = require('lodash');
 
@@ -41,4 +41,29 @@ async function  getBidding(req,res){
   })
 
 }
-module.exports ={setBidding,getBidding};
+
+async function pushNotification(req,res) {
+  
+  const id = req.body.id
+  const mes= req.body.message
+  console.log(id,mes)
+  const notoficationData = {
+    message: mes,
+    seen:false,
+    date: Date.now(),
+    
+  };
+
+  // Get a key for a new Post.
+  const newKey = push(child(ref(db), 'notification')).key;
+    
+    set(ref(db,'notification/'+id+'/'+newKey),
+    notoficationData).then(()=>{
+      res.status(200).send("succussfully added")
+    }).catch((error)=>{
+     res.send("faield ")
+    })    
+}
+
+
+module.exports ={setBidding,getBidding,pushNotification};

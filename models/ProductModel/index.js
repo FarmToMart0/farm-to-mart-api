@@ -30,6 +30,7 @@ const Product = mongoose.model('Product', new mongoose.Schema({
    
   },
   date: { type: Date, default: Date.now },
+  biddingEndin: { type: Date },
   description:{
     type:String,
     required:true,
@@ -48,9 +49,7 @@ const Product = mongoose.model('Product', new mongoose.Schema({
   deliveryOption:[{type:String,required:true}],
   paymentOption:[{type:String,required:true}],
   biddingEnable:{
-    type: Boolean,
-    required: true,
-   
+    type: Boolean
   },
   
   images:[{type:String,required:true}],
@@ -68,12 +67,13 @@ function validateProduct(product) {
     quantity: Joi.any().required(),
     unitPrice: Joi.any().required(),
     farmer:Joi.object().required(),
+    biddingEndin:Joi.any(),
     description: Joi.string().required(),
     initialBid:Joi.any().required(),
     deliveryOption:Joi.array().items(Joi.string()).min(1).required(),
     paymentOption:Joi.array().items(Joi.string()).min(1).required(),
-    biddingEnable:Joi.boolean().required(),
-   
+    biddingEnable:Joi.boolean(),
+    
   });
  
   return schema.validate(product);

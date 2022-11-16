@@ -196,6 +196,14 @@ async function addCropDetails(req,res){
 
 
 }
+async function notified(req,res) {
+    try {
+        const notify = await MyCrops.findByIdAndUpdate(req.params.id,{notified:true})
+        res.status(200).send(generateOutput(201,'success',"notified"));
+    } catch (error) {
+        logger.error(error);
+        return res.send(generateOutput(500,'error','Error occured while notify'));
+    }
+}
 
-
-module.exports ={getOnGoingMyCropsDetails,updateHarvest,getCompletedMyCropsDetails,getHaverstedDetails,getTopHarvestedCropDetails,getCropTypes,getAverageCropCategoryDetails,getDistrict,getYearsList,addCropDetails}
+module.exports ={getOnGoingMyCropsDetails,updateHarvest,getCompletedMyCropsDetails,getHaverstedDetails,getTopHarvestedCropDetails,getCropTypes,getAverageCropCategoryDetails,getDistrict,getYearsList,addCropDetails,notified}

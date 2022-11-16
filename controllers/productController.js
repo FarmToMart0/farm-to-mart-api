@@ -3,13 +3,15 @@ const mongoose = require('mongoose');
 const {Product, validate} = require('../models/ProductModel/index');
 const _ = require('lodash');
 const logger = require("../utils/logger");
-const generateOutput= require('../utils/outputFactory')
+const generateOutput= require('../utils/outputFactory');
+const { cond } = require('lodash');
 //function for add product
 async function  addProduct(req,res) {
+    console.log(req.body);
     var ObjectId = mongoose.Types.ObjectId;
     req.body.remainQuantity=req.body.quantity;
     console.log(req.body)
-    const { error} = validate({'farmer':ObjectId(req.body.farmer),'category':req.body.category,'remainQuantity':req.body.remainQuantity,'productName':req.body.productName,'quantity':req.body.quantity,'unitPrice':req.body.unitPrice,'description':req.body.description,'initialBid':req.body.initialBid,'deliveryOption':req.body.deliveryOption,'paymentOption':req.body.paymentOption,'biddingEnable':req.body.biddingEnable});
+    const { error} = validate({'farmer':ObjectId(req.body.farmer),'category':req.body.category,'biddingEndin':req.body.biddingEndin,'remainQuantity':req.body.remainQuantity,'productName':req.body.productName,'quantity':req.body.quantity,'unitPrice':req.body.unitPrice,'description':req.body.description,'initialBid':req.body.initialBid,'deliveryOption':req.body.deliveryOption,'paymentOption':req.body.paymentOption,'biddingEnable':req.body.biddingEnable});
     if (error ){
        
         const output = generateOutput(400,'validate error',error.details[0].message )
@@ -51,14 +53,11 @@ async function  deleteProduct(req,res){
 async function updateProduct(req,res) {
         var ObjectId = mongoose.Types.ObjectId;
         req.body.remainQuantity=req.body.quantity;
-        const { error } = validate({'category':req.body.category,'farmer':ObjectId(req.body.farmer),'remainQuantity':req.body.remainQuantity,'productName':req.body.productName,'quantity':req.body.quantity,'unitPrice':req.body.unitPrice,'description':req.body.description,'initialBid':req.body.initialBid,'deliveryOption':req.body.deliveryOption,'paymentOption':req.body.paymentOption,'biddingEnable':req.body.biddingEnable}); 
         
+        const { error } = validate({'category':req.body.category,'farmer':ObjectId(req.body.farmer),'biddingEndin':req.body.biddingEndin,'remainQuantity':req.body.remainQuantity,'productName':req.body.productName,'quantity':req.body.quantity,'unitPrice':req.body.unitPrice,'description':req.body.description,'initialBid':req.body.initialBid,'deliveryOption':req.body.deliveryOption,'paymentOption':req.body.paymentOption,'biddingEnable':req.body.biddingEnable}); 
         if (error) return res.status(200).send(generateOutput(400,'validation error',error.details[0].message));
         try {
-        
-      
-        const product = await Product.findByIdAndUpdate(req.body._id,
-          req.body);
+        const product = await Product.findByIdAndUpdate(req.body._id,req.body);
       
         if (!product) return res.status(200).send(generateOutput(404,'not found','The product with the given ID was not found.'));
         

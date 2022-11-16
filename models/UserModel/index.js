@@ -28,8 +28,8 @@ const userSchema = new mongoose.Schema({
 }
 );
 //methos for genaration token
-userSchema.methods.generateAuthToken =()=> { 
-  const token = jwt.sign({ id: this.userId, userRole: this.userRole }, 'jwtPrivateKey',{
+userSchema.methods.generateAuthToken =(data)=> { 
+  const token = jwt.sign({ id: data?._id, userRole: data?.userRole }, 'jwtPrivateKey',{
     expiresIn: '1d' 
 
 });

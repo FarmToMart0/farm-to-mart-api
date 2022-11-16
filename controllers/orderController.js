@@ -305,30 +305,25 @@ async function getSalesOverview(req,res) {
     }
 }
 async function getOrderOverview(req,res) {
+    
     var id = req.params.id;
     var ObjectId = mongoose.Types.ObjectId;
     try {
         var ordersOverview = await Orders.aggregate([
-         
-            {$match:{
-                $and: [
-                    {
-                        farmer:{$eq:new ObjectId(id)}
-                    },
-                    {
-                        paymentStatus:{$eq:'paid'}
-                    },
-                    
-                    
-                  ],
-              }},
-             
-             
-              {$group : {_id:"$product", sales:{$sum:'$totalPrice'}}},
-              {$lookup: {from: "products", localField: "product", foreignField: "_id", as: "details"}}
-
-        
-        ])
+          
+            {$match: {farmer:{$eq:new ObjectId(id)}}},
+            {$group : {_id : "$product", totalAmount : { $sum : "$amount"}}},
+            {
+                $lookup: {
+                    "from": "products",
+                    "localField": "_id",
+                    "foreignField": "_id",
+                    "as": "details"
+                }
+            },
+            
+            
+    ])
         return res.status(200).send(generateOutput(201,"success",ordersOverview))
     } catch (error) {
         logger.error(error);

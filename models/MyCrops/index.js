@@ -10,6 +10,10 @@ const MyCrops = mongoose.model('MyCrops', new mongoose.Schema({
 type:String,
 required:true
  },
+ notified:{
+  type:Boolean,
+  default:false
+   },
   category: {
     type: String,
     required: true,
