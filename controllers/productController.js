@@ -1,17 +1,10 @@
-import express from "express";
-import { Types } from "mongoose";
-import { Product, validate } from "../models/ProductModel/index";
-import _ from "lodash";
-import { error as _error, info } from "../utils/logger";
-import generateOutput from "../utils/outputFactory";
-
-import { arrangeMarket } from "../services/marketProduct";
-import { ObjectId } from 'mongodb';
-import { x } from "joi";
-
-
-
-
+const express = require("express");
+const mongoose = require("mongoose");
+const {Product,validate } = require("../models/ProductModel/index");
+const _ = require("lodash");
+const logger = require("../utils/logger");
+const generateOutput = require("../utils/outputFactory");
+const {arrangeMarket}= require('../services/marketProduct');
 
 // =====================Get all products for market
 async function marketProduct(req, res) {
@@ -31,7 +24,7 @@ async function marketProduct(req, res) {
 				)
 			);
 	} catch (error) {
-		_error(error);
+		logger.error(error);
 		res
 			.status(200)
 			.send(
@@ -42,12 +35,12 @@ async function marketProduct(req, res) {
 				)
 			);
 	}
-
+}
 
 //function for add product
 async function addProduct(req, res) {
-  console.log(req.body);
-  var ObjectId = Types.ObjectId;
+ 
+  var ObjectId = mongoose.ObjectId;
   req.body.remainQuantity = req.body.quantity;
   console.log(req.body);
   const { error } = validate({
@@ -79,7 +72,7 @@ async function addProduct(req, res) {
       generateOutput(201, "success", "Product added successfully")
     );
   } catch (error) {
-    _error(error);
+    logger.error(error);
     return res.send(
       generateOutput(500, "error", "Error occured while added product")
     );
@@ -94,7 +87,7 @@ async function getProduct(req, res) {
     });
     res.status(200).send(generateOutput(201, "success", productList));
   } catch (error) {
-    _error(error);
+    logger.error(error);
     res
       .status(200)
       .send(
@@ -116,7 +109,7 @@ async function deleteProduct(req, res) {
       .status(200)
       .send(generateOutput(201, "success", "successfully removed"));
   } catch (error) {
-    _error(error);
+    loggererror(error);
     res
       .status(200)
       .send(
@@ -131,7 +124,7 @@ async function deleteProduct(req, res) {
 
 //function for update the product
 async function updateProduct(req, res) {
-  var ObjectId = Types.ObjectId;
+  var ObjectId = mongoose.ObjectId;
   req.body.remainQuantity = req.body.quantity;
 
   const { error } = validate({
@@ -168,7 +161,7 @@ async function updateProduct(req, res) {
 
     res.status(200).send(generateOutput(201, "success fully updated", product));
   } catch (error) {
-    _error(error);
+    logger.error(error);
     return res.send(
       generateOutput(500, "error", "Error occured while updating product")
     );
@@ -185,7 +178,7 @@ async function getImage(req, res) {
     let images = (output.images).map((el)=>{return {img:el}})
 		res.send({data:images});
 	} catch (err) {
-		_error(err);
+		logger.error(err);
 		res
 			.status(200)
 			.send(
@@ -203,7 +196,7 @@ async function getImage(req, res) {
 //function for getting total no of ongoing bidding
 async function getTotalOnGoingBids(req, res) {
   var id = req.params.id;
-  var ObjectId = Types.ObjectId;
+  var ObjectId = mongoose.ObjectId;
   try {
     var biddingCount = await Product.aggregate([
       {
@@ -224,7 +217,7 @@ async function getTotalOnGoingBids(req, res) {
     info("total ongoing bidding count successfully fetched");
     res.status(200).send(generateOutput("201", "success", biddingCount));
   } catch (error) {
-    _error(error);
+    logger.error(error);
     return res.send(
       generateOutput(
         500,
@@ -233,13 +226,6 @@ async function getTotalOnGoingBids(req, res) {
       )
     );
   }
-}}
-module.exports = {
-	getImage,
-	marketProduct,
-  addProduct,
-  getProduct,
-  deleteProduct,
-  updateProduct,
-  getTotalOnGoingBids,
 }
+
+module.exports = { marketProduct,getTotalOnGoingBids,deleteProduct,addProduct,getImage,getProduct,getTotalOnGoingBids,updateProduct}
