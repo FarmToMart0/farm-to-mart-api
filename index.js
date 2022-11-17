@@ -6,10 +6,14 @@ const cors = require("cors");
 const morganMiddleware = require("./midlewares/morganMiddleware");
 const logger = require("./utils/logger");
 const app = express();
+
+
+
 const { WebSocketServer } = require("ws");
 const server = new WebSocketServer({ port: 4000 });
 //databse connection
 require("./configs/db")();
+
 //databse connection
 // require('./configs/db')();
 
@@ -30,8 +34,10 @@ app.use(morganMiddleware);
 app.use(bodyParser.json());
 app.use(express.json());
 
+
 //end point starting for the farmer routes
 app.use("/api/farmer", farmerRouter);
+
 //end point starting for the auth routes
 app.use("/api/signin", authRouter);
 //end point starting for the buyer routes
@@ -41,6 +47,7 @@ app.use("/api/product", productRouter);
 //end point starting for the review routes
 app.use("/api/reviews", reviewRouter);
 //end point starting for the order routes
+
 app.use("/api/order", orderRouter);
 app.use("/api/bidding", biddingRouter);
 
@@ -49,3 +56,4 @@ app.use("/api/main-officer", mainOfficerRouter);
 
 const port = process.env.PORT || 9000;
 app.listen(port, () => logger.info(`Server is running on port ${port}`));
+

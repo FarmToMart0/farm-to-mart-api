@@ -9,6 +9,7 @@ const _ = require("lodash");
 const generateOutput = require("../utils/outputFactory");
 
 //methods for farmer registration process
+
 async function farmerRegister(req, res) {
   req.body.userRole = "FARMER";
   //validating the user details
@@ -23,6 +24,7 @@ async function farmerRegister(req, res) {
     return res.status(200).send(output);
   }
   try {
+
     //check whether already existed
     let user = await Farmer.findOne({ nic: req.body.nic });
 

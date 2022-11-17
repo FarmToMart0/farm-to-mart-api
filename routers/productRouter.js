@@ -1,10 +1,20 @@
 const express = require("express");
 const productController = require("../controllers/productController");
+
+const router = express.Router();
+
+
+
+
+router.get("/marketproduct", productController.marketProduct);
+router.get("/image/:id", productController.getImage);
+
+
 //midlewares for authentication
 const authenticate = require("../midlewares/authorization");
 //midlewares for checked user types
 const farmerMidleware = require("../midlewares/farmerMidleware");
-const router = express.Router();
+
 
 router.post(
   "/add",
@@ -36,4 +46,5 @@ router.get(
   farmerMidleware,
   productController.getTotalOnGoingBids
 );
+
 module.exports = router;

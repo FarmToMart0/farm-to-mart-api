@@ -1,14 +1,53 @@
-const express = require("express");
-const mongoose = require("mongoose");
-const { Product, validate } = require("../models/ProductModel/index");
-const _ = require("lodash");
-const logger = require("../utils/logger");
-const generateOutput = require("../utils/outputFactory");
-const { cond } = require("lodash");
+import express from "express";
+import { Types } from "mongoose";
+import { Product, validate } from "../models/ProductModel/index";
+import _ from "lodash";
+import { error as _error, info } from "../utils/logger";
+import generateOutput from "../utils/outputFactory";
+
+import { arrangeMarket } from "../services/marketProduct";
+import { ObjectId } from 'mongodb';
+import { x } from "joi";
+
+
+
+
+
+// =====================Get all products for market
+async function marketProduct(req, res) {
+	try {
+		let productList = await Product.find().sort({
+			remainQuantity: -1,
+			date: 1,
+		});
+
+		res
+			.status(200)
+			.send(
+				generateOutput(
+					201,
+					"success",
+					arrangeMarket(productList)
+				)
+			);
+	} catch (error) {
+		_error(error);
+		res
+			.status(200)
+			.send(
+				generateOutput(
+					500,
+					"error",
+					"error occured while getting products details"
+				)
+			);
+	}
+
+
 //function for add product
 async function addProduct(req, res) {
   console.log(req.body);
-  var ObjectId = mongoose.Types.ObjectId;
+  var ObjectId = Types.ObjectId;
   req.body.remainQuantity = req.body.quantity;
   console.log(req.body);
   const { error } = validate({
@@ -40,7 +79,7 @@ async function addProduct(req, res) {
       generateOutput(201, "success", "Product added successfully")
     );
   } catch (error) {
-    logger.error(error);
+    _error(error);
     return res.send(
       generateOutput(500, "error", "Error occured while added product")
     );
@@ -55,7 +94,7 @@ async function getProduct(req, res) {
     });
     res.status(200).send(generateOutput(201, "success", productList));
   } catch (error) {
-    logger.error(error);
+    _error(error);
     res
       .status(200)
       .send(
@@ -66,6 +105,7 @@ async function getProduct(req, res) {
         )
       );
   }
+
 }
 
 //function for delete the product
@@ -76,7 +116,7 @@ async function deleteProduct(req, res) {
       .status(200)
       .send(generateOutput(201, "success", "successfully removed"));
   } catch (error) {
-    logger.error(error);
+    _error(error);
     res
       .status(200)
       .send(
@@ -91,7 +131,7 @@ async function deleteProduct(req, res) {
 
 //function for update the product
 async function updateProduct(req, res) {
-  var ObjectId = mongoose.Types.ObjectId;
+  var ObjectId = Types.ObjectId;
   req.body.remainQuantity = req.body.quantity;
 
   const { error } = validate({
@@ -128,16 +168,42 @@ async function updateProduct(req, res) {
 
     res.status(200).send(generateOutput(201, "success fully updated", product));
   } catch (error) {
-    logger.error(error);
+    _error(error);
     return res.send(
       generateOutput(500, "error", "Error occured while updating product")
     );
   }
 }
+
+//endpoint for getting images for buy item
+async function getImage(req, res) {
+	const id = req.params.id;
+    
+	try {
+		let output = await Product.findOne({ _id: id });
+        
+    let images = (output.images).map((el)=>{return {img:el}})
+		res.send({data:images});
+	} catch (err) {
+		_error(err);
+		res
+			.status(200)
+			.send(
+				generateOutput(
+					500,
+					"error",
+					"error occured while getting images from DB"
+				)
+			);
+	}
+}
+
+
+
 //function for getting total no of ongoing bidding
 async function getTotalOnGoingBids(req, res) {
   var id = req.params.id;
-  var ObjectId = mongoose.Types.ObjectId;
+  var ObjectId = Types.ObjectId;
   try {
     var biddingCount = await Product.aggregate([
       {
@@ -155,10 +221,10 @@ async function getTotalOnGoingBids(req, res) {
         $count: "farmer",
       },
     ]);
-    logger.info("total ongoing bidding count successfully fetched");
+    info("total ongoing bidding count successfully fetched");
     res.status(200).send(generateOutput("201", "success", biddingCount));
   } catch (error) {
-    logger.error(error);
+    _error(error);
     return res.send(
       generateOutput(
         500,
@@ -167,11 +233,13 @@ async function getTotalOnGoingBids(req, res) {
       )
     );
   }
-}
+}}
 module.exports = {
+	getImage,
+	marketProduct,
   addProduct,
   getProduct,
   deleteProduct,
   updateProduct,
   getTotalOnGoingBids,
-};
+}
