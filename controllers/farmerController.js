@@ -1,5 +1,6 @@
 const express = require("express");
 const uuid = require("uuid");
+require('dotenv').config();
 const mongoose = require("mongoose");
 const { Farmer, validate } = require("../models/FarmerModel/index");
 const { UserAccount, validateUser } = require("../models/UserModel/index");
@@ -7,8 +8,21 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const _ = require("lodash");
 const generateOutput = require("../utils/outputFactory");
-
+const nodemailer = require('nodemailer');
 //methods for farmer registration process
+const transporter = nodemailer.createTransport({
+  host: 'smtp.gmail.com',
+    port: 465,
+    secure: true,
+    auth: {
+      user: process.env.EMAIL_USERNAME,
+      pass: process.env.EMAIL_PASSWORD,
+    },
+    // === add this === //
+    tls : { rejectUnauthorized: false }
+});
+
+
 
 async function farmerRegister(req, res) {
   req.body.userRole = "FARMER";
@@ -79,16 +93,28 @@ async function farmerRegister(req, res) {
         await farmer.save();
         // Commit the changes
         await (await session).commitTransaction();
-        const token = user.generateAuthToken();
-        return res.send(
-          generateOutput(201, "Farmer registered successfully", {
-            _id: user._id,
-            firstName: farmer.firstName,
-            lastName: farmer.lastName,
-            email: user.email,
-            token: token,
-          })
-        );
+        const token = user.generateAuthToken(user);
+             // Step 3 - Email the user a unique verification link
+       const url = `http://localhost:3000/verify/${token}`
+      
+       transporter.sendMail({
+         to: req.body.email,
+         subject: 'Verify Account',
+         html: `Click <a href = '${url}'>here</a> to confirm your email.`
+       })
+      
+      //  return res.status(200).send(
+      //   generateOutput(201,'send','Verification mail sent')
+      //  );
+        // return res.send(
+        //   generateOutput(201, "Farmer registered successfully", {
+        //     _id: user._id,
+        //     firstName: farmer.firstName,
+        //     lastName: farmer.lastName,
+        //     email: user.email,
+        //     token: token,
+        //   })
+        // );
       } catch (error) {
         console.log(error);
         // Rollback any changes made in the database

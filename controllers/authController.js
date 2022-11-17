@@ -1,5 +1,6 @@
 const express = require("express");
 const uuid = require("uuid");
+require('dotenv').config();
 const mongoose = require("mongoose");
 const { UserAccount, validateUser } = require("../models/UserModel/index");
 const { Farmer, validate } = require("../models/FarmerModel/index");
@@ -7,12 +8,71 @@ const { Buyer, validateBuyer } = require("../models/BuyerModel/index");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const generateOutput = require("../utils/outputFactory");
+const logger = require("../utils/logger");
+
+
+async function verify(req, res)  {
+  const { token } = req.params
+  // Check we have an id
+  if (!token) {
+      return res.status(200).send(generateOutput(403,'forbiden','Token missing'));
+  }
+  // Step 1 -  Verify the token from the URL
+  let payload = null
+  try {
+      payload = jwt.verify(
+         token,
+         process.env.TOKEN_SECRET
+      );
+  } catch (err) {
+    logger.error(err)
+    return res.status(200).send(generateOutput(403,'error',err));
+  }
+  try{
+      // Step 2 - Find user with matching ID
+     
+      const user = await UserAccount.findOne({ _id: payload.id }).exec();
+      if (!user) {
+        return res.status(200).send(generateOutput(400,'error','User doesnt exist'));
+      }
+      // Step 3 - Update user verification status to true
+      user.verified = true;
+      await user.save();
+
+      let userDetails = null;
+      if (user.userRole === "FARMER") {
+        userDetails = await Farmer.findById(user._id);
+      } else if(user.userRole === "BUYER"){
+        userDetails = await Buyer.findById(user._id);
+  }
+      return res.status(200).send(generateOutput(201, "verified", {
+        _id: user?._id,
+        token: token,
+        userRole: user?.userRole,
+        firstName: userDetails?.firstName,
+        lastName: userDetails?.lastName,
+        address: userDetails?.address,
+        district: userDetails?.district,
+        gsdCode: userDetails?.gsdCode,
+        gsdZone: userDetails?.gsdName,
+        nic: userDetails?.nic,
+        phone: userDetails?.phone,
+        city: userDetails?.city,
+      }));
+   } catch (err) {
+    logger.error(err)
+    return res.status(200).send(generateOutput(500,'error',err));
+   }
+}
+
+
+
+
+
 
 //methods for sign in  function
-
 async function signin(req, res) {
   //validating the user
-
   const { error1 } = validateUser(req.body);
   if (error1)
     return res
@@ -67,4 +127,5 @@ async function signin(req, res) {
   }
 }
 
-module.exports = { signin };
+
+module.exports = { signin,verify };

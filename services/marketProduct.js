@@ -1,3 +1,5 @@
+
+
 function arrangeMarket(product){
     
     const products = []
@@ -32,5 +34,10 @@ function arrangeMarket(product){
 
     return products
 }
+
+
+
+
+
 
 module.exports = {arrangeMarket}

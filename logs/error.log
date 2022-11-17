@@ -196,3 +196,7 @@
 2022-11-16 23:03:22:322 [31merror[39m: [31m$lookup requires either 'pipeline' or both 'localField' and 'foreignField' to be specified[39m
 2022-11-16 23:03:56:356 [31merror[39m: [31mFieldPath field names may not start with '$'. Consider using $getField or $setField.[39m
 >>>>>>> 0dc897a1add4982adf1ce423feb498d71ccf425b
+2022-11-17 10:37:42:3742 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 10:57:10:5710 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 18:04:16:416 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 18:34:54:3454 [31merror[39m: [31muserDetails is not defined[39m

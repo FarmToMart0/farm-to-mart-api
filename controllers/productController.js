@@ -6,6 +6,9 @@ const logger = require("../utils/logger");
 const generateOutput = require("../utils/outputFactory");
 const {arrangeMarket}= require('../services/marketProduct');
 
+
+
+
 // =====================Get all products for market
 async function marketProduct(req, res) {
 	try {
