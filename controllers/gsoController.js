@@ -1,27 +1,31 @@
-const express = require('express');
+const express = require("express");
 const uuid = require("uuid");
-const mongoose = require('mongoose');
-const {Gso, validate} = require('../models/GSOModel/index');
-const {UserAccount,validateUser}= require('../models/UserModel/index')
-const jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
-const _ = require('lodash');
-const generateOutput= require('../utils/outputFactory');
-const logger = require('../utils/logger');
+const mongoose = require("mongoose");
+const { Gso, validate } = require("../models/GSOModel/index");
+const { UserAccount, validateUser } = require("../models/UserModel/index");
+const jwt = require("jsonwebtoken");
+const bcrypt = require("bcrypt");
+const _ = require("lodash");
+const generateOutput = require("../utils/outputFactory");
+const logger = require("../utils/logger");
+
 
 //methods for gso registration process
 async function  gsoRegister(req,res) {
     req.body.userRole = 'GSO'
     console.log(req.body)
-
-    const { error1 } = validate(req.body);
-    const { error2 } = validateUser(req.body);
-    if (error1 || error2){
-        const output = generateOutput(400,'validate error',error1?.details[0].message || error2?.details[0].message )
-        return res.status(200).send(output);
-    } 
-    try{
-        let user = await Gso.findOne({ nic: req.body.nic });
+  const { error1 } = validate(req.body);
+  const { error2 } = validateUser(req.body);
+  if (error1 || error2) {
+    const output = generateOutput(
+      400,
+      "validate error",
+      error1?.details[0].message || error2?.details[0].message
+    );
+    return res.status(200).send(output);
+  }
+  try {
+    let user = await Gso.findOne({ nic: req.body.nic });
 
         if (user) {
             //send user already registed message
@@ -70,7 +74,8 @@ async function  gsoRegister(req,res) {
         console.log(error)
         return res.status(200).send(generateOutput(400,'validate error','Something went wrong'));
     }
-}
+  } 
+
 
 //function for get gso details process
 async function getGsoDetails(req,res){
@@ -111,3 +116,4 @@ async function checkAvailabilityGSO(req,res){
 
 
 module.exports = {gsoRegister, getGsoDetails, removeGso, checkAvailabilityGSO}
+

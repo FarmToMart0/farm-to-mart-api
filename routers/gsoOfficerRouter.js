@@ -10,3 +10,4 @@ router.put('/remove-farmer',farmerController.removefarmer) //remove farmer
 router.post('/user-details', farmerController.getUserDetailsFarmer); //get user details
   
 module.exports = router; 
+
