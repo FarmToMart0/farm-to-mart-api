@@ -204,6 +204,7 @@ async function getDistrict(req, res) {
   }
 }
 
+
 async function getYearsList(req, res) {
   var district = req.params.district;
   try {
@@ -217,7 +218,6 @@ async function getYearsList(req, res) {
       {
         $group: {
           _id: { year: { $year: "$harvestedDate" } },
-
           totalLand: { $sum: "$landArea" },
         },
       },
@@ -287,39 +287,25 @@ async function getAverageCropCategoryDetails(req, res) {
   }
 }
 
-async function addCropDetails(req, res) {
-  console.log(req.body);
-  const { error } = validate(req.body);
-  if (error)
-    return res
-      .status(200)
-      .send(generateOutput(400, "validation error", error.details[0].message));
-  try {
-    let mycrop = new MyCrops(
-      _.pick(req.body, [
-        "farmerNic",
-        "status",
-        "category",
-        "cropType",
-        "startingDateOfGrowing",
-        "expectingDateOfHarvest",
-        "harvestedDate",
-        "expectedAmount",
-        "harvestedAmount",
-        "landArea",
-        "location",
-        "district",
-      ])
-    );
-    await mycrop.save();
-    res.status(200).send(generateOutput(201, "success", mycrop));
-  } catch (error) {
-    logger.error(error);
-    return res.send(
-      generateOutput(500, "error", "Error occured while adding crop details")
-    );
-  }
+//fuction for add crop data
+async function addCropDetails(req,res){
+    console.log(req.body)
+    req.body.status = 'ongoing'
+    //req.body.farmerNic = '918470222V'
+    req.body.harvestedAmount = 0
+    //req.body.harvestedDate = ''
+    const { error } = validate(req.body);
+    if (error) return res.status(200).send(generateOutput(400,'validation error',error.details[0].message));
+    try {
+        let mycrop = new MyCrops(_.pick(req.body, ['farmerNic','status','category', 'cropType', 'startingDateOfGrowing','expectingDateOfHarvest','expectedAmount','harvestedAmount','landArea','location','district']));
+        await mycrop.save();
+        res.status(200).send(generateOutput(201,'success',mycrop));
+    } catch (error) {
+        logger.error(error)
+        return res.send(generateOutput(500,'error','Error occured while adding crop details') );
+    }
 }
+
 async function notified(req, res) {
   try {
     const notify = await MyCrops.findByIdAndUpdate(req.params.id, {
@@ -331,6 +317,7 @@ async function notified(req, res) {
     return res.send(generateOutput(500, "error", "Error occured while notify"));
   }
 }
+
 
 module.exports = {
   getOnGoingMyCropsDetails,

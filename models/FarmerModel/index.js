@@ -1,60 +1,62 @@
 const Joi = require("joi");
 const mongoose = require("mongoose");
 //Schema defines for farmer
-const Farmer = mongoose.model(
-  "Farmer",
-  new mongoose.Schema(
-    {
-      firstName: {
-        type: String,
-        required: true,
-        minlength: 5,
-        maxlength: 50,
-      },
-      lastName: {
-        type: String,
-        required: true,
-        minlength: 5,
-        maxlength: 50,
-      },
-      address: {
-        type: String,
-        required: true,
-        minlength: 5,
-        maxlength: 100,
-      },
-      phone: {
-        type: String,
-        required: true,
-        minlength: 5,
-        maxlength: 50,
-      },
-      district: {
-        type: String,
-        required: true,
-        minlength: 5,
-        maxlength: 50,
-      },
-      gsdName: {
-        type: String,
-        required: true,
-      },
-      gsdCode: {
-        type: String,
-        required: true,
-      },
-      nic: {
-        type: String,
-        required: true,
-        minlength: 10,
-        maxlength: 13,
-      },
-    },
-    {
-      timestamps: true,
-    }
-  )
-);
+
+const Farmer = mongoose.model('Farmer', new mongoose.Schema({
+
+  firstName: {
+    type: String,
+    required: true,
+    minlength: 5,
+    maxlength: 50
+  },
+  lastName: {
+    type: String,
+    required: true,
+    minlength: 5,
+    maxlength: 50
+  },
+  address:{
+    type:String,
+    required:true,
+    minlength: 5,
+    maxlength: 100
+  },
+  phone: {
+    type: String,
+    required: true,
+    minlength: 5,
+    maxlength: 50
+  },
+  district:{
+    type: String,
+    required: true,
+    minlength: 5,
+    maxlength: 50
+  },
+  gsdName:{
+    type: String,
+    required: true,
+    
+  },
+  gsdCode:{
+    type: String,
+    required: true,
+    
+  },
+  nic:{
+    type: String,
+    required: true,
+    minlength: 10,
+    maxlength: 13
+  },
+  status:{
+    type: String
+  }
+
+},{
+  timestamps: true,
+}));
 //validation function for create farmer
 function validateFarmer(farmer) {
   const schema = Joi.object({

@@ -1,6 +1,7 @@
 const Joi = require("joi");
 const mongoose = require("mongoose");
 //Schema defines for crop task
+
 const MyCrops = mongoose.model(
   "MyCrops",
   new mongoose.Schema(
@@ -35,7 +36,7 @@ const MyCrops = mongoose.model(
       },
       harvestedDate: {
         type: Date,
-        required: true,
+        //required: true,
       },
       expectedAmount: {},
       harvestedAmount: {
@@ -59,6 +60,7 @@ const MyCrops = mongoose.model(
     }
   )
 );
+
 //validation function for create cropdetails
 function validateMyCrops(cropdetails) {
   const schema = Joi.object({
@@ -68,7 +70,7 @@ function validateMyCrops(cropdetails) {
     cropType: Joi.string().required(),
     startingDateOfGrowing: Joi.date().required(),
     expectingDateOfHarvest: Joi.date().required(),
-    harvestedDate: Joi.date().required(),
+    harvestedDate:Joi.date(),
     expectedAmount: Joi.number().required(),
     harvestedAmount: Joi.number().required(),
     landArea: Joi.number().required(),

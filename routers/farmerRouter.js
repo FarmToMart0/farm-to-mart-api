@@ -51,6 +51,7 @@ router.get(
   myCropsController.getCropTypes
 );
 //router for getting crop category average
+
 router.get(
   "/averagecropcategory/:district/:year",
   authenticate,
@@ -73,4 +74,7 @@ router.get(
 );
 router.get("/notify/:id", myCropsController.notified);
 
-module.exports = router;
+//router for getting profile details
+router.get('/profile/:nic',farmerController.getFarmerDetails);
+module.exports = router; 
+
