@@ -49,6 +49,9 @@ const Farmer = mongoose.model('Farmer', new mongoose.Schema({
     minlength: 10,
     maxlength: 13
   },
+  status:{
+    type: String
+  }
 
 },{
   timestamps: true,

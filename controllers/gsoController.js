@@ -75,6 +75,7 @@ async function  gsoRegister(req,res) {
 //function for get gso details process
 async function getGsoDetails(req,res){
     try{
+        console.log(req.params.nic )
         let gso = await Gso.findOne({ "nic": req.params.nic });
         console.log(gso)
         res.status(200).send(generateOutput(200,'success',gso));
@@ -96,5 +97,17 @@ async function removeGso(req,res){
     }
 }
 
+async function checkAvailabilityGSO(req,res){
+    var nic = req.body.nic;
+    try{
+      var gso = await Gso.findOne({ "nic": nic });
+      
+      return res.status(200).send(generateOutput(201,'success',gso))
+      
+    }catch(error){
+  
+    }
+  }
 
-module.exports = {gsoRegister, getGsoDetails, removeGso}
+
+module.exports = {gsoRegister, getGsoDetails, removeGso, checkAvailabilityGSO}

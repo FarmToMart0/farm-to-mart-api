@@ -32,10 +32,11 @@ required:true
   },
   harvestedDate:{
     type:Date,
-    required:true,
+    //required:true,
     
   },
   expectedAmount:{
+    type:Number,
 
   },
   harvestedAmount:{
@@ -72,7 +73,7 @@ function validateMyCrops(cropdetails) {
     cropType:Joi.string().required(),
     startingDateOfGrowing: Joi.date().required(),
     expectingDateOfHarvest: Joi.date().required(),
-    harvestedDate:Joi.date().required(),
+    harvestedDate:Joi.date(),
     expectedAmount:Joi.number().required(),
     harvestedAmount: Joi.number().required(),
     landArea: Joi.number().required(),

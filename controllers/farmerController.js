@@ -75,7 +75,7 @@ async function getFarmerDetails(req,res){
   try{
       let farmer = await Farmer.findOne({ "nic": req.params.nic });
       console.log(farmer)
-      res.status(200).send(generateOutput(200,'success',farmer));
+      res.status(200).send(generateOutput(201,'success',farmer));
   } catch (error){
       logger.error(error)
       res.status(200).send(generateOutput(500,'error','Something went wrong'));
@@ -132,5 +132,51 @@ async function  gsoRegisterFarmer(req,res) {
     }
 }
 
+async function checkAvailability(req,res){
+  //console.log(req.body, "given")
+  var nic = req.body.nic;
+  try{
+    var farmer = await Farmer.findOne({ "nic": nic });
+    console.log(farmer)
+    if (farmer.status !== "removed"){
+      return res.status(200).send(generateOutput(201,'success',farmer))
+    } 
+
+  }catch(error){
+
+  }
+}
+
+async  function removefarmer(req,res) {
+
+  req.body.status = "removed"
+  var id = req.body.farmerDetails._id;
+
+  try {
+
+      let removedFarmer = await Farmer.findByIdAndUpdate(id,_.pick(req.body, ['status']))
+      let removedUser = await UserAccount.findByIdAndUpdate(id,_.pick(req.body, ['status']))
+      if (!removedFarmer) return res.status(200).send(generateOutput(404,'not found','The farmer with the given ID was not found.'));
+      res.status(200).send(generateOutput(201,'successfully removed'));
+  } catch (error) {
+      logger.error(error)
+      return res.send(generateOutput(500,'error','Error occured while updating product') );
+  }
+}
+
+async function getUserDetailsFarmer(req, res){
+  console.log(req.body.farmerDetails)
+  var id = req.body.farmerDetails._id;
+  console.log(id, "id")
+  try{
+      
+    let user = await UserAccount.findOne({ "_id": id });
+    console.log(user)
+    res.status(200).send(generateOutput(201,'success',user));
+  } catch (error){
+    logger.error(error)
+    res.status(200).send(generateOutput(500,'error','Something went wrong'));
+}
+}
     
-module.exports ={farmerRegister, getFarmerDetails, gsoRegisterFarmer};
+module.exports ={farmerRegister, getFarmerDetails, gsoRegisterFarmer,checkAvailability, removefarmer, getUserDetailsFarmer};

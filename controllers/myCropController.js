@@ -146,10 +146,13 @@ async function getAverageCropCategoryDetails(req,res) {
 async function addCropDetails(req,res){
     console.log(req.body)
     req.body.status = 'ongoing'
+    //req.body.farmerNic = '918470222V'
+    req.body.harvestedAmount = 0
+    //req.body.harvestedDate = ''
     const { error } = validate(req.body);
     if (error) return res.status(200).send(generateOutput(400,'validation error',error.details[0].message));
     try {
-        let mycrop = new MyCrops(_.pick(req.body, ['farmerNic','status','category', 'cropType', 'startingDateOfGrowing','expectingDateOfHarvest','harvestedDate','expectedAmount','harvestedAmount','landArea','location','district']));
+        let mycrop = new MyCrops(_.pick(req.body, ['farmerNic','status','category', 'cropType', 'startingDateOfGrowing','expectingDateOfHarvest','expectedAmount','harvestedAmount','landArea','location','district']));
         await mycrop.save();
         res.status(200).send(generateOutput(201,'success',mycrop));
     } catch (error) {
