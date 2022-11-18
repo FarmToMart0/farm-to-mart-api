@@ -92,14 +92,18 @@ async function getGsoDetails(req,res){
 
 //function for removing gso
 async function removeGso(req,res){
-    var id = req.body.gsoDetails._id;
+    var id = req.body._id;
     try {
         let gso = await Gso.findByIdAndRemove(id)
         let user = await UserAccount.findByIdAndRemove(id)
-        res.status(200).send(generateOutput(201,'success','successfully removed'))
+        if(!(gso && user)){
+            return res.status(200).send(generateOutput(404,'not found','The gso with the given ID was not found.'))    
+        }
+        return res.status(200).send(generateOutput(201,'success','successfully removed'))
+        
     } catch (error) {
         logger.error(error)
-        res.status(200).send(generateOutput(500,'error','error occured while removing gso'))
+        return res.status(200).send(generateOutput(500,'error','error occured while removing gso'))
     }
 }
 
