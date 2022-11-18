@@ -103,18 +103,10 @@ async function farmerRegister(req, res) {
          html: `Click <a href = '${url}'>here</a> to confirm your email.`
        })
       
-      //  return res.status(200).send(
-      //   generateOutput(201,'send','Verification mail sent')
-      //  );
-        // return res.send(
-        //   generateOutput(201, "Farmer registered successfully", {
-        //     _id: user._id,
-        //     firstName: farmer.firstName,
-        //     lastName: farmer.lastName,
-        //     email: user.email,
-        //     token: token,
-        //   })
-        // );
+       return res.status(200).send(
+        generateOutput(201,'send','Verification mail sent')
+       );
+       
       } catch (error) {
         console.log(error);
         // Rollback any changes made in the database

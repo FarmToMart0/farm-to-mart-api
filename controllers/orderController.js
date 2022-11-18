@@ -7,8 +7,9 @@ const generateOutput = require("../utils/outputFactory");
 const { Product } = require("../models/ProductModel");
 //get pending orders that specific to some certain farmer
 async function getAllOrders(req, res) {
+  console.log(req.params.id )
   try {
-    let orders = await Orders.find({ farmer: req.params.id })
+    let orders = await Orders.find({ 'farmer': req.params.id })
       .sort({ orderedDate: -1 })
       .populate("farmer")
       .populate("buyer")
@@ -33,7 +34,7 @@ async function getAllOrders(req, res) {
 async function getDeliveredOrders(req, res) {
   try {
     let orders = await Orders.find({
-      $and: [{ farmer: req.params.id }, { orderStatus: "delivered" }],
+      $and: [{ 'farmer': req.params.id }, { orderStatus: "delivered" }],
     })
       .sort({ orderedDate: -1 })
       .populate("farmer")

@@ -23,7 +23,7 @@ router.post(
   productController.addProduct
 );
 router.get(
-  "/getproduct",
+  "/getproduct/:id",
   authenticate,
   farmerMidleware,
   productController.getProduct

@@ -43,7 +43,7 @@ async function marketProduct(req, res) {
 //function for add product
 async function addProduct(req, res) {
  
-  var ObjectId = mongoose.ObjectId;
+  var ObjectId = mongoose.Types.ObjectId;
   req.body.remainQuantity = req.body.quantity;
   console.log(req.body);
   const { error } = validate({
@@ -84,7 +84,8 @@ async function addProduct(req, res) {
 //function for get the product
 async function getProduct(req, res) {
   try {
-    let productList = await Product.find().sort({
+    var ObjectId = mongoose.Types.ObjectId;
+    let productList = await Product.find({'farmer':new ObjectId(req.params.id)}).sort({
       remainQuantity: -1,
       date: 1,
     });
@@ -127,7 +128,7 @@ async function deleteProduct(req, res) {
 
 //function for update the product
 async function updateProduct(req, res) {
-  var ObjectId = mongoose.ObjectId;
+  var ObjectId = mongoose.Types.ObjectId;
   req.body.remainQuantity = req.body.quantity;
 
   const { error } = validate({
@@ -199,7 +200,7 @@ async function getImage(req, res) {
 //function for getting total no of ongoing bidding
 async function getTotalOnGoingBids(req, res) {
   var id = req.params.id;
-  var ObjectId = mongoose.ObjectId;
+  var ObjectId = mongoose.Types.ObjectId;
   try {
     var biddingCount = await Product.aggregate([
       {
