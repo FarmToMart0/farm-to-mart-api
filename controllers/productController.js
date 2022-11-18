@@ -144,7 +144,7 @@ async function deleteProduct(req, res) {
 async function updateProduct(req, res) {
   var ObjectId = mongoose.Types.ObjectId;
   req.body.remainQuantity = req.body.quantity;
-
+ 
 	const { error } = validate({
 		category: req.body.category,
 		farmer: ObjectId(req.body.farmer),

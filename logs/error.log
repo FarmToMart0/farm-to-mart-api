@@ -500,3 +500,12 @@
 2022-11-17 21:29:05:295 [31merror[39m: [31mCould not connect to MongoDB...[39m
 2022-11-17 21:30:22:3022 [31merror[39m: [31mCould not connect to MongoDB...[39m
 >>>>>>> 2062dff1c9399c1ba8c203e5ee36343373624141
+2022-11-18 15:49:52:4952 [31merror[39m: [31minfo is not defined[39m
+2022-11-18 15:50:11:5011 [31merror[39m: [31minfo is not defined[39m
+2022-11-18 15:50:44:5044 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-18 15:51:22:5122 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-18 15:51:40:5140 [31merror[39m: [31minfo is not defined[39m
+2022-11-18 15:51:59:5159 [31merror[39m: [31minfo is not defined[39m
+2022-11-18 15:55:51:5551 [31merror[39m: [31minfo is not defined[39m
+2022-11-18 15:56:37:5637 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-18 15:59:13:5913 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m

@@ -5,6 +5,7 @@ const mongoose = require("mongoose");
 const { UserAccount, validateUser } = require("../models/UserModel/index");
 const { ResetPassword,validateReset } = require("../models/ResetPassword/index");
 const { Buyer, validateBuyer } = require("../models/BuyerModel/index");
+const {Farmer,validate} = require("../models/FarmerModel/index")
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const generateOutput = require("../utils/outputFactory");
