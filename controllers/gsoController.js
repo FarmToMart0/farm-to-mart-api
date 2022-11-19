@@ -1,7 +1,7 @@
 const express = require("express");
 const uuid = require("uuid");
 const mongoose = require("mongoose");
-const { Gso, validate } = require("../models/GSOModel/index");
+const { Gso, validate, validateUpdate } = require("../models/GSOModel/index");
 const { UserAccount, validateUser } = require("../models/UserModel/index");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
@@ -92,13 +92,18 @@ async function getGsoDetails(req,res){
 
 //function for removing gso
 async function removeGso(req,res){
+    var id = req.body._id;
     try {
-        let gso = await Gso.findByIdAndRemove(req.params.id)
-        let user = await UserAccount.findByIdAndRemove(req.params.id)
-        res.status(200).send(generateOutput(201,'success','successfully removed'))
+        let gso = await Gso.findByIdAndRemove(id)
+        let user = await UserAccount.findByIdAndRemove(id)
+        if(!(gso && user)){
+            return res.status(200).send(generateOutput(404,'not found','The gso with the given ID was not found.'))    
+        }
+        return res.status(200).send(generateOutput(201,'success','successfully removed'))
+        
     } catch (error) {
         logger.error(error)
-        res.status(200).send(generateOutput(500,'error','error occured while removing gso'))
+        return res.status(200).send(generateOutput(500,'error','error occured while removing gso'))
     }
 }
 
@@ -114,6 +119,39 @@ async function checkAvailabilityGSO(req,res){
     }
   }
 
+async function getUserDetailsGso(req, res){
+    console.log(req.body.gsoDetails)
+    var id = req.body.gsoDetails._id;
+    console.log(id, "id")
+    try{
+        
+        let user = await UserAccount.findOne({ "_id": id });
+        console.log(user)
+        res.status(200).send(generateOutput(201,'success',user));
+    } catch (error){
+        logger.error(error)
+        res.status(200).send(generateOutput(500,'error','Something went wrong'));
+    }
+}
 
-module.exports = {gsoRegister, getGsoDetails, removeGso, checkAvailabilityGSO}
+async function editGSO(req,res){
+    body = req.body
+    console.log(body)
+    const {error} = validateUpdate(body)
+    if (error){
+        return res.status(200).send(generateOutput(400, "validation error", error.details[0].message));
+    }
+    try{
+        let updatedgso = await Gso.findByIdAndUpdate(body._id, _.pick(body, ["firstName", "lastName", "mobile"]))
+        if (!updatedgso){
+            return res.status(200).send( generateOutput(404,"not found","The gso with the given ID was not found."))
+        }
+        res.status(200).send(generateOutput(201, "success fully updated", updatedgso));
+    }catch(error){
+        logger.error(error);
+        return res.send(generateOutput(500, "error", "Error occured while updating gso"));
+    }
+}
+
+module.exports = {gsoRegister, getGsoDetails, removeGso, checkAvailabilityGSO, getUserDetailsGso,editGSO}
 

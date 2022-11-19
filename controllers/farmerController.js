@@ -193,10 +193,16 @@ async function checkAvailability(req,res){
   var nic = req.body.nic;
   try{
     var farmer = await Farmer.findOne({ "nic": nic });
-    console.log(farmer)
-    if (farmer.status !== "removed"){
+    //console.log(farmer)
+    if (farmer == null){
+      res.status(200).send(generateOutput(201,'success',farmer));
+    }else if (farmer.status !== "removed"){
+      console.log("both", farmer)
       return res.status(200).send(generateOutput(201,'success',farmer))
-    } 
+    }else{
+      console.log("removed", farmer)
+      return res.status(200).send(generateOutput(201,'success',"removed"))
+    }
 
   }catch(error){
 

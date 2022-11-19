@@ -318,6 +318,24 @@ async function notified(req, res) {
   }
 }
 
+async function getCropsDetails(req, res) {
+  try {
+    let mycrops = await MyCrops.find({ farmerNic: req.params.nic }).sort({ startingDateOfGrowing: -1 });
+    res.status(200).send(generateOutput(201, "success", mycrops));
+  } catch (error) {
+    logger.error(error);
+    res
+      .status(200)
+      .send(
+        generateOutput(
+          500,
+          "error",
+          "error occured while getting crop  details"
+        )
+      );
+  }
+}
+
 
 module.exports = {
   getOnGoingMyCropsDetails,
@@ -331,4 +349,5 @@ module.exports = {
   getYearsList,
   addCropDetails,
   notified,
+  getCropsDetails
 };
