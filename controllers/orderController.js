@@ -587,6 +587,72 @@ async function updateRemainCrop(req,res){
 		);
 	}
 }
+
+async function getOrdersByBuyer(req,res){
+  const buyer = req.body.buyer;
+
+  try {
+		var ObjectId = mongoose.Types.ObjectId;
+		let orderList = await Orders.find({
+			buyer: new ObjectId(buyer),
+      orderStatus:"place"
+		}).sort({
+			remainQuantity: -1,
+			date: 1,
+		});
+    console.log(orderList);
+    res.send(orderList)
+		//res.status(200).send(generateOutput(201, "success", orderList));
+    // res.send(orderList)
+	} catch (error) {
+    console.log("kk");
+		logger.error(error);
+		res
+			.status(200)
+			.send(
+				generateOutput(
+					500,
+					"error",
+					"error occured while getting orders"
+				)
+			);
+	}
+
+}
+
+
+async function updateProductStatus(req,res){
+  const orderStatus = "delivered"
+  const _id = req.body.id;
+  
+ 
+  try {
+		const order = await Orders.findByIdAndUpdate(_id, {orderStatus:orderStatus});
+    
+		if (!order){
+      return res
+				.status(200)
+				.send(
+					generateOutput(
+						404,
+						"not found",
+						"The product with the given ID was not found."
+					)
+				);
+    }
+    
+			
+    
+		res.status(200).send(generateOutput(201, "success fully updated", order));
+    console.log(order)
+	} catch (error) {
+    
+		logger.error(error);
+		return res.send(
+			generateOutput(500, "error", "Error occured while updating product")
+		);
+	}
+}
   
 module.exports = {
   getAllOrders,
@@ -604,5 +670,7 @@ module.exports = {
   getSalesOverview,
   getOrderOverview,
   placeOrder,
-  updateRemainCrop
+  updateRemainCrop,
+  getOrdersByBuyer,
+  updateProductStatus
 };

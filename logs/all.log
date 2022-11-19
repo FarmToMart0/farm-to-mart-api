@@ -38215,3 +38215,106 @@
 [35m[39m
 2022-11-19 22:54:46:5446 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 169.315 ms[39m
 [35m[39m
+2022-11-20 02:02:54:254 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:02:56:256 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:08:08:88 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:08:10:810 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:09:25:925 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:09:28:928 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:09:34:934 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:09:35:935 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:10:23:1023 [35mhttp[39m: [35m::1 GET /api/order/getbuyerorders 200 22630 - 550.889 ms[39m
+[35m[39m
+2022-11-20 02:10:36:1036 [35mhttp[39m: [35m::1 GET /api/order/getbuyerorders 200 22630 - 261.810 ms[39m
+[35m[39m
+2022-11-20 02:11:52:1152 [35mhttp[39m: [35m::1 GET /api/order/getOrdersByBuyer 404 165 - 1.321 ms[39m
+[35m[39m
+2022-11-20 02:11:58:1158 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:12:00:120 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:12:05:125 [35mhttp[39m: [35m::1 GET /api/order/getOrdersByBuyer 200 22630 - 298.967 ms[39m
+[35m[39m
+2022-11-20 02:13:23:1323 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:13:24:1324 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:13:26:1326 [35mhttp[39m: [35m::1 GET /api/order/getOrdersByBuyer 200 22630 - 280.422 ms[39m
+[35m[39m
+2022-11-20 02:13:43:1343 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:13:45:1345 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:13:47:1347 [35mhttp[39m: [35m::1 GET /api/order/getOrdersByBuyer 200 22630 - 290.959 ms[39m
+[35m[39m
+2022-11-20 02:16:38:1638 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:16:39:1639 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:17:47:1747 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:17:49:1749 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:17:51:1751 [35mhttp[39m: [35m::1 GET /api/order/getOrdersByBuyer 200 22630 - 593.132 ms[39m
+[35m[39m
+2022-11-20 02:18:56:1856 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:18:58:1858 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:19:03:193 [35mhttp[39m: [35m::1 GET /api/order/getOrdersByBuyer 200 22676 - 525.206 ms[39m
+[35m[39m
+2022-11-20 02:26:25:2625 [35mhttp[39m: [35m::1 GET /api/order/getOrdersByBuyer 200 22676 - 447.768 ms[39m
+[35m[39m
+2022-11-20 02:28:03:283 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:28:04:284 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:28:39:2839 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:28:40:2840 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:28:46:2846 [35mhttp[39m: [35m::1 GET /api/order/getOrdersByBuyer 200 20672 - 486.203 ms[39m
+[35m[39m
+2022-11-20 02:29:44:2944 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:29:45:2945 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:29:48:2948 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:29:50:2950 [35mhttp[39m: [35m::1 GET /api/order/getOrdersByBuyer 200 20626 - 1540.444 ms[39m
+[35m[39m
+2022-11-20 02:31:03:313 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:31:04:314 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:31:09:319 [35mhttp[39m: [35m::1 GET /api/order/getOrdersByBuyer 200 20626 - 499.659 ms[39m
+[35m[39m
+2022-11-20 02:31:48:3148 [35mhttp[39m: [35m::1 GET /api/order/getOrdersByBuyer 200 20626 - 484.718 ms[39m
+[35m[39m
+2022-11-20 02:31:54:3154 [35mhttp[39m: [35m::1 GET /api/order/getOrdersByBuyer 400 1047 - 2.692 ms[39m
+[35m[39m
+2022-11-20 02:32:14:3214 [35mhttp[39m: [35m::1 GET /api/order/getOrdersByBuyer 200 20626 - 480.339 ms[39m
+[35m[39m
+2022-11-20 02:35:09:359 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:35:11:3511 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:36:22:3622 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:36:23:3623 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:37:30:3730 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:37:32:3732 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:37:37:3737 [35mhttp[39m: [35m::1 GET /api/order/getordersbybuyer 200 20626 - 455.327 ms[39m
+[35m[39m
+2022-11-20 02:38:04:384 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:38:05:385 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:39:09:399 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:39:11:3911 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:39:15:3915 [35mhttp[39m: [35m::1 PUT /api/order/updatestatus 200 94 - 181.138 ms[39m
+[35m[39m
+2022-11-20 02:39:43:3943 [35mhttp[39m: [35m::1 PUT /api/order/updatestatus 200 94 - 144.555 ms[39m
+[35m[39m
+2022-11-20 02:41:32:4132 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:41:34:4134 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:44:09:449 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:44:17:4417 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:44:20:4420 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:44:26:4426 [35mhttp[39m: [35m::1 PUT /api/order/updatestatus 200 94 - 165.984 ms[39m
+[35m[39m
+2022-11-20 02:46:00:460 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:46:02:462 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:46:10:4610 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:46:12:4612 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:46:15:4615 [31merror[39m: [31mproduct is not defined[39m
+2022-11-20 02:46:15:4615 [35mhttp[39m: [35m::1 PUT /api/order/updatestatus 200 82 - 160.017 ms[39m
+[35m[39m
+2022-11-20 02:46:26:4626 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:46:28:4628 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:46:33:4633 [35mhttp[39m: [35m::1 PUT /api/order/updatestatus 200 507 - 161.260 ms[39m
+[35m[39m
+2022-11-20 02:48:13:4813 [35mhttp[39m: [35m::1 PUT /api/order/getordersbybuyer 404 165 - 3.030 ms[39m
+[35m[39m
+2022-11-20 02:48:20:4820 [35mhttp[39m: [35m::1 GET /api/order/getordersbybuyer 200 445 - 134.656 ms[39m
+[35m[39m
+2022-11-20 02:48:41:4841 [35mhttp[39m: [35m::1 GET /api/order/getordersbybuyer 200 445 - 132.209 ms[39m
+[35m[39m
+2022-11-20 02:48:59:4859 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 02:49:01:491 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 02:49:04:494 [35mhttp[39m: [35m::1 GET /api/order/getordersbybuyer 200 1752 - 207.278 ms[39m
+[35m[39m
