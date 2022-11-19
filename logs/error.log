@@ -196,3 +196,348 @@
 2022-11-16 23:03:22:322 [31merror[39m: [31m$lookup requires either 'pipeline' or both 'localField' and 'foreignField' to be specified[39m
 2022-11-16 23:03:56:356 [31merror[39m: [31mFieldPath field names may not start with '$'. Consider using $getField or $setField.[39m
 >>>>>>> 0dc897a1add4982adf1ce423feb498d71ccf425b
+<<<<<<< HEAD
+2022-11-17 10:37:42:3742 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 10:57:10:5710 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 18:04:16:416 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 18:34:54:3454 [31merror[39m: [31muserDetails is not defined[39m
+2022-11-17 19:24:21:2421 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 19:24:21:2421 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:24:21:2421 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:24:21:2421 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:24:21:2421 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:24:21:2421 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:24:58:2458 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 19:24:58:2458 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:24:58:2458 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:24:58:2458 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:24:58:2458 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:24:58:2458 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:33:16:3316 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 19:33:17:3317 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:33:18:3318 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:33:18:3318 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:33:19:3319 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:33:19:3319 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:35:17:3517 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 19:35:17:3517 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:35:17:3517 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:35:17:3517 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:35:17:3517 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:35:17:3517 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:35:36:3536 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 19:35:36:3536 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:35:36:3536 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:35:36:3536 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:35:36:3536 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:35:36:3536 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 19:38:12:3812 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 19:38:59:3859 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 19:39:12:3912 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 19:40:11:4011 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 19:40:18:4018 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 20:26:20:2620 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 20:32:47:3247 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 20:35:47:3547 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 20:35:47:3547 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 20:35:47:3547 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 20:35:47:3547 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 20:35:47:3547 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 20:35:47:3547 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 21:35:12:3512 [31merror[39m: [31mgetaddrinfo ENOTFOUND ac-exqmw1d-shard-00-02.8questr.mongodb.net[39m
+2022-11-17 21:41:31:4131 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 21:41:38:4138 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 21:42:00:420 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 21:46:36:4636 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':undefined',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':undefined' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:46:36:4636 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':undefined',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':undefined' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:47:06:476 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 21:47:17:4717 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':undefined',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':undefined' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:47:17:4717 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':undefined',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':undefined' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:48:14:4814 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':63764dba776a1255b5ed5874',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':63764dba776a1255b5ed5874' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:48:14:4814 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':63764dba776a1255b5ed5874',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':63764dba776a1255b5ed5874' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:48:17:4817 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':63764dba776a1255b5ed5874',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':63764dba776a1255b5ed5874' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:48:17:4817 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':63764dba776a1255b5ed5874',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':63764dba776a1255b5ed5874' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:50:25:5025 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':63764dba776a1255b5ed5874',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':63764dba776a1255b5ed5874' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:50:25:5025 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':63764dba776a1255b5ed5874',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':63764dba776a1255b5ed5874' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:50:29:5029 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':63764dba776a1255b5ed5874',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':63764dba776a1255b5ed5874' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:50:29:5029 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':63764dba776a1255b5ed5874',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':63764dba776a1255b5ed5874' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:51:58:5158 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':63764dba776a1255b5ed5874',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':63764dba776a1255b5ed5874' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:51:58:5158 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':63764dba776a1255b5ed5874',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':63764dba776a1255b5ed5874' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:52:12:5212 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 21:52:19:5219 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':63764dba776a1255b5ed5874',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':63764dba776a1255b5ed5874' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:52:19:5219 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':63764dba776a1255b5ed5874',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':63764dba776a1255b5ed5874' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:53:17:5317 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':63764dba776a1255b5ed5874',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':63764dba776a1255b5ed5874' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:53:17:5317 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':63764dba776a1255b5ed5874',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':63764dba776a1255b5ed5874' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:54:10:5410 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':63764dba776a1255b5ed5874',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':63764dba776a1255b5ed5874' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:54:10:5410 [31merror[39m: [31mCast to ObjectId failed for value "ObjectId {[39m
+[31m  path: ':63764dba776a1255b5ed5874',[39m
+[31m  instance: 'ObjectID',[39m
+[31m  validators: [],[39m
+[31m  getters: [],[39m
+[31m  setters: [],[39m
+[31m  _presplitPath: [ ':63764dba776a1255b5ed5874' ],[39m
+[31m  options: SchemaObjectIdOptions {},[39m
+[31m  _index: null,[39m
+[31m  [Symbol(mongoose#schemaType)]: true[39m
+[31m}" (type ObjectId) at path "farmer" for model "Product"[39m
+2022-11-17 21:56:01:561 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 21:56:01:561 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 21:56:14:5614 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 21:56:14:5614 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 21:57:10:5710 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 21:57:10:5710 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 21:57:40:5740 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 21:57:40:5740 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 21:58:46:5846 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 22:02:42:242 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 22:15:48:1548 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 22:20:43:2043 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 22:20:43:2043 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 22:20:43:2043 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 22:20:43:2043 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 22:20:43:2043 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 22:20:43:2043 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-17 22:30:08:308 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 22:34:38:3438 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 22:39:06:396 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 22:39:35:3935 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 22:45:00:450 [31merror[39m: [31minfo is not defined[39m
+=======
+2022-11-17 10:58:10:5810 [31merror[39m: [31minfo is not defined[39m
+2022-11-17 19:44:00:440 [31merror[39m: [31mFarmer_Products is not defined[39m
+2022-11-17 19:45:00:450 [31merror[39m: [31mFarmer_Products is not defined[39m
+2022-11-17 19:50:36:5036 [31merror[39m: [31mFarmer_Products is not defined[39m
+2022-11-17 21:29:05:295 [31merror[39m: [31mCould not connect to MongoDB...[39m
+2022-11-17 21:30:22:3022 [31merror[39m: [31mCould not connect to MongoDB...[39m
+>>>>>>> 2062dff1c9399c1ba8c203e5ee36343373624141
+<<<<<<< HEAD
+2022-11-18 15:49:52:4952 [31merror[39m: [31minfo is not defined[39m
+2022-11-18 15:50:11:5011 [31merror[39m: [31minfo is not defined[39m
+2022-11-18 15:50:44:5044 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-18 15:51:22:5122 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-18 15:51:40:5140 [31merror[39m: [31minfo is not defined[39m
+2022-11-18 15:51:59:5159 [31merror[39m: [31minfo is not defined[39m
+2022-11-18 15:55:51:5551 [31merror[39m: [31minfo is not defined[39m
+2022-11-18 15:56:37:5637 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-18 15:59:13:5913 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+=======
+2022-11-18 22:09:27:927 [31merror[39m: [31mCould not connect to MongoDB...[39m
+2022-11-19 06:11:46:1146 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 06:11:59:1159 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 06:31:34:3134 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 06:32:47:3247 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 06:41:06:416 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-19 06:42:08:428 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-19 06:42:28:4228 [31merror[39m: [31mArgument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer[39m
+2022-11-19 07:11:10:1110 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 07:11:14:1114 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 07:11:18:1118 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 07:11:23:1123 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 07:11:34:1134 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 07:11:39:1139 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 07:13:14:1314 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 07:13:39:1339 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 07:17:08:178 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 07:22:30:2230 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 07:22:41:2241 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 07:29:21:2921 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 07:29:53:2953 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 07:39:01:391 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 08:18:04:184 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 08:31:13:3113 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 08:33:21:3321 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 08:35:17:3517 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 08:39:21:3921 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 08:48:07:487 [31merror[39m: [31minfo is not defined[39m
+2022-11-19 08:48:35:4835 [31merror[39m: [31minfo is not defined[39m
+>>>>>>> 77c57279a25ad54fe86f74f57f9174600043bc24
