@@ -11,8 +11,7 @@ const { arrangeMarket } = require("../services/marketProduct");
 async function marketProduct(req, res) {
 	const district = req.query.district;
 	const type = req.query.type;
-  console.log("district"+district)
-  console.log("type"+type)
+  
 	
 	try {
 		const data = await Product.aggregate([
@@ -25,7 +24,7 @@ async function marketProduct(req, res) {
         },
       },
     ]);
-
+	
     const returnArray =  arrangeMarket(data).filter((element)=>{
       if(element.district === district && element.category === type){
         return true
