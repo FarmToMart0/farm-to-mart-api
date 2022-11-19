@@ -23,7 +23,7 @@ router.post(
   productController.addProduct
 );
 router.get(
-  "/getproduct",
+  "/getproduct/:id",
   authenticate,
   farmerMidleware,
   productController.getProduct
@@ -45,6 +45,11 @@ router.get(
   authenticate,
   farmerMidleware,
   productController.getTotalOnGoingBids
+);
+router.get(
+  "/ongoingbidding/:id",
+  
+  productController.getonBidingProducts
 );
 
 module.exports = router;

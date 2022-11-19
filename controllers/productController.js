@@ -7,6 +7,9 @@ const logger = require("../utils/logger");
 const generateOutput = require("../utils/outputFactory");
 const { arrangeMarket } = require("../services/marketProduct");
 
+
+
+
 // =====================Get all products for market
 async function marketProduct(req, res) {
 	const district = req.query.district;
@@ -52,64 +55,67 @@ async function marketProduct(req, res) {
 
 //function for add product
 async function addProduct(req, res) {
-	var ObjectId = mongoose.ObjectId;
-	req.body.remainQuantity = req.body.quantity;
-	console.log(req.body);
-	const { error } = validate({
-		farmer: ObjectId(req.body.farmer),
-		category: req.body.category,
-		biddingEndin: req.body.biddingEndin,
-		remainQuantity: req.body.remainQuantity,
-		productName: req.body.productName,
-		quantity: req.body.quantity,
-		unitPrice: req.body.unitPrice,
-		description: req.body.description,
-		initialBid: req.body.initialBid,
-		deliveryOption: req.body.deliveryOption,
-		paymentOption: req.body.paymentOption,
-		biddingEnable: req.body.biddingEnable,
-	});
-	if (error) {
-		const output = generateOutput(
-			400,
-			"validate error",
-			error.details[0].message
-		);
-		return res.status(200).send(output);
-	}
-	try {
-		let product = new Product(req.body);
-		await product.save();
-		return res.send(
-			generateOutput(201, "success", "Product added successfully")
-		);
-	} catch (error) {
-		logger.error(error);
-		return res.send(
-			generateOutput(500, "error", "Error occured while added product")
-		);
-	}
+ 
+  var ObjectId = mongoose.Types.ObjectId;
+  req.body.remainQuantity = req.body.quantity;
+  console.log(req.body);
+  const { error } = validate({
+    farmer: ObjectId(req.body.farmer),
+    category: req.body.category,
+    biddingEndin: req.body.biddingEndin,
+    remainQuantity: req.body.remainQuantity,
+    productName: req.body.productName,
+    quantity: req.body.quantity,
+    unitPrice: req.body.unitPrice,
+    description: req.body.description,
+    initialBid: req.body.initialBid,
+    deliveryOption: req.body.deliveryOption,
+    paymentOption: req.body.paymentOption,
+    biddingEnable: req.body.biddingEnable,
+  });
+  if (error) {
+    const output = generateOutput(
+      400,
+      "validate error",
+      error.details[0].message
+    );
+    return res.status(200).send(output);
+  }
+  try {
+    let product = new Product(req.body);
+    await product.save();
+    return res.send(
+      generateOutput(201, "success", "Product added successfully")
+    );
+  } catch (error) {
+    logger.error(error);
+    return res.send(
+      generateOutput(500, "error", "Error occured while added product")
+    );
+  }
 }
 //function for get the product
 async function getProduct(req, res) {
-	try {
-		let productList = await Product.find().sort({
-			remainQuantity: -1,
-			date: 1,
-		});
-		res.status(200).send(generateOutput(201, "success", productList));
-	} catch (error) {
-		logger.error(error);
-		res
-			.status(200)
-			.send(
-				generateOutput(
-					500,
-					"error",
-					"error occured while getting products details"
-				)
-			);
-	}
+  try {
+    var ObjectId = mongoose.Types.ObjectId;
+    let productList = await Product.find({'farmer':new ObjectId(req.params.id)}).sort({
+      remainQuantity: -1,
+      date: 1,
+    });
+    res.status(200).send(generateOutput(201, "success", productList));
+  } catch (error) {
+    logger.error(error);
+    res
+      .status(200)
+      .send(
+        generateOutput(
+          500,
+          "error",
+          "error occured while getting products details"
+        )
+      );
+  }
+
 }
 
 //function for delete the product
@@ -135,9 +141,9 @@ async function deleteProduct(req, res) {
 
 //function for update the product
 async function updateProduct(req, res) {
-	var ObjectId = mongoose.ObjectId;
-	req.body.remainQuantity = req.body.quantity;
-
+  var ObjectId = mongoose.Types.ObjectId;
+  req.body.remainQuantity = req.body.quantity;
+ 
 	const { error } = validate({
 		category: req.body.category,
 		farmer: ObjectId(req.body.farmer),
@@ -206,20 +212,20 @@ async function getImage(req, res) {
 
 //function for getting total no of ongoing bidding
 async function getTotalOnGoingBids(req, res) {
-	var id = req.params.id;
-	var ObjectId = mongoose.ObjectId;
-	try {
-		var biddingCount = await Product.aggregate([
-			{
-				$match: {
-					$and: [
-						{
-							farmer: { $eq: new ObjectId(id) },
-						},
-						{ biddingEnable: { $eq: true } },
-					],
-				},
-			},
+  var id = req.params.id;
+  var ObjectId = mongoose.Types.ObjectId;
+  try {
+    var biddingCount = await Product.aggregate([
+      {
+        $match: {
+          $and: [
+            {
+              farmer: { $eq: new ObjectId(id) },
+            },
+            { biddingEnable: { $eq: true } },
+          ],
+        },
+      },
 
 			{
 				$count: "farmer",
@@ -238,7 +244,25 @@ async function getTotalOnGoingBids(req, res) {
 		);
 	}
 }
-
+async function getonBidingProducts(req,res){
+	var id = req.params.id;
+    var ObjectId = mongoose.Types.ObjectId;
+    try {
+      var products = await Product.find({'farmer':new ObjectId(id), 'biddingEnable':true}).sort({'biddingEndin':1})
+	  return res.status(200).send(generateOutput(
+		201,
+		"sucess",
+		products
+	))
+    } catch (error) {
+		logger.error(error)
+		return res.status(200).send(generateOutput(
+			500,
+			"error",
+			"Error occured while getting ongoing bidding "
+		))
+    }
+}
 module.exports = {
 	marketProduct,
 	getTotalOnGoingBids,
@@ -248,4 +272,5 @@ module.exports = {
 	getProduct,
 	getTotalOnGoingBids,
 	updateProduct,
+	getonBidingProducts
 };

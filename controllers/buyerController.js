@@ -7,6 +7,20 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const _ = require("lodash");
 const generateOutput = require("../utils/outputFactory");
+const nodemailer = require('nodemailer');
+//methods for farmer registration process
+const transporter = nodemailer.createTransport({
+  host: 'smtp.gmail.com',
+    port: 465,
+    secure: true,
+    auth: {
+      user: process.env.EMAIL_USERNAME,
+      pass: process.env.EMAIL_PASSWORD,
+    },
+    // === add this === //
+    tls : { rejectUnauthorized: false }
+});
+
 
 //methods for farmer registration process
 async function buyerRegister(req, res) {
@@ -75,15 +89,17 @@ async function buyerRegister(req, res) {
         await buyer.save();
         // Commit the changes
         await (await session).commitTransaction();
-        const token = user.generateAuthToken();
-        return res.send(
-          generateOutput(201, "Buyer registered successfully", {
-            _id: user._id,
-            firstName: buyer.firstName,
-            lastName: buyer.lastName,
-            email: user.email,
-            token: token,
-          })
+        const token = user.generateAuthToken(user);
+        const url = `http://localhost:3000/verify/${token}`
+      
+        transporter.sendMail({
+          to: req.body.email,
+          subject: 'Verify Account',
+          html: `Click <a href = '${url}'>here</a> to confirm your email.`
+        })
+       
+        return res.status(200).send(
+         generateOutput(201,'send','Verification mail sent')
         );
       } catch (error) {
         console.log(error);
