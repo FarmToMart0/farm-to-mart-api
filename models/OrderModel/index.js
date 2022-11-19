@@ -50,7 +50,7 @@ const Order = mongoose.model(
         type: String,
         required: true,
       },
-      isFromBiding: {
+      isFromBidding: {
         type: Boolean,
         required: true,
       },
@@ -72,18 +72,19 @@ const Order = mongoose.model(
 function validateOrder(order) {
   const schema = Joi.object({
     category: Joi.string().required(),
-    amount: Joi.any().required(),
+    amount: Joi.number().required(),
     buyer: Joi.object().required(),
     farmer: Joi.object().required(),
     product: Joi.object().required(),
-    totalPrice: Joi.any().required(),
-    unitPrice: Joi.any().required(),
+    totalPrice: Joi.number().required(),
+    unitPrice: Joi.number().required(),
     description: Joi.string().required(),
     paymentStatus: Joi.string().required(),
     orderStatus: Joi.string().required(),
     deliveryMethod: Joi.string().required(),
     paymentMethod: Joi.string().required(),
-    isFromBiding: Joi.boolean().required(),
+    isFromBidding: Joi.boolean().required(),
+    
   });
 
   return schema.validate(order);

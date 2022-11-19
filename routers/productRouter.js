@@ -10,6 +10,7 @@ router.get("/marketproduct", productController.marketProduct);
 router.get("/image/:id", productController.getImage);
 
 
+
 //midlewares for authentication
 const authenticate = require("../midlewares/authorization");
 //midlewares for checked user types
