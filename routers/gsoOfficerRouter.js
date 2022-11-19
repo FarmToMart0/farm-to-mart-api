@@ -8,6 +8,7 @@ router.post('/register-farmer', farmerController.gsoRegisterFarmer); //farmer re
 router.post('/check-availability-farmer',farmerController.checkAvailability); //check availability of farmer
 router.put('/remove-farmer',farmerController.removefarmer) //remove farmer
 router.post('/user-details', farmerController.getUserDetailsFarmer); //get user details
+router.get('/get-crop-details/:nic', myCropsController.getCropsDetails); //get crop details
   
 module.exports = router; 
 
