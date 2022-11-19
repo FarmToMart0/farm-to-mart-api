@@ -46,5 +46,10 @@ router.get(
   farmerMidleware,
   productController.getTotalOnGoingBids
 );
+router.get(
+  "/ongoingbidding/:id",
+  
+  productController.getonBidingProducts
+);
 
 module.exports = router;
