@@ -31,6 +31,7 @@ async function getOnGoingMyCropsDetails(req, res) {
 }
 //function for get the completed crop task for specific farmer
 async function getCompletedMyCropsDetails(req, res) {
+  console.log(req.params.nic)
   try {
     let mycrops = await MyCrops.find({
       $and: [{ farmerNic: req.params.nic }, { status: "completed" }],
@@ -133,21 +134,34 @@ async function getTopHarvestedCropDetails(req, res) {
   var district = req.params.district;
 
   try {
-    var topHarvestedCrops = await MyCrops.find(
+    var topHarvestedCrops = await MyCrops.aggregate([
       {
-        $and: [
-          { $expr: { $eq: [{ $year: "$harvestedDate" }, year] } },
-          { district: district },
-          { status: "completed" },
-        ],
+        $addFields: {
+          stringDate: {
+            $dateToString: { format: "%Y-%m-%d", date: "$harvestedDate" },
+          },
+        },
       },
       {
-        category: 1,
-        cropType: 1,
-        harvestedAmount: 1,
-        expectedAmount: 1,
-        landArea: 1,
-      }
+        $match: {
+          $and: [
+            { stringDate: { $gte: `${year}-01-01` } },
+            { stringDate: { $lt: `${year}-12-31` } },
+            { district: district },
+            { status: "completed" },
+          ],
+        }
+      },
+      {
+        $group: {
+          _id:'$cropType',
+          totalLand: { $sum: "$landArea" },
+          totalExpected: { $sum: "$expectedAmount" },
+          totalHarvested: { $sum: "$harvestedAmount" }
+        }
+      },
+      
+     ]
     )
       .sort({ harvestedAmount: 1 })
       .limit(10);

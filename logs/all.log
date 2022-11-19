@@ -36999,3 +36999,1287 @@
 >>>>>>> 77c57279a25ad54fe86f74f57f9174600043bc24
 2022-11-19 09:23:46:2346 [32minfo[39m: [32mServer is running on port 9000[39m
 2022-11-19 09:23:48:2348 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 18:09:17:917 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 18:09:20:920 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 18:22:08:228 [32minfo[39m: [32mtotal ongoing bidding count successfully fetched[39m
+2022-11-19 18:22:08:228 [35mhttp[39m: [35m::1 GET /api/product/ongoingbiddingcount/633693db8b0ef806b4a0819e 304 - - 1617.261 ms[39m
+[35m[39m
+2022-11-19 18:22:08:228 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 1667.751 ms[39m
+[35m[39m
+2022-11-19 18:22:08:228 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 18:22:08:228 [35mhttp[39m: [35m::1 GET /api/order/totalpendingordercount/633693db8b0ef806b4a0819e 304 - - 274.746 ms[39m
+[35m[39m
+2022-11-19 18:22:09:229 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 18:22:09:229 [35mhttp[39m: [35m::1 GET /api/order/totalorderscountsincelastmonth/633693db8b0ef806b4a0819e 304 - - 523.918 ms[39m
+[35m[39m
+2022-11-19 18:22:09:229 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 18:22:09:229 [35mhttp[39m: [35m::1 GET /api/order/totalsalesinlastmonth/633693db8b0ef806b4a0819e 304 - - 194.860 ms[39m
+[35m[39m
+2022-11-19 18:22:09:229 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 18:22:09:229 [35mhttp[39m: [35m::1 GET /api/order/totalsales/633693db8b0ef806b4a0819e 304 - - 299.594 ms[39m
+[35m[39m
+2022-11-19 18:22:09:229 [32minfo[39m: [32mtotal orders count successfully fetched[39m
+2022-11-19 18:22:09:229 [35mhttp[39m: [35m::1 GET /api/order/totalorderscount/633693db8b0ef806b4a0819e 304 - - 195.787 ms[39m
+[35m[39m
+2022-11-19 18:22:10:2210 [35mhttp[39m: [35m::1 GET /api/order/salseOverview/633693db8b0ef806b4a0819e 304 - - 297.416 ms[39m
+[35m[39m
+2022-11-19 18:22:10:2210 [35mhttp[39m: [35m::1 GET /api/order/ordersoverview/633693db8b0ef806b4a0819e 200 1737 - 194.732 ms[39m
+[35m[39m
+2022-11-19 18:42:16:4216 [35mhttp[39m: [35m::1 GET /api/product/ongoingbidding/633693db8b0ef806b4a0819e 304 - - 198.413 ms[39m
+[35m[39m
+2022-11-19 18:42:16:4216 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-19 18:42:16:4216 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 200 6703 - 2068.503 ms[39m
+[35m[39m
+2022-11-19 18:42:16:4216 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-19 18:42:16:4216 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 366.055 ms[39m
+[35m[39m
+2022-11-19 18:42:17:4217 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-19 18:42:17:4217 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/633693db8b0ef806b4a0819e 304 - - 445.011 ms[39m
+[35m[39m
+2022-11-19 18:48:25:4825 [35mhttp[39m: [35m::1 POST /api/signin 200 78 - 387.205 ms[39m
+[35m[39m
+2022-11-19 18:48:34:4834 [35mhttp[39m: [35m::1 POST /api/signin 200 463 - 978.144 ms[39m
+[35m[39m
+2022-11-19 18:48:34:4834 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 200 1678 - 304.334 ms[39m
+[35m[39m
+2022-11-19 18:49:01:491 [35mhttp[39m: [35m::1 POST /api/signin 200 517 - 519.878 ms[39m
+[35m[39m
+2022-11-19 18:49:01:491 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 177.745 ms[39m
+[35m[39m
+2022-11-19 18:49:01:491 [32minfo[39m: [32mtotal ongoing bidding count successfully fetched[39m
+2022-11-19 18:49:01:491 [35mhttp[39m: [35m::1 GET /api/product/ongoingbiddingcount/633693db8b0ef806b4a0819e 304 - - 157.219 ms[39m
+[35m[39m
+2022-11-19 18:49:01:491 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 18:49:01:491 [35mhttp[39m: [35m::1 GET /api/order/totalpendingordercount/633693db8b0ef806b4a0819e 200 62 - 314.721 ms[39m
+[35m[39m
+2022-11-19 18:49:01:491 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 18:49:01:491 [35mhttp[39m: [35m::1 GET /api/order/totalorderscountsincelastmonth/633693db8b0ef806b4a0819e 200 62 - 178.560 ms[39m
+[35m[39m
+2022-11-19 18:49:01:491 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 18:49:01:491 [35mhttp[39m: [35m::1 GET /api/order/totalsalesinlastmonth/633693db8b0ef806b4a0819e 200 105 - 145.854 ms[39m
+[35m[39m
+2022-11-19 18:49:02:492 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 18:49:02:492 [35mhttp[39m: [35m::1 GET /api/order/totalsales/633693db8b0ef806b4a0819e 200 105 - 140.830 ms[39m
+[35m[39m
+2022-11-19 18:49:02:492 [32minfo[39m: [32mtotal orders count successfully fetched[39m
+2022-11-19 18:49:02:492 [35mhttp[39m: [35m::1 GET /api/order/totalorderscount/633693db8b0ef806b4a0819e 200 62 - 209.203 ms[39m
+[35m[39m
+2022-11-19 18:49:02:492 [35mhttp[39m: [35m::1 GET /api/order/salseOverview/633693db8b0ef806b4a0819e 200 172 - 149.608 ms[39m
+[35m[39m
+2022-11-19 18:49:02:492 [35mhttp[39m: [35m::1 GET /api/order/ordersoverview/633693db8b0ef806b4a0819e 200 1737 - 250.188 ms[39m
+[35m[39m
+2022-11-19 18:53:42:5342 [35mhttp[39m: [35m::1 POST /api/signin/forgotpassword 200 87 - 483.002 ms[39m
+[35m[39m
+2022-11-19 18:53:58:5358 [35mhttp[39m: [35m::1 POST /api/signin/check-expiried 200 69 - 215.167 ms[39m
+[35m[39m
+2022-11-19 18:54:10:5410 [35mhttp[39m: [35m::1 POST /api/signin/reset-password 200 75 - 730.672 ms[39m
+[35m[39m
+2022-11-19 18:54:14:5414 [35mhttp[39m: [35m::1 POST /api/signin 200 463 - 405.658 ms[39m
+[35m[39m
+2022-11-19 18:54:14:5414 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 140.192 ms[39m
+[35m[39m
+2022-11-19 18:55:46:5546 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 18:55:49:5549 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 19:15:16:1516 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 19:15:19:1519 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 19:16:41:1641 [35mhttp[39m: [35m::1 POST /api/gso/check-availability-farmer 200 50 - 207.671 ms[39m
+[35m[39m
+2022-11-19 19:21:26:2126 [35mhttp[39m: [35m::1 POST /api/gso/register-farmer 200 88 - 499.749 ms[39m
+[35m[39m
+2022-11-19 19:22:31:2231 [35mhttp[39m: [35m::1 POST /api/gso/register-farmer 200 178 - 975.183 ms[39m
+[35m[39m
+2022-11-19 19:30:04:304 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 19:30:07:307 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 19:30:43:3043 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 19:30:45:3045 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 19:30:48:3048 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 19:30:50:3050 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 19:30:51:3051 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 19:30:53:3053 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 19:32:19:3219 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 19:32:21:3221 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 19:32:59:3259 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 19:33:00:330 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 19:33:10:3310 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 19:33:12:3312 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 19:33:56:3356 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 19:33:58:3358 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 19:34:20:3420 [35mhttp[39m: [35m::1 POST /api/gso/check-availability-farmer 200 50 - 284.682 ms[39m
+[35m[39m
+2022-11-19 19:35:44:3544 [35mhttp[39m: [35m::1 POST /api/gso/register-farmer 200 179 - 1002.635 ms[39m
+[35m[39m
+2022-11-19 19:39:06:396 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 19:39:08:398 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 19:39:10:3910 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 19:39:12:3912 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 19:40:01:401 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 19:40:03:403 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 19:43:49:4349 [35mhttp[39m: [35m::1 POST /api/signin 200 78 - 670.896 ms[39m
+[35m[39m
+2022-11-19 19:43:57:4357 [35mhttp[39m: [35m::1 POST /api/signin 200 517 - 582.830 ms[39m
+[35m[39m
+2022-11-19 19:43:57:4357 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 298.161 ms[39m
+[35m[39m
+2022-11-19 19:43:57:4357 [32minfo[39m: [32mtotal ongoing bidding count successfully fetched[39m
+2022-11-19 19:43:57:4357 [35mhttp[39m: [35m::1 GET /api/product/ongoingbiddingcount/633693db8b0ef806b4a0819e 200 62 - 281.722 ms[39m
+[35m[39m
+2022-11-19 19:43:57:4357 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 19:43:57:4357 [35mhttp[39m: [35m::1 GET /api/order/totalpendingordercount/633693db8b0ef806b4a0819e 200 63 - 196.091 ms[39m
+[35m[39m
+2022-11-19 19:43:57:4357 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 19:43:57:4357 [35mhttp[39m: [35m::1 GET /api/order/totalorderscountsincelastmonth/633693db8b0ef806b4a0819e 200 63 - 255.979 ms[39m
+[35m[39m
+2022-11-19 19:43:58:4358 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 19:43:58:4358 [35mhttp[39m: [35m::1 GET /api/order/totalsalesinlastmonth/633693db8b0ef806b4a0819e 200 105 - 140.482 ms[39m
+[35m[39m
+2022-11-19 19:43:58:4358 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 19:43:58:4358 [35mhttp[39m: [35m::1 GET /api/order/totalsales/633693db8b0ef806b4a0819e 200 105 - 300.303 ms[39m
+[35m[39m
+2022-11-19 19:43:58:4358 [32minfo[39m: [32mtotal orders count successfully fetched[39m
+2022-11-19 19:43:58:4358 [35mhttp[39m: [35m::1 GET /api/order/totalorderscount/633693db8b0ef806b4a0819e 200 63 - 145.391 ms[39m
+[35m[39m
+2022-11-19 19:43:58:4358 [35mhttp[39m: [35m::1 GET /api/order/salseOverview/633693db8b0ef806b4a0819e 200 172 - 244.032 ms[39m
+[35m[39m
+2022-11-19 19:43:58:4358 [35mhttp[39m: [35m::1 GET /api/order/ordersoverview/633693db8b0ef806b4a0819e 200 1736 - 177.621 ms[39m
+[35m[39m
+2022-11-19 19:44:06:446 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4475 - 192.580 ms[39m
+[35m[39m
+2022-11-19 19:44:06:446 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 294.368 ms[39m
+[35m[39m
+2022-11-19 19:44:08:448 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 262.128 ms[39m
+[35m[39m
+2022-11-19 19:44:21:4421 [35mhttp[39m: [35m::1 PUT /api/product/update 200 1065 - 234.247 ms[39m
+[35m[39m
+2022-11-19 19:44:21:4421 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4475 - 179.546 ms[39m
+[35m[39m
+2022-11-19 19:44:21:4421 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 262.101 ms[39m
+[35m[39m
+2022-11-19 19:44:28:4428 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 266.276 ms[39m
+[35m[39m
+2022-11-19 19:44:53:4453 [35mhttp[39m: [35m::1 PUT /api/product/update 200 612 - 289.693 ms[39m
+[35m[39m
+2022-11-19 19:44:53:4453 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4475 - 304.172 ms[39m
+[35m[39m
+2022-11-19 19:44:54:4454 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 228.738 ms[39m
+[35m[39m
+2022-11-19 19:45:03:453 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 212.721 ms[39m
+[35m[39m
+2022-11-19 19:45:18:4518 [35mhttp[39m: [35m::1 PUT /api/product/update 200 612 - 403.628 ms[39m
+[35m[39m
+2022-11-19 19:45:19:4519 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4475 - 244.581 ms[39m
+[35m[39m
+2022-11-19 19:45:19:4519 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 193.371 ms[39m
+[35m[39m
+2022-11-19 19:45:22:4522 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 158.647 ms[39m
+[35m[39m
+2022-11-19 19:49:56:4956 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 297.167 ms[39m
+[35m[39m
+2022-11-19 19:49:57:4957 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 301.682 ms[39m
+[35m[39m
+2022-11-19 19:49:58:4958 [32minfo[39m: [32mtotal ongoing bidding count successfully fetched[39m
+2022-11-19 19:49:58:4958 [35mhttp[39m: [35m::1 GET /api/product/ongoingbiddingcount/633693db8b0ef806b4a0819e 304 - - 213.653 ms[39m
+[35m[39m
+2022-11-19 19:49:59:4959 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 19:49:59:4959 [35mhttp[39m: [35m::1 GET /api/order/totalpendingordercount/633693db8b0ef806b4a0819e 304 - - 297.631 ms[39m
+[35m[39m
+2022-11-19 19:49:59:4959 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 19:49:59:4959 [35mhttp[39m: [35m::1 GET /api/order/totalorderscountsincelastmonth/633693db8b0ef806b4a0819e 304 - - 200.207 ms[39m
+[35m[39m
+2022-11-19 19:49:59:4959 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 19:49:59:4959 [35mhttp[39m: [35m::1 GET /api/order/totalsalesinlastmonth/633693db8b0ef806b4a0819e 304 - - 200.644 ms[39m
+[35m[39m
+2022-11-19 19:49:59:4959 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 19:49:59:4959 [35mhttp[39m: [35m::1 GET /api/order/totalsales/633693db8b0ef806b4a0819e 304 - - 207.003 ms[39m
+[35m[39m
+2022-11-19 19:50:00:500 [32minfo[39m: [32mtotal orders count successfully fetched[39m
+2022-11-19 19:50:00:500 [35mhttp[39m: [35m::1 GET /api/order/totalorderscount/633693db8b0ef806b4a0819e 304 - - 266.597 ms[39m
+[35m[39m
+2022-11-19 19:50:00:500 [35mhttp[39m: [35m::1 GET /api/order/salseOverview/633693db8b0ef806b4a0819e 304 - - 226.073 ms[39m
+[35m[39m
+2022-11-19 19:50:00:500 [35mhttp[39m: [35m::1 GET /api/order/ordersoverview/633693db8b0ef806b4a0819e 200 1736 - 403.306 ms[39m
+[35m[39m
+2022-11-19 19:50:03:503 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 518.841 ms[39m
+[35m[39m
+2022-11-19 19:50:03:503 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 439.250 ms[39m
+[35m[39m
+2022-11-19 19:50:06:506 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 336.499 ms[39m
+[35m[39m
+2022-11-19 19:50:20:5020 [35mhttp[39m: [35m::1 PUT /api/product/update 200 612 - 269.127 ms[39m
+[35m[39m
+2022-11-19 19:50:20:5020 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4475 - 331.145 ms[39m
+[35m[39m
+2022-11-19 19:50:21:5021 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 224.709 ms[39m
+[35m[39m
+2022-11-19 19:50:23:5023 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 276.048 ms[39m
+[35m[39m
+2022-11-19 19:51:03:513 [35mhttp[39m: [35m::1 PUT /api/product/update 200 612 - 295.639 ms[39m
+[35m[39m
+2022-11-19 19:51:04:514 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4475 - 296.171 ms[39m
+[35m[39m
+2022-11-19 19:51:04:514 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 266.691 ms[39m
+[35m[39m
+2022-11-19 19:51:07:517 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 307.786 ms[39m
+[35m[39m
+2022-11-19 19:51:36:5136 [35mhttp[39m: [35m::1 PUT /api/product/update 200 612 - 251.978 ms[39m
+[35m[39m
+2022-11-19 19:51:36:5136 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4475 - 509.897 ms[39m
+[35m[39m
+2022-11-19 19:51:36:5136 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 265.931 ms[39m
+[35m[39m
+2022-11-19 19:51:39:5139 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 237.654 ms[39m
+[35m[39m
+2022-11-19 19:51:58:5158 [35mhttp[39m: [35m::1 PUT /api/product/update 200 612 - 216.368 ms[39m
+[35m[39m
+2022-11-19 19:51:59:5159 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4475 - 252.798 ms[39m
+[35m[39m
+2022-11-19 19:51:59:5159 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 225.617 ms[39m
+[35m[39m
+2022-11-19 19:52:02:522 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 269.600 ms[39m
+[35m[39m
+2022-11-19 20:01:04:14 [35mhttp[39m: [35m::1 PUT /api/product/update 200 612 - 377.705 ms[39m
+[35m[39m
+2022-11-19 20:01:05:15 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4475 - 396.997 ms[39m
+[35m[39m
+2022-11-19 20:01:05:15 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 360.914 ms[39m
+[35m[39m
+2022-11-19 20:01:07:17 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 393.393 ms[39m
+[35m[39m
+2022-11-19 20:01:22:122 [35mhttp[39m: [35m::1 PUT /api/product/update 200 612 - 368.327 ms[39m
+[35m[39m
+2022-11-19 20:01:22:122 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4475 - 204.752 ms[39m
+[35m[39m
+2022-11-19 20:01:23:123 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 282.791 ms[39m
+[35m[39m
+2022-11-19 20:01:25:125 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 335.485 ms[39m
+[35m[39m
+2022-11-19 20:06:39:639 [35mhttp[39m: [35m::1 PUT /api/product/update 200 612 - 263.425 ms[39m
+[35m[39m
+2022-11-19 20:06:40:640 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4475 - 276.916 ms[39m
+[35m[39m
+2022-11-19 20:06:40:640 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 222.378 ms[39m
+[35m[39m
+2022-11-19 20:07:06:76 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 335.825 ms[39m
+[35m[39m
+2022-11-19 20:11:54:1154 [35mhttp[39m: [35m::1 PUT /api/product/update 200 612 - 269.793 ms[39m
+[35m[39m
+2022-11-19 20:11:54:1154 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4475 - 194.528 ms[39m
+[35m[39m
+2022-11-19 20:11:55:1155 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 297.663 ms[39m
+[35m[39m
+2022-11-19 20:12:02:122 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 314.426 ms[39m
+[35m[39m
+2022-11-19 20:15:29:1529 [32minfo[39m: [32mtotal ongoing bidding count successfully fetched[39m
+2022-11-19 20:15:29:1529 [35mhttp[39m: [35m::1 GET /api/product/ongoingbiddingcount/633693db8b0ef806b4a0819e 304 - - 335.775 ms[39m
+[35m[39m
+2022-11-19 20:15:30:1530 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 20:15:30:1530 [35mhttp[39m: [35m::1 GET /api/order/totalpendingordercount/633693db8b0ef806b4a0819e 304 - - 295.541 ms[39m
+[35m[39m
+2022-11-19 20:15:30:1530 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 244.454 ms[39m
+[35m[39m
+2022-11-19 20:15:30:1530 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 247.032 ms[39m
+[35m[39m
+2022-11-19 20:15:30:1530 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 20:15:30:1530 [35mhttp[39m: [35m::1 GET /api/order/totalorderscountsincelastmonth/633693db8b0ef806b4a0819e 304 - - 307.145 ms[39m
+[35m[39m
+2022-11-19 20:15:30:1530 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 20:15:30:1530 [35mhttp[39m: [35m::1 GET /api/order/totalsalesinlastmonth/633693db8b0ef806b4a0819e 304 - - 184.073 ms[39m
+[35m[39m
+2022-11-19 20:15:30:1530 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 20:15:30:1530 [35mhttp[39m: [35m::1 GET /api/order/totalsales/633693db8b0ef806b4a0819e 304 - - 203.450 ms[39m
+[35m[39m
+2022-11-19 20:15:31:1531 [32minfo[39m: [32mtotal orders count successfully fetched[39m
+2022-11-19 20:15:31:1531 [35mhttp[39m: [35m::1 GET /api/order/totalorderscount/633693db8b0ef806b4a0819e 304 - - 403.609 ms[39m
+[35m[39m
+2022-11-19 20:15:31:1531 [35mhttp[39m: [35m::1 GET /api/order/salseOverview/633693db8b0ef806b4a0819e 304 - - 292.096 ms[39m
+[35m[39m
+2022-11-19 20:15:31:1531 [35mhttp[39m: [35m::1 GET /api/order/ordersoverview/633693db8b0ef806b4a0819e 200 1736 - 207.265 ms[39m
+[35m[39m
+2022-11-19 20:15:31:1531 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4475 - 233.434 ms[39m
+[35m[39m
+2022-11-19 20:15:32:1532 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 196.781 ms[39m
+[35m[39m
+2022-11-19 20:15:36:1536 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 390.416 ms[39m
+[35m[39m
+2022-11-19 20:16:18:1618 [35mhttp[39m: [35m::1 PUT /api/product/update 200 1065 - 293.296 ms[39m
+[35m[39m
+2022-11-19 20:16:18:1618 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4375 - 279.529 ms[39m
+[35m[39m
+2022-11-19 20:16:18:1618 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4375 - 209.332 ms[39m
+[35m[39m
+2022-11-19 20:16:20:1620 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 429.789 ms[39m
+[35m[39m
+2022-11-19 20:16:39:1639 [35mhttp[39m: [35m::1 PUT /api/product/update 200 965 - 328.935 ms[39m
+[35m[39m
+2022-11-19 20:16:39:1639 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4375 - 201.066 ms[39m
+[35m[39m
+2022-11-19 20:16:40:1640 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 253.655 ms[39m
+[35m[39m
+2022-11-19 20:16:41:1641 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 185.154 ms[39m
+[35m[39m
+2022-11-19 20:17:13:1713 [35mhttp[39m: [35m::1 PUT /api/product/update 200 965 - 193.171 ms[39m
+[35m[39m
+2022-11-19 20:17:13:1713 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4375 - 301.636 ms[39m
+[35m[39m
+2022-11-19 20:17:13:1713 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 252.637 ms[39m
+[35m[39m
+2022-11-19 20:17:15:1715 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 306.180 ms[39m
+[35m[39m
+2022-11-19 20:17:34:1734 [35mhttp[39m: [35m::1 PUT /api/product/update 200 965 - 272.793 ms[39m
+[35m[39m
+2022-11-19 20:17:34:1734 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4375 - 214.854 ms[39m
+[35m[39m
+2022-11-19 20:17:35:1735 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 253.722 ms[39m
+[35m[39m
+2022-11-19 20:17:37:1737 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 361.433 ms[39m
+[35m[39m
+2022-11-19 20:17:44:1744 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 204.175 ms[39m
+[35m[39m
+2022-11-19 20:17:45:1745 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4375 - 408.414 ms[39m
+[35m[39m
+2022-11-19 20:18:47:1847 [35mhttp[39m: [35m::1 POST /api/product/add 200 74 - 254.479 ms[39m
+[35m[39m
+2022-11-19 20:18:47:1847 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4971 - 190.579 ms[39m
+[35m[39m
+2022-11-19 20:18:51:1851 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 240.745 ms[39m
+[35m[39m
+2022-11-19 20:19:11:1911 [35mhttp[39m: [35m::1 PUT /api/product/update 200 655 - 377.411 ms[39m
+[35m[39m
+2022-11-19 20:19:12:1912 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4971 - 605.091 ms[39m
+[35m[39m
+2022-11-19 20:19:13:1913 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 758.637 ms[39m
+[35m[39m
+2022-11-19 20:20:47:2047 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4971 - 205.743 ms[39m
+[35m[39m
+2022-11-19 20:32:15:3215 [35mhttp[39m: [35m::1 PUT /api/product/update 200 655 - 159.240 ms[39m
+[35m[39m
+2022-11-19 20:32:15:3215 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4970 - 303.220 ms[39m
+[35m[39m
+2022-11-19 20:32:16:3216 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 223.750 ms[39m
+[35m[39m
+2022-11-19 20:32:22:3222 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 220.082 ms[39m
+[35m[39m
+2022-11-19 20:32:35:3235 [35mhttp[39m: [35m::1 PUT /api/product/update 200 655 - 225.919 ms[39m
+[35m[39m
+2022-11-19 20:32:35:3235 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4970 - 203.989 ms[39m
+[35m[39m
+2022-11-19 20:32:35:3235 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 231.495 ms[39m
+[35m[39m
+2022-11-19 20:32:38:3238 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 270.041 ms[39m
+[35m[39m
+2022-11-19 20:47:23:4723 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 297.831 ms[39m
+[35m[39m
+2022-11-19 20:47:23:4723 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4971 - 273.069 ms[39m
+[35m[39m
+2022-11-19 20:47:24:4724 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 399.927 ms[39m
+[35m[39m
+2022-11-19 20:47:29:4729 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 389.788 ms[39m
+[35m[39m
+2022-11-19 20:47:42:4742 [35mhttp[39m: [35m::1 PUT /api/product/update 200 655 - 358.247 ms[39m
+[35m[39m
+2022-11-19 20:47:42:4742 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4971 - 294.287 ms[39m
+[35m[39m
+2022-11-19 20:47:43:4743 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 639.122 ms[39m
+[35m[39m
+2022-11-19 20:47:44:4744 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 320.676 ms[39m
+[35m[39m
+2022-11-19 20:48:15:4815 [35mhttp[39m: [35m::1 PUT /api/product/update 200 655 - 472.832 ms[39m
+[35m[39m
+2022-11-19 20:48:15:4815 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4971 - 195.294 ms[39m
+[35m[39m
+2022-11-19 20:48:16:4816 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 634.416 ms[39m
+[35m[39m
+2022-11-19 20:48:18:4818 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 364.787 ms[39m
+[35m[39m
+2022-11-19 20:48:28:4828 [35mhttp[39m: [35m::1 PUT /api/product/update 200 612 - 209.165 ms[39m
+[35m[39m
+2022-11-19 20:48:29:4829 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4971 - 715.534 ms[39m
+[35m[39m
+2022-11-19 20:48:29:4829 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 333.344 ms[39m
+[35m[39m
+2022-11-19 20:48:31:4831 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 469.185 ms[39m
+[35m[39m
+2022-11-19 20:48:35:4835 [35mhttp[39m: [35m::1 PUT /api/product/update 200 612 - 656.607 ms[39m
+[35m[39m
+2022-11-19 20:48:36:4836 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4971 - 198.830 ms[39m
+[35m[39m
+2022-11-19 20:48:36:4836 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 229.871 ms[39m
+[35m[39m
+2022-11-19 20:49:02:492 [32minfo[39m: [32mtotal ongoing bidding count successfully fetched[39m
+2022-11-19 20:49:02:492 [35mhttp[39m: [35m::1 GET /api/product/ongoingbiddingcount/633693db8b0ef806b4a0819e 200 62 - 397.195 ms[39m
+[35m[39m
+2022-11-19 20:49:02:492 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//2022 404 175 - 2.188 ms[39m
+[35m[39m
+2022-11-19 20:49:02:492 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 20:49:02:492 [35mhttp[39m: [35m::1 GET /api/order/totalpendingordercount/633693db8b0ef806b4a0819e 304 - - 502.356 ms[39m
+[35m[39m
+2022-11-19 20:49:02:492 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 304 - - 321.822 ms[39m
+[35m[39m
+2022-11-19 20:49:02:492 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/Paddy 304 - - 316.505 ms[39m
+[35m[39m
+2022-11-19 20:49:02:492 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Matara 304 - - 316.580 ms[39m
+[35m[39m
+2022-11-19 20:49:02:492 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 330.940 ms[39m
+[35m[39m
+2022-11-19 20:49:03:493 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 20:49:03:493 [35mhttp[39m: [35m::1 GET /api/order/totalorderscountsincelastmonth/633693db8b0ef806b4a0819e 304 - - 292.988 ms[39m
+[35m[39m
+2022-11-19 20:49:03:493 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 518.952 ms[39m
+[35m[39m
+2022-11-19 20:49:03:493 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/Beans 304 - - 422.575 ms[39m
+[35m[39m
+2022-11-19 20:49:03:493 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 20:49:03:493 [35mhttp[39m: [35m::1 GET /api/order/totalsalesinlastmonth/633693db8b0ef806b4a0819e 304 - - 411.332 ms[39m
+[35m[39m
+2022-11-19 20:49:04:494 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Matara 304 - - 409.909 ms[39m
+[35m[39m
+2022-11-19 20:49:04:494 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/Beans 304 - - 413.075 ms[39m
+[35m[39m
+2022-11-19 20:49:04:494 [32minfo[39m: [32mtotal sales successfully fetched[39m
+2022-11-19 20:49:04:494 [35mhttp[39m: [35m::1 GET /api/order/totalsales/633693db8b0ef806b4a0819e 304 - - 498.599 ms[39m
+[35m[39m
+2022-11-19 20:49:04:494 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2022 304 - - 503.490 ms[39m
+[35m[39m
+2022-11-19 20:49:04:494 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 311.337 ms[39m
+[35m[39m
+2022-11-19 20:49:04:494 [32minfo[39m: [32mtotal orders count successfully fetched[39m
+2022-11-19 20:49:04:494 [35mhttp[39m: [35m::1 GET /api/order/totalorderscount/633693db8b0ef806b4a0819e 304 - - 402.907 ms[39m
+[35m[39m
+2022-11-19 20:49:05:495 [35mhttp[39m: [35m::1 GET /api/order/salseOverview/633693db8b0ef806b4a0819e 304 - - 602.766 ms[39m
+[35m[39m
+2022-11-19 20:49:05:495 [35mhttp[39m: [35m::1 GET /api/order/ordersoverview/633693db8b0ef806b4a0819e 200 1636 - 512.143 ms[39m
+[35m[39m
+2022-11-19 20:49:07:497 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 3481.814 ms[39m
+[35m[39m
+2022-11-19 20:50:36:5036 [35mhttp[39m: [35m::1 POST /api/gso/check-availability-farmer 200 50 - 270.389 ms[39m
+[35m[39m
+2022-11-19 20:51:23:5123 [35mhttp[39m: [35m::1 POST /api/gso/register-farmer 200 179 - 842.069 ms[39m
+[35m[39m
+2022-11-19 20:54:07:547 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:54:10:5410 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:54:18:5418 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:54:21:5421 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:55:09:559 [35mhttp[39m: [35m::1 POST /api/gso/check-availability-farmer 200 310 - 501.263 ms[39m
+[35m[39m
+2022-11-19 20:55:17:5517 [35mhttp[39m: [35m::1 GET /api/gso/get-crop-details/990910820V 200 1339 - 370.299 ms[39m
+[35m[39m
+2022-11-19 20:55:17:5517 [35mhttp[39m: [35m::1 POST /api/gso/user-details 200 265 - 390.427 ms[39m
+[35m[39m
+2022-11-19 20:55:38:5538 [35mhttp[39m: [35m::1 POST /api/gso/check-availability-farmer 200 50 - 263.622 ms[39m
+[35m[39m
+2022-11-19 20:56:50:5650 [35mhttp[39m: [35m::1 POST /api/gso/register-farmer 200 90 - 1072.815 ms[39m
+[35m[39m
+2022-11-19 20:57:27:5727 [35mhttp[39m: [35m::1 GET /api/signin/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzhmNWI5MjIyMmFhNDU4MDRlNWRmYyIsInVzZXJSb2xlIjoiRkFSTUVSIiwiaWF0IjoxNjY4ODcxNjEwLCJleHAiOjE2Njg5NTgwMTB9.iNaE9yBBmE8kRu6LfEh_hrFftD5IKh5ZnsHcvCrPXHc 200 489 - 731.062 ms[39m
+[35m[39m
+2022-11-19 20:57:27:5727 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 147.594 ms[39m
+[35m[39m
+2022-11-19 20:57:27:5727 [32minfo[39m: [32mtotal ongoing bidding count successfully fetched[39m
+2022-11-19 20:57:27:5727 [35mhttp[39m: [35m::1 GET /api/product/ongoingbiddingcount/6378f5b92222aa45804e5dfc 200 50 - 228.265 ms[39m
+[35m[39m
+2022-11-19 20:57:42:5742 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//2022 404 175 - 2.141 ms[39m
+[35m[39m
+2022-11-19 20:57:43:5743 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 200 48 - 394.445 ms[39m
+[35m[39m
+2022-11-19 20:57:43:5743 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 406.774 ms[39m
+[35m[39m
+2022-11-19 20:57:43:5743 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Paddy 200 48 - 401.938 ms[39m
+[35m[39m
+2022-11-19 20:57:43:5743 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/2022 200 48 - 408.711 ms[39m
+[35m[39m
+2022-11-19 20:57:43:5743 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 200 48 - 499.882 ms[39m
+[35m[39m
+2022-11-19 20:57:43:5743 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 505.615 ms[39m
+[35m[39m
+2022-11-19 20:57:44:5744 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 339.484 ms[39m
+[35m[39m
+2022-11-19 20:57:44:5744 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Kilinochchi/2022 200 48 - 342.198 ms[39m
+[35m[39m
+2022-11-19 20:57:44:5744 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 349.614 ms[39m
+[35m[39m
+2022-11-19 20:57:45:5745 [32minfo[39m: [32mtotal ongoing bidding count successfully fetched[39m
+2022-11-19 20:57:45:5745 [35mhttp[39m: [35m::1 GET /api/product/ongoingbiddingcount/6378f5b92222aa45804e5dfc 304 - - 263.879 ms[39m
+[35m[39m
+2022-11-19 20:57:47:5747 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 288.798 ms[39m
+[35m[39m
+2022-11-19 20:57:47:5747 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 294.267 ms[39m
+[35m[39m
+2022-11-19 20:57:54:5754 [35mhttp[39m: [35m::1 GET /api/product/getproduct/6378f5b92222aa45804e5dfc 200 48 - 215.430 ms[39m
+[35m[39m
+2022-11-19 20:57:54:5754 [35mhttp[39m: [35m::1 GET /api/product/getproduct/6378f5b92222aa45804e5dfc 304 - - 201.666 ms[39m
+[35m[39m
+2022-11-19 20:57:57:5757 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-19 20:57:57:5757 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/6378f5b92222aa45804e5dfc 200 50 - 278.273 ms[39m
+[35m[39m
+2022-11-19 20:57:57:5757 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-19 20:57:57:5757 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/6378f5b92222aa45804e5dfc 304 - - 202.037 ms[39m
+[35m[39m
+2022-11-19 20:57:57:5757 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-19 20:57:57:5757 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/6378f5b92222aa45804e5dfc 304 - - 150.834 ms[39m
+[35m[39m
+2022-11-19 20:58:05:585 [35mhttp[39m: [35m::1 GET /api/product/ongoingbidding/6378f5b92222aa45804e5dfc 200 47 - 225.162 ms[39m
+[35m[39m
+2022-11-19 20:58:08:588 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-19 20:58:08:588 [35mhttp[39m: [35m::1 GET /api/reviews/6378f5b92222aa45804e5dfc 200 50 - 326.779 ms[39m
+[35m[39m
+2022-11-19 20:58:11:5811 [35mhttp[39m: [35m::1 GET /api/product/ongoingbidding/6378f5b92222aa45804e5dfc 304 - - 264.927 ms[39m
+[35m[39m
+2022-11-19 20:58:13:5813 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-19 20:58:13:5813 [35mhttp[39m: [35m::1 GET /api/reviews/6378f5b92222aa45804e5dfc 304 - - 420.709 ms[39m
+[35m[39m
+2022-11-19 20:58:15:5815 [35mhttp[39m: [35m::1 GET /api/product/ongoingbidding/6378f5b92222aa45804e5dfc 304 - - 487.910 ms[39m
+[35m[39m
+2022-11-19 20:58:16:5816 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-19 20:58:16:5816 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/6378f5b92222aa45804e5dfc 304 - - 212.450 ms[39m
+[35m[39m
+2022-11-19 20:58:16:5816 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-19 20:58:16:5816 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/6378f5b92222aa45804e5dfc 304 - - 217.063 ms[39m
+[35m[39m
+2022-11-19 20:58:16:5816 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-19 20:58:16:5816 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/6378f5b92222aa45804e5dfc 304 - - 189.807 ms[39m
+[35m[39m
+2022-11-19 20:58:19:5819 [35mhttp[39m: [35m::1 GET /api/product/getproduct/6378f5b92222aa45804e5dfc 304 - - 457.334 ms[39m
+[35m[39m
+2022-11-19 20:58:19:5819 [35mhttp[39m: [35m::1 GET /api/product/getproduct/6378f5b92222aa45804e5dfc 304 - - 203.414 ms[39m
+[35m[39m
+2022-11-19 20:58:20:5820 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 371.380 ms[39m
+[35m[39m
+2022-11-19 20:58:20:5820 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 374.758 ms[39m
+[35m[39m
+2022-11-19 21:02:06:26 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:02:10:210 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:02:15:215 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:02:18:218 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//2022 404 175 - 2.778 ms[39m
+[35m[39m
+2022-11-19 21:02:18:218 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:02:19:219 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//2022 404 175 - 1.125 ms[39m
+[35m[39m
+2022-11-19 21:02:20:220 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Paddy 304 - - 1910.180 ms[39m
+[35m[39m
+2022-11-19 21:02:20:220 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 1910.676 ms[39m
+[35m[39m
+2022-11-19 21:02:20:220 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/2022 304 - - 1965.429 ms[39m
+[35m[39m
+2022-11-19 21:02:20:220 [35mhttp[39m: [35m::1 GET /api/product/getproduct/6378f5b92222aa45804e5dfc 304 - - 1426.643 ms[39m
+[35m[39m
+2022-11-19 21:02:20:220 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 291.770 ms[39m
+[35m[39m
+2022-11-19 21:02:20:220 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Paddy 304 - - 298.075 ms[39m
+[35m[39m
+2022-11-19 21:02:20:220 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/2022 304 - - 245.978 ms[39m
+[35m[39m
+2022-11-19 21:02:20:220 [35mhttp[39m: [35m::1 GET /api/product/getproduct/6378f5b92222aa45804e5dfc 304 - - 349.098 ms[39m
+[35m[39m
+2022-11-19 21:02:21:221 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 2939.197 ms[39m
+[35m[39m
+2022-11-19 21:02:21:221 [35mhttp[39m: [35m::1 GET /api/product/getproduct/6378f5b92222aa45804e5dfc 304 - - 329.831 ms[39m
+[35m[39m
+2022-11-19 21:02:21:221 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 197.437 ms[39m
+[35m[39m
+2022-11-19 21:02:21:221 [35mhttp[39m: [35m::1 GET /api/product/getproduct/6378f5b92222aa45804e5dfc 304 - - 196.418 ms[39m
+[35m[39m
+2022-11-19 21:02:21:221 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 195.552 ms[39m
+[35m[39m
+2022-11-19 21:02:21:221 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 197.982 ms[39m
+[35m[39m
+2022-11-19 21:02:22:222 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 442.773 ms[39m
+[35m[39m
+2022-11-19 21:02:22:222 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910820V 304 - - 449.139 ms[39m
+[35m[39m
+2022-11-19 21:03:54:354 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910768V 200 48 - 203.528 ms[39m
+[35m[39m
+2022-11-19 21:03:54:354 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910768V 200 48 - 209.402 ms[39m
+[35m[39m
+2022-11-19 21:03:54:354 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//2022 404 175 - 0.629 ms[39m
+[35m[39m
+2022-11-19 21:03:54:354 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 242.076 ms[39m
+[35m[39m
+2022-11-19 21:03:54:354 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 248.302 ms[39m
+[35m[39m
+2022-11-19 21:03:54:354 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Paddy 304 - - 245.882 ms[39m
+[35m[39m
+2022-11-19 21:03:54:354 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910768V 304 - - 266.185 ms[39m
+[35m[39m
+2022-11-19 21:03:54:354 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 197.499 ms[39m
+[35m[39m
+2022-11-19 21:03:54:354 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 197.811 ms[39m
+[35m[39m
+2022-11-19 21:03:54:354 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 288.149 ms[39m
+[35m[39m
+2022-11-19 21:03:54:354 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Kilinochchi/2022 304 - - 286.648 ms[39m
+[35m[39m
+2022-11-19 21:03:54:354 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 291.520 ms[39m
+[35m[39m
+2022-11-19 21:03:55:355 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910768V 304 - - 252.514 ms[39m
+[35m[39m
+2022-11-19 21:03:55:355 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910768V 304 - - 252.154 ms[39m
+[35m[39m
+2022-11-19 21:03:55:355 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/2022 304 - - 1321.694 ms[39m
+[35m[39m
+2022-11-19 21:03:59:359 [32minfo[39m: [32mtotal ongoing bidding count successfully fetched[39m
+2022-11-19 21:03:59:359 [35mhttp[39m: [35m::1 GET /api/product/ongoingbiddingcount/6378f5b92222aa45804e5dfc 304 - - 329.269 ms[39m
+[35m[39m
+2022-11-19 21:04:00:40 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//2022 404 175 - 0.256 ms[39m
+[35m[39m
+2022-11-19 21:04:00:40 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 216.122 ms[39m
+[35m[39m
+2022-11-19 21:04:00:40 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 215.881 ms[39m
+[35m[39m
+2022-11-19 21:04:00:40 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/2022 304 - - 215.232 ms[39m
+[35m[39m
+2022-11-19 21:04:00:40 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Paddy 304 - - 217.864 ms[39m
+[35m[39m
+2022-11-19 21:04:01:41 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 295.634 ms[39m
+[35m[39m
+2022-11-19 21:04:01:41 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 298.723 ms[39m
+[35m[39m
+2022-11-19 21:04:01:41 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 319.165 ms[39m
+[35m[39m
+2022-11-19 21:04:01:41 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Kilinochchi/2022 304 - - 321.198 ms[39m
+[35m[39m
+2022-11-19 21:04:01:41 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 327.577 ms[39m
+[35m[39m
+2022-11-19 21:04:08:48 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Galle 200 231 - 372.398 ms[39m
+[35m[39m
+2022-11-19 21:04:08:48 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Galle/2022 304 - - 373.702 ms[39m
+[35m[39m
+2022-11-19 21:04:08:48 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Galle/Beans 304 - - 380.003 ms[39m
+[35m[39m
+2022-11-19 21:04:22:422 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Galle/2021 304 - - 375.751 ms[39m
+[35m[39m
+2022-11-19 21:04:22:422 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Galle/2021 304 - - 379.052 ms[39m
+[35m[39m
+2022-11-19 21:04:26:426 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Galle/2022 304 - - 446.431 ms[39m
+[35m[39m
+2022-11-19 21:04:26:426 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Galle/2022 304 - - 451.852 ms[39m
+[35m[39m
+2022-11-19 21:04:58:458 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//2022 404 175 - 0.351 ms[39m
+[35m[39m
+2022-11-19 21:04:58:458 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910768V 304 - - 149.649 ms[39m
+[35m[39m
+2022-11-19 21:04:59:459 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 283.585 ms[39m
+[35m[39m
+2022-11-19 21:04:59:459 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/2022 304 - - 291.243 ms[39m
+[35m[39m
+2022-11-19 21:04:59:459 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 294.777 ms[39m
+[35m[39m
+2022-11-19 21:04:59:459 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Paddy 304 - - 291.646 ms[39m
+[35m[39m
+2022-11-19 21:04:59:459 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 146.473 ms[39m
+[35m[39m
+2022-11-19 21:04:59:459 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 162.450 ms[39m
+[35m[39m
+2022-11-19 21:04:59:459 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 263.184 ms[39m
+[35m[39m
+2022-11-19 21:04:59:459 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Kilinochchi/2022 304 - - 263.333 ms[39m
+[35m[39m
+2022-11-19 21:04:59:459 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 189.331 ms[39m
+[35m[39m
+2022-11-19 21:05:04:54 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Galle/Beans 304 - - 232.397 ms[39m
+[35m[39m
+2022-11-19 21:05:04:54 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Galle 304 - - 232.290 ms[39m
+[35m[39m
+2022-11-19 21:05:04:54 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Galle/2022 304 - - 232.846 ms[39m
+[35m[39m
+2022-11-19 21:06:37:637 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Galle/2022 304 - - 186.902 ms[39m
+[35m[39m
+2022-11-19 21:06:37:637 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Galle/2022 304 - - 191.264 ms[39m
+[35m[39m
+2022-11-19 21:07:16:716 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//2022 404 175 - 0.287 ms[39m
+[35m[39m
+2022-11-19 21:07:17:717 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910768V 304 - - 152.528 ms[39m
+[35m[39m
+2022-11-19 21:07:17:717 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Paddy 304 - - 181.835 ms[39m
+[35m[39m
+2022-11-19 21:07:17:717 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/2022 304 - - 194.263 ms[39m
+[35m[39m
+2022-11-19 21:07:17:717 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 205.647 ms[39m
+[35m[39m
+2022-11-19 21:07:17:717 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 201.584 ms[39m
+[35m[39m
+2022-11-19 21:07:17:717 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 189.791 ms[39m
+[35m[39m
+2022-11-19 21:07:17:717 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 280.964 ms[39m
+[35m[39m
+2022-11-19 21:07:17:717 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 273.494 ms[39m
+[35m[39m
+2022-11-19 21:07:17:717 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 281.153 ms[39m
+[35m[39m
+2022-11-19 21:07:17:717 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Kilinochchi/2022 304 - - 278.393 ms[39m
+[35m[39m
+2022-11-19 21:07:24:724 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Mannar/Beans 200 48 - 196.766 ms[39m
+[35m[39m
+2022-11-19 21:07:24:724 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Mannar/2022 200 48 - 195.655 ms[39m
+[35m[39m
+2022-11-19 21:07:24:724 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Mannar 200 84 - 198.482 ms[39m
+[35m[39m
+2022-11-19 21:07:28:728 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Matara 304 - - 306.315 ms[39m
+[35m[39m
+2022-11-19 21:07:28:728 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2022 304 - - 306.683 ms[39m
+[35m[39m
+2022-11-19 21:07:28:728 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/Beans 304 - - 311.767 ms[39m
+[35m[39m
+2022-11-19 21:07:39:739 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 304 - - 389.549 ms[39m
+[35m[39m
+2022-11-19 21:07:53:753 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Galle/2022 304 - - 158.029 ms[39m
+[35m[39m
+2022-11-19 21:07:53:753 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Galle 304 - - 162.410 ms[39m
+[35m[39m
+2022-11-19 21:07:53:753 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Galle/paddy 304 - - 166.504 ms[39m
+[35m[39m
+2022-11-19 21:07:57:757 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2022 304 - - 204.105 ms[39m
+[35m[39m
+2022-11-19 21:07:57:757 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Matara 304 - - 206.978 ms[39m
+[35m[39m
+2022-11-19 21:07:57:757 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 304 - - 210.823 ms[39m
+[35m[39m
+2022-11-19 21:08:01:81 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 304 - - 430.870 ms[39m
+[35m[39m
+2022-11-19 21:08:01:81 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2022 304 - - 434.358 ms[39m
+[35m[39m
+2022-11-19 21:10:00:100 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//2022 404 175 - 0.331 ms[39m
+[35m[39m
+2022-11-19 21:10:00:100 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Paddy 304 - - 242.176 ms[39m
+[35m[39m
+2022-11-19 21:10:00:100 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 248.013 ms[39m
+[35m[39m
+2022-11-19 21:10:00:100 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/2022 304 - - 247.408 ms[39m
+[35m[39m
+2022-11-19 21:10:00:100 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 243.617 ms[39m
+[35m[39m
+2022-11-19 21:10:00:100 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910768V 304 - - 309.543 ms[39m
+[35m[39m
+2022-11-19 21:10:01:101 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 296.564 ms[39m
+[35m[39m
+2022-11-19 21:10:01:101 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 205.710 ms[39m
+[35m[39m
+2022-11-19 21:10:01:101 [32minfo[39m: [32mtotal ongoing bidding count successfully fetched[39m
+2022-11-19 21:10:01:101 [35mhttp[39m: [35m::1 GET /api/product/ongoingbiddingcount/6378f5b92222aa45804e5dfc 304 - - 205.384 ms[39m
+[35m[39m
+2022-11-19 21:10:25:1025 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//2022 404 175 - 0.242 ms[39m
+[35m[39m
+2022-11-19 21:10:25:1025 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/2022 304 - - 167.743 ms[39m
+[35m[39m
+2022-11-19 21:10:25:1025 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Paddy 304 - - 172.394 ms[39m
+[35m[39m
+2022-11-19 21:10:25:1025 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 178.268 ms[39m
+[35m[39m
+2022-11-19 21:10:25:1025 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 180.002 ms[39m
+[35m[39m
+2022-11-19 21:10:26:1026 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 245.867 ms[39m
+[35m[39m
+2022-11-19 21:10:26:1026 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 231.434 ms[39m
+[35m[39m
+2022-11-19 21:10:26:1026 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Kilinochchi/2022 304 - - 243.289 ms[39m
+[35m[39m
+2022-11-19 21:10:26:1026 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 249.019 ms[39m
+[35m[39m
+2022-11-19 21:10:26:1026 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 247.795 ms[39m
+[35m[39m
+2022-11-19 21:10:56:1056 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2022 304 - - 449.494 ms[39m
+[35m[39m
+2022-11-19 21:10:56:1056 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Matara 304 - - 454.772 ms[39m
+[35m[39m
+2022-11-19 21:10:56:1056 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/Beans 304 - - 459.941 ms[39m
+[35m[39m
+2022-11-19 21:11:06:116 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 304 - - 221.427 ms[39m
+[35m[39m
+2022-11-19 21:11:10:1110 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/Sudu%20Samba 200 48 - 181.586 ms[39m
+[35m[39m
+2022-11-19 21:11:16:1116 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 304 - - 367.845 ms[39m
+[35m[39m
+2022-11-19 21:11:28:1128 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2022 304 - - 265.300 ms[39m
+[35m[39m
+2022-11-19 21:11:28:1128 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 304 - - 270.157 ms[39m
+[35m[39m
+2022-11-19 21:15:31:1531 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 68 - 20.793 ms[39m
+[35m[39m
+2022-11-19 21:16:15:1615 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 138 - 1.004 ms[39m
+[35m[39m
+2022-11-19 21:16:22:1622 [35mhttp[39m: [35m::1 POST /api/signin 200 517 - 625.837 ms[39m
+[35m[39m
+2022-11-19 21:16:42:1642 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 314 - 380.771 ms[39m
+[35m[39m
+2022-11-19 21:24:07:247 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:24:09:249 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:24:34:2434 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:24:37:2437 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:24:44:2444 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:24:47:2447 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:25:53:2553 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:25:57:2557 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:26:00:260 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 48 - 6416.715 ms[39m
+[35m[39m
+2022-11-19 21:26:05:265 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 48 - 276.406 ms[39m
+[35m[39m
+2022-11-19 21:26:53:2653 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:26:57:2657 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:27:00:270 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 48 - 4948.903 ms[39m
+[35m[39m
+2022-11-19 21:27:06:276 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:27:08:278 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:27:16:2716 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:27:19:2719 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:27:22:2722 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 466 - 3465.637 ms[39m
+[35m[39m
+2022-11-19 21:28:09:289 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:28:11:2811 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:28:13:2813 [35mhttp[39m: [35m::ffff:127.0.0.1 GET /api/farmer/topharvestedcrops/Matara/2022 200 48 - 3729.196 ms[39m
+[35m[39m
+2022-11-19 21:29:26:2926 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:29:28:2928 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:29:30:2930 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 48 - 1607.713 ms[39m
+[35m[39m
+2022-11-19 21:29:39:2939 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:29:42:2942 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:29:44:2944 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 134 - 2884.945 ms[39m
+[35m[39m
+2022-11-19 21:30:08:308 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:30:11:3011 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:30:13:3013 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-19 21:30:13:3013 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 91 - 3704.199 ms[39m
+[35m[39m
+2022-11-19 21:30:41:3041 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:30:43:3043 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:30:50:3050 [31merror[39m: [31mPlanExecutor error during aggregation :: caused by :: can't convert from BSON type string to Date[39m
+2022-11-19 21:30:50:3050 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 91 - 441.685 ms[39m
+[35m[39m
+2022-11-19 21:31:51:3151 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:31:53:3153 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:31:56:3156 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 131 - 3364.283 ms[39m
+[35m[39m
+2022-11-19 21:32:08:328 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:32:10:3210 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:32:13:3213 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 128 - 545.678 ms[39m
+[35m[39m
+2022-11-19 21:32:43:3243 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:32:45:3245 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:32:47:3247 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 48 - 1760.763 ms[39m
+[35m[39m
+2022-11-19 21:36:02:362 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//2022 404 175 - 3.405 ms[39m
+[35m[39m
+2022-11-19 21:36:02:362 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910768V 304 - - 440.151 ms[39m
+[35m[39m
+2022-11-19 21:36:02:362 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 200 129 - 418.028 ms[39m
+[35m[39m
+2022-11-19 21:36:03:363 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Paddy 304 - - 414.133 ms[39m
+[35m[39m
+2022-11-19 21:36:03:363 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/2022 304 - - 421.980 ms[39m
+[35m[39m
+2022-11-19 21:36:03:363 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 478.482 ms[39m
+[35m[39m
+2022-11-19 21:36:03:363 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 200 116 - 354.488 ms[39m
+[35m[39m
+2022-11-19 21:36:03:363 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 355.645 ms[39m
+[35m[39m
+2022-11-19 21:36:03:363 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 247.659 ms[39m
+[35m[39m
+2022-11-19 21:36:03:363 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 254.577 ms[39m
+[35m[39m
+2022-11-19 21:36:03:363 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Kilinochchi/2022 304 - - 250.835 ms[39m
+[35m[39m
+2022-11-19 21:36:07:367 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/Beans 304 - - 206.617 ms[39m
+[35m[39m
+2022-11-19 21:36:07:367 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Matara 304 - - 287.855 ms[39m
+[35m[39m
+2022-11-19 21:36:07:367 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2022 304 - - 286.999 ms[39m
+[35m[39m
+2022-11-19 21:36:10:3610 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 304 - - 188.067 ms[39m
+[35m[39m
+2022-11-19 21:36:14:3614 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 48 - 465.064 ms[39m
+[35m[39m
+2022-11-19 21:36:14:3614 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2022 304 - - 467.157 ms[39m
+[35m[39m
+2022-11-19 21:38:59:3859 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:39:02:392 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:39:04:394 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 48 - 3789.923 ms[39m
+[35m[39m
+2022-11-19 21:39:11:3911 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:39:13:3913 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:41:53:4153 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:41:56:4156 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:42:09:429 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:42:11:4211 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:42:12:4212 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 126 - 1147.374 ms[39m
+[35m[39m
+2022-11-19 21:42:20:4220 [32minfo[39m: [32mtotal ongoing bidding count successfully fetched[39m
+2022-11-19 21:42:20:4220 [35mhttp[39m: [35m::1 GET /api/product/ongoingbiddingcount/6378f5b92222aa45804e5dfc 304 - - 479.309 ms[39m
+[35m[39m
+2022-11-19 21:42:20:4220 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//2022 404 175 - 2.485 ms[39m
+[35m[39m
+2022-11-19 21:42:21:4221 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 169.177 ms[39m
+[35m[39m
+2022-11-19 21:42:21:4221 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Paddy 304 - - 243.652 ms[39m
+[35m[39m
+2022-11-19 21:42:21:4221 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 255.324 ms[39m
+[35m[39m
+2022-11-19 21:42:21:4221 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/2022 304 - - 261.005 ms[39m
+[35m[39m
+2022-11-19 21:42:21:4221 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 244.066 ms[39m
+[35m[39m
+2022-11-19 21:42:21:4221 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 249.264 ms[39m
+[35m[39m
+2022-11-19 21:42:21:4221 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Kilinochchi/2022 304 - - 129.654 ms[39m
+[35m[39m
+2022-11-19 21:42:21:4221 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 138.594 ms[39m
+[35m[39m
+2022-11-19 21:42:21:4221 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 143.193 ms[39m
+[35m[39m
+2022-11-19 21:42:24:4224 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2022 304 - - 220.369 ms[39m
+[35m[39m
+2022-11-19 21:42:24:4224 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Matara 304 - - 223.792 ms[39m
+[35m[39m
+2022-11-19 21:42:24:4224 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/Beans 304 - - 228.068 ms[39m
+[35m[39m
+2022-11-19 21:42:27:4227 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 304 - - 205.532 ms[39m
+[35m[39m
+2022-11-19 21:42:32:4232 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 126 - 327.877 ms[39m
+[35m[39m
+2022-11-19 21:42:32:4232 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2022 304 - - 327.915 ms[39m
+[35m[39m
+2022-11-19 21:43:13:4313 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:43:16:4316 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:45:49:4549 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 123 - 246.254 ms[39m
+[35m[39m
+2022-11-19 21:47:07:477 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2020 200 121 - 184.449 ms[39m
+[35m[39m
+2022-11-19 21:47:07:477 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2020 304 - - 184.760 ms[39m
+[35m[39m
+2022-11-19 21:47:09:479 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 200 123 - 200.462 ms[39m
+[35m[39m
+2022-11-19 21:47:09:479 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2022 304 - - 224.918 ms[39m
+[35m[39m
+2022-11-19 21:47:16:4716 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2019 304 - - 369.662 ms[39m
+[35m[39m
+2022-11-19 21:47:16:4716 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2019 200 48 - 369.468 ms[39m
+[35m[39m
+2022-11-19 21:47:18:4718 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2018 304 - - 244.017 ms[39m
+[35m[39m
+2022-11-19 21:47:18:4718 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2018 200 121 - 259.833 ms[39m
+[35m[39m
+2022-11-19 21:47:21:4721 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2020 304 - - 313.060 ms[39m
+[35m[39m
+2022-11-19 21:47:21:4721 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2020 304 - - 313.726 ms[39m
+[35m[39m
+2022-11-19 21:47:24:4724 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2022 304 - - 171.200 ms[39m
+[35m[39m
+2022-11-19 21:47:24:4724 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 304 - - 175.897 ms[39m
+[35m[39m
+2022-11-19 21:48:30:4830 [32minfo[39m: [32mtotal ongoing bidding count successfully fetched[39m
+2022-11-19 21:48:30:4830 [35mhttp[39m: [35m::1 GET /api/product/ongoingbiddingcount/6378f5b92222aa45804e5dfc 304 - - 304.822 ms[39m
+[35m[39m
+2022-11-19 21:49:27:4927 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//2022 404 175 - 2.945 ms[39m
+[35m[39m
+2022-11-19 21:49:28:4928 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 484.339 ms[39m
+[35m[39m
+2022-11-19 21:49:28:4928 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 472.521 ms[39m
+[35m[39m
+2022-11-19 21:49:28:4928 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Paddy 304 - - 477.800 ms[39m
+[35m[39m
+2022-11-19 21:49:28:4928 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/2022 304 - - 482.813 ms[39m
+[35m[39m
+2022-11-19 21:49:28:4928 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 176.898 ms[39m
+[35m[39m
+2022-11-19 21:49:28:4928 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 180.444 ms[39m
+[35m[39m
+2022-11-19 21:49:28:4928 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 148.631 ms[39m
+[35m[39m
+2022-11-19 21:49:28:4928 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Kilinochchi/2022 304 - - 222.856 ms[39m
+[35m[39m
+2022-11-19 21:49:28:4928 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 229.046 ms[39m
+[35m[39m
+2022-11-19 21:49:28:4928 [32minfo[39m: [32mtotal ongoing bidding count successfully fetched[39m
+2022-11-19 21:49:28:4928 [35mhttp[39m: [35m::1 GET /api/product/ongoingbiddingcount/6378f5b92222aa45804e5dfc 304 - - 157.979 ms[39m
+[35m[39m
+2022-11-19 21:49:35:4935 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//2022 404 175 - 0.949 ms[39m
+[35m[39m
+2022-11-19 21:49:35:4935 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Paddy 304 - - 203.141 ms[39m
+[35m[39m
+2022-11-19 21:49:35:4935 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/2022 304 - - 207.184 ms[39m
+[35m[39m
+2022-11-19 21:49:35:4935 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 213.002 ms[39m
+[35m[39m
+2022-11-19 21:49:35:4935 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 303.738 ms[39m
+[35m[39m
+2022-11-19 21:49:35:4935 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 220.702 ms[39m
+[35m[39m
+2022-11-19 21:49:35:4935 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 159.040 ms[39m
+[35m[39m
+2022-11-19 21:49:35:4935 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 226.734 ms[39m
+[35m[39m
+2022-11-19 21:49:35:4935 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 226.894 ms[39m
+[35m[39m
+2022-11-19 21:49:35:4935 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Kilinochchi/2022 304 - - 227.259 ms[39m
+[35m[39m
+2022-11-19 21:49:36:4936 [32minfo[39m: [32mtotal ongoing bidding count successfully fetched[39m
+2022-11-19 21:49:36:4936 [35mhttp[39m: [35m::1 GET /api/product/ongoingbiddingcount/6378f5b92222aa45804e5dfc 304 - - 330.865 ms[39m
+[35m[39m
+2022-11-19 21:49:40:4940 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//2022 404 175 - 0.422 ms[39m
+[35m[39m
+2022-11-19 21:49:40:4940 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/2022 304 - - 220.797 ms[39m
+[35m[39m
+2022-11-19 21:49:40:4940 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 226.683 ms[39m
+[35m[39m
+2022-11-19 21:49:40:4940 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 231.303 ms[39m
+[35m[39m
+2022-11-19 21:49:40:4940 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Paddy 304 - - 231.707 ms[39m
+[35m[39m
+2022-11-19 21:49:40:4940 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 210.057 ms[39m
+[35m[39m
+2022-11-19 21:49:40:4940 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 257.073 ms[39m
+[35m[39m
+2022-11-19 21:49:41:4941 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 523.108 ms[39m
+[35m[39m
+2022-11-19 21:49:41:4941 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 508.550 ms[39m
+[35m[39m
+2022-11-19 21:49:41:4941 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Kilinochchi/2022 304 - - 526.763 ms[39m
+[35m[39m
+2022-11-19 21:51:44:5144 [32minfo[39m: [32mtotal ongoing bidding count successfully fetched[39m
+2022-11-19 21:51:44:5144 [35mhttp[39m: [35m::1 GET /api/product/ongoingbiddingcount/6378f5b92222aa45804e5dfc 304 - - 374.129 ms[39m
+[35m[39m
+2022-11-19 21:51:45:5145 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//2022 404 175 - 0.317 ms[39m
+[35m[39m
+2022-11-19 21:51:45:5145 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/2022 304 - - 235.756 ms[39m
+[35m[39m
+2022-11-19 21:51:45:5145 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 242.444 ms[39m
+[35m[39m
+2022-11-19 21:51:45:5145 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 248.327 ms[39m
+[35m[39m
+2022-11-19 21:51:45:5145 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Paddy 304 - - 246.243 ms[39m
+[35m[39m
+2022-11-19 21:51:45:5145 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//undefined 404 180 - 0.936 ms[39m
+[35m[39m
+2022-11-19 21:51:45:5145 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 180.044 ms[39m
+[35m[39m
+2022-11-19 21:51:45:5145 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 140.227 ms[39m
+[35m[39m
+2022-11-19 21:51:45:5145 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/undefined 200 48 - 146.993 ms[39m
+[35m[39m
+2022-11-19 21:51:45:5145 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 218.218 ms[39m
+[35m[39m
+2022-11-19 21:51:45:5145 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 222.049 ms[39m
+[35m[39m
+2022-11-19 21:51:45:5145 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Kilinochchi/undefined 200 48 - 218.039 ms[39m
+[35m[39m
+2022-11-19 21:51:55:5155 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Matara 304 - - 249.836 ms[39m
+[35m[39m
+2022-11-19 21:51:55:5155 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/undefined 200 48 - 255.685 ms[39m
+[35m[39m
+2022-11-19 21:51:55:5155 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/Beans 304 - - 258.279 ms[39m
+[35m[39m
+2022-11-19 21:51:58:5158 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 304 - - 373.017 ms[39m
+[35m[39m
+2022-11-19 21:52:04:524 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 304 - - 280.788 ms[39m
+[35m[39m
+2022-11-19 21:52:04:524 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2022 304 - - 280.967 ms[39m
+[35m[39m
+2022-11-19 21:52:08:528 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2020 304 - - 450.180 ms[39m
+[35m[39m
+2022-11-19 21:52:08:528 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2020 304 - - 455.685 ms[39m
+[35m[39m
+2022-11-19 21:53:11:5311 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Matara 304 - - 210.092 ms[39m
+[35m[39m
+2022-11-19 21:53:11:5311 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 304 - - 216.931 ms[39m
+[35m[39m
+2022-11-19 21:53:11:5311 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 221.671 ms[39m
+[35m[39m
+2022-11-19 21:53:11:5311 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2020 304 - - 221.941 ms[39m
+[35m[39m
+2022-11-19 21:53:11:5311 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 149.109 ms[39m
+[35m[39m
+2022-11-19 21:53:12:5312 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 304 - - 400.495 ms[39m
+[35m[39m
+2022-11-19 21:53:12:5312 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2022 304 - - 400.762 ms[39m
+[35m[39m
+2022-11-19 21:53:12:5312 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/Beans 304 - - 405.382 ms[39m
+[35m[39m
+2022-11-19 21:53:12:5312 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 254.954 ms[39m
+[35m[39m
+2022-11-19 21:53:12:5312 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 201.091 ms[39m
+[35m[39m
+2022-11-19 21:53:12:5312 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2020 304 - - 1395.745 ms[39m
+[35m[39m
+2022-11-19 21:53:13:5313 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Kilinochchi/2022 304 - - 1571.673 ms[39m
+[35m[39m
+2022-11-19 21:53:13:5313 [32minfo[39m: [32mtotal ongoing bidding count successfully fetched[39m
+2022-11-19 21:53:13:5313 [35mhttp[39m: [35m::1 GET /api/product/ongoingbiddingcount/6378f5b92222aa45804e5dfc 304 - - 491.733 ms[39m
+[35m[39m
+2022-11-19 21:53:14:5314 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//2022 404 175 - 0.286 ms[39m
+[35m[39m
+2022-11-19 21:53:14:5314 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 233.468 ms[39m
+[35m[39m
+2022-11-19 21:53:14:5314 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 232.411 ms[39m
+[35m[39m
+2022-11-19 21:53:14:5314 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/2022 304 - - 229.826 ms[39m
+[35m[39m
+2022-11-19 21:53:14:5314 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Paddy 304 - - 232.932 ms[39m
+[35m[39m
+2022-11-19 21:53:14:5314 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//undefined 404 180 - 0.338 ms[39m
+[35m[39m
+2022-11-19 21:53:14:5314 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 198.058 ms[39m
+[35m[39m
+2022-11-19 21:53:14:5314 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 198.332 ms[39m
+[35m[39m
+2022-11-19 21:53:14:5314 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/2022 304 - - 231.385 ms[39m
+[35m[39m
+2022-11-19 21:53:14:5314 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 191.776 ms[39m
+[35m[39m
+2022-11-19 21:53:14:5314 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Kilinochchi/undefined 304 - - 193.347 ms[39m
+[35m[39m
+2022-11-19 21:53:14:5314 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 196.289 ms[39m
+[35m[39m
+2022-11-19 21:53:20:5320 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Matara 304 - - 425.300 ms[39m
+[35m[39m
+2022-11-19 21:53:20:5320 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/Beans 304 - - 430.471 ms[39m
+[35m[39m
+2022-11-19 21:53:21:5321 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/undefined 304 - - 432.622 ms[39m
+[35m[39m
+2022-11-19 21:53:25:5325 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 304 - - 605.594 ms[39m
+[35m[39m
+2022-11-19 21:53:46:5346 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 304 - - 412.064 ms[39m
+[35m[39m
+2022-11-19 21:53:46:5346 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Matara 304 - - 411.961 ms[39m
+[35m[39m
+2022-11-19 21:53:46:5346 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 418.317 ms[39m
+[35m[39m
+2022-11-19 21:53:46:5346 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/undefined 304 - - 412.081 ms[39m
+[35m[39m
+2022-11-19 21:53:46:5346 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 304 - - 418.678 ms[39m
+[35m[39m
+2022-11-19 21:53:47:5347 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 464.250 ms[39m
+[35m[39m
+2022-11-19 21:53:47:5347 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/Beans 304 - - 422.494 ms[39m
+[35m[39m
+2022-11-19 21:53:47:5347 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 284.255 ms[39m
+[35m[39m
+2022-11-19 21:53:47:5347 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Kilinochchi/undefined 304 - - 282.956 ms[39m
+[35m[39m
+2022-11-19 21:53:47:5347 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 285.279 ms[39m
+[35m[39m
+2022-11-19 21:53:51:5351 [32minfo[39m: [32mtotal ongoing bidding count successfully fetched[39m
+2022-11-19 21:53:51:5351 [35mhttp[39m: [35m::1 GET /api/product/ongoingbiddingcount/6378f5b92222aa45804e5dfc 304 - - 281.153 ms[39m
+[35m[39m
+2022-11-19 21:53:52:5352 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//2022 404 175 - 0.300 ms[39m
+[35m[39m
+2022-11-19 21:53:52:5352 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Paddy 304 - - 141.475 ms[39m
+[35m[39m
+2022-11-19 21:53:52:5352 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/2022 304 - - 145.067 ms[39m
+[35m[39m
+2022-11-19 21:53:52:5352 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 149.147 ms[39m
+[35m[39m
+2022-11-19 21:53:52:5352 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 164.172 ms[39m
+[35m[39m
+2022-11-19 21:53:53:5353 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 281.740 ms[39m
+[35m[39m
+2022-11-19 21:53:53:5353 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 228.418 ms[39m
+[35m[39m
+2022-11-19 21:53:53:5353 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 475.159 ms[39m
+[35m[39m
+2022-11-19 21:53:53:5353 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Kilinochchi/2022 304 - - 476.927 ms[39m
+[35m[39m
+2022-11-19 21:53:53:5353 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 483.667 ms[39m
+[35m[39m
+2022-11-19 21:53:56:5356 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2022 304 - - 320.978 ms[39m
+[35m[39m
+2022-11-19 21:53:56:5356 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/Beans 304 - - 325.503 ms[39m
+[35m[39m
+2022-11-19 21:53:56:5356 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Matara 304 - - 325.153 ms[39m
+[35m[39m
+2022-11-19 21:54:00:540 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2022 304 - - 457.594 ms[39m
+[35m[39m
+2022-11-19 21:54:00:540 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Matara/2022 304 - - 460.613 ms[39m
+[35m[39m
+2022-11-19 21:54:08:548 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/paddy 304 - - 400.763 ms[39m
+[35m[39m
+2022-11-19 21:54:12:5412 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-19 21:54:12:5412 [35mhttp[39m: [35m::1 GET /api/reviews/6378f5b92222aa45804e5dfc 304 - - 213.688 ms[39m
+[35m[39m
+2022-11-19 21:54:13:5413 [35mhttp[39m: [35m::1 GET /api/product/ongoingbidding/6378f5b92222aa45804e5dfc 304 - - 175.740 ms[39m
+[35m[39m
+2022-11-19 21:54:15:5415 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-19 21:54:15:5415 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/6378f5b92222aa45804e5dfc 304 - - 399.976 ms[39m
+[35m[39m
+2022-11-19 21:54:15:5415 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-19 21:54:15:5415 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/6378f5b92222aa45804e5dfc 304 - - 204.635 ms[39m
+[35m[39m
+2022-11-19 21:54:15:5415 [32minfo[39m: [32morders successfully fetched[39m
+2022-11-19 21:54:15:5415 [35mhttp[39m: [35m::1 GET /api/order/getplaceorders/6378f5b92222aa45804e5dfc 304 - - 227.701 ms[39m
+[35m[39m
+2022-11-19 21:54:20:5420 [35mhttp[39m: [35m::1 GET /api/product/getproduct/6378f5b92222aa45804e5dfc 304 - - 175.808 ms[39m
+[35m[39m
+2022-11-19 21:54:20:5420 [35mhttp[39m: [35m::1 GET /api/product/getproduct/6378f5b92222aa45804e5dfc 304 - - 230.609 ms[39m
+[35m[39m
+2022-11-19 21:54:21:5421 [35mhttp[39m: [35m::1 GET /api/farmer/getcompletedmycrops/990910768V 304 - - 202.153 ms[39m
+[35m[39m
+2022-11-19 21:54:21:5421 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910768V 304 - - 206.068 ms[39m
+[35m[39m
+2022-11-19 21:54:22:5422 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory//2022 404 175 - 0.479 ms[39m
+[35m[39m
+2022-11-19 21:54:23:5423 [35mhttp[39m: [35m::1 GET /api/farmer/topharvestedcrops/Kilinochchi/2022 304 - - 371.019 ms[39m
+[35m[39m
+2022-11-19 21:54:23:5423 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Paddy 304 - - 374.118 ms[39m
+[35m[39m
+2022-11-19 21:54:23:5423 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 371.643 ms[39m
+[35m[39m
+2022-11-19 21:54:23:5423 [35mhttp[39m: [35m::1 GET /api/farmer/uniquecrops 304 - - 379.585 ms[39m
+[35m[39m
+2022-11-19 21:54:23:5423 [35mhttp[39m: [35m::1 GET /api/farmer/uniquedistrict 304 - - 226.205 ms[39m
+[35m[39m
+2022-11-19 21:54:23:5423 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 246.151 ms[39m
+[35m[39m
+2022-11-19 21:54:24:5424 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Kilinochchi/Beans 304 - - 529.654 ms[39m
+[35m[39m
+2022-11-19 21:54:24:5424 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Kilinochchi 304 - - 532.772 ms[39m
+[35m[39m
+2022-11-19 21:54:24:5424 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Kilinochchi/2022 304 - - 534.678 ms[39m
+[35m[39m
+2022-11-19 21:54:27:5427 [35mhttp[39m: [35m::1 GET /api/farmer/averagecropcategory/Matara/2022 304 - - 266.998 ms[39m
+[35m[39m
+2022-11-19 21:54:27:5427 [35mhttp[39m: [35m::1 GET /api/farmer/uniqueyears/Matara 304 - - 270.237 ms[39m
+[35m[39m
+2022-11-19 21:54:27:5427 [35mhttp[39m: [35m::1 GET /api/farmer/harvestdetails/Matara/Beans 304 - - 273.618 ms[39m
+[35m[39m
+2022-11-19 21:55:31:5531 [35mhttp[39m: [35m::1 POST /api/main-officer/check-availability-gso 200 50 - 485.041 ms[39m
+[35m[39m
+2022-11-19 21:56:32:5632 [35mhttp[39m: [35m::1 POST /api/main-officer/register-gso 200 90 - 1290.401 ms[39m
+[35m[39m
+2022-11-19 21:56:54:5654 [35mhttp[39m: [35m::1 GET /api/signin/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzkwM2I3YjZiMDcwZWUwOGM5M2ZiZCIsInVzZXJSb2xlIjoiR1NPIiwiaWF0IjoxNjY4ODc1MTkyLCJleHAiOjE2Njg5NjE1OTJ9.Gw7wYtecOoxZyivfbifipl8mpJvJpS1K8UEOLRbLAeU 200 302 - 795.068 ms[39m
+[35m[39m
+2022-11-19 21:58:28:5828 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 21:58:31:5831 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 21:58:51:5851 [35mhttp[39m: [35m::1 GET /api/signin/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzkwM2I3YjZiMDcwZWUwOGM5M2ZiZCIsInVzZXJSb2xlIjoiR1NPIiwiaWF0IjoxNjY4ODc1MTkyLCJleHAiOjE2Njg5NjE1OTJ9.Gw7wYtecOoxZyivfbifipl8mpJvJpS1K8UEOLRbLAeU 304 - - 477.358 ms[39m
+[35m[39m
+2022-11-19 21:58:59:5859 [35mhttp[39m: [35m::1 GET /api/signin/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzkwM2I3YjZiMDcwZWUwOGM5M2ZiZCIsInVzZXJSb2xlIjoiR1NPIiwiaWF0IjoxNjY4ODc1MTkyLCJleHAiOjE2Njg5NjE1OTJ9.Gw7wYtecOoxZyivfbifipl8mpJvJpS1K8UEOLRbLAeU 304 - - 511.439 ms[39m
+[35m[39m
+2022-11-19 21:59:11:5911 [35mhttp[39m: [35m::1 GET /api/signin/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzkwM2I3YjZiMDcwZWUwOGM5M2ZiZCIsInVzZXJSb2xlIjoiR1NPIiwiaWF0IjoxNjY4ODc1MTkyLCJleHAiOjE2Njg5NjE1OTJ9.Gw7wYtecOoxZyivfbifipl8mpJvJpS1K8UEOLRbLAeU 304 - - 337.491 ms[39m
+[35m[39m
+2022-11-19 22:00:23:023 [35mhttp[39m: [35m::1 GET /api/signin/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzkwM2I3YjZiMDcwZWUwOGM5M2ZiZCIsInVzZXJSb2xlIjoiR1NPIiwiaWF0IjoxNjY4ODc1MTkyLCJleHAiOjE2Njg5NjE1OTJ9.Gw7wYtecOoxZyivfbifipl8mpJvJpS1K8UEOLRbLAeU 304 - - 655.106 ms[39m
+[35m[39m
+2022-11-19 22:01:26:126 [35mhttp[39m: [35m::1 GET /api/signin/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzkwM2I3YjZiMDcwZWUwOGM5M2ZiZCIsInVzZXJSb2xlIjoiR1NPIiwiaWF0IjoxNjY4ODc1MTkyLCJleHAiOjE2Njg5NjE1OTJ9.Gw7wYtecOoxZyivfbifipl8mpJvJpS1K8UEOLRbLAeU 304 - - 1806.539 ms[39m
+[35m[39m
+2022-11-19 22:02:49:249 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 22:02:51:251 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 22:57:44:5744 [35mhttp[39m: [35m::1 GET /api/signin/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzkwM2I3YjZiMDcwZWUwOGM5M2ZiZCIsInVzZXJSb2xlIjoiR1NPIiwiaWF0IjoxNjY4ODc1MTkyLCJleHAiOjE2Njg5NjE1OTJ9.Gw7wYtecOoxZyivfbifipl8mpJvJpS1K8UEOLRbLAeU 304 - - 1209.385 ms[39m
+[35m[39m
+2022-11-19 23:01:44:144 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 23:01:45:145 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 23:01:47:147 [35mhttp[39m: [35m::1 GET /api/signin/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzkwM2I3YjZiMDcwZWUwOGM5M2ZiZCIsInVzZXJSb2xlIjoiR1NPIiwiaWF0IjoxNjY4ODc1MTkyLCJleHAiOjE2Njg5NjE1OTJ9.Gw7wYtecOoxZyivfbifipl8mpJvJpS1K8UEOLRbLAeU 304 - - 1549.393 ms[39m
+[35m[39m
+2022-11-19 23:03:23:323 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 23:03:24:324 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 23:04:26:426 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 23:04:27:427 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 23:04:48:448 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 23:04:50:450 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 23:04:57:457 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 23:04:58:458 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 23:25:53:2553 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 23:25:55:2555 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 23:25:56:2556 [35mhttp[39m: [35m::1 GET /api/signin/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzkwM2I3YjZiMDcwZWUwOGM5M2ZiZCIsInVzZXJSb2xlIjoiR1NPIiwiaWF0IjoxNjY4ODc1MTkyLCJleHAiOjE2Njg5NjE1OTJ9.Gw7wYtecOoxZyivfbifipl8mpJvJpS1K8UEOLRbLAeU 200 387 - 2544.004 ms[39m
+[35m[39m
+2022-11-19 23:26:42:2642 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 23:26:43:2643 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 23:26:45:2645 [35mhttp[39m: [35m::1 GET /api/signin/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzkwM2I3YjZiMDcwZWUwOGM5M2ZiZCIsInVzZXJSb2xlIjoiR1NPIiwiaWF0IjoxNjY4ODc1MTkyLCJleHAiOjE2Njg5NjE1OTJ9.Gw7wYtecOoxZyivfbifipl8mpJvJpS1K8UEOLRbLAeU 304 - - 1415.351 ms[39m
+[35m[39m
+2022-11-19 23:27:14:2714 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 23:27:15:2715 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 23:27:17:2717 [35mhttp[39m: [35m::1 GET /api/signin/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzkwM2I3YjZiMDcwZWUwOGM5M2ZiZCIsInVzZXJSb2xlIjoiR1NPIiwiaWF0IjoxNjY4ODc1MTkyLCJleHAiOjE2Njg5NjE1OTJ9.Gw7wYtecOoxZyivfbifipl8mpJvJpS1K8UEOLRbLAeU 304 - - 1099.615 ms[39m
+[35m[39m
