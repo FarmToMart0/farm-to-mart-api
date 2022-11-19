@@ -30,7 +30,7 @@ function arrangeMarket(product){
         
         products.push({item_id:element._id,product_name:element.productName,price:element.unitPrice,
             type:type, date:element.date, transport:transport,payment:payment,more_details:element.description,image:element.images[0],category:element.category,
-        district:element.FarmerProducts[0].district })
+        district:element.FarmerProducts[0].district,remainAmount:element.remainQuantity,farmer:element.farmer })
     });
 
 
