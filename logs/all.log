@@ -37972,3 +37972,186 @@
 2022-11-19 19:00:27:027 [32minfo[39m: [32mConnected to MongoDB...[39m
 2022-11-19 19:01:02:12 [35mhttp[39m: [35m::1 POST /api/order/placeorder 200 72 - 185.017 ms[39m
 [35m[39m
+2022-11-19 19:19:25:1925 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 19:19:27:1927 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 19:26:06:266 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 141.637 ms[39m
+[35m[39m
+2022-11-19 19:26:09:269 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Grains 304 - - 152.298 ms[39m
+[35m[39m
+2022-11-19 19:26:12:2612 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Fruits 200 495 - 140.173 ms[39m
+[35m[39m
+2022-11-19 19:26:54:2654 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 150.015 ms[39m
+[35m[39m
+2022-11-19 19:28:32:2832 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 171.438 ms[39m
+[35m[39m
+2022-11-19 19:29:33:2933 [35mhttp[39m: [35m::1 PUT /api/product/update 200 613 - 352.487 ms[39m
+[35m[39m
+2022-11-19 19:29:33:2933 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4475 - 143.929 ms[39m
+[35m[39m
+2022-11-19 19:29:34:2934 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 134.530 ms[39m
+[35m[39m
+2022-11-19 19:29:38:2938 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 200 1838 - 145.706 ms[39m
+[35m[39m
+2022-11-19 19:32:19:3219 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 138.560 ms[39m
+[35m[39m
+2022-11-19 19:33:23:3323 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 160.661 ms[39m
+[35m[39m
+2022-11-19 19:33:40:3340 [35mhttp[39m: [35m::1 PUT /api/product/update 200 612 - 153.619 ms[39m
+[35m[39m
+2022-11-19 19:33:41:3341 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4475 - 132.224 ms[39m
+[35m[39m
+2022-11-19 19:33:41:3341 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 132.866 ms[39m
+[35m[39m
+2022-11-19 19:35:06:356 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 183.740 ms[39m
+[35m[39m
+2022-11-19 19:35:54:3554 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 148.086 ms[39m
+[35m[39m
+2022-11-19 19:37:38:3738 [35mhttp[39m: [35m::1 PUT /api/product/update 200 612 - 168.990 ms[39m
+[35m[39m
+2022-11-19 19:37:38:3738 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4475 - 130.943 ms[39m
+[35m[39m
+2022-11-19 19:37:38:3738 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 136.421 ms[39m
+[35m[39m
+2022-11-19 19:37:45:3745 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 149.021 ms[39m
+[35m[39m
+2022-11-19 19:54:48:5448 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 19:54:50:5450 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 19:55:23:5523 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 19:55:24:5524 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 19:56:05:565 [35mhttp[39m: [35m::1 GET /api/product/image/6370b97f53b7252fc9439891 304 - - 140.083 ms[39m
+[35m[39m
+2022-11-19 19:57:56:5756 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 19:57:58:5758 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 19:58:50:5850 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 19:58:52:5852 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:05:51:551 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:05:53:553 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:05:57:557 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 94 - 166.521 ms[39m
+[35m[39m
+2022-11-19 20:07:04:74 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 612 - 144.135 ms[39m
+[35m[39m
+2022-11-19 20:08:41:841 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:08:43:843 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:08:47:847 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 612 - 166.657 ms[39m
+[35m[39m
+2022-11-19 20:09:07:97 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:09:08:98 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:09:10:910 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 94 - 1313.023 ms[39m
+[35m[39m
+2022-11-19 20:09:52:952 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:09:54:954 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:09:55:955 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 612 - 835.562 ms[39m
+[35m[39m
+2022-11-19 20:10:15:1015 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:10:16:1016 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:10:17:1017 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 612 - 171.773 ms[39m
+[35m[39m
+2022-11-19 20:10:33:1033 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:10:35:1035 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:10:37:1037 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 612 - 175.261 ms[39m
+[35m[39m
+2022-11-19 20:10:50:1050 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:10:51:1051 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:11:18:1118 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:11:19:1119 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:11:26:1126 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:11:28:1128 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:11:30:1130 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 612 - 152.247 ms[39m
+[35m[39m
+2022-11-19 20:11:48:1148 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:11:50:1150 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:12:53:1253 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 612 - 178.663 ms[39m
+[35m[39m
+2022-11-19 20:13:55:1355 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:13:57:1357 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:14:00:140 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 612 - 163.422 ms[39m
+[35m[39m
+2022-11-19 20:17:31:1731 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:17:33:1733 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:17:37:1737 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 612 - 192.886 ms[39m
+[35m[39m
+2022-11-19 20:18:04:184 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 611 - 140.742 ms[39m
+[35m[39m
+2022-11-19 20:20:30:2030 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:20:32:2032 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:20:43:2043 [31merror[39m: [31mQuery was already executed: Product.findOneAndUpdate({ _id: new ObjectId("63627d8365d998...[39m
+2022-11-19 20:20:43:2043 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 82 - 42.692 ms[39m
+[35m[39m
+2022-11-19 20:21:12:2112 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:21:18:2118 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:21:20:2120 [31merror[39m: [31mQuery was already executed: Product.findOneAndUpdate({ _id: new ObjectId("63627d8365d998...[39m
+2022-11-19 20:21:20:2120 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 82 - 29.798 ms[39m
+[35m[39m
+2022-11-19 20:21:49:2149 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:21:51:2151 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:21:54:2154 [31merror[39m: [31mQuery was already executed: Product.findOneAndUpdate({ _id: new ObjectId("63627d8365d998...[39m
+2022-11-19 20:21:54:2154 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 82 - 30.648 ms[39m
+[35m[39m
+2022-11-19 20:23:57:2357 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:23:59:2359 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:24:02:242 [31merror[39m: [31mQuery was already executed: Product.findOneAndUpdate({ _id: new ObjectId("63627d8365d998...[39m
+2022-11-19 20:24:02:242 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 82 - 27.919 ms[39m
+[35m[39m
+2022-11-19 20:24:47:2447 [31merror[39m: [31mQuery was already executed: Product.findOneAndUpdate({ _id: new ObjectId("63627d8365d998...[39m
+2022-11-19 20:24:47:2447 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 82 - 7.214 ms[39m
+[35m[39m
+2022-11-19 20:25:42:2542 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:25:43:2543 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:25:46:2546 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 611 - 180.467 ms[39m
+[35m[39m
+2022-11-19 20:30:02:302 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:30:04:304 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:30:06:306 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 611 - 156.068 ms[39m
+[35m[39m
+2022-11-19 20:32:29:3229 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:32:30:3230 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:32:44:3244 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:32:45:3245 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:32:57:3257 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 611 - 165.055 ms[39m
+[35m[39m
+2022-11-19 20:33:10:3310 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:33:12:3312 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:33:27:3327 [35mhttp[39m: [35m::1 PUT /api/order/updateproduct 200 612 - 161.175 ms[39m
+[35m[39m
+2022-11-19 20:34:54:3454 [35mhttp[39m: [35m::1 GET /api/product/image/6370b97f53b7252fc9439891 304 - - 129.667 ms[39m
+[35m[39m
+2022-11-19 20:34:55:3455 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 200 4971 - 148.163 ms[39m
+[35m[39m
+2022-11-19 20:34:55:3455 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 159.381 ms[39m
+[35m[39m
+2022-11-19 20:34:55:3455 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 138.177 ms[39m
+[35m[39m
+2022-11-19 20:36:34:3634 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 200 1838 - 140.469 ms[39m
+[35m[39m
+2022-11-19 20:36:38:3638 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Grains 200 901 - 147.952 ms[39m
+[35m[39m
+2022-11-19 20:36:40:3640 [35mhttp[39m: [35m::1 GET /api/product/image/63775d3361f57749302f1f64 304 - - 128.407 ms[39m
+[35m[39m
+2022-11-19 20:37:37:3737 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:37:39:3739 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:37:42:3742 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 159.198 ms[39m
+[35m[39m
+2022-11-19 20:37:46:3746 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Grains 304 - - 142.216 ms[39m
+[35m[39m
+2022-11-19 20:41:46:4146 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 200 1838 - 137.140 ms[39m
+[35m[39m
+2022-11-19 20:41:49:4149 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Grains 304 - - 144.551 ms[39m
+[35m[39m
+2022-11-19 20:41:50:4150 [35mhttp[39m: [35m::1 GET /api/product/image/63775d3361f57749302f1f64 304 - - 153.604 ms[39m
+[35m[39m
+2022-11-19 20:43:15:4315 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-19 20:43:17:4317 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-19 20:43:26:4326 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 154.437 ms[39m
+[35m[39m
+2022-11-19 20:45:24:4524 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 156.669 ms[39m
+[35m[39m
+2022-11-19 20:45:26:4526 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Grains 304 - - 143.132 ms[39m
+[35m[39m
+2022-11-19 20:45:31:4531 [35mhttp[39m: [35m::1 GET /api/product/image/63775d3361f57749302f1f64 304 - - 147.968 ms[39m
+[35m[39m
+2022-11-19 20:49:18:4918 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 132.003 ms[39m
+[35m[39m
+2022-11-19 20:49:21:4921 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Grains 304 - - 162.820 ms[39m
+[35m[39m
+2022-11-19 20:49:24:4924 [35mhttp[39m: [35m::1 GET /api/product/image/63775d3361f57749302f1f64 304 - - 161.018 ms[39m
+[35m[39m

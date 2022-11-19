@@ -554,6 +554,38 @@ async function placeOrder(req, res) {
 
 	
 }
+
+async function updateRemainCrop(req,res){
+  const remainQuantity = req.body.remainQuantity;
+  const _id = req.body.product;
+ 
+  try {
+		const product = await Product.findByIdAndUpdate(_id, {remainQuantity:remainQuantity});
+    
+		if (!product){
+      return res
+				.status(200)
+				.send(
+					generateOutput(
+						404,
+						"not found",
+						"The product with the given ID was not found."
+					)
+				);
+    }
+    
+			
+    
+		res.status(200).send(generateOutput(201, "success fully updated", product));
+    console.log(product)
+	} catch (error) {
+    
+		logger.error(error);
+		return res.send(
+			generateOutput(500, "error", "Error occured while updating product")
+		);
+	}
+}
   
 module.exports = {
   getAllOrders,
@@ -571,4 +603,5 @@ module.exports = {
   getSalesOverview,
   getOrderOverview,
   placeOrder,
+  updateRemainCrop
 };
