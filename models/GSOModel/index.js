@@ -58,5 +58,16 @@ function validateGso(gso) {
   return shema.validate(gso);
 }
 
+function validateUpdate(updatedgso) {
+  const schema = Joi.object ({
+    _id: Joi.string(),
+    firstName: Joi.string().min(2).max(50).required(),
+    lastName: Joi.string().min(2).max(50).required(),
+    mobile: Joi.string().min(10).max(50).required(),
+  })
+  return schema.validate(updatedgso)
+}
+
 exports.Gso = GSO;
 exports.validate = validateGso;
+exports.validateUpdate = validateUpdate;
