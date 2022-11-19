@@ -142,6 +142,7 @@ async function deleteProduct(req, res) {
 
 //function for update the product
 async function updateProduct(req, res) {
+	console.log(req.body);
   var ObjectId = mongoose.Types.ObjectId;
   req.body.remainQuantity = req.body.quantity;
  
@@ -232,7 +233,7 @@ async function getTotalOnGoingBids(req, res) {
 				$count: "farmer",
 			},
 		]);
-		info("total ongoing bidding count successfully fetched");
+		logger.info("total ongoing bidding count successfully fetched");
 		res.status(200).send(generateOutput("201", "success", biddingCount));
 	} catch (error) {
 		logger.error(error);
