@@ -558,6 +558,7 @@ async function placeOrder(req, res) {
 async function updateRemainCrop(req,res){
   const remainQuantity = req.body.remainQuantity;
   const _id = req.body.product;
+  console.log(remainQuantity,_id);
  
   try {
 		const product = await Product.findByIdAndUpdate(_id, {remainQuantity:remainQuantity});
