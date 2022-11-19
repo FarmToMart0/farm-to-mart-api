@@ -245,7 +245,25 @@ async function getTotalOnGoingBids(req, res) {
 		);
 	}
 }
-
+async function getonBidingProducts(req,res){
+	var id = req.params.id;
+    var ObjectId = mongoose.Types.ObjectId;
+    try {
+      var products = await Product.find({'farmer':new ObjectId(id), 'biddingEnable':true}).sort({'biddingEndin':1})
+	  return res.status(200).send(generateOutput(
+		201,
+		"sucess",
+		products
+	))
+    } catch (error) {
+		logger.error(error)
+		return res.status(200).send(generateOutput(
+			500,
+			"error",
+			"Error occured while getting ongoing bidding "
+		))
+    }
+}
 module.exports = {
 	marketProduct,
 	getTotalOnGoingBids,
@@ -255,4 +273,5 @@ module.exports = {
 	getProduct,
 	getTotalOnGoingBids,
 	updateProduct,
+	getonBidingProducts
 };
