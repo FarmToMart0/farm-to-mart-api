@@ -38808,3 +38808,559 @@
 2022-11-20 13:30:16:3016 [32minfo[39m: [32mConnected to MongoDB...[39m
 2022-11-20 13:32:17:3217 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 10.413 ms[39m
 [35m[39m
+2022-11-20 14:38:38:3838 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 14:38:40:3840 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 14:40:11:4011 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 3.985 ms[39m
+[35m[39m
+2022-11-20 14:40:11:4011 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.298 ms[39m
+[35m[39m
+2022-11-20 14:40:11:4011 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.457 ms[39m
+[35m[39m
+2022-11-20 14:40:23:4023 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 174.533 ms[39m
+[35m[39m
+2022-11-20 14:40:24:4024 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 150.256 ms[39m
+[35m[39m
+2022-11-20 14:40:25:4025 [35mhttp[39m: [35m::1 GET /api/product/image/636bb9872e782fbacf4b27bd 304 - - 151.834 ms[39m
+[35m[39m
+2022-11-20 14:41:17:4117 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.966 ms[39m
+[35m[39m
+2022-11-20 14:41:17:4117 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.805 ms[39m
+[35m[39m
+2022-11-20 14:41:17:4117 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.717 ms[39m
+[35m[39m
+2022-11-20 14:41:26:4126 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.748 ms[39m
+[35m[39m
+2022-11-20 14:41:26:4126 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.842 ms[39m
+[35m[39m
+2022-11-20 14:41:26:4126 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.465 ms[39m
+[35m[39m
+2022-11-20 14:42:29:4229 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 1.017 ms[39m
+[35m[39m
+2022-11-20 14:42:29:4229 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.980 ms[39m
+[35m[39m
+2022-11-20 14:42:29:4229 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.867 ms[39m
+[35m[39m
+2022-11-20 14:44:13:4413 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 1.048 ms[39m
+[35m[39m
+2022-11-20 14:44:13:4413 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.140 ms[39m
+[35m[39m
+2022-11-20 14:44:13:4413 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.776 ms[39m
+[35m[39m
+2022-11-20 14:44:40:4440 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.654 ms[39m
+[35m[39m
+2022-11-20 14:44:40:4440 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.127 ms[39m
+[35m[39m
+2022-11-20 14:44:40:4440 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.644 ms[39m
+[35m[39m
+2022-11-20 14:45:32:4532 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.716 ms[39m
+[35m[39m
+2022-11-20 14:45:32:4532 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.992 ms[39m
+[35m[39m
+2022-11-20 14:45:32:4532 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.126 ms[39m
+[35m[39m
+2022-11-20 14:46:02:462 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.733 ms[39m
+[35m[39m
+2022-11-20 14:46:02:462 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.762 ms[39m
+[35m[39m
+2022-11-20 14:46:02:462 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.799 ms[39m
+[35m[39m
+2022-11-20 14:46:40:4640 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.474 ms[39m
+[35m[39m
+2022-11-20 14:46:40:4640 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.702 ms[39m
+[35m[39m
+2022-11-20 14:46:40:4640 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.157 ms[39m
+[35m[39m
+2022-11-20 14:46:53:4653 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.574 ms[39m
+[35m[39m
+2022-11-20 14:46:53:4653 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.752 ms[39m
+[35m[39m
+2022-11-20 14:46:53:4653 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.049 ms[39m
+[35m[39m
+2022-11-20 14:47:18:4718 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.716 ms[39m
+[35m[39m
+2022-11-20 14:47:18:4718 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.720 ms[39m
+[35m[39m
+2022-11-20 14:47:18:4718 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.088 ms[39m
+[35m[39m
+2022-11-20 14:47:39:4739 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.648 ms[39m
+[35m[39m
+2022-11-20 14:47:39:4739 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.466 ms[39m
+[35m[39m
+2022-11-20 14:47:39:4739 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.590 ms[39m
+[35m[39m
+2022-11-20 14:47:59:4759 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.702 ms[39m
+[35m[39m
+2022-11-20 14:47:59:4759 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.465 ms[39m
+[35m[39m
+2022-11-20 14:47:59:4759 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.831 ms[39m
+[35m[39m
+2022-11-20 14:48:32:4832 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.674 ms[39m
+[35m[39m
+2022-11-20 14:48:32:4832 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.804 ms[39m
+[35m[39m
+2022-11-20 14:48:32:4832 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.869 ms[39m
+[35m[39m
+2022-11-20 14:49:05:495 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.842 ms[39m
+[35m[39m
+2022-11-20 14:49:05:495 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.676 ms[39m
+[35m[39m
+2022-11-20 14:49:05:495 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.637 ms[39m
+[35m[39m
+2022-11-20 14:49:16:4916 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.816 ms[39m
+[35m[39m
+2022-11-20 14:49:16:4916 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.644 ms[39m
+[35m[39m
+2022-11-20 14:49:16:4916 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 3.226 ms[39m
+[35m[39m
+2022-11-20 14:49:35:4935 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.401 ms[39m
+[35m[39m
+2022-11-20 14:49:35:4935 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.701 ms[39m
+[35m[39m
+2022-11-20 14:49:35:4935 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.543 ms[39m
+[35m[39m
+2022-11-20 14:49:45:4945 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.387 ms[39m
+[35m[39m
+2022-11-20 14:49:45:4945 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.604 ms[39m
+[35m[39m
+2022-11-20 14:49:45:4945 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.763 ms[39m
+[35m[39m
+2022-11-20 14:49:58:4958 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.462 ms[39m
+[35m[39m
+2022-11-20 14:49:58:4958 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.844 ms[39m
+[35m[39m
+2022-11-20 14:49:58:4958 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.723 ms[39m
+[35m[39m
+2022-11-20 14:51:20:5120 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.723 ms[39m
+[35m[39m
+2022-11-20 14:51:20:5120 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.645 ms[39m
+[35m[39m
+2022-11-20 14:51:20:5120 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.915 ms[39m
+[35m[39m
+2022-11-20 14:57:08:578 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.461 ms[39m
+[35m[39m
+2022-11-20 14:57:08:578 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.803 ms[39m
+[35m[39m
+2022-11-20 14:57:08:578 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.689 ms[39m
+[35m[39m
+2022-11-20 15:00:27:027 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 15:00:29:029 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 15:00:44:044 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 15:00:46:046 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 15:01:26:126 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 15:01:27:127 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 15:01:45:145 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 15:01:48:148 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 15:02:01:21 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 15:02:02:22 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 15:02:14:214 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 15:02:17:217 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 15:06:04:64 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 15:06:10:610 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 15:07:14:714 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 15:07:20:720 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 15:12:13:1213 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 15:12:15:1215 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 15:12:19:1219 [35mhttp[39m: [35m::1 POST /api/reviews/addreview 200 73 - 178.131 ms[39m
+[35m[39m
+2022-11-20 15:15:58:1558 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 2.792 ms[39m
+[35m[39m
+2022-11-20 15:15:58:1558 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.339 ms[39m
+[35m[39m
+2022-11-20 15:15:58:1558 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.908 ms[39m
+[35m[39m
+2022-11-20 15:17:27:1727 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 1.246 ms[39m
+[35m[39m
+2022-11-20 15:17:27:1727 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.684 ms[39m
+[35m[39m
+2022-11-20 15:17:27:1727 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.828 ms[39m
+[35m[39m
+2022-11-20 15:19:30:1930 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.850 ms[39m
+[35m[39m
+2022-11-20 15:19:30:1930 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.777 ms[39m
+[35m[39m
+2022-11-20 15:19:30:1930 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 2.208 ms[39m
+[35m[39m
+2022-11-20 15:20:24:2024 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 1.129 ms[39m
+[35m[39m
+2022-11-20 15:20:24:2024 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.982 ms[39m
+[35m[39m
+2022-11-20 15:20:24:2024 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.688 ms[39m
+[35m[39m
+2022-11-20 15:21:08:218 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 162.803 ms[39m
+[35m[39m
+2022-11-20 15:21:08:218 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 162.005 ms[39m
+[35m[39m
+2022-11-20 15:21:31:2131 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.433 ms[39m
+[35m[39m
+2022-11-20 15:21:31:2131 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.460 ms[39m
+[35m[39m
+2022-11-20 15:21:31:2131 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.886 ms[39m
+[35m[39m
+2022-11-20 15:21:32:2132 [35mhttp[39m: [35m::1 GET /api/product/image/636bb9872e782fbacf4b27bd 304 - - 145.081 ms[39m
+[35m[39m
+2022-11-20 15:24:16:2416 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.770 ms[39m
+[35m[39m
+2022-11-20 15:24:16:2416 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.670 ms[39m
+[35m[39m
+2022-11-20 15:24:16:2416 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.902 ms[39m
+[35m[39m
+2022-11-20 15:24:27:2427 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 780.104 ms[39m
+[35m[39m
+2022-11-20 15:24:28:2428 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 616.028 ms[39m
+[35m[39m
+2022-11-20 15:24:30:2430 [35mhttp[39m: [35m::1 GET /api/product/image/636bb9872e782fbacf4b27bd 304 - - 1053.902 ms[39m
+[35m[39m
+2022-11-20 15:24:59:2459 [35mhttp[39m: [35m::1 POST /api/order/placeorder 200 72 - 152.673 ms[39m
+[35m[39m
+2022-11-20 15:24:59:2459 [35mhttp[39m: [35m::1 PUT /api/order/updatestatus 200 94 - 150.520 ms[39m
+[35m[39m
+2022-11-20 15:24:59:2459 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 170.617 ms[39m
+[35m[39m
+2022-11-20 15:24:59:2459 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 162.262 ms[39m
+[35m[39m
+2022-11-20 15:25:10:2510 [35mhttp[39m: [35m::1 GET /api/reviews/addreview - - - - ms[39m
+[35m[39m
+2022-11-20 15:25:11:2511 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 209.664 ms[39m
+[35m[39m
+2022-11-20 15:25:11:2511 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 287.530 ms[39m
+[35m[39m
+2022-11-20 15:27:09:279 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.806 ms[39m
+[35m[39m
+2022-11-20 15:27:09:279 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.278 ms[39m
+[35m[39m
+2022-11-20 15:27:09:279 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.713 ms[39m
+[35m[39m
+2022-11-20 15:27:13:2713 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 300.850 ms[39m
+[35m[39m
+2022-11-20 15:27:14:2714 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 387.100 ms[39m
+[35m[39m
+2022-11-20 15:27:17:2717 [35mhttp[39m: [35m::1 GET /api/product/image/636bb9872e782fbacf4b27bd 304 - - 493.711 ms[39m
+[35m[39m
+2022-11-20 15:27:31:2731 [35mhttp[39m: [35m::1 POST /api/order/placeorder 200 72 - 171.244 ms[39m
+[35m[39m
+2022-11-20 15:27:32:2732 [35mhttp[39m: [35m::1 PUT /api/order/updatestatus 200 94 - 146.104 ms[39m
+[35m[39m
+2022-11-20 15:28:58:2858 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.602 ms[39m
+[35m[39m
+2022-11-20 15:28:58:2858 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.621 ms[39m
+[35m[39m
+2022-11-20 15:28:58:2858 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.891 ms[39m
+[35m[39m
+2022-11-20 15:29:00:290 [35mhttp[39m: [35m::1 GET /api/reviews/addreview - - - - ms[39m
+[35m[39m
+2022-11-20 15:29:14:2914 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 141.122 ms[39m
+[35m[39m
+2022-11-20 15:29:14:2914 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 145.243 ms[39m
+[35m[39m
+2022-11-20 15:29:16:2916 [35mhttp[39m: [35m::1 GET /api/product/image/636bb9872e782fbacf4b27bd 304 - - 125.877 ms[39m
+[35m[39m
+2022-11-20 15:29:31:2931 [35mhttp[39m: [35m::1 POST /api/order/placeorder 200 72 - 147.508 ms[39m
+[35m[39m
+2022-11-20 15:29:31:2931 [35mhttp[39m: [35m::1 PUT /api/order/updatestatus 200 94 - 129.903 ms[39m
+[35m[39m
+2022-11-20 15:32:07:327 [35mhttp[39m: [35m::1 GET /api/reviews/addreview - - - - ms[39m
+[35m[39m
+2022-11-20 15:32:11:3211 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 178.249 ms[39m
+[35m[39m
+2022-11-20 15:32:11:3211 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 177.193 ms[39m
+[35m[39m
+2022-11-20 15:32:13:3213 [35mhttp[39m: [35m::1 GET /api/product/image/636bb9872e782fbacf4b27bd 304 - - 134.546 ms[39m
+[35m[39m
+2022-11-20 15:32:24:3224 [35mhttp[39m: [35m::1 POST /api/order/placeorder 200 72 - 147.176 ms[39m
+[35m[39m
+2022-11-20 15:32:24:3224 [35mhttp[39m: [35m::1 PUT /api/order/updatestatus 200 94 - 129.722 ms[39m
+[35m[39m
+2022-11-20 15:34:02:342 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.712 ms[39m
+[35m[39m
+2022-11-20 15:34:02:342 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.747 ms[39m
+[35m[39m
+2022-11-20 15:34:02:342 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.779 ms[39m
+[35m[39m
+2022-11-20 15:34:04:344 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 176.156 ms[39m
+[35m[39m
+2022-11-20 15:34:04:344 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 167.810 ms[39m
+[35m[39m
+2022-11-20 15:34:09:349 [35mhttp[39m: [35m::1 GET /api/product/image/636bb9872e782fbacf4b27bd 304 - - 149.222 ms[39m
+[35m[39m
+2022-11-20 15:34:17:3417 [35mhttp[39m: [35m::1 POST /api/order/placeorder 200 72 - 176.832 ms[39m
+[35m[39m
+2022-11-20 15:34:17:3417 [35mhttp[39m: [35m::1 PUT /api/order/updatestatus 200 94 - 146.626 ms[39m
+[35m[39m
+2022-11-20 15:41:01:411 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.757 ms[39m
+[35m[39m
+2022-11-20 15:41:01:411 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.616 ms[39m
+[35m[39m
+2022-11-20 15:41:01:411 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.577 ms[39m
+[35m[39m
+2022-11-20 15:42:14:4214 [32minfo[39m: [32mServer is running on port 9000[39m
+2022-11-20 15:42:16:4216 [32minfo[39m: [32mConnected to MongoDB...[39m
+2022-11-20 15:42:35:4235 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 155.672 ms[39m
+[35m[39m
+2022-11-20 15:42:35:4235 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 141.373 ms[39m
+[35m[39m
+2022-11-20 15:42:38:4238 [35mhttp[39m: [35m::1 GET /api/product/image/636bb9872e782fbacf4b27bd 304 - - 162.326 ms[39m
+[35m[39m
+2022-11-20 15:42:54:4254 [35mhttp[39m: [35m::1 POST /api/order/placeorder 200 72 - 325.369 ms[39m
+[35m[39m
+2022-11-20 15:42:54:4254 [35mhttp[39m: [35m::1 PUT /api/order/updatestatus 200 94 - 148.393 ms[39m
+[35m[39m
+2022-11-20 15:43:40:4340 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 2.815 ms[39m
+[35m[39m
+2022-11-20 15:43:40:4340 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.924 ms[39m
+[35m[39m
+2022-11-20 15:43:40:4340 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.171 ms[39m
+[35m[39m
+2022-11-20 15:43:40:4340 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 176.746 ms[39m
+[35m[39m
+2022-11-20 15:43:41:4341 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 180.148 ms[39m
+[35m[39m
+2022-11-20 15:43:50:4350 [35mhttp[39m: [35m::1 GET /api/product/image/6370b97f53b7252fc9439891 304 - - 145.888 ms[39m
+[35m[39m
+2022-11-20 15:44:00:440 [35mhttp[39m: [35m::1 POST /api/order/placeorder 200 72 - 145.094 ms[39m
+[35m[39m
+2022-11-20 15:44:00:440 [35mhttp[39m: [35m::1 PUT /api/order/updatestatus 200 94 - 133.904 ms[39m
+[35m[39m
+2022-11-20 15:44:00:440 [35mhttp[39m: [35m::1 POST /api/reviews/addreview 200 93 - 5.882 ms[39m
+[35m[39m
+2022-11-20 15:44:01:441 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 177.684 ms[39m
+[35m[39m
+2022-11-20 15:44:01:441 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 156.060 ms[39m
+[35m[39m
+2022-11-20 15:44:04:444 [35mhttp[39m: [35m::1 GET /api/reviews/addreview - - - - ms[39m
+[35m[39m
+2022-11-20 15:44:06:446 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 150.921 ms[39m
+[35m[39m
+2022-11-20 15:44:06:446 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 147.705 ms[39m
+[35m[39m
+2022-11-20 15:48:05:485 [35mhttp[39m: [35m::1 POST /api/reviews/addreview 200 73 - 134.165 ms[39m
+[35m[39m
+2022-11-20 15:48:28:4828 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 1.182 ms[39m
+[35m[39m
+2022-11-20 15:48:28:4828 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.285 ms[39m
+[35m[39m
+2022-11-20 15:48:28:4828 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.460 ms[39m
+[35m[39m
+2022-11-20 15:48:36:4836 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 158.514 ms[39m
+[35m[39m
+2022-11-20 15:48:36:4836 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 153.496 ms[39m
+[35m[39m
+2022-11-20 15:48:38:4838 [35mhttp[39m: [35m::1 GET /api/product/image/6370b97f53b7252fc9439891 304 - - 136.871 ms[39m
+[35m[39m
+2022-11-20 15:48:47:4847 [35mhttp[39m: [35m::1 POST /api/order/placeorder 200 72 - 144.429 ms[39m
+[35m[39m
+2022-11-20 15:48:47:4847 [35mhttp[39m: [35m::1 PUT /api/order/updatestatus 200 94 - 138.430 ms[39m
+[35m[39m
+2022-11-20 15:48:47:4847 [35mhttp[39m: [35m::1 POST /api/reviews/addreview 200 93 - 1.652 ms[39m
+[35m[39m
+2022-11-20 15:48:48:4848 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 142.586 ms[39m
+[35m[39m
+2022-11-20 15:48:48:4848 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 147.274 ms[39m
+[35m[39m
+2022-11-20 15:49:05:495 [35mhttp[39m: [35m::1 GET /api/product/image/6370b97f53b7252fc9439891 304 - - 140.921 ms[39m
+[35m[39m
+2022-11-20 15:49:35:4935 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.732 ms[39m
+[35m[39m
+2022-11-20 15:49:35:4935 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.136 ms[39m
+[35m[39m
+2022-11-20 15:49:35:4935 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.800 ms[39m
+[35m[39m
+2022-11-20 15:49:40:4940 [35mhttp[39m: [35m::1 GET /api/product/image/6370b97f53b7252fc9439891 304 - - 143.814 ms[39m
+[35m[39m
+2022-11-20 15:49:52:4952 [35mhttp[39m: [35m::1 POST /api/order/placeorder 200 72 - 151.265 ms[39m
+[35m[39m
+2022-11-20 15:49:52:4952 [35mhttp[39m: [35m::1 PUT /api/order/updatestatus 200 94 - 132.087 ms[39m
+[35m[39m
+2022-11-20 15:49:52:4952 [35mhttp[39m: [35m::1 POST /api/reviews/addreview 200 93 - 2.433 ms[39m
+[35m[39m
+2022-11-20 15:49:52:4952 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 177.338 ms[39m
+[35m[39m
+2022-11-20 15:49:52:4952 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 154.027 ms[39m
+[35m[39m
+2022-11-20 15:50:36:5036 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 1.137 ms[39m
+[35m[39m
+2022-11-20 15:50:36:5036 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.708 ms[39m
+[35m[39m
+2022-11-20 15:50:36:5036 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.603 ms[39m
+[35m[39m
+2022-11-20 15:50:45:5045 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 161.756 ms[39m
+[35m[39m
+2022-11-20 15:50:45:5045 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 156.167 ms[39m
+[35m[39m
+2022-11-20 15:50:47:5047 [35mhttp[39m: [35m::1 GET /api/product/image/6370b97f53b7252fc9439891 304 - - 145.273 ms[39m
+[35m[39m
+2022-11-20 15:50:56:5056 [35mhttp[39m: [35m::1 POST /api/reviews/addreview 200 93 - 2.865 ms[39m
+[35m[39m
+2022-11-20 15:50:56:5056 [35mhttp[39m: [35m::1 PUT /api/order/updatestatus 200 94 - 135.823 ms[39m
+[35m[39m
+2022-11-20 15:50:56:5056 [35mhttp[39m: [35m::1 POST /api/order/placeorder 200 72 - 149.510 ms[39m
+[35m[39m
+2022-11-20 15:50:56:5056 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 156.962 ms[39m
+[35m[39m
+2022-11-20 15:50:56:5056 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 457.683 ms[39m
+[35m[39m
+2022-11-20 15:52:59:5259 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.626 ms[39m
+[35m[39m
+2022-11-20 15:52:59:5259 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.930 ms[39m
+[35m[39m
+2022-11-20 15:52:59:5259 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.816 ms[39m
+[35m[39m
+2022-11-20 15:53:39:5339 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.843 ms[39m
+[35m[39m
+2022-11-20 15:53:39:5339 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.608 ms[39m
+[35m[39m
+2022-11-20 15:53:39:5339 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.733 ms[39m
+[35m[39m
+2022-11-20 15:53:51:5351 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.842 ms[39m
+[35m[39m
+2022-11-20 15:53:51:5351 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.461 ms[39m
+[35m[39m
+2022-11-20 15:53:51:5351 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 3.327 ms[39m
+[35m[39m
+2022-11-20 15:54:00:540 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 152.919 ms[39m
+[35m[39m
+2022-11-20 15:54:00:540 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 146.234 ms[39m
+[35m[39m
+2022-11-20 15:54:02:542 [35mhttp[39m: [35m::1 GET /api/product/image/6370b97f53b7252fc9439891 304 - - 142.460 ms[39m
+[35m[39m
+2022-11-20 15:54:10:5410 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 142.446 ms[39m
+[35m[39m
+2022-11-20 15:54:10:5410 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 144.325 ms[39m
+[35m[39m
+2022-11-20 15:55:31:5531 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.685 ms[39m
+[35m[39m
+2022-11-20 15:55:31:5531 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.879 ms[39m
+[35m[39m
+2022-11-20 15:55:31:5531 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.641 ms[39m
+[35m[39m
+2022-11-20 15:59:49:5949 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.450 ms[39m
+[35m[39m
+2022-11-20 15:59:49:5949 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.147 ms[39m
+[35m[39m
+2022-11-20 15:59:49:5949 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.633 ms[39m
+[35m[39m
+2022-11-20 15:59:53:5953 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 144.573 ms[39m
+[35m[39m
+2022-11-20 15:59:53:5953 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 153.244 ms[39m
+[35m[39m
+2022-11-20 15:59:55:5955 [35mhttp[39m: [35m::1 GET /api/product/image/6370b97f53b7252fc9439891 304 - - 143.642 ms[39m
+[35m[39m
+2022-11-20 16:00:01:01 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 155.830 ms[39m
+[35m[39m
+2022-11-20 16:00:02:02 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 141.118 ms[39m
+[35m[39m
+2022-11-20 16:02:17:217 [35mhttp[39m: [35m::1 GET /api/product/image/6370b97f53b7252fc9439891 304 - - 128.501 ms[39m
+[35m[39m
+2022-11-20 16:02:17:217 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.649 ms[39m
+[35m[39m
+2022-11-20 16:02:17:217 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.461 ms[39m
+[35m[39m
+2022-11-20 16:02:17:217 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.623 ms[39m
+[35m[39m
+2022-11-20 16:02:27:227 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 149.625 ms[39m
+[35m[39m
+2022-11-20 16:02:27:227 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 145.548 ms[39m
+[35m[39m
+2022-11-20 16:03:09:39 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 154.951 ms[39m
+[35m[39m
+2022-11-20 16:03:09:39 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 145.830 ms[39m
+[35m[39m
+2022-11-20 16:03:13:313 [35mhttp[39m: [35m::1 GET /api/product/image/6370b97f53b7252fc9439891 304 - - 155.475 ms[39m
+[35m[39m
+2022-11-20 16:03:24:324 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 140.334 ms[39m
+[35m[39m
+2022-11-20 16:03:24:324 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 133.960 ms[39m
+[35m[39m
+2022-11-20 16:04:20:420 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.834 ms[39m
+[35m[39m
+2022-11-20 16:04:20:420 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.717 ms[39m
+[35m[39m
+2022-11-20 16:04:20:420 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.736 ms[39m
+[35m[39m
+2022-11-20 16:04:25:425 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.503 ms[39m
+[35m[39m
+2022-11-20 16:04:25:425 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.502 ms[39m
+[35m[39m
+2022-11-20 16:04:25:425 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.266 ms[39m
+[35m[39m
+2022-11-20 16:05:04:54 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.625 ms[39m
+[35m[39m
+2022-11-20 16:05:04:54 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.997 ms[39m
+[35m[39m
+2022-11-20 16:05:04:54 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 1.178 ms[39m
+[35m[39m
+2022-11-20 16:05:06:56 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 159.420 ms[39m
+[35m[39m
+2022-11-20 16:05:06:56 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 137.911 ms[39m
+[35m[39m
+2022-11-20 16:05:08:58 [35mhttp[39m: [35m::1 GET /api/product/image/6370b97f53b7252fc9439891 304 - - 128.926 ms[39m
+[35m[39m
+2022-11-20 16:05:21:521 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 143.011 ms[39m
+[35m[39m
+2022-11-20 16:05:21:521 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 165.818 ms[39m
+[35m[39m
+2022-11-20 16:07:38:738 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.454 ms[39m
+[35m[39m
+2022-11-20 16:07:38:738 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.646 ms[39m
+[35m[39m
+2022-11-20 16:07:38:738 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.662 ms[39m
+[35m[39m
+2022-11-20 16:07:44:744 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.742 ms[39m
+[35m[39m
+2022-11-20 16:07:44:744 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.703 ms[39m
+[35m[39m
+2022-11-20 16:07:44:744 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.651 ms[39m
+[35m[39m
+2022-11-20 16:07:46:746 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 144.998 ms[39m
+[35m[39m
+2022-11-20 16:07:46:746 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 142.417 ms[39m
+[35m[39m
+2022-11-20 16:07:49:749 [35mhttp[39m: [35m::1 GET /api/product/image/6370b97f53b7252fc9439891 304 - - 143.473 ms[39m
+[35m[39m
+2022-11-20 16:07:59:759 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 139.782 ms[39m
+[35m[39m
+2022-11-20 16:07:59:759 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 146.883 ms[39m
+[35m[39m
+2022-11-20 16:09:12:912 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.773 ms[39m
+[35m[39m
+2022-11-20 16:09:12:912 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.725 ms[39m
+[35m[39m
+2022-11-20 16:09:12:912 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.784 ms[39m
+[35m[39m
+2022-11-20 16:09:58:958 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.396 ms[39m
+[35m[39m
+2022-11-20 16:09:58:958 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.454 ms[39m
+[35m[39m
+2022-11-20 16:09:58:958 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.874 ms[39m
+[35m[39m
+2022-11-20 16:10:49:1049 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.700 ms[39m
+[35m[39m
+2022-11-20 16:10:49:1049 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.496 ms[39m
+[35m[39m
+2022-11-20 16:10:49:1049 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.488 ms[39m
+[35m[39m
+2022-11-20 16:10:53:1053 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 156.362 ms[39m
+[35m[39m
+2022-11-20 16:10:54:1054 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 139.006 ms[39m
+[35m[39m
+2022-11-20 16:10:55:1055 [35mhttp[39m: [35m::1 GET /api/product/image/6370b97f53b7252fc9439891 304 - - 138.275 ms[39m
+[35m[39m
+2022-11-20 16:11:03:113 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 166.397 ms[39m
+[35m[39m
+2022-11-20 16:11:03:113 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 147.388 ms[39m
+[35m[39m
+2022-11-20 16:11:50:1150 [35mhttp[39m: [35m::1 GET /api/farmer/getmycrops/990910820V 304 - - 0.518 ms[39m
+[35m[39m
+2022-11-20 16:11:50:1150 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.561 ms[39m
+[35m[39m
+2022-11-20 16:11:50:1150 [35mhttp[39m: [35m::1 GET /api/product/getproduct/633693db8b0ef806b4a0819e 304 - - 0.692 ms[39m
+[35m[39m
+2022-11-20 16:12:25:1225 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 155.901 ms[39m
+[35m[39m
+2022-11-20 16:12:25:1225 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 142.207 ms[39m
+[35m[39m
+2022-11-20 16:12:27:1227 [35mhttp[39m: [35m::1 GET /api/product/image/6370b97f53b7252fc9439891 304 - - 130.284 ms[39m
+[35m[39m
+2022-11-20 16:12:33:1233 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 168.902 ms[39m
+[35m[39m
+2022-11-20 16:12:33:1233 [35mhttp[39m: [35m::1 GET /api/product/marketproduct?district=Matara&type=Vegetables 304 - - 138.354 ms[39m
+[35m[39m
