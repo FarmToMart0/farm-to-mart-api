@@ -1,4 +1,5 @@
 const app = require("./server");
+const logger = require("./utils/logger")
 const mongoose = require('mongoose');
 require("./configs/db")();
 
