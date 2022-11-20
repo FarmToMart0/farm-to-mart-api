@@ -4,7 +4,9 @@ const { Orders, validateOrder } = require("../models/OrderModel/index");
 const _ = require("lodash");
 const logger = require("../utils/logger");
 const generateOutput = require("../utils/outputFactory");
-const { Product } = require("../models/ProductModel");
+const { Product, validate } = require("../models/ProductModel");
+const { ObjectID } = require("bson");
+const { arrangeOrder } = require("../services/placeOrder");
 //get pending orders that specific to some certain farmer
 async function getAllOrders(req, res) {
   console.log(req.params.id )
@@ -229,6 +231,7 @@ async function unDoRejectedOrder(req, res) {
 async function getTotalSales(req, res) {
   var id = req.params.id;
   var ObjectId = mongoose.Types.ObjectId;
+
   console.log(id);
   try {
     var totalSales = await Orders.aggregate([
@@ -488,6 +491,69 @@ async function getOrderOverview(req, res) {
     return res.status(200).send(generateOutput(201, "error", error));
   }
 }
+
+async function placeOrder(req, res) {
+  var ObjectId = mongoose.Types.ObjectId;
+  const farmer = new ObjectId(req.body.farmer);
+	const product = new ObjectID(req.body.item_id);
+	const buyer = new ObjectID(req.body.buyer);
+  // const farmer = req.body.farmer
+  // const product = req.body.item_id
+  // const buyer = req.body.buyer
+  const incomingData = req.body;
+  const dataArray = arrangeOrder(incomingData)
+  dataArray.farmer = farmer
+  dataArray.product = product
+  dataArray.buyer = buyer
+
+  
+
+  const orderArray = {
+    category:dataArray.category,
+    description:dataArray.description,
+    unitPrice:dataArray.unitPrice,
+    amount:dataArray.amount,
+    totalPrice:dataArray.totalPrice,
+    
+    orderStatus:dataArray.orderStatus,
+    
+    deliveryMethod:dataArray.deliveryMethod,
+    isFromBidding:dataArray.isFromBidding,
+    paymentMethod:dataArray.paymentMethod,
+    paymentStatus:dataArray.paymentStatus,
+    buyer:dataArray.buyer,
+    farmer:dataArray.farmer,
+    product:dataArray.product
+
+
+  }
+  const {error} = validateOrder(orderArray);
+
+  if (error) {
+		const output = generateOutput(
+			400,
+			"validate error",
+			error.details[0].message
+		);
+    
+		return res.status(200).send(output);
+	}
+
+  try {
+		let order = new Orders(orderArray);
+		await order.save();
+		return res.send(
+			generateOutput(201, "success", "Order added successfully")
+		);
+	} catch (error) {
+		logger.error(error);
+		return res.send(
+			generateOutput(500, "error", "Error occured while adding order")
+		);
+	}
+
+	
+}
   
 module.exports = {
   getAllOrders,
@@ -504,4 +570,5 @@ module.exports = {
   getTotalPendingOrdersCount,
   getSalesOverview,
   getOrderOverview,
+  placeOrder,
 };

@@ -98,12 +98,12 @@ async function farmerRegister(req, res) {
         await (await session).commitTransaction();
         const token = user.generateAuthToken(user);
              // Step 3 - Email the user a unique verification link
-       const url = `http://localhost:3000/verify/${token}`
+       const url = `${process.env.BASE_URL}/verify/${token}`
       
        transporter.sendMail({
          to: req.body.email,
-         subject: 'Verify Account',
-         html: `Click <a href = '${url}'>here</a> to confirm your email.`
+         subject: ` Verify Account`,
+         html: `Click <a href = '${url}'>here</a> to confirm your Registration.`
        })
       
        return res.status(200).send(
@@ -173,7 +173,17 @@ async function  gsoRegisterFarmer(req,res) {
             await farmer.save();
             // Commit the changes
             await (await session).commitTransaction();
-            return  res.send(generateOutput(201,'Farmer registered successfully',{'_id':user._id,'firstName':farmer.firstName,'lastName':farmer.lastName,'email':user.email}) );
+            const token = user.generateAuthToken(user);
+                    // Step 3 - Email the user a unique verification link
+                    const url = `${process.env.BASE_URL}/verify/${token}`
+                    transporter.sendMail({
+                        to: req.body.email,
+                        subject: `Hi ${req.body.firstName} ${req.body.lastName} Verify Account`,
+                        html: `Click <a href = '${url}'>here</a> to confirm your email.`
+                      })
+                      return res.status(200).send(
+                        generateOutput(201,'send',`Verification mail sent to ${req.body.email}`)
+                       );
                 
       }catch(error){
         console.log(error)

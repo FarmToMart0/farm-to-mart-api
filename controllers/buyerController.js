@@ -22,6 +22,8 @@ const transporter = nodemailer.createTransport({
 });
 
 
+
+
 //methods for farmer registration process
 async function buyerRegister(req, res) {
   req.body.userRole = "BUYER";
@@ -68,15 +70,12 @@ async function buyerRegister(req, res) {
       const session = mongoose.startSession();
       (await session).startTransaction();
       try {
-        user = new UserAccount(
-          _.pick(req.body, ["email", "password", "userRole"])
-        );
+        user = new UserAccount(_.pick(req.body, ["email", "password", "userRole"]));
         const salt = await bcrypt.genSalt(10);
         user.password = await bcrypt.hash(req.body.password, salt);
         await user.save();
 
-        const buyer = new Buyer(
-          _.pick(req.body, [
+        const buyer = new Buyer(_.pick(req.body, [
             "firstName",
             "lastName",
             "address",
@@ -87,14 +86,16 @@ async function buyerRegister(req, res) {
         );
         buyer._id = user._id;
         await buyer.save();
+        
+        
         // Commit the changes
         await (await session).commitTransaction();
         const token = user.generateAuthToken(user);
-        const url = `http://localhost:3000/verify/${token}`
+        const url = `${process.env.BASE_URL}/verify/${token}`
       
         transporter.sendMail({
           to: req.body.email,
-          subject: 'Verify Account',
+          subject: `Hi ${req.body.firstName} ${req.body.lastName} Verify Account`,
           html: `Click <a href = '${url}'>here</a> to confirm your email.`
         })
        

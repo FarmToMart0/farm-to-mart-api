@@ -6,6 +6,9 @@ const authenticate = require("../midlewares/authorization");
 const farmerMidleware = require("../midlewares/farmerMidleware");
 const router = express.Router();
 //router for the orders
+
+router.post("/placeorder",orderController.placeOrder);
+
 router.get(
   "/getplaceorders/:id",
   authenticate,
