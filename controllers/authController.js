@@ -6,7 +6,7 @@ const { UserAccount, validateUser } = require("../models/UserModel/index");
 const { ResetPassword,validateReset } = require("../models/ResetPassword/index");
 const { Buyer, validateBuyer } = require("../models/BuyerModel/index");
 const { Farmer, validate } = require("../models/FarmerModel/index");
-const {Gso} = require('../models/GSOModel/index')
+const {Gso} = require("../models/GSOModel/index");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const generateOutput = require("../utils/outputFactory");
@@ -206,8 +206,12 @@ async function signin(req, res) {
   let userDetails = null;
   if (user.userRole === "FARMER") {
     userDetails = await Farmer.findById(user._id);
-  } else {
+  } else if (user.userRole === "BUYER")  {
     userDetails = await Buyer.findById(user._id);
+  } else if (user.userRole === "GSO"){
+    userDetails = await Gso.findById(user._id);
+  } else if (user.userRole === "MAINOFFICER"){
+    userDetails = await Gso.findById(user._id);
   }
   //check the password
   const validPassword = await bcrypt.compare(req.body.password, user.password);
