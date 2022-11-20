@@ -554,6 +554,106 @@ async function placeOrder(req, res) {
 
 	
 }
+
+async function updateRemainCrop(req,res){
+  const remainQuantity = req.body.remainQuantity;
+  const _id = req.body.product;
+  console.log(remainQuantity,_id);
+ 
+  try {
+		const product = await Product.findByIdAndUpdate(_id, {remainQuantity:remainQuantity});
+    
+		if (!product){
+      return res
+				.status(200)
+				.send(
+					generateOutput(
+						404,
+						"not found",
+						"The product with the given ID was not found."
+					)
+				);
+    }
+    
+			
+    
+		res.status(200).send(generateOutput(201, "success fully updated", product));
+    console.log(product)
+	} catch (error) {
+    
+		logger.error(error);
+		return res.send(
+			generateOutput(500, "error", "Error occured while updating product")
+		);
+	}
+}
+
+async function getOrdersByBuyer(req,res){
+  const buyer = req.query.buyer;
+  console.log(buyer);
+
+  try {
+		var ObjectId = mongoose.Types.ObjectId;
+		let orderList = await Orders.find({
+			buyer: buyer,
+      orderStatus:"place"
+		}).sort({
+			remainQuantity: -1,
+			date: 1,
+		}).populate("product");
+    console.log(orderList);
+    
+		res.status(200).send(generateOutput(201, "success", orderList));
+    // res.send(orderList)
+	} catch (error) {
+    
+		logger.error(error);
+		res
+			.status(200)
+			.send(
+				generateOutput(
+					500,
+					"error",
+					"error occured while getting orders"
+				)
+			);
+	}
+
+}
+
+
+async function updateProductStatus(req,res){
+  const idReceived = true
+  const _id = req.body.id;
+  
+ 
+  try {
+		const order = await Orders.findByIdAndUpdate(_id, {idReceived:idReceived});
+    
+		if (!order){
+      return res
+				.status(200)
+				.send(
+					generateOutput(
+						404,
+						"not found",
+						"The product with the given ID was not found."
+					)
+				);
+    }
+    
+			
+    
+		res.status(200).send(generateOutput(201, "success fully updated", order));
+    console.log("order")
+	} catch (error) {
+    
+		logger.error(error);
+		return res.send(
+			generateOutput(500, "error", "Error occured while updating product")
+		);
+	}
+}
   
 module.exports = {
   getAllOrders,
@@ -571,4 +671,7 @@ module.exports = {
   getSalesOverview,
   getOrderOverview,
   placeOrder,
+  updateRemainCrop,
+  getOrdersByBuyer,
+  updateProductStatus
 };

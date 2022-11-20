@@ -54,6 +54,11 @@ const Order = mongoose.model(
         type: Boolean,
         required: true,
       },
+      idReceived:{
+        type: Boolean,
+        required: true,
+        default:false
+      },
       orderedDate: {
         type: Date,
         default: Date.now,

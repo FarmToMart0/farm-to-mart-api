@@ -7,9 +7,7 @@ function arrangeOrder(order) {
     outArray.unitPrice = order.price
     outArray.amount = Number(order.amount)
     outArray.totalPrice = Number(order.totValue)
-    // outArray.farmer = order.farmer
-    // outArray.product = order.product_name
-    // outArray.buyer = order.buyer
+    
     
     outArray.orderStatus = "place"      
     
