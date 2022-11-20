@@ -551,3 +551,9 @@
 2022-11-19 18:16:27:1627 [31merror[39m: [31mOrder validation failed: paymentMethod: Path `paymentMethod` is required., deliveryMethod: Path `deliveryMethod` is required., isFromBidding: Path `isFromBidding` is required., description: Path `description` is required., unitPrice: Path `unitPrice` is required., orderStatus: Path `orderStatus` is required., paymentStatus: Path `paymentStatus` is required., totalPrice: Path `totalPrice` is required., product: Path `product` is required.[39m
 2022-11-19 18:26:28:2628 [31merror[39m: [31mOrder validation failed: paymentMethod: Path `paymentMethod` is required., deliveryMethod: Path `deliveryMethod` is required., isFromBidding: Path `isFromBidding` is required., description: Path `description` is required., unitPrice: Path `unitPrice` is required., orderStatus: Path `orderStatus` is required., paymentStatus: Path `paymentStatus` is required., totalPrice: Path `totalPrice` is required., product: Path `product` is required.[39m
 >>>>>>> 85c4ec9581740d66fdf71c09da33eddbebeb2acd
+2022-11-20 18:58:26:5826 [31merror[39m: [31mOperation `mycrops.insertOne()` buffering timed out after 10000ms[39m
+2022-11-20 21:16:00:160 [31merror[39m: [31mClient must be connected before running operations[39m
+2022-11-20 21:16:00:160 [31merror[39m: [31mClient must be connected before running operations[39m
+2022-11-20 21:16:00:160 [31merror[39m: [31mClient must be connected before running operations[39m
+2022-11-20 21:16:00:160 [31merror[39m: [31mClient must be connected before running operations[39m
+2022-11-20 21:16:00:160 [31merror[39m: [31mClient must be connected before running operations[39m
