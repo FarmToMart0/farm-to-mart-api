@@ -589,23 +589,24 @@ async function updateRemainCrop(req,res){
 }
 
 async function getOrdersByBuyer(req,res){
-  const buyer = req.body.buyer;
+  const buyer = req.query.buyer;
+  console.log(buyer);
 
   try {
 		var ObjectId = mongoose.Types.ObjectId;
 		let orderList = await Orders.find({
-			buyer: new ObjectId(buyer),
+			buyer: buyer,
       orderStatus:"place"
 		}).sort({
 			remainQuantity: -1,
 			date: 1,
-		});
+		}).populate("product");
     console.log(orderList);
-    res.send(orderList)
-		//res.status(200).send(generateOutput(201, "success", orderList));
+    
+		res.status(200).send(generateOutput(201, "success", orderList));
     // res.send(orderList)
 	} catch (error) {
-    console.log("kk");
+    
 		logger.error(error);
 		res
 			.status(200)
@@ -622,12 +623,12 @@ async function getOrdersByBuyer(req,res){
 
 
 async function updateProductStatus(req,res){
-  const orderStatus = "delivered"
+  const idReceived = true
   const _id = req.body.id;
   
  
   try {
-		const order = await Orders.findByIdAndUpdate(_id, {orderStatus:orderStatus});
+		const order = await Orders.findByIdAndUpdate(_id, {idReceived:idReceived});
     
 		if (!order){
       return res
@@ -644,7 +645,7 @@ async function updateProductStatus(req,res){
 			
     
 		res.status(200).send(generateOutput(201, "success fully updated", order));
-    console.log(order)
+    console.log("order")
 	} catch (error) {
     
 		logger.error(error);
