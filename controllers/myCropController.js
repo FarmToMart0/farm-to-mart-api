@@ -31,6 +31,7 @@ async function getOnGoingMyCropsDetails(req, res) {
 }
 //function for get the completed crop task for specific farmer
 async function getCompletedMyCropsDetails(req, res) {
+  console.log(req.params.nic)
   try {
     let mycrops = await MyCrops.find({
       $and: [{ farmerNic: req.params.nic }, { status: "completed" }],
@@ -133,21 +134,34 @@ async function getTopHarvestedCropDetails(req, res) {
   var district = req.params.district;
 
   try {
-    var topHarvestedCrops = await MyCrops.find(
+    var topHarvestedCrops = await MyCrops.aggregate([
       {
-        $and: [
-          { $expr: { $eq: [{ $year: "$harvestedDate" }, year] } },
-          { district: district },
-          { status: "completed" },
-        ],
+        $addFields: {
+          stringDate: {
+            $dateToString: { format: "%Y-%m-%d", date: "$harvestedDate" },
+          },
+        },
       },
       {
-        category: 1,
-        cropType: 1,
-        harvestedAmount: 1,
-        expectedAmount: 1,
-        landArea: 1,
-      }
+        $match: {
+          $and: [
+            { stringDate: { $gte: `${year}-01-01` } },
+            { stringDate: { $lt: `${year}-12-31` } },
+            { district: district },
+            { status: "completed" },
+          ],
+        }
+      },
+      {
+        $group: {
+          _id:'$cropType',
+          totalLand: { $sum: "$landArea" },
+          totalExpected: { $sum: "$expectedAmount" },
+          totalHarvested: { $sum: "$harvestedAmount" }
+        }
+      },
+      
+     ]
     )
       .sort({ harvestedAmount: 1 })
       .limit(10);
@@ -291,18 +305,19 @@ async function getAverageCropCategoryDetails(req, res) {
 async function addCropDetails(req,res){
     console.log(req.body)
     req.body.status = 'ongoing'
-    //req.body.farmerNic = '918470222V'
     req.body.harvestedAmount = 0
-    //req.body.harvestedDate = ''
     const { error } = validate(req.body);
-    if (error) return res.status(200).send(generateOutput(400,'validation error',error.details[0].message));
+    console.log(res)
+    if (error) return res.status(400).send(generateOutput(400,'validation error',error.details[0].message));
+    
     try {
         let mycrop = new MyCrops(_.pick(req.body, ['farmerNic','status','category', 'cropType', 'startingDateOfGrowing','expectingDateOfHarvest','expectedAmount','harvestedAmount','landArea','location','district']));
+        console.log(mycrop)
         await mycrop.save();
         res.status(200).send(generateOutput(201,'success',mycrop));
     } catch (error) {
         logger.error(error)
-        return res.send(generateOutput(500,'error','Error occured while adding crop details') );
+        return res.status(500).send(generateOutput(500,'error','Error occured while adding crop details') );
     }
 }
 
@@ -322,6 +337,7 @@ async function getCropsDetails(req, res) {
   try {
     let mycrops = await MyCrops.find({ farmerNic: req.params.nic }).sort({ startingDateOfGrowing: -1 });
     res.status(200).send(generateOutput(201, "success", mycrops));
+    console.log(mycrops);
   } catch (error) {
     logger.error(error);
     res

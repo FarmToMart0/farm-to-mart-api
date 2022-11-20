@@ -5,9 +5,22 @@ const { Gso, validate, validateUpdate } = require("../models/GSOModel/index");
 const { UserAccount, validateUser } = require("../models/UserModel/index");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
+const nodemailer = require('nodemailer');
 const _ = require("lodash");
 const generateOutput = require("../utils/outputFactory");
 const logger = require("../utils/logger");
+//methods for farmer registration process
+const transporter = nodemailer.createTransport({
+    host: 'smtp.gmail.com',
+      port: 465,
+      secure: true,
+      auth: {
+        user: process.env.EMAIL_USERNAME,
+        pass: process.env.EMAIL_PASSWORD,
+      },
+      // === add this === //
+      tls : { rejectUnauthorized: false }
+  });
 
 
 //methods for gso registration process
@@ -55,10 +68,25 @@ async function  gsoRegister(req,res) {
                     const  gso = new Gso(_.pick(req.body, ['firstName', 'lastName','mobile','district','gsoName','gsoCode','nic',]));
                     gso._id=user._id
                     await gso.save();
+                   
                     // Commit the changes
                     await (await session).commitTransaction();
-                    return  res.send(generateOutput(201,'GSO registered successfully',{'_id':user._id,'firstName':gso.firstName,'lastName':gso.lastName,'email':user.email}) );
+                    const token = user.generateAuthToken(user);
+                    // Step 3 - Email the user a unique verification link
+                    const url = `${process.env.BASE_URL}/verify/${token}`
+                    transporter.sendMail({
+                        to: req.body.email,
+                        subject: ` Verify Account`,
+                        html: `Click <a href = '${url}'>here</a> to confirm your Registration.`
+                      })
+                   
+                      return res.status(200).send(
+                       generateOutput(201,'send',`Verification mail sent to ${req.body.email}`)
+                      );
+
+                    
                 }
+
                 catch(error){
                     console.log(error)
                     // Rollback any changes made in the database

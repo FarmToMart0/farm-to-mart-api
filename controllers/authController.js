@@ -6,6 +6,7 @@ const { UserAccount, validateUser } = require("../models/UserModel/index");
 const { ResetPassword,validateReset } = require("../models/ResetPassword/index");
 const { Buyer, validateBuyer } = require("../models/BuyerModel/index");
 const { Farmer, validate } = require("../models/FarmerModel/index");
+const {Gso} = require("../models/GSOModel/index");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const generateOutput = require("../utils/outputFactory");
@@ -56,7 +57,7 @@ async function resetPasswordSendMessage(req,res) {
       
         
              // Step 3 - Email the user a unique verification link
-        const url = `http://localhost:3000/resetpassword/${req.body.email}/${reset._id}/${token}`
+        const url = `${process.env.BASE_URL}/resetpassword/${req.body.email}/${reset._id}/${token}`
        transporter.sendMail({
          to: req.body.email,
          subject: 'Password reseting',
@@ -133,23 +134,29 @@ async function verify(req, res)  {
     logger.error(err)
     return res.status(200).send(generateOutput(403,'error',err));
   }
+  
   try{
       // Step 2 - Find user with matching ID
      
       const user = await UserAccount.findOne({ _id: payload.id }).exec();
+     
       if (!user) {
+        logger.error('error')
         return res.status(200).send(generateOutput(400,'error','User doesnt exist'));
       }
       // Step 3 - Update user verification status to true
       user.verified = true;
       await user.save();
-
+      console.log(user)
       let userDetails = null;
       if (user.userRole === "FARMER") {
         userDetails = await Farmer.findById(user._id);
       } else if(user.userRole === "BUYER"){
         userDetails = await Buyer.findById(user._id);
+  }else if (user.userRole === "GSO") {
+    userDetails = await Gso.findById(user._id);
   }
+  console.log(userDetails)
       return res.status(200).send(generateOutput(201, "verified", {
         _id: user?._id,
         token: token,
@@ -199,8 +206,12 @@ async function signin(req, res) {
   let userDetails = null;
   if (user.userRole === "FARMER") {
     userDetails = await Farmer.findById(user._id);
-  } else {
+  } else if (user.userRole === "BUYER")  {
     userDetails = await Buyer.findById(user._id);
+  } else if (user.userRole === "GSO"){
+    userDetails = await Gso.findById(user._id);
+  } else if (user.userRole === "MAINOFFICER"){
+    userDetails = await Gso.findById(user._id);
   }
   //check the password
   const validPassword = await bcrypt.compare(req.body.password, user.password);
