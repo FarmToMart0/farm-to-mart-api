@@ -10,48 +10,39 @@ const userSchema = new mongoose.Schema(
       minlength: 5,
       maxlength: 255,
     },
-    password: {
+    userId: {
+      type: mongoose.Schema.Types.ObjectId,
+      required: true,
+      ref: "UserAccount",
+    },
+    token: {
       type: String,
       required: true,
-      minlength: 5,
-      maxlength: 1024,
     },
-    userRole: {
-      type: String,
-      required: true,
-    },
-    verified:{
-      type:Boolean,
-      default:false
-
+    status:{
+       type:Boolean,
+       default:false 
     }
+    
   },
   {
     timestamps: true,
   }
 );
 //methos for genaration token
-userSchema.methods.generateAuthToken = (data) => {
-  const token = jwt.sign(
-    { id: data?._id, userRole: data?.userRole },
-    "jwtPrivateKey",
-    {
-      expiresIn: "1d",
-    }
-  );
-  return token;
-};
 
-const UserAccount = mongoose.model("UserAccount", userSchema);
+
+const ResetPassword = mongoose.model("ResetPassword", userSchema);
 //validate the user account
-function validateUser(user) {
+function validateResetPassword(user) {
   const schema = Joi.object({
     email: Joi.string().min(5).max(255).required().email(),
-    password: Joi.string().min(5).max(255).required(),
+    userId: Joi.string().min(5).max(1024).required(),
+    token:Joi.string().required()
   });
 
   return schema.validate(user);
 }
 
-exports.UserAccount = UserAccount;
-exports.validateUser = validateUser;
+exports.ResetPassword = ResetPassword;
+exports.validateReset = validateResetPassword;
