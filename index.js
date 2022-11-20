@@ -10,7 +10,7 @@ const app = express();
 
 
 const { WebSocketServer } = require("ws");
-const server = new WebSocketServer({ port: 4000 });
+//const server = new WebSocketServer({ port: 4000 });
 //databse connection
 require("./configs/db")();
 
@@ -55,5 +55,12 @@ app.use("/api/gso", gsoRouter);
 app.use("/api/main-officer", mainOfficerRouter);
 
 const port = process.env.PORT || 9000;
-app.listen(port, () => logger.info(`Server is running on port ${port}`));
+//app.listen(port, () => logger.info(`Server is running on port ${port}`));
 
+// if (process.env.NODE_ENV !== 'test') {
+//     app.listen(port);
+// }
+
+const server = app.listen(port, () => logger.info(`Server is running on port ${port}`)); 
+
+module.exports = server;
