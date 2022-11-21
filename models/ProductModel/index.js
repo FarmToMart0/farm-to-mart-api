@@ -34,11 +34,17 @@ const Product = mongoose.model(
       },
       unitPrice: {
         type: Number,
-        required: true,
+     
       },
       initialBid: {
         type: Number,
-        required: true,
+        
+      },
+      
+      isRemoved: {
+        type:Boolean,
+        default:true
+        
       },
       deliveryOption: [{ type: String, required: true }],
       paymentOption: [{ type: String, required: true }],
@@ -60,11 +66,11 @@ function validateProduct(product) {
     remainQuantity: Joi.any().required(),
     productName: Joi.string().required(),
     quantity: Joi.any().required(),
-    unitPrice: Joi.any().required(),
+    unitPrice: Joi.any(),
     farmer: Joi.object().required(),
     biddingEndin: Joi.any(),
     description: Joi.string().required(),
-    initialBid: Joi.any().required(),
+    initialBid: Joi.any(),
     deliveryOption: Joi.array().items(Joi.string()).min(1).required(),
     paymentOption: Joi.array().items(Joi.string()).min(1).required(),
     biddingEnable: Joi.boolean(),
