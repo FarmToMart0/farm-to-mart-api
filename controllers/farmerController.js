@@ -38,7 +38,7 @@ async function farmerRegister(req, res) {
       "validate error",
       error1?.details[0].message || error2?.details[0].message
     );
-    return res.status(200).send(output);
+    return res.status(400).send(output);
   }
   try {
 

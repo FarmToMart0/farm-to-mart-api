@@ -1,7 +1,7 @@
 
 
 function arrangeMarket(product){
-    
+    console.log(product);
     const products = []
     let  type = ""
     let transport = ""

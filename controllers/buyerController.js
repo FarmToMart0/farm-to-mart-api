@@ -36,7 +36,7 @@ async function buyerRegister(req, res) {
       "validate error",
       error1?.details[0].message || error2?.details[0].message
     );
-    return res.status(200).send(output);
+    return res.status(400).send(output);
   }
   try {
     //check whether already existed
@@ -45,7 +45,7 @@ async function buyerRegister(req, res) {
     if (user) {
       //send user already registed message
       return res
-        .status(200)
+        .status(400)
         .send(
           generateOutput(
             400,

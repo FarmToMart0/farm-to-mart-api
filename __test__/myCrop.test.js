@@ -1,10 +1,16 @@
 const mongoose = require("mongoose");
-const app = require('../index.js')
+const app = require('../server')
 const request = require('supertest')
-require('dotenv').config();
 
-beforeEach(async () => {
-    await mongoose.connect('mongodb+srv://farm-to-mart:eLHmnVHPCtOq5mQm@cluster0.8questr.mongodb.net/FarmToMart')
+
+beforeAll((done) => {
+    mongoose.connect("mongodb+srv://farm-to-mart:Bh1eDPKbuFTGnXm8@cluster0.knoo6tu.mongodb.net/FarmToMartMock",
+        { useNewUrlParser: true, useUnifiedTopology: true },
+        () => done());
+});
+
+afterAll((done) => {
+    mongoose.connection.close(() => done())
 });
 
 describe("add crop data", () => {
@@ -53,9 +59,7 @@ describe("add crop data", () => {
 
 })
 
-afterEach(async () => {
-    await mongoose.connection.close();
-});
+
 
 
 

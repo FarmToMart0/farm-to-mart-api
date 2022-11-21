@@ -564,4 +564,13 @@
 2022-11-20 13:21:21:2121 [31merror[39m: [31mCast to ObjectId failed for value "[object Object]" (type string) at path "buyer" for model "Order"[39m
 =======
 >>>>>>> 85c4ec9581740d66fdf71c09da33eddbebeb2acd
+<<<<<<< HEAD
+2022-11-20 18:58:26:5826 [31merror[39m: [31mOperation `mycrops.insertOne()` buffering timed out after 10000ms[39m
+2022-11-20 21:16:00:160 [31merror[39m: [31mClient must be connected before running operations[39m
+2022-11-20 21:16:00:160 [31merror[39m: [31mClient must be connected before running operations[39m
+2022-11-20 21:16:00:160 [31merror[39m: [31mClient must be connected before running operations[39m
+2022-11-20 21:16:00:160 [31merror[39m: [31mClient must be connected before running operations[39m
+2022-11-20 21:16:00:160 [31merror[39m: [31mClient must be connected before running operations[39m
+=======
 >>>>>>> cf4dee3ae4c14b6240d905b9126e7f39ce68d706
+>>>>>>> 8699ff70ccd46d615a501e6b4333a587413360c2

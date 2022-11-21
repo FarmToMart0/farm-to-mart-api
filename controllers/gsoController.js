@@ -149,6 +149,7 @@ async function checkAvailabilityGSO(req,res){
   }
 
 async function getUserDetailsGso(req, res){
+    
     console.log(req.body.gsoDetails)
     var id = req.body.gsoDetails._id;
     console.log(id, "id")

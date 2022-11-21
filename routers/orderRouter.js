@@ -4,13 +4,14 @@ const orderController = require("../controllers/orderController");
 const authenticate = require("../midlewares/authorization");
 //midlewares for checked user types
 const farmerMidleware = require("../midlewares/farmerMidleware");
+const buyerMiddleware = require("../midlewares/buyerMiddleware")
 const router = express.Router();
 //router for the orders
 
-router.post("/placeorder",orderController.placeOrder);
-router.put('/updateproduct',orderController.updateRemainCrop)
-router.get('/getordersbybuyer',orderController.getOrdersByBuyer)
-router.put('/updatestatus',orderController.updateProductStatus)
+router.post("/placeorder",authenticate,orderController.placeOrder);
+router.put('/updateproduct',authenticate,orderController.updateRemainCrop)
+router.get('/getordersbybuyer',authenticate,orderController.getOrdersByBuyer)
+router.put('/updatestatus',authenticate,orderController.updateProductStatus)
 
 router.get(
   "/getplaceorders/:id",
