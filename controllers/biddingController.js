@@ -55,7 +55,7 @@ async function pushNotification(req, res) {
   const notoficationData = {
     message: mes,
     seen: false,
-    date: Date.now(),
+    date: (new Date()).toString(),
   };
 
   // Get a key for a new Post.
