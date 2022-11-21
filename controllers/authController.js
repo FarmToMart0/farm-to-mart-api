@@ -29,24 +29,24 @@ const transporter = nodemailer.createTransport({
 
 
 
-
+//method for password reset
 async function resetPasswordSendMessage(req,res) {
  
   try {
     var ObjectId = mongoose.Types.ObjectId;
     let user = await UserAccount.findOne({ email: req.body.email });
-   
+   //check whether user is exist
   if (!user)
     return res
       .status(200)
       .send(generateOutput(400, "not exist", "Please enter valid email address"));
   if (!user.verified) {
+    //if user not in system is not verified send response
     return res
       .status(200)
       .send(generateOutput(405, "not verified", "Your account has not been verified yet"));
   }
-  
-      
+  //generate the auth token
         const token = user.generateAuthToken(user);
         var reset = new ResetPassword({email:user.email,userId:ObjectId(user._id),token:token})
         await reset.save();
@@ -72,7 +72,7 @@ async function resetPasswordSendMessage(req,res) {
      );
   }
 }
-
+//method for check the verification link expired or not
 async function checkExpired(req,res){
   var ObjectId = mongoose.Types.ObjectId;
   var id = req.body.id;
@@ -80,7 +80,7 @@ async function checkExpired(req,res){
   
 try {
   var user = await ResetPassword.findById(id);
- 
+ //checking user status
   if (user.status) {
     return res.status(200).send(generateOutput(401,'error','Yor link is expired'));
   }
@@ -91,6 +91,8 @@ try {
   return res.status(200).send(generateOutput(400,'error','error occured'));
 }
 }
+
+//password redeting function
 async function passwordReset(req,res){
   var ObjectId = mongoose.Types.ObjectId;
   var id = req.body.id;
@@ -102,6 +104,7 @@ try {
   if (user.status) {
     return res.status(200).send(generateOutput(401,'error','Yor link is expired'));
   }
+  //generate the slt for hash the password
   const salt = await bcrypt.genSalt(10);
   const pass = await bcrypt.hash(req.body.password, salt);
  
@@ -115,6 +118,7 @@ try {
   
 
 }
+
 async function verify(req, res)  {
   const { token } = req.params
   
