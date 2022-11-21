@@ -8,6 +8,9 @@ const router = express.Router();
 //router for the orders
 
 router.post("/placeorder",orderController.placeOrder);
+router.put('/updateproduct',orderController.updateRemainCrop)
+router.get('/getordersbybuyer',orderController.getOrdersByBuyer)
+router.put('/updatestatus',orderController.updateProductStatus)
 
 router.get(
   "/getplaceorders/:id",
