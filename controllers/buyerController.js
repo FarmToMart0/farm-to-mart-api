@@ -96,7 +96,7 @@ async function buyerRegister(req, res) {
         transporter.sendMail({
           to: req.body.email,
           subject: `Hi ${req.body.firstName} ${req.body.lastName} Verify Account`,
-          html: `Click <a href = '${url}'>here</a> to confirm your email.`
+          html: `Click <a href = '${url}'>here</a> to confirm your Registration.`
         })
        
         return res.status(200).send(
