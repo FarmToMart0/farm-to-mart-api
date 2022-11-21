@@ -59,9 +59,9 @@ async function addProduct(req, res) {
 		remainQuantity: req.body.remainQuantity,
 		productName: req.body.productName,
 		quantity: req.body.quantity,
-		unitPrice: req.body.unitPrice,
+		unitPrice: req.body?.unitPrice,
 		description: req.body.description,
-		initialBid: req.body.initialBid,
+		initialBid: req.body?.initialBid,
 		deliveryOption: req.body.deliveryOption,
 		paymentOption: req.body.paymentOption,
 		biddingEnable: req.body.biddingEnable,
@@ -92,10 +92,11 @@ async function getProduct(req, res) {
 	try {
 		var ObjectId = mongoose.Types.ObjectId;
 		let productList = await Product.find({
-			farmer: new ObjectId(req.params.id),
+			farmer: new ObjectId(req.params.id),isRemoved:false
 		}).sort({
+			
+			updatedAt: -1,
 			remainQuantity: -1,
-			date: 1,
 		});
 		res.status(200).send(generateOutput(201, "success", productList));
 	} catch (error) {
@@ -115,7 +116,7 @@ async function getProduct(req, res) {
 //function for delete the product
 async function deleteProduct(req, res) {
 	try {
-		let product = await Product.findByIdAndRemove(req.params.id);
+		let product = await Product.findByIdAndUpdate(req.params._id, {isRemoved:true});
 		res
 			.status(200)
 			.send(generateOutput(201, "success", "successfully removed"));
@@ -146,9 +147,9 @@ async function updateProduct(req, res) {
 		remainQuantity: req.body.remainQuantity,
 		productName: req.body.productName,
 		quantity: req.body.quantity,
-		unitPrice: req.body.unitPrice,
+		unitPrice: req.body?.unitPrice,
 		description: req.body.description,
-		initialBid: req.body.initialBid,
+		initialBid: req.body?.initialBid,
 		deliveryOption: req.body.deliveryOption,
 		paymentOption: req.body.paymentOption,
 		biddingEnable: req.body.biddingEnable,
