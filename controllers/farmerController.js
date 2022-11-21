@@ -201,8 +201,12 @@ async function  gsoRegisterFarmer(req,res) {
 async function checkAvailability(req,res){
   //console.log(req.body, "given")
   var nic = req.body.nic;
+  var gsdCode = req.body.gsdCode;
+  //console.log(nic, gsdCode)
   try{
-    var farmer = await Farmer.findOne({ "nic": nic });
+    let farmer = await Farmer.findOne({
+      $and: [{ nic: nic }, { gsdCode: gsdCode }],
+    }).sort({ startingDateOfGrowing: -1 });
     //console.log(farmer)
     if (farmer == null){
       res.status(200).send(generateOutput(201,'success',farmer));

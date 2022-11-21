@@ -28,11 +28,11 @@ const GSO = mongoose.model(
       minlength: 5,
       maxlength: 50,
     },
-    gsoName: {
+    gsdName: {
       type: String,
       required: true,
     },
-    gsoCode: {
+    gsdCode: {
       type: String,
       required: true,
     },
@@ -51,8 +51,8 @@ function validateGso(gso) {
     lastName: Joi.string().min(2).max(50).required(),
     mobile: Joi.string().min(10).max(50).required(),
     district: Joi.string().min(5).max(50).required(),
-    gsoName: Joi.string().required(),
-    gsoCode: Joi.string().required(),
+    gsdName: Joi.string().required(),
+    gsdCode: Joi.string().required(),
     nic: Joi.string().min(10).max(13).required(),
   });
   return shema.validate(gso);

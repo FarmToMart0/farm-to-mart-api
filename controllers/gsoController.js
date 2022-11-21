@@ -49,7 +49,7 @@ async function  gsoRegister(req,res) {
                 //send user already registed message
                 return res.status(200).send(generateOutput(400,'validate error','This email has already been taken'));
             }else{
-                let user2 = await Gso.findOne({ gsoCode: req.body.gsoCode });
+                let user2 = await Gso.findOne({ gsdCode: req.body.gsdCode });
 
                 if (user2) {
                     //send user already registed gso message
@@ -65,7 +65,7 @@ async function  gsoRegister(req,res) {
                     console.log(user)
                     await user.save();
 
-                    const  gso = new Gso(_.pick(req.body, ['firstName', 'lastName','mobile','district','gsoName','gsoCode','nic',]));
+                    const  gso = new Gso(_.pick(req.body, ['firstName', 'lastName','mobile','district','gsdName','gsdCode','nic',]));
                     gso._id=user._id
                     await gso.save();
                    
