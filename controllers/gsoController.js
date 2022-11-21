@@ -139,6 +139,7 @@ async function checkAvailabilityGSO(req,res){
     var nic = req.body.nic;
     try{
       var gso = await Gso.findOne({ "nic": nic });
+      console.log(gso)
       
       return res.status(200).send(generateOutput(201,'success',gso))
       
