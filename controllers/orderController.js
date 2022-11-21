@@ -596,7 +596,7 @@ async function getOrdersByBuyer(req,res){
 		var ObjectId = mongoose.Types.ObjectId;
 		let orderList = await Orders.find({
 			buyer: buyer,
-      orderStatus:"place"
+      
 		}).sort({
 			remainQuantity: -1,
 			date: 1,
