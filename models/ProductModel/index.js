@@ -43,7 +43,7 @@ const Product = mongoose.model(
       
       isRemoved: {
         type:Boolean,
-        default:true
+        default:false
         
       },
       deliveryOption: [{ type: String, required: true }],

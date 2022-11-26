@@ -159,6 +159,7 @@ async function updateProduct(req, res) {
 			.status(200)
 			.send(generateOutput(400, "validation error", error.details[0].message));
 	try {
+		
 		const product = await Product.findByIdAndUpdate(req.body._id, req.body);
 
 		if (!product)
